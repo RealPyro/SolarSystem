@@ -1,0 +1,6 @@
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^https://www.youtube.com/watch?v=Tp-WacMe7yA[nc]
+RewriteRule ^(.*)$ http://www.https://www.youtube.com/watch?v=Tp-WacMe7yA/$1 [r=301,nc]
+ 
