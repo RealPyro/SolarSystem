@@ -1499,7 +1499,7 @@ h2.sec-head {
 }
 .footer-info {
     background-size: 4px;
-    padding: 2em 0 2em;
+    padding: 1.5em 0 1.5em;
 }
 .footer p{
     color:#fff;
@@ -1514,11 +1514,11 @@ h2.sec-head {
 }
 .footer ul {
     text-align: center;
-    margin-bottom: 2em;
+    margin-bottom: 0;
 }
 .footer ul li {
     display: inline-block;
-    margin-right: 3em;
+    margin-right: 0;
 }
 .footer ul li:nth-child(5) {
     margin: 0;
@@ -2125,7 +2125,7 @@ h4.tittle {
     font-size: 0.875em;
 }
 .footer-info {
-    padding: 2em 0 2em;
+    padding: 0;
 }
 .newsletter {
     margin: 1em 0 0;
@@ -2486,10 +2486,10 @@ h3.tittle {
     width: 38%;
 }
 .footer ul li {
-    margin-right: 2em;
+    margin-right: 0em;
 }
 .footer p {
-    line-height: 1.8em;
+    line-height: 0;
 }
 #review {
     padding: 2em 0 0 0;
@@ -2574,7 +2574,7 @@ h3.tittle {
 		margin: 1em auto 0;
 	}
 	.footer {
-		padding: 1em 0;
+		padding: 0;
 	}
 	.leave h4, h4.tz-title-4.tzcolor-blue {
       font-size: 2.5em;
@@ -2671,13 +2671,13 @@ span.menu {
     width: 63%;
 }
 .footer ul li {
-    margin-right: 1em;
+    margin-right: 0;
 }
 .footer {
     padding: 0;
 }
 .footer-info {
-    padding: 2em 0 1em;
+    padding: 0;
 }
 .top-menu ul {
     margin: 40px 0;
