@@ -1,6 +1,13 @@
 p,ul {
 	font-family:'Sukhumvit Set Text', sans-serif !important;
 }
+html {
+	cursor: url(cursor/Main.cur), auto;
+}
+a {
+	cursor: url(cursor/Select.cur), auto;
+}
+
 	
 body a {
   transition: 0.5s all;
@@ -10,7 +17,7 @@ body a {
   -ms-transition: 0.5s all;
 }
 html, body{
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family: 'Sukhumvit Set Text', sans-serif;
 	font-size: 100%;
 	overflow: hidden;
 }
@@ -30,7 +37,7 @@ h1,h2,h3,h4,h5,h6{
 }	
 p{
 	margin:0;
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family: 'Sukhumvit Set Text', sans-serif;
 }
 ul{
 	margin:0;
@@ -80,23 +87,14 @@ video { position: fixed; top: 50%; left: 50%; min-width: 100%; min-height: 100%;
 }
 .logo a span {
     color: #fff;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Sukhumvit Set Text', sans-serif;
     font-size: 0.3em;
     font-weight: bold;
-}
-.logo p {
-    font-size: 0.8em;
-    color: #31c59d;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    padding: 0;
-    margin: -9px 0 12px 0;
 }
 /*--header--*/
 /*-- sticky-nav --*/
 .header-bottom {
    padding: 1.5em 0em;
-    
     margin: 0 auto;
     width: 100%;
     text-align: center;
@@ -108,7 +106,6 @@ video { position: fixed; top: 50%; left: 50%; min-width: 100%; min-height: 100%;
 	margin: 0 auto;
 	left:0%;
 	z-index:9999;
-	  background-color: rgba(0, 0, 0, 0.59);
 }
 /*-- sticky-nav --*/
 .top-menu {
@@ -130,9 +127,9 @@ video { position: fixed; top: 50%; left: 50%; min-width: 100%; min-height: 100%;
 	padding:0;
 	font-weight:400;
 	font-size:1em;
-}	
+}
 .top-menu li a.active{
-  color: #fff200;
+  color: #adb9f9;
   }
 /*-- nav-hover --*/
 .link-effect-4 a {
@@ -656,7 +653,7 @@ figure.effect-jazz:hover p {
     font-size: 1em;
     color: #fff;
     text-decoration: none;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Sukhumvit Set Text', sans-serif;
     text-transform: uppercase;
 }
 /* Bounce To Bottom */
@@ -879,7 +876,7 @@ figure.effect-jazz:hover p {
     text-transform: uppercase;
     line-height: 1.5em;
     padding-top: 16em;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Sukhumvit Set Text', sans-serif;
     font-weight: bold;
 }
 .view {
@@ -910,7 +907,7 @@ figure.effect-jazz:hover p {
    font-weight:400;
    margin: 20px 16px;
    line-height: 1.6em;
-   font-family: 'Merriweather Sans', sans-serif;
+   font-family: 'Sukhumvit Set Text', sans-serif;
 }
 .view p {
   	font-size: 0.875em;
@@ -1944,7 +1941,7 @@ h3.tittle{
 		font-size: 1.3em;
 	}
 	.header-bottom {
-    padding: 0.5em 0em;
+    padding: 0;
 }
 .banner-info p {
     font-size: 1.5em;
