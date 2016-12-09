@@ -5,8 +5,99 @@
  */
 
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+@font-face {
+    font-family: 'Sukhumvit Set Text';
+    src: url('../fonts/sukhumvitset-text_1-webfont.eot');
+    src: url('../fonts/sukhumvitset-text_1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sukhumvitset-text_1-webfont.woff2') format('woff2'),
+         url('../fonts/sukhumvitset-text_1-webfont.woff') format('woff'),
+         url('../fonts/sukhumvitset-text_1-webfont.ttf') format('truetype'),
+         url('../fonts/sukhumvitset-text_1-webfont.svg#sukhumvit_setbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Sukhumvit Set Bold';
+    src: url('../fonts/sukhumvitset-bold_0-webfont.eot');
+    src: url('../fonts/sukhumvitset-bold_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sukhumvitset-bold_0-webfont.woff2') format('woff2'),
+         url('../fonts/sukhumvitset-bold_0-webfont.woff') format('woff'),
+         url('../fonts/sukhumvitset-bold_0-webfont.ttf') format('truetype'),
+         url('../fonts/sukhumvitset-bold_0-webfont.svg#sukhumvit_setbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Sukhumvit Set Light';
+    src: url('../fonts/sukhumvitset-light_0-webfont.eot');
+    src: url('../fonts/sukhumvitset-light_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sukhumvitset-light_0-webfont.woff2') format('woff2'),
+         url('../fonts/sukhumvitset-light_0-webfont.woff') format('woff'),
+         url('../fonts/sukhumvitset-light_0-webfont.ttf') format('truetype'),
+         url('../fonts/sukhumvitset-light_0-webfont.svg#sukhumvit_setlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Sukhumvit Set Medium';
+    src: url('../fonts/sukhumvitset-medium_0-webfont.eot');
+    src: url('../fonts/sukhumvitset-medium_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sukhumvitset-medium_0-webfont.woff2') format('woff2'),
+         url('../fonts/sukhumvitset-medium_0-webfont.woff') format('woff'),
+         url('../fonts/sukhumvitset-medium_0-webfont.ttf') format('truetype'),
+         url('../fonts/sukhumvitset-medium_0-webfont.svg#sukhumvit_setmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Sukhumvit Set Semibold';
+    src: url('../fonts/sukhumvitset-semibold_0-webfont.eot');
+    src: url('../fonts/sukhumvitset-semibold_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sukhumvitset-semibold_0-webfont.woff2') format('woff2'),
+         url('../fonts/sukhumvitset-semibold_0-webfont.woff') format('woff'),
+         url('../fonts/sukhumvitset-semibold_0-webfont.ttf') format('truetype'),
+         url('../fonts/sukhumvitset-semibold_0-webfont.svg#sukhumvit_setsemi_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Sukhumvit Set Thin';
+    src: url('../fonts/sukhumvitset-thin_0-webfont.eot');
+    src: url('../fonts/sukhumvitset-thin_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sukhumvitset-thin_0-webfont.woff2') format('woff2'),
+         url('../fonts/sukhumvitset-thin_0-webfont.woff') format('woff'),
+         url('../fonts/sukhumvitset-thin_0-webfont.ttf') format('truetype'),
+         url('../fonts/sukhumvitset-thin_0-webfont.svg#sukhumvit_setthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 html {
-  font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }

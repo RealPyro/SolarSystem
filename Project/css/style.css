@@ -1,4 +1,7 @@
-
+p,ul {
+	font-family:'Sukhumvit Set Text', sans-serif !important;
+}
+	
 body a {
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
@@ -146,7 +149,7 @@ video { position: fixed; top: 50%; left: 50%; min-width: 100%; min-height: 100%;
     overflow: hidden;
     padding: 0 0;
     max-height: 0;
-    color:#31c59d;
+    color:#adb9f9;
     content: attr(data-hover);
     -webkit-transition: max-height 0.5s;
     -moz-transition: max-height 0.5s;
@@ -187,7 +190,6 @@ video { position: fixed; top: 50%; left: 50%; min-width: 100%; min-height: 100%;
 		position: absolute;
 		width: 92%;
 		text-align: center;
-		
 	}
 	.top-menu li a {
 	  padding: 0;
@@ -1510,7 +1512,7 @@ h2.sec-head {
     color:#fff;
 }
 .footer p a:hover{
-    color:#B86889;
+    color:#adb9f9;
 }
 .footer ul {
     text-align: center;
@@ -2488,6 +2490,7 @@ h3.tittle {
 .footer ul li {
     margin-right: 0em;
 }
+
 .footer p {
     line-height: 0;
 }
