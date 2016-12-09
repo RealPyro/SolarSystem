@@ -7,7 +7,14 @@ html {
 a {
 	cursor: url(cursor/Select.cur), auto;
 }
+.logo {
+   width: 120px !important;
+}
 
+.logo:hover {
+   background-image: url('/images/SolarSystemHover.png');
+   width:200px;
+}
 	
 body a {
   transition: 0.5s all;
@@ -76,20 +83,6 @@ video { position: fixed; top: 50%; left: 50%; min-width: 100%; min-height: 100%;
 }
 .phone {
     float: right;
-}
-.logo a{
- display:block;
-}
-.logo a h1 {
-    font-size: 2.5em;
-    color: #31c59d;
-    text-transform: uppercase;
-}
-.logo a span {
-    color: #fff;
-    font-family: 'Sukhumvit Set Text', sans-serif;
-    font-size: 0.3em;
-    font-weight: bold;
 }
 /*--header--*/
 /*-- sticky-nav --*/
@@ -1498,7 +1491,7 @@ h2.sec-head {
 }
 .footer-info {
     background-size: 4px;
-    padding: 1.5em 0 1.5em;
+    padding: 1.25em 0 1.25em;
 }
 .footer p{
     color:#fff;
