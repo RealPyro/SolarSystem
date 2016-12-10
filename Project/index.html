@@ -2,6 +2,13 @@
 <html>
 <head>
 <title>ระบบสุริยะ - Solar System</title>
+<style>
+body {
+overflow: hidden;
+}
+body { margin: 0px; background: rgb(0, 0, 0) none repeat scroll 0% 0%; }
+video { position: fixed; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -100; transform: translateX(-50%) translateY(-50%); background: transparent url('polina.jpg') no-repeat scroll 0% 0% / cover ; transition: opacity 1s ease 0s; }
+</style>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="ระบบสุริยะ" />
@@ -44,8 +51,8 @@
         video.volume = 0.5;
 	</script>
 </video> 
-		<div class="banner" id="home">
-		<div class="banner2">
+<div class="banner" id="home">
+<div class="banner2">
 		<div class="header-bottom">
 		     <div class="container">
 			  <div class="fixed-header">
@@ -57,14 +64,13 @@
 				   </div>
 					<!--//logo-->
 					<div class="top-menu wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
-							<span class="menu"> </span>
 							<nav class="link-effect-4" id="link-effect-4">
                               <ul style="list-style: none; ">
 								 <li><a data-hover="หน้าแรก" href="index.html" class="active">หน้าแรก</a></li>
-								<li><a data-hover="ดวงอาทิตย์" href="sun" class="scroll">ดวงอาทิตย์</a></li>
-								<li><a data-hover="ดาวเคราะห์" href="planet" class="scroll">ดาวเคราะห์</a></li>
-								<li><a data-hover="ดาวเคราะห์แคระ" href="dwaftplanet" class="scroll">ดาวเคราะห์แคระ</a></li>
-								<li><a data-hover="ปรากฎการณ์" href="phenomena" class="scroll">ปรากฎการณ์</a></li>
+								<li><a data-hover="ดวงอาทิตย์" href="sun.html">ดวงอาทิตย์</a></li>
+								<li><a data-hover="ดาวเคราะห์" href="planet.html">ดาวเคราะห์</a></li>
+								<li><a data-hover="ดาวเคราะห์แคระ" href="dwaftplanet.html">ดาวเคราะห์แคระ</a></li>
+								<li><a data-hover="ปรากฎการณ์" href="phenomena.html">ปรากฎการณ์</a></li>
 								</ul>
 							</nav>
 							</div>
@@ -76,22 +82,7 @@
 									});
 								</script>
 								<!-- script-for-menu -->
-
 				 <div class="clearfix"></div>
-					<script>
-				$(document).ready(function() {
-					 var navoffeset=$(".header-bottom").offset().top;
-					 $(window).scroll(function(){
-						var scrollpos=$(window).scrollTop(); 
-						if(scrollpos >=navoffeset){
-							$(".header-bottom").addClass("fixed");
-						}else{
-							$(".header-bottom").removeClass("fixed");
-						}
-					 });
-					 
-				});
-				</script>
 			 </div>
 		</div>
 	</div>
