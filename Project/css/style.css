@@ -1382,6 +1382,10 @@ h2.sec-head {
     padding: 5em 0;
     background: rgba(232, 232, 232, 0.8);
 }
+.contentwhite {
+    padding: 5em 0;
+    background: rgba(232, 232, 232, 0.8);
+}
 .contentwhite h2 {
     margin-bottom: 30px !important;
     text-align: center;
@@ -1389,6 +1393,10 @@ h2.sec-head {
 }
 .content {
     padding: 5em 0;
+    background: rgba(0, 0, 0, 0);
+}
+.contenttable {
+    padding: 2em 0;
     background: rgba(0, 0, 0, 0);
 }
 .content h2 {

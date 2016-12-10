@@ -3,11 +3,13 @@
 <head>
 <title>ระบบสุริยะ - Solar System</title>
 <style>
-body {
+html,body {
 overflow: hidden;
+overflow-x: hidden;
+overflow-y: hidden;
 }
 body { margin: 0px; background: rgb(0, 0, 0) none repeat scroll 0% 0%; }
-video { position: fixed; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -100; transform: translateX(-50%) translateY(-50%); background: transparent url('polina.jpg') no-repeat scroll 0% 0% / cover ; transition: opacity 1s ease 0s; }
+video { position: fixed; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -100; transform: translateX(-50%) translateY(-50%); background: transparent url('images/Poster.jepg') no-repeat scroll 0% 0% / cover ; transition: opacity 1s ease 0s; }
 </style>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -43,12 +45,12 @@ video { position: fixed; top: 50%; left: 50%; min-width: 100%; min-height: 100%;
 <body onLoad="MM_preloadImages('images/SolarSystemHover.png')">
 <!--start-home-->
 
-<video autoplay loop id="bgvid" preload="auto">
+<video autoplay loop poster="images/Poster.jepg" id="bgvid" preload="auto">
 <source src="videos/Multiverse.webm" type="video/webm">
 <source src="videos/Multiverse.mp4" type="video/mp4">
 	<script>
         var video = document.currentScript.parentElement;
-        video.volume = 0.5;
+        video.volume = 0.4;
 	</script>
 </video> 
 <div class="banner" id="home">

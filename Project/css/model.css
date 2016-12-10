@@ -1,0 +1,53 @@
+#sun {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: url("../images/sun.jpg");
+	border-radius: 50%;
+	background-size: 400px;
+	box-shadow: 0 0 35px 5px rgb(255, 69, 0);
+	animation-name: rotatesun;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+
+
+	margin-top: 10px;
+	-ms-transform: translateY(-50%); /* IE 9 */
+	-webkit-transform: translateY(-50%); /* Chrome, Safari, Opera */
+	transform: translateY(-50%);
+}
+div.parent {
+	text-align: center;
+}
+@keyframes rotateearth {
+  from { background-position-x: 0px; }
+  to { background-position-x: 211px; }
+}
+@keyframes rotatesun {
+  from {
+	  background-position-x: 0deg);
+	  }
+  to {
+	  background-position-x: 360deg; 
+	  }
+}
+
+#earth {
+  width: 100px;
+	height: 100px;
+	background: url(http://www.noirextreme.com/digital/Earth-Color4096.jpg);
+	border-radius: 50%;
+	background-size: 210px;
+	box-shadow: inset -16px 0 50px 6px rgb(0, 0, 0),
+		inset 16px 0 50px 2px rgba(255, 253, 230, 0.45);
+	animation-name: rotateearth;
+	animation-duration: 12s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	display: inline-block;
+	margin-top: 50%;
+	-ms-transform: translateY(-50%); /* IE 9 */
+	-webkit-transform: translateY(-50%); /* Chrome, Safari, Opera */
+	transform: translateY(-50%);
+}
