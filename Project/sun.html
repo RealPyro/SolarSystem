@@ -45,13 +45,13 @@
 		<div class="header-bottom">
 		     <div class="container">
 			      <!--logo-->
-				  <div class="logo wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+				  <div class="logo fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
 				   <ul style="list-style: none; ">
 						<li><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Logo','','images/SolarSystemHover.png',1)"><img src="images/SolarSystem.png" width="120" id="Logo"></a></li>
 					</ul>
 				   </div>
 					<!--//logo-->
-					<div class="top-menu wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+					<div class="top-menu fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
 							<span class="menu"> </span>
 							<nav class="link-effect-4" id="link-effect-4">
                               <ul style="list-style: none; ">
@@ -75,7 +75,7 @@
 				 <div class="clearfix"></div>
 					<script>
 				$(document).ready(function() {
-					 var navoffeset=$(".logo").offset().top;
+					 var navoffeset=$("#ChangeFixed").offset().top;
 					 $(window).scroll(function(){
 						var scrollpos=$(window).scrollTop(); 
 						if(scrollpos >navoffeset){
@@ -96,11 +96,12 @@
 	</div>
 		</div>
 	</div>
+	<div id="ChangeFixed"></div>
 	
 	<font color="white">
 <div class="paddingtop"></div>
 <div class="contenttable">
-	<div class="container wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+	<div class="container fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
 		<h1 class="title">ดวงอาทิตย์</h1>
 		<div id="sun"></div>
 		<h3>We Are Sharing</h3>
