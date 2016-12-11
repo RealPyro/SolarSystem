@@ -1257,26 +1257,27 @@ h1 span, #navbar h1 a {
 
 #controls input {
   display: block;
-  appearance: none; }
+  appearance: none; 
+  background: rgba(0,0,0,0);}
 
 #controls input[type="radio"]:before {
   content: '';
   display: block;
-  position: absolute;
-  width: 22px;
-  height: 22px;
+  position: fixed;
+  width: 30px;
+  height: 30px;
   border: 2px solid #FFF;
-  border-radius: 16px; }
+  border-radius: 16px; 
+  background: rgba(0,0,0,0);
+ }
 
 #controls input:checked[type="radio"]:after {
   content: '';
   display: block;
-  top: 3px;
-  margin-left: 3px;
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  border-radius: 16px;
   background: #FFF;
   z-index: 99; }
 
@@ -1292,10 +1293,10 @@ h1 span, #navbar h1 a {
 #controls input[type="checkbox"]:after {
   content: '';
   display: block;
-  top: 3px;
+  top: 0px;
   position: absolute;
   width: 20px;
-  height: 20px;
+  height: 22px;
   border-radius: 10px;
   background: #FFF;
   z-index: 99; }
@@ -1304,36 +1305,32 @@ h1 span, #navbar h1 a {
   font: bold small-caps 11px/20px sans-serif; }
 
 .view-3D #controls label.set-view:before {
-  content: '2 มิติ';
-  margin-left: 65px; 
-  width:40px;
-  font-size:16px; }
+  content: '2D';
+  margin-left: 80px; }
 
 .view-2D #controls label.set-view:before {
-  content: '3 มิติ';
-  margin-left: 30px;
-  width:40px;
-  font-size:16px; }
+  content: '3D';
+  margin-left: 15px; }
 
 .view-3D #controls .set-view input:after {
-  margin-left: 70px; }
+  margin-left: 0px; }
 
 .view-2D #controls .set-view input:after {
-  margin-left: 45px; }
+  margin-left: 81px; }
 
 #controls label.set-zoom:before {
   font: normal small-caps 18px/14px sans-serif; }
 
 .zoom-large #controls label.set-zoom:before {
   content: '+';
-  margin-left: 75px; }
+  margin-left: 80px; }
 
 .zoom-close #controls label.set-zoom:before {
   content: '-';
-  margin-left: 40px; }
+  margin-left: 15px; }
 
 .zoom-large #controls .set-zoom input:after {
-  margin-left: 3px; }
+  margin-left: 0px; }
 
 .zoom-close #controls .set-zoom input:after {
   margin-left: 81px; }

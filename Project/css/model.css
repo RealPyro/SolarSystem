@@ -7,15 +7,16 @@
 	background-size: 400px;
 	box-shadow: 0 0 35px 5px rgb(255, 69, 0);
 	animation-name: rotatesun;
-	animation-duration: 1s;
+	animation-duration: 30s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
-
-
 	margin-top: 10px;
 	-ms-transform: translateY(-50%); /* IE 9 */
 	-webkit-transform: translateY(-50%); /* Chrome, Safari, Opera */
 	transform: translateY(-50%);
+	z-index: -1;
+    margin: auto;
+	margin-top:8em;
 }
 div.parent {
 	text-align: center;
@@ -25,12 +26,8 @@ div.parent {
   to { background-position-x: 211px; }
 }
 @keyframes rotatesun {
-  from {
-	  background-position-x: 0deg);
-	  }
-  to {
-	  background-position-x: 360deg; 
-	  }
+  from { background-position-x: 0px; }
+  to { background-position-x: 400px; }
 }
 
 #earth {
