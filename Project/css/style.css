@@ -4,14 +4,16 @@ html {
 	margin: 0px;
 	padding: 0px;
 	overflow-x: hidden;
+	font-family:'Sukhumvit Set Text', sans-serif !important;
 }
 .paddingtop {
-    padding-top: 8em;
+    padding-top: 120px;
 }
 .fixedpadding {
-	padding-top: 8em;
+	padding-top: 120px;
 }
 h1 {
+	font-size: 300%;
 	text-align:center;
 	margin-top:0;
 	padding-top:0;
@@ -21,6 +23,35 @@ div #ChangeFixed {
 	margin-top: 0;
 	display:none;
 }
+td .title{
+	background: rgba(232, 232, 232, 0.8);
+	height:2em;
+	font-family:'Sukhumvit Set Semibold', sans-serif !important;
+	color: black;
+	font-size:100%;
+}
+
+td .title2{
+	background: rgba(255, 255, 255, 0.8);
+	height:2em;
+	color: black;
+	font-family:'Sukhumvit Set Semibold', sans-serif !important;
+	font-size:100%;
+}
+table.insidetable{
+	margin-top:4em;
+}
+.tablecontent{
+	background: rgba(232, 232, 232, 0.25);
+	padding-left:12px;
+	font-size:95%;
+}
+.tablecontent2{
+	background: rgba(255, 255, 255, 0.25);
+	padding-left:12px;
+	font-size:95%;
+}
+
 p,ul {
 	font-family:'Sukhumvit Set Text', sans-serif !important;
 }
@@ -39,7 +70,7 @@ img,div.gallery-grids {
 div.morph, div.owl-page {
 	cursor: url(cursor/Select.cur), pointer !important;
 }
-img,div.gallery-grids {
+a,img,div.gallery-grids {
 	cursor: url(cursor/Select.cur), pointer !important;
 }
 
@@ -54,7 +85,7 @@ body {
 	padding: 0px;
 	overflow-x: hidden;
 }
-	
+
 body a {
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
@@ -76,10 +107,15 @@ input[type="button"],input[type="submit"],li.parallelogram{
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 }
-h1,h2,h3,h4,h5,h6{
-	margin:0;	
- font-family: 'Ubuntu', sans-serif;
-}	
+h1,h3,h4,h5,h6{
+	margin:0;
+ font-family: 'Sukhumvit Set Bold', sans-serif;
+}
+h2{
+	margin-top:0;
+	margin-bottom:20px;
+ font-family: 'Sukhumvit Set Bold', sans-serif;
+}
 p{
 	margin:0;
 	font-family: 'Sukhumvit Set Text', sans-serif;
@@ -148,7 +184,7 @@ label{
 	margin:0;
 	padding:0;
 }
-.top-menu li {		
+.top-menu li {
 	text-transform:uppercase;
 	display:inline-block;
 }
@@ -792,25 +828,25 @@ figure.effect-jazz:hover p {
 .text-desc{
 	position: absolute;
 	left: 0;
-	top: 0; 
+	top: 0;
 	background-color: #fff;
-	height: 100%; 
+	height: 100%;
 	opacity: 0;
-	width: 100%; 
+	width: 100%;
 	padding: 20px;
 	}
 
 /* effect-1 css */
 .port-1{
 	width: 100%;
-	position: relative; 
+	position: relative;
 	overflow: hidden;
 	text-align: center;
 	}
 .port-1 .text-desc{
 	opacity: 0.9;
-	top: -100%; 
-	transition: 0.5s; 
+	top: -100%;
+	transition: 0.5s;
 	color: #000;
 	padding: 45px 20px 20px;
 	}
@@ -832,9 +868,9 @@ figure.effect-jazz:hover p {
 	}
 .port-1.effect-3 .text-desc{
 	top: 50%;
-	left: 50%; 
+	left: 50%;
 	width: 0;
-	height: 0; 
+	height: 0;
 	overflow: hidden;
 	padding: 0;
 	}
@@ -1067,7 +1103,7 @@ h4.tittle{
     color: #31c59d;
     text-transform: none;
     margin-top: 0.7em;
-	
+
 }
 .test-review p {
     font-size: 1em;
@@ -1428,6 +1464,7 @@ h2.sec-head {
 .contenttable {
 	text-align:center;
     padding: 0;
+	margin-bottom:0;
 }
 .content h2 {
     margin-bottom: 30px !important;
@@ -1525,11 +1562,11 @@ h2.sec-head {
 	}
 }
 @media (max-width: 1366px) {
-	
+
 	h3.tittle,h3.single {
 		font-size: 3em;
 	}
-	
+
 }
 @media (max-width:1280px) {
 	#about,#team,#gallery,#contact,.blog-section{
@@ -1542,9 +1579,6 @@ h2.sec-head {
 		font-size: 45px;
 		margin-bottom: 14px;
 	}
-	.banner {
-		min-height: 700px;
-}
 }
 @media (max-width:1024px) {
 	.link-effect-4 a {
@@ -1565,9 +1599,6 @@ h2.sec-head {
 		bottom: -10%;
 		left: 45%;
 	}
-	.banner {
-      min-height:600px;
-	}
 	.down {
 		position: absolute;
 		left: 43%;
@@ -1586,7 +1617,7 @@ h2.sec-head {
 	.view .mask, .view .content{
 		    width: 233px;
     height: 330px;
-		
+
 	}
 	.s-1 h3, .s-2 h3, .s-3 h3, .s-1 h3, .s-2 h3, .s-4 h3 {
 		font-size: 1.3em;
@@ -1805,9 +1836,6 @@ h3.tittle{
 	.banner-info h3 {
     font-size: 2.7em;
 }
-.banner {
-    min-height: 540px;
-}
 .banner-info {
     margin: 13% auto 0;
 }
@@ -1896,9 +1924,7 @@ h3.tittle{
 		width: 96%;
 		z-index: 99999;
 	}
-	.banner {
-		min-height: 500px;
-	}
+
 	.banner-info {
 		padding: 2em 2em;
 	}
@@ -2444,7 +2470,7 @@ h3.tittle {
 }
 .banner-info {
     margin: 20% auto 0;
-}	
+}
 .banner {
     min-height: 320px;
 }
@@ -2475,7 +2501,7 @@ h3.tittle {
 }
 }
 @media (max-width:384px) {
-	
+
 	.s-3, .s-4{
 		margin-top:0;
 	}
@@ -2666,4 +2692,3 @@ span.menu {
 #review {
     padding: 0em 0 0 0;
 }
-

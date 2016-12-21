@@ -1,22 +1,23 @@
 #sun {
 	position: relative;
-	width: 200px;
-	height: 200px;
+	width: 350px;
+	height: 350px;
 	background: url("../images/sun.jpg");
 	border-radius: 50%;
-	background-size: 400px;
-	box-shadow: 0 0 35px 5px rgb(255, 69, 0);
+	background-size: 700px;
+	box-shadow: 0 0 60px 10px rgb(255, 69, 0);
 	animation-name: rotatesun;
 	animation-duration: 30s;
 	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-	margin-top: 10px;
+	animation-timing-function: linear
 	-ms-transform: translateY(-50%); /* IE 9 */
 	-webkit-transform: translateY(-50%); /* Chrome, Safari, Opera */
 	transform: translateY(-50%);
 	z-index: -1;
     margin: auto;
-	margin-top:8em;
+	margin-top:15em;
+	margin-bottom:0;
+	padding-bottom:0;
 }
 div.parent {
 	text-align: center;
@@ -27,7 +28,7 @@ div.parent {
 }
 @keyframes rotatesun {
   from { background-position-x: 0px; }
-  to { background-position-x: 400px; }
+  to { background-position-x: 700px; }
 }
 
 #earth {
