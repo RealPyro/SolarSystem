@@ -11,7 +11,7 @@
 <link rel="icon" href="images/icon.png">
 <!-- Custom Theme files -->
 <link href="css/iconeffects.css" rel='stylesheet' type='text/css' />
-<link href="css/style.css" rel='stylesheet' type='text/css' />	
+<link href="css/style.css" rel='stylesheet' type='text/css' />
 <link rel="stylesheet" href="css/swipebox.css">
 <link href="css/model.css" type="text/css" rel="stylesheet">
 
@@ -22,14 +22,14 @@
 
 <script type="text/javascript">
 			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
+				$(".scroll").click(function(event){
 					event.preventDefault();
 					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
 				});
 			});
 </script>
 <!-- swipe box js -->
-	<script src="js/jquery.swipebox.min.js"></script> 
+	<script src="js/jquery.swipebox.min.js"></script>
 	    <script type="text/javascript">
 			jQuery(function($) {
 				$(".swipebox").swipebox();
@@ -78,19 +78,18 @@
 				$(document).ready(function() {
 					 var navoffeset=$("#ChangeFixed").offset().top;
 					 $(window).scroll(function(){
-						var scrollpos=$(window).scrollTop(); 
+						var scrollpos=$(window).scrollTop();
 						if(scrollpos >navoffeset){
-							$(".header-bottom").addClass("fixed");
+							$(".header-bottom").addClass("fixed slideInDown animated");
 							$(".paddingtop").addClass("fixedpadding");
 						}else{
-							$(".header-bottom").removeClass("fixed");
+							$(".header-bottom").removeClass("fixed slideInDown animated");
 							$(".paddingtop").removeClass("fixedpadding");
 						}
 					 });
-					 
 				});
 				</script>
-			 
+
 		</div>
 	</div>
 	</div>
@@ -98,12 +97,12 @@
 		</div>
 	</div>
 	<div id="ChangeFixed"></div>
-	
+
 	<font color="white">
 <div class="paddingtop"></div>
 <div class="contenttable">
 	<div class="container fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-    
+	<div id="ChangeFixed"></div>
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="45%"><h1>ดวงอาทิตย์</h1><div id="sun"></div></td>
@@ -151,7 +150,7 @@
   </tr>
   <tr>
     <td width="40%" class="title">มวล</td>
-    <td align="left" class="tablecontent">1.9891 × 10<sup>3</sup>0 กิโลกรัม</td>
+    <td align="left" class="tablecontent">1.9891 × 10<sup>30</sup> กิโลกรัม</td>
   </tr>
   <tr>
     <td width="40%" class="title2">ความหนาแน่นเฉลี่ย</td>
@@ -172,10 +171,20 @@
 </div>
 
 	<div class="contentwhite wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-		<h2 class="title">Test</h2>
-	</div>
+		<div class="container">
+		<div class="contentbody">
+	 <h2 class="titlewhite">โครงสร้าง</h2>
+	 <h3 class="titlewhite">แกน</h3>
+		<p>ส่วนแกนของดวงอาทิตย์สันนิษฐานว่ามีรัศมีเป็น 0.2 เท่าของรัศมีดวงอาทิตย์ ความหนาแน่นประมาณ 150,000 กิโลกรัมต่อลูกบาศก์เมตร หรือ 150 เท่าของความหนาแน่นของน้ำบนโลก อุณหภูมิประมาณ 13,600,000 เคลวิน ตลอดชีวิตส่วนใหญ่ของดวงอาทิตย์ ภายในแกนจะมีปฏิกิริยาฟิวชันลูกโซ่ โปรตอน-โปรตอน ซึ่งเปลี่ยนไฮโดรเจนเป็นฮีเลียม พลังงานที่ได้นี้ทำให้ส่วนที่เหลือของดวงอาทิตย์สุกสว่างและเปล่งแสง</p>
+<div class="fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+	<a href="images/SolarStructure.png" class="b-link-stripe b-animate-go swipebox" title="ภาพประกอบโครงสร้างของดวงอาทิตย์์">
+			<img src="images/SolarStructure.png" width="400px"/>
+	</a>
+</div>
 
-
+		</div>
+		</div>
+</div>
 	<div class="content wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
 		<h2 class="title">Test</h2>
 	</div>
@@ -190,8 +199,8 @@
 		<div class="container">
 		       <div class="bottom-top wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
 			    <h3>We Are Sharing</h3>
-				   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since, Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-				   
+				   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Loremorem Ipsum is simply dummy text of the printing and typesetting industry.Lororem Ipsum is simply dummy text of the printing and typesetting industry.Lororem Ipsum is simply dummy text of the printing and typesetting industry.Lororem Ipsum is simply dummy text of the printing and typesetting industry.Lororem Ipsum is simply dummy text of the printing and typesetting industry.Lororem Ipsum is simply dummy text of the printing and typesetting industry.Lor Ipsum has been the industry's standard dummy text ever since, Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+
 			   </div>
 		</div>
 	</div>
@@ -202,12 +211,8 @@
 				<div class="gallery-grids">
 					<div class="col-md-6 baner-top wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
 						<a href="images/SolarSystem.png" class="b-link-stripe b-animate-go swipebox" title="ระบบสุริยะ">
-							<div class="gal-spin-effect vertical ">
 								<img src="images/SolarSystem.png"/>
-								<div class="gal-text-box">
-									
-								</div>
-							</div>
+
 						</a>
 					</div>
 					<div class="col-md-6 baner-top wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
@@ -220,7 +225,7 @@
 										<span class="separator"></span>
 										<p>Sit accusamus, vel blanditiis iure minima ipsa molestias minus laborum velit, nulla nisi hic quasi enim.</p>
 										<span class="separator"></span>
-										
+
 									</div>
 								</div>
 							</div>
@@ -236,7 +241,7 @@
 										<span class="separator"></span>
 										<p>Sit accusamus, vel blanditiis iure minima ipsa.</p>
 										<span class="separator"></span>
-										
+
 									</div>
 								</div>
 							</div>
@@ -252,7 +257,7 @@
 										<span class="separator"></span>
 										<p>Sit accusamus, vel blanditiis iure minima ipsa.</p>
 										<span class="separator"></span>
-										
+
 									</div>
 								</div>
 							</div>
@@ -268,7 +273,7 @@
 										<span class="separator"></span>
 										<p>Sit accusamus, vel blanditiis iure minima ipsa.</p>
 										<span class="separator"></span>
-										
+
 									</div>
 								</div>
 							</div>
@@ -284,7 +289,7 @@
 										<span class="separator"></span>
 										<p>Sit accusamus, vel blanditiis iure minima ipsa.</p>
 										<span class="separator"></span>
-										
+
 									</div>
 								</div>
 							</div>
@@ -300,7 +305,7 @@
 										<span class="separator"></span>
 										<p>Sit accusamus, vel blanditiis iure minima ipsa molestias minus laborum velit, nulla nisi hic quasi enim.</p>
 										<span class="separator"></span>
-										
+
 									</div>
 								</div>
 							</div>
@@ -316,7 +321,7 @@
 										<span class="separator"></span>
 										<p>Sit accusamus, vel blanditiis iure minima ipsa molestias minus laborum velit, nulla nisi hic quasi enim.</p>
 										<span class="separator"></span>
-										
+
 									</div>
 								</div>
 							</div>
@@ -332,7 +337,7 @@
 	<div id="review" class="reviews agile-1">
 				<div class="test-monials" id="testimonials">
 					<h4 class="tittle">Testimonials</h3>
-					
+
 				<!--//screen-gallery-->
 						<div class="sreen-gallery-cursual">
 							 <!-- required-js-files-->
@@ -395,7 +400,7 @@
                         <ul>
 							<li>
 								<a href="#">
-									<div class="morph pic fb_icon1">	
+									<div class="morph pic fb_icon1">
 									</div>
 								</a>
 							</li>
@@ -413,7 +418,7 @@
 							</li>
 						</ul>
                      </div>
-                   
+
 				    </div>
 				  </a>
 			<h3>Rogerer</h3>
@@ -428,7 +433,7 @@
                         <ul>
 							<li>
 								<a href="#">
-									<div class="morph pic fb_icon1">	
+									<div class="morph pic fb_icon1">
 									</div>
 								</a>
 							</li>
@@ -446,7 +451,7 @@
 							</li>
 						</ul>
                      </div>
-               
+
 				    </div>
 				  </a>
 				<h3>Henry</h3>
@@ -461,7 +466,7 @@
                         <ul>
 							<li>
 								<a href="#">
-									<div class="morph pic fb_icon1">	
+									<div class="morph pic fb_icon1">
 									</div>
 								</a>
 							</li>
@@ -479,7 +484,7 @@
 							</li>
 						</ul>
                      </div>
-                  
+
 				    </div>
 				  </a>
 					<h3>Steave</h3>
@@ -494,7 +499,7 @@
                         <ul>
 							<li>
 								<a href="#">
-									<div class="morph pic fb_icon1">	
+									<div class="morph pic fb_icon1">
 									</div>
 								</a>
 							</li>
@@ -512,7 +517,7 @@
 							</li>
 						</ul>
                      </div>
-                   
+
 				    </div>
 				  </a>
 					<h3>Martin</h3>
@@ -538,7 +543,7 @@
 	<div class="contact_w3agile" id="contact">
 	<div class="container wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
 		<h2 class="title">Contact</h2>
-		
+
 		<form action="#" method="post">
 			<input type="text" value="Name" name="Name" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Name';}">
 			<input type="email address" value="Email" name="Email" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Email';}">
@@ -547,10 +552,10 @@
 				<input type="submit" value="Send">
 			</div>
 		</form>
-		
+
 	</div>
 </div>
-	<!--/contact-->	
+	<!--/contact-->
 
 		<!--start-smooth-scrolling-->
 						<script type="text/javascript">
@@ -560,18 +565,18 @@
 								  			containerID: 'toTop', // fading element id
 											containerHoverID: 'toTopHover', // fading element hover id
 											scrollSpeed: 1200,
-											easingType: 'linear' 
+											easingType: 'linear'
 								 		};
 										*/
-										
+
 										$().UItoTop({ easingType: 'easeOutQuart' });
-										
+
 									});
 								</script>
 								<!--end-smooth-scrolling-->
-		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+		<a href="#home" id="toTop" class="scroll fadeInUp animated" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- animation-effect -->
-<link href="css/animate.min.css" rel="stylesheet"> 
+<link href="css/animate.min.css" rel="stylesheet">
 <script src="js/wow.min.js"></script>
 
 <!-- animation-effect -->
@@ -579,27 +584,26 @@
 	</div>
 	</div>
 
-<!--footer-->	
+<!--footer-->
 	<div class="footer2" style="font-family:'Sukhumvit Set Text', sans-serif;">
 		<div class="footer-info">
-			<div class="container">	
-				<div class="icons wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">	
+			<div class="container">
+				<div class="icons wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
 					<p><a data-hover="คณะผู้จัดทำ" href="author" class="scroll">คณะผู้จัดทำ</a></p>
 					<script>$(function () {
 					  $('[data-toggle="tooltip"]').tooltip()
 					})</script>
-				</div>		
+				</div>
 			</div>
 
-<!--/footer-->	 	
+<!--/footer-->
 
 <script>
  new WOW().init();
 </script>
 
-<link href="css/animate.min.css" rel="stylesheet"> 
+<link href="css/animate.min.css" rel="stylesheet">
 <script src="js/wow.min.js"></script> <!-- //animation-effect -->
 
 </body>
 </html>
-

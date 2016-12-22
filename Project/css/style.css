@@ -7,11 +7,36 @@ html {
 	font-family:'Sukhumvit Set Text', sans-serif !important;
 }
 .paddingtop {
-    padding-top: 120px;
+    padding-top: 100px;
 }
 .fixedpadding {
-	padding-top: 120px;
+	padding-top: 100px;
 }
+.contentbody{
+		text-align:left;
+}
+.contentnormal p {
+    margin-top: 5px;
+	margin-bottom:15px;
+    font-size: 1.75em;
+    color: black;
+    line-height: 1.25em;
+	text-align: left;
+	width:100%;
+	font-family:PSL Bundit Regular !important;
+	}
+.contentbody p {
+	margin-top: 5px;
+	margin-bottom:15px;
+    font-size: 1.75em;
+    color: black;
+    line-height: 1.25em;
+	text-align: justify;
+	text-justify: distribute;
+	text-indent: 30px;
+	width:100%;
+	font-family:PSL Bundit Regular !important;
+	}
 h1 {
 	font-size: 300%;
 	text-align:center;
@@ -107,14 +132,30 @@ input[type="button"],input[type="submit"],li.parallelogram{
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 }
-h1,h3,h4,h5,h6{
+h1,h4,h5,h6{
 	margin:0;
  font-family: 'Sukhumvit Set Bold', sans-serif;
 }
-h2{
+h2.title{
 	margin-top:0;
 	margin-bottom:20px;
  font-family: 'Sukhumvit Set Bold', sans-serif;
+}
+h3.titlewhite {
+		text-align: left;
+		text-indent: 0.5em;
+    font-size: 2em !important;
+		font-family: 'Sukhumvit Set Semibold', sans-serif !important;
+		color: black;
+		margin-bottom: 0.1em;
+		margin-top: 0;
+}
+h2.titlewhite{
+	margin-top:0;
+	margin-bottom:10px !important;
+ font-family: 'Sukhumvit Set Bold', sans-serif;
+   color: white;
+   text-shadow: -1px -1px black, -1px 1px black, 1px -1px black, 1px 1px black;
 }
 p{
 	margin:0;
@@ -522,9 +563,7 @@ label{
     width: 20%;
     height: 3px;
 }
-h3.tittle {
-    font-size: 3em;
-}
+
 .ab-text {
     text-align: center;
     background:#f1f0f0;
@@ -1087,13 +1126,7 @@ figure.effect-jazz:hover p {
     -webkit-background-size: cover;
     min-height: 540px;
 }
-h3.title {
-	  color:#333;
-	  font-size:3em;
-	  text-align:center;
-	  display:block;
-	  margin:0;
-}
+
 h4.tittle{
 	  color:#fff;
 	  font-size:3em;
@@ -1451,8 +1484,9 @@ h2.sec-head {
 }
 
 .contentwhite h2 {
-    margin-bottom: 30px !important;
-    text-align: center;
+    margin-bottom: 15px !important;
+		margin-top: 0;
+    text-align: left;
     font-size: 3em;
 }
 .content {
@@ -1549,6 +1583,7 @@ h2.sec-head {
   bottom: 10px;
   right: 10px;
   overflow: hidden;
+	border-radius: 50%;
   width: 72px;
   height: 72px;
   border: none;
@@ -1563,7 +1598,7 @@ h2.sec-head {
 }
 @media (max-width: 1366px) {
 
-	h3.tittle,h3.single {
+h3.single {
 		font-size: 3em;
 	}
 
@@ -1646,9 +1681,7 @@ h2.sec-head {
 	.grid figure figcaption {
       padding: 2em 0;
 	}
-	h3.title {
-    font-size: 2.5em;
-}
+
 .newsletter h3 {
     font-size: 2.5em;
 }
@@ -1681,9 +1714,7 @@ h4.tittle {
     color: #fff;
     font-size: 2.5em;
 }
-h3.tittle{
-    font-size: 2.5em;
-}
+
 .contact_w3agile h2 {
     font-size: 2.5em;
 }
@@ -2025,12 +2056,7 @@ h3.tittle{
 .banner {
     min-height: 400px;
 }
-h3.title {
-    font-size: 2em;
-}
-h3.tittle {
-    font-size: 2em;
-}
+
 .about-section {
     margin-top: 2em;
 }
@@ -2314,9 +2340,7 @@ h4.tittle {
 .banner {
     min-height: 330px;
 }
-h3.title {
-    font-size: 1.7em;
-}
+
 .diff-grids {
     margin-top: 2em;
 }
@@ -2378,9 +2402,7 @@ h4.tittle {
 .contact_w3agile h2 {
     font-size: 1.7em;
 }
-h3.tittle {
-    font-size: 1.7em;
-}
+
 .contact_w3agile form input[type="text"], .contact_w3agile form input[type="email address"] {
     width: 100%;
 }
