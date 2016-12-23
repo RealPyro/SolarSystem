@@ -90,59 +90,17 @@
 
 
 @font-face {
-    font-family: 'PSL Bundit Regular';
-    src: url('../fonts/psl046-webfont.eot');
-    src: url('../fonts/psl046-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/psl046-webfont.woff2') format('woff2'),
-         url('../fonts/psl046-webfont.woff') format('woff'),
-         url('../fonts/psl046-webfont.ttf') format('truetype'),
-         url('../fonts/psl046-webfont.svg#psl_bunditregular') format('svg');
+    font-family: 'Anuparp Thai';
+    src: url('../fonts/AnuparpThai.eot');
+    src: url('../fonts/AnuparpThai.eot') format('embedded-opentype'),
+		 url('../fonts/AnuparpThai.woff2') format('woff2'),
+         url('../fonts/AnuparpThai.woff') format('woff'),
+         url('../fonts/AnuparpThai.ttf') format('truetype'),
+         url('../fonts/AnuparpThai.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
-
-@font-face {
-    font-family: 'PSL Bundit Bold';
-    src: url('../fonts/psl047-webfont.eot');
-    src: url('../fonts/psl047-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/psl047-webfont.woff2') format('woff2'),
-         url('../fonts/psl047-webfont.woff') format('woff'),
-         url('../fonts/psl047-webfont.ttf') format('truetype'),
-         url('../fonts/psl047-webfont.svg#psl_bunditbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-@font-face {
-    font-family: 'PSL Bundit Italic';
-    src: url('../fonts/psl048-webfont.eot');
-    src: url('../fonts/psl048-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/psl048-webfont.woff2') format('woff2'),
-         url('../fonts/psl048-webfont.woff') format('woff'),
-         url('../fonts/psl048-webfont.ttf') format('truetype'),
-         url('../fonts/psl048-webfont.svg#psl_bundititalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-@font-face {
-    font-family: 'PSL Bundit Bold Italic';
-    src: url('../fonts/psl049-webfont.eot');
-    src: url('../fonts/psl049-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/psl049-webfont.woff2') format('woff2'),
-         url('../fonts/psl049-webfont.woff') format('woff'),
-         url('../fonts/psl049-webfont.ttf') format('truetype'),
-         url('../fonts/psl049-webfont.svg#psl_bunditbold_italic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 
 html {
   -webkit-text-size-adjust: 100%;

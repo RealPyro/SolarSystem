@@ -2636,8 +2636,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 @-webkit-keyframes slideInUp {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(2000px);
-    transform: translateY(2000px);
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
   }
 
   100% {
@@ -2650,9 +2650,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 @keyframes slideInUp {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(2000px);
-    -ms-transform: translateY(2000px);
-    transform: translateY(2000px);
+    -webkit-transform: translateY(40px);
+    -ms-transform: translateY(40px);
+    transform: translateY(40px);
   }
 
   100% {
