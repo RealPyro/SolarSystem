@@ -2,7 +2,8 @@
 <html>
 <head>
 <title>ดวงอาทิตย์ - Solar System</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content=’width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0′ name=’viewport’ />
+<meta name=”viewport” content=”width=device-width” />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="ระบบสุริยะ" />
 <script type="applisalonion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -10,28 +11,30 @@
 <link rel="icon" href="images/icon.png">
 <!-- Custom Theme files -->
 <link href="css/iconeffects.css" rel='stylesheet' type='text/css' />
-<link href="css/style.css" rel='stylesheet' type='text/css' />	
+<link href="css/style.css" rel='stylesheet' type='text/css' />
 <link rel="stylesheet" href="css/swipebox.css">
 <link href="css/model.css" type="text/css" rel="stylesheet">
 
-<script src="js/jquery-1.11.1.min.js"></script>
+-<script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/bootstrap.js"> </script>
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
-<!--/web-font-->
-	<link href='//fonts.googleapis.com/css?family=Ubuntu:400,300italic,300,500,400italic,500italic,700,700italic' rel='stylesheet' type='text/css'>
-	<link href='//fonts.googleapis.com/css?family=Merriweather+Sans:400,300,700' rel='stylesheet' type='text/css'>
-<!--/script-->
+
 <script type="text/javascript">
 			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
+				$(".scroll").click(function(event){
 					event.preventDefault();
 					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
 				});
 			});
 </script>
 <!-- swipe box js -->
-<script src="js/jquery.swipebox.min.js"></script> 
+	<script src="js/jquery.swipebox.min.js"></script>
+	    <script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+	</script>
 <!-- //swipe box js -->
 
 </head>
@@ -43,13 +46,13 @@
 		<div class="header-bottom">
 		     <div class="container">
 			      <!--logo-->
-				  <div class="logo wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+				  <div class="logo fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
 				   <ul style="list-style: none; ">
 						<li><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Logo','','images/SolarSystemHover.png',1)"><img src="images/SolarSystem.png" width="120" id="Logo"></a></li>
 					</ul>
 				   </div>
 					<!--//logo-->
-					<div class="top-menu wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+					<div class="top-menu fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
 							<span class="menu"> </span>
 							<nav class="link-effect-4" id="link-effect-4">
                               <ul style="list-style: none; ">
@@ -60,7 +63,7 @@
 								<li><a data-hover="ปรากฎการณ์" href="phenomena.html">ปรากฎการณ์</a></li>
 								</ul>
 							</nav>
-							</div>
+					<div>
 							<!-- script-for-menu -->
 								<script>
 									$("span.menu").click(function(){
@@ -73,39 +76,129 @@
 				 <div class="clearfix"></div>
 					<script>
 				$(document).ready(function() {
-					 var navoffeset=$(".header-bottom").offset().top;
+					 var navoffeset=$("#ChangeFixed").offset().top;
 					 $(window).scroll(function(){
-						var scrollpos=$(window).scrollTop(); 
-						if(scrollpos >=navoffeset){
-							$(".header-bottom").addClass("fixed");
+						var scrollpos=$(window).scrollTop();
+						if(scrollpos >navoffeset){
+							$(".header-bottom").addClass("fixed slideInDown animated");
+							$(".paddingtop").addClass("fixedpadding");
 						}else{
-							$(".header-bottom").removeClass("fixed");
+							$(".header-bottom").removeClass("fixed slideInDown animated");
+							$(".paddingtop").removeClass("fixedpadding");
 						}
 					 });
-					 
 				});
 				</script>
-			 
+
 		</div>
 	</div>
 	</div>
 	</div>
-<font color="white">
-<p class="paddingheader">
-<div class="contenttable">
-	<div class="container wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-		<h1 class="title">ดวงอาทิตย์</h1>
-		<div id="sun"></div>
-		<h3>We Are Sharing</h3>
-				   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since, Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+		</div>
 	</div>
+	<div id="ChangeFixed"></div>
+
+	<font color="white">
+<div class="paddingtop"></div>
+<div id="contenttable">
+	<div class="container fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+	<div id="ChangeFixed"></div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="45%"><h1 class="titlename">ดวงอาทิตย์</h1><div id="sun"></div></td>
+    <td valign="top">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="insidetable">
+  <tr>
+    <td width="40%" class="title">ระยะห่างเฉลี่ย</td>
+    <td align="left" class="tablecontent">1.496 × 10<sup>11</sup> เมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2">ความส่องสว่างปรากฏ (V)</td>
+    <td align="left" class="tablecontent2">−26.74<sup>m</sup></td>
+  </tr>
+  <tr>
+    <td width="40%" class="title">ความส่องสว่างสัมบูรณ์</td>
+    <td align="left" class="tablecontent">4.83<sup>m</sup></td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2 fitfont" style="font-size:13px";>ระยะห่างเฉลี่ยจากแกนดาราจักรทางช้างเผือก</td>
+    <td align="left" class="tablecontent2">~2.5 × 10<sup>20</sup> เมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title">คาบการโคจรครบรอบดาราจักร</td>
+    <td align="left" class="tablecontent">2.25–2.50 × 10<sup>8</sup> ปี</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2">อัตราเร็วในวงโคจร</td>
+    <td align="left" class="tablecontent2">2.17 × 10<sup>5</sup> เมตรต่อวินาที</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title">เส้นผ่านศูนย์กลางเฉลี่ย</td>
+    <td align="left" class="tablecontent">1.392 × 10<sup>9</sup> เมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2">ความยาวเส้นศูนย์สูตร</td>
+    <td align="left" class="tablecontent2">4.379 × 10<sup>9</sup> เมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title">พื้นที่ผิว</td>
+    <td align="left" class="tablecontent">6.088 × 10<sup>18</sup> ตารางเมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2">ปริมาตร</td>
+    <td align="left" class="tablecontent2">1.41 × 10<sup>18</sup> ลูกบาศก์เมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title">มวล</td>
+    <td align="left" class="tablecontent">1.9891 × 10<sup>30</sup> กิโลกรัม</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2">ความหนาแน่นเฉลี่ย</td>
+    <td align="left" class="tablecontent2">1,409 กิโลกรัมต่อลูกบาศก์เมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title">อุณหภูมิพื้นผิว</td>
+    <td align="left" class="tablecontent">5,778 เคลวิน</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2">อัตราเร็วของการหมุน</td>
+    <td align="left" class="tablecontent2">7,284 กิโลเมตรต่อชั่วโมง</td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+</div>
 </div>
 
 	<div class="contentwhite wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-		<h2 class="title">Test</h2>
-	</div>
+		<div class="container">
+		<div class="contentbody">
+	 <h2 class="titlewhite">โครงสร้าง</h2>
+	 <h3 class="titlewhite">แกน</h3>
+		<p>ส่วนแกนของดวงอาทิตย์สันนิษฐานว่ามีรัศมีเป็น 0.2 เท่าของรัศมีดวงอาทิตย์ ความหนาแน่นประมาณ 150,000 กิโลกรัมต่อลูกบาศก์เมตร หรือ 150 เท่าของความหนาแน่นของน้ำบนโลก อุณหภูมิประมาณ 13,600,000 เคลวิน ตลอดชีวิตส่วนใหญ่ของดวงอาทิตย์ ภายในแกนจะมีปฏิกิริยาฟิวชันลูกโซ่ โปรตอน-โปรตอน ซึ่งเปลี่ยนไฮโดรเจนเป็นฮีเลียม พลังงานที่ได้นี้ทำให้ส่วนที่เหลือของดวงอาทิตย์สุกสว่างและเปล่งแสง</p>
+		<div class="col-md-3 baner-top wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;width: 300px;">
+						<a href="images/SolarStructure.png" class="b-link-stripe b-animate-go  swipebox" title="โครงสร้างของดวงอาทิตย์">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/SolarStructure.png" />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h5>ภาพประกอบ<br>โครงสร้างของดวงอาทิตย์</h5>
+										<div id="px"></div>
+										<span class="separator"></span>
+										<p class="description">คลิกเพื่อดูรูปภาพขนาดเต็ม</p>
+										<span class="separator"></span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="clearfix"> </div>
 
 
+		</div>
+		</div>
+</div>
 	<div class="content wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
 		<h2 class="title">Test</h2>
 	</div>
@@ -120,149 +213,38 @@
 		<div class="container">
 		       <div class="bottom-top wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
 			    <h3>We Are Sharing</h3>
-				   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since, Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-				   
+				   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Loremorem Ipsum is simply dummy text of the printing and typesetting industry.Lororem Ipsum is simply dummy text of the printing and typesetting industry.Lororem Ipsum is simply dummy text of the printing and typesetting industry.Lororem Ipsum is simply dummy text of the printing and typesetting industry.Lororem Ipsum is simply dummy text of the printing and typesetting industry.Lororem Ipsum is simply dummy text of the printing and typesetting industry.Lor Ipsum has been the industry's standard dummy text ever since, Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+
 			   </div>
 		</div>
 	</div>
 <!--Gallery-->
-<div class="gallery w3l-1" id="gallery">
-	<div class="container">
-		<h3 class="tittle">Gallery</h3>
-				<div class="gallery-grids">
-					<div class="col-md-6 baner-top wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
-						<a href="images/SolarSystem.png" class="b-link-stripe b-animate-go swipebox" title="ระบบสุริยะ">
+
+					<div class="col-md-3 baner-top wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;width: 300px;">
+						<a href="images/SolarStructure.png" class="b-link-stripe b-animate-go  swipebox" title="โครงสร้างของดวงอาทิตย์">
 							<div class="gal-spin-effect vertical ">
-								<img src="images/SolarSystem.png"/>
-								<div class="gal-text-box">
-									
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-6 baner-top wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
-						<a href="images/g2.jpg" class="b-link-stripe b-animate-go  swipebox">
-							<div class="gal-spin-effect vertical ">
-								<img src="images/g2.jpg" alt=" " />
+								<img src="images/SolarStructure.png" />
 								<div class="gal-text-box">
 									<div class="info-gal-con">
-										<h4>Interior</h4>
+										<h5>ภาพประกอบ<br>โครงสร้างของดวงอาทิตย์</h5>
+										<div id="px"></div>
 										<span class="separator"></span>
-										<p>Sit accusamus, vel blanditiis iure minima ipsa molestias minus laborum velit, nulla nisi hic quasi enim.</p>
+										<p>คลิกเพื่อดูรูปภาพขนาดเต็ม</p>
 										<span class="separator"></span>
-										
-									</div>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 baner-top ban-mar wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
-						<a href="images/c1.jpg" class="b-link-stripe b-animate-go  swipebox">
-							<div class="gal-spin-effect vertical ">
-								<img src="images/c1.jpg" alt=" " />
-								<div class="gal-text-box">
-									<div class="info-gal-con">
-										<h4>Interior</h4>
-										<span class="separator"></span>
-										<p>Sit accusamus, vel blanditiis iure minima ipsa.</p>
-										<span class="separator"></span>
-										
-									</div>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 baner-top ban-mar wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
-						<a href="images/c2.jpg" class="b-link-stripe b-animate-go  swipebox">
-							<div class="gal-spin-effect vertical ">
-								<img src="images/c2.jpg" alt=" " />
-								<div class="gal-text-box">
-									<div class="info-gal-con">
-										<h4>Interior</h4>
-										<span class="separator"></span>
-										<p>Sit accusamus, vel blanditiis iure minima ipsa.</p>
-										<span class="separator"></span>
-										
-									</div>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 baner-top ban-mar wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
-						<a href="images/c3.jpg" class="b-link-stripe b-animate-go  swipebox">
-							<div class="gal-spin-effect vertical ">
-								<img src="images/c3.jpg" alt=" " />
-								<div class="gal-text-box">
-									<div class="info-gal-con">
-										<h4>Interior</h4>
-										<span class="separator"></span>
-										<p>Sit accusamus, vel blanditiis iure minima ipsa.</p>
-										<span class="separator"></span>
-										
-									</div>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-3 baner-top ban-mar wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
-						<a href="images/c4.jpg" class="b-link-stripe b-animate-go  swipebox">
-							<div class="gal-spin-effect vertical ">
-								<img src="images/c4.jpg" alt=" " />
-								<div class="gal-text-box">
-									<div class="info-gal-con">
-										<h4>Interior</h4>
-										<span class="separator"></span>
-										<p>Sit accusamus, vel blanditiis iure minima ipsa.</p>
-										<span class="separator"></span>
-										
-									</div>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-6 baner-top wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
-						<a href="images/g7.jpg" class="b-link-stripe b-animate-go  swipebox">
-							<div class="gal-spin-effect vertical ">
-								<img src="images/g7.jpg" alt=" " />
-								<div class="gal-text-box">
-									<div class="info-gal-con">
-										<h4>Interior</h4>
-										<span class="separator"></span>
-										<p>Sit accusamus, vel blanditiis iure minima ipsa molestias minus laborum velit, nulla nisi hic quasi enim.</p>
-										<span class="separator"></span>
-										
-									</div>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-6 baner-top wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
-						<a href="images/g8.jpg" class="b-link-stripe b-animate-go  swipebox">
-							<div class="gal-spin-effect vertical ">
-								<img src="images/g8.jpg" alt=" " />
-								<div class="gal-text-box">
-									<div class="info-gal-con">
-										<h4>Interior</h4>
-										<span class="separator"></span>
-										<p>Sit accusamus, vel blanditiis iure minima ipsa molestias minus laborum velit, nulla nisi hic quasi enim.</p>
-										<span class="separator"></span>
-										
 									</div>
 								</div>
 							</div>
 						</a>
 					</div>
 					<div class="clearfix"> </div>
-				</div>
-			</div>
-	</div>
+
 <!-- //gallery -->
 <!--start-banner-bottom-->
    <!--/reviews-->
 	<div id="review" class="reviews agile-1">
 				<div class="test-monials" id="testimonials">
 					<h4 class="tittle">Testimonials</h3>
-					
+
 				<!--//screen-gallery-->
 						<div class="sreen-gallery-cursual">
 							 <!-- required-js-files-->
@@ -325,7 +307,7 @@
                         <ul>
 							<li>
 								<a href="#">
-									<div class="morph pic fb_icon1">	
+									<div class="morph pic fb_icon1">
 									</div>
 								</a>
 							</li>
@@ -343,7 +325,7 @@
 							</li>
 						</ul>
                      </div>
-                   
+
 				    </div>
 				  </a>
 			<h3>Rogerer</h3>
@@ -358,7 +340,7 @@
                         <ul>
 							<li>
 								<a href="#">
-									<div class="morph pic fb_icon1">	
+									<div class="morph pic fb_icon1">
 									</div>
 								</a>
 							</li>
@@ -376,7 +358,7 @@
 							</li>
 						</ul>
                      </div>
-               
+
 				    </div>
 				  </a>
 				<h3>Henry</h3>
@@ -391,7 +373,7 @@
                         <ul>
 							<li>
 								<a href="#">
-									<div class="morph pic fb_icon1">	
+									<div class="morph pic fb_icon1">
 									</div>
 								</a>
 							</li>
@@ -409,7 +391,7 @@
 							</li>
 						</ul>
                      </div>
-                  
+
 				    </div>
 				  </a>
 					<h3>Steave</h3>
@@ -424,7 +406,7 @@
                         <ul>
 							<li>
 								<a href="#">
-									<div class="morph pic fb_icon1">	
+									<div class="morph pic fb_icon1">
 									</div>
 								</a>
 							</li>
@@ -442,7 +424,7 @@
 							</li>
 						</ul>
                      </div>
-                   
+
 				    </div>
 				  </a>
 					<h3>Martin</h3>
@@ -458,7 +440,7 @@
 			<h3>sign up for our newsletter</h3>
 			<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit.</p>
 			<form action="#" method="post">
-				<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+				<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required>
 				<input type="submit" value="Subscribe">
 			</form>
 		</div>
@@ -468,23 +450,20 @@
 	<div class="contact_w3agile" id="contact">
 	<div class="container wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
 		<h2 class="title">Contact</h2>
-		
+
 		<form action="#" method="post">
 			<input type="text" value="Name" name="Name" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Name';}">
 			<input type="email address" value="Email" name="Email" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Email';}">
-			<textarea name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" required="">Message</textarea>
+			<textarea name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" required>Message</textarea>
 			<div class="con-form text-center">
 				<input type="submit" value="Send">
 			</div>
 		</form>
-		
+
 	</div>
 </div>
-	<!--/contact-->	
-	
-	
-	
-	
+	<!--/contact-->
+
 		<!--start-smooth-scrolling-->
 						<script type="text/javascript">
 									$(document).ready(function() {
@@ -493,83 +472,42 @@
 								  			containerID: 'toTop', // fading element id
 											containerHoverID: 'toTopHover', // fading element hover id
 											scrollSpeed: 1200,
-											easingType: 'linear' 
+											easingType: 'linear'
 								 		};
 										*/
-										
+
 										$().UItoTop({ easingType: 'easeOutQuart' });
-										
+
 									});
 								</script>
 								<!--end-smooth-scrolling-->
-		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+		<a href="#home" id="toTop" class="scroll fadeInUp animated" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- animation-effect -->
-<link href="css/animate.min.css" rel="stylesheet"> 
+<link href="css/animate.min.css" rel="stylesheet">
 <script src="js/wow.min.js"></script>
-
 <!-- animation-effect -->
 
 
-<!--footer-->	
-	</p><div class="footer2" style="font-family:'Sukhumvit Set Text', sans-serif;">
+<!--footer-->
+	<div class="footer2" style="font-family:'Sukhumvit Set Text', sans-serif;">
 		<div class="footer-info">
-			<div class="container">	
-				<div class="wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+			<div class="container">
+				<div class="icons wow slideInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: slideInUp;">
 					<p><a data-hover="คณะผู้จัดทำ" href="author" class="scroll">คณะผู้จัดทำ</a></p>
 					<script>$(function () {
 					  $('[data-toggle="tooltip"]').tooltip()
 					})</script>
-				</div>		
+				</div>
 			</div>
-		</div>
-	</div>
-<!--/footer-->	 	
+
+<!--/footer-->
 
 <script>
  new WOW().init();
 </script>
-<script>$(function () {
-					  $('[data-toggle="tooltip"]').tooltip()
-					})
-</script>
-<script src="js/responsiveslides.min.js"></script>
-			 <script>
-			    // You can also use "$(window).load(function() {"
-			    $(function () {
-			      // Slideshow 4
-			      $("#slider4").responsiveSlides({
-			        auto: true,
-			        pager:true,
-			        nav:false,
-			        speed: 500,
-			        namespace: "callbacks",
-			        before: function () {
-			          $('.events').append("<li>before event fired.</li>");
-			        },
-			        after: function () {
-			          $('.events').append("<li>after event fired.</li>");
-			        }
-			      });
-			
-			    });
-</script>
-<link href="css/owl.carousel.css" rel="stylesheet">
-							    <script src="js/owl.carousel.js"></script>
-							        <script>
-							    $(document).ready(function() {
-							      $("#owl-demo").owlCarousel({
-							        items : 1,
-							        lazyLoad : true,
-							        autoPlay : true,
-							        navigation : false,
-							        navigationText :  false,
-							        pagination : true,
-							      });
-							    });
-							    </script>
-<link href="css/animate.min.css" rel="stylesheet"> 
+
+<link href="css/animate.min.css" rel="stylesheet">
 <script src="js/wow.min.js"></script> <!-- //animation-effect -->
 
 </body>
 </html>
-

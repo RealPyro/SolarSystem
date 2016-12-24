@@ -37,8 +37,9 @@ html {
 	width:100%;
 	font-family: Anuparp Thai !important;
 	}
+
 h1 {
-	font-size: 300%; 
+	font-size: 300%;
 	text-align:center;
 	margin-top:0;
 	padding-top:0;
@@ -141,8 +142,8 @@ div#px {
 	width: auto !important;
 }
 h5{
-	 font-family: 'Sukhumvit Set Semiold', sans-serif;
-	 font-size:1.25em;
+	 font-family: 'Sukhumvit Set Semibold', sans-serif;
+	 font-size:1.2em;
 }
 h2.title{
 	margin-top:0;
@@ -152,10 +153,10 @@ h2.title{
 h3.titlewhite {
 		text-align: left;
 		text-indent: 0.5em;
-    font-size: 2em !important;
+    font-size: 1.85em !important;
 		font-family: 'Sukhumvit Set Semibold', sans-serif !important;
 		color: black;
-		margin-bottom: 0.1em;
+		margin-bottom: 0.15em;
 		margin-top: 0;
 }
 h2.titlewhite{
@@ -1207,6 +1208,7 @@ h4.tittle{
 }
 .baner-top img {
     width: 100%;
+		height: auto;
 }
 .img-box-content, .gal-text-box {
   display: block;
