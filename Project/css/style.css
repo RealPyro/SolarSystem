@@ -12,25 +12,30 @@ html {
 .fixedpadding {
 	padding-top: 100px;
 }
-.contentbody{
+.contentbodywhite{
 		text-align:left;
 }
-.contentnormal p {
-    margin-top: 5px;
-	margin-bottom:15px;
-    font-size: 1.5em;
-    color: black;
-    line-height: 1.4em;
-	text-align: left;
+.normal {
+	margin-bottom:8px !important;
+}
+.contentbodynormal p {
+	margin-top: 5px;
+	margin-bottom:18px;
+  font-size: 1.5em;
+  color: #eeeeee;
+  line-height: 1.4em;
+	text-align: justify;
+	text-justify: distribute;
+	text-indent: 30px;
 	width:100%;
 	font-family: Anuparp Thai !important;
 	}
-.contentbody p {
+.contentbodywhite p {
 	margin-top: 5px;
-	margin-bottom:15px;
-    font-size: 1.5em;
-    color: black;
-    line-height: 1.4em;
+	margin-bottom:18px;
+  font-size: 1.5em;
+  color: black;
+  line-height: 1.4em;
 	text-align: justify;
 	text-justify: distribute;
 	text-indent: 30px;
@@ -145,10 +150,21 @@ h5{
 	 font-family: 'Sukhumvit Set Semibold', sans-serif;
 	 font-size:1.2em;
 }
-h2.title{
+h3.titlenormal {
+		text-align: left;
+		text-indent: 0.5em;
+    font-size: 1.85em !important;
+		font-family: 'Sukhumvit Set Semibold', sans-serif !important;
+		color: #eeeeee;
+		margin-bottom: 0.15em;
+		margin-top: 0;
+}
+h2.titlenormal{
 	margin-top:0;
-	margin-bottom:20px;
+	margin-bottom:10px !important;
  font-family: 'Sukhumvit Set Bold', sans-serif;
+   color: white;
+   text-shadow: -1px -1px black, -1px 1px black, 1px -1px black, 1px 1px black;
 }
 h3.titlewhite {
 		text-align: left;
@@ -220,7 +236,7 @@ label{
 	width: 100%;
 	margin: 0 auto;
 	left:0%;
-	background-color: rgba(0, 0, 0, 0.75);
+	background-color: rgba(0, 0, 0, 0.8);
 	z-index: 50;
 }
 
@@ -259,7 +275,7 @@ label{
   position: relative;
 }
 .link-effect-4 a::before {
-      position: absolute;
+    position: absolute;
     top: 0;
     left: 0;
     overflow: hidden;
@@ -267,9 +283,9 @@ label{
     max-height: 0;
     color:#adb9f9;
     content: attr(data-hover);
-    -webkit-transition: max-height 0.5s;
-    -moz-transition: max-height 0.5s;
-    transition: max-height 0.5s;
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
 }
 .link-effect-4 a:hover::before {
   max-height: 100%;
@@ -933,12 +949,12 @@ figure.effect-jazz:hover p {
     margin-top: 4em;
 }
 /*--team--*/
-.team-section ul li {
-    display: inline-block;
-    margin: 0 12px 0 0;
 }
-.team-section ul {
-    margin:20px 0 0 0;
+.phenomena h2 {
+	margin-bottom: 15px !important;
+	margin-top: 0;
+	text-align: center;
+	font-size: 3em;
 }
 .morph {
 	-webkit-transition: all 0.5s ease;
@@ -975,17 +991,17 @@ figure.effect-jazz:hover p {
     cursor: pointer;
 }
 #team {
-       padding: 6em 0;
+       padding: 5em 0;
 	   text-align:center;
 }
 .s-1 h3,.s-2 h3,.s-3 h3,.s-1 h3,.s-2 h3,.s-4 h3{
-	color: #31c59d;
-    font-size: 1.4em;
+	color: white;
+    font-size: 1.6em;
     text-transform: uppercase;
-    line-height: 1.5em;
-    padding-top: 16em;
-    font-family: 'Sukhumvit Set Text', sans-serif;
-    font-weight: bold;
+    line-height: 2em;
+    padding-top: 13em;
+		padding-bottom: 1em;
+    font-family: 'Sukhumvit Set Semibold', sans-serif;
 }
 .view {
   	width: 256px;
@@ -995,6 +1011,7 @@ figure.effect-jazz:hover p {
     position: relative;
     text-align: center;
     cursor: default;
+		background:black;
 }
 .view .mask,.view .content {
   	width: 282px;
@@ -1037,8 +1054,16 @@ p.description{
    -ms-transition: all 0.3s ease-in-out;
    transition: all 0.3s ease-in-out;
 }
+.view-fifth img {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translateX(-50%) translateY(-50%);
+	max-width:100%;
+	max-height:100%;
+}
 .view-fifth .mask {
-  background-color:rgba(3, 9, 16, 0.67);
+  background-color:rgba(0, 0, 0, 0.85);
    -webkit-transform: translateX(-300px);
    -moz-transform: translateX(-300px);
    -o-transform: translateX(-300px);
@@ -1055,7 +1080,7 @@ p.description{
 }
 .view-fifth h4 {
    font-size: 20px;
-    border-bottom: 1px solid #31c59d;
+    border-bottom: 1px solid #adb9f9;
     color: #fff;
     line-height: 1.5em;
     font-weight: 600;
@@ -1128,6 +1153,17 @@ p.description{
 }
 .box2 {
     margin-top: 3em;
+}
+#wrap {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+#content {
+    float: left;
+    position: relative;
+    left: -50%;
 }
 /*--/review--*/
 #review {
@@ -1495,7 +1531,7 @@ h2.sec-head {
 	width: 100%;
     min-height: 250px;
     padding: 5em 0;
-    background: rgba(232, 232, 232, 0.8);
+    background: rgba(232, 232, 232, 0.9);
 }
 
 .contentwhite h2 {
@@ -1509,6 +1545,18 @@ h2.sec-head {
     min-height: 250px;
     padding: 5em 0;
     background: rgba(0, 0, 0, 0);
+}
+.content h2 {
+    margin-bottom: 15px !important;
+		margin-top: 0;
+    text-align: left;
+    font-size: 3em;
+}
+.phenomena h2 {
+    margin-bottom: 15px !important;
+		margin-top: 0;
+    text-align: left;
+    font-size: 3em;
 }
 #contenttable {
 	text-align:center;
@@ -1530,11 +1578,6 @@ text-shadow: 0 0 5.5px rgba(255,255,255,1);
 }
 
 
-.content h2 {
-    margin-bottom: 30px !important;
-    text-align: center;
-    font-size: 3em;
-}
 
 
 /*--footer--*/
@@ -1548,6 +1591,7 @@ text-shadow: 0 0 5.5px rgba(255,255,255,1);
 .footer-info {
     background-size: 4px;
     padding: 1.25em 0 1.25em;
+		overflow: hidden;
 }
 .footer p{
     color:#fff;
@@ -1559,6 +1603,12 @@ text-shadow: 0 0 5.5px rgba(255,255,255,1);
 }
 .footer p a:hover{
     color:#adb9f9;
+}
+a:hover{
+    color:#adb9f9 !important;
+}
+.col-md-3 a{
+	color:#fff !important;
 }
 .footer ul {
     text-align: center;
@@ -1578,7 +1628,7 @@ text-shadow: 0 0 5.5px rgba(255,255,255,1);
 .footer2 {
 	width:100%;
     bottom:0;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.8);
 }
 .footer2 p{
     color:#fff;
@@ -1587,6 +1637,7 @@ text-shadow: 0 0 5.5px rgba(255,255,255,1);
 }
 .footer2 p a{
     color:#fff;
+		text-decoration: none;
 }
 .footer2 p a:hover{
     color:#adb9f9;

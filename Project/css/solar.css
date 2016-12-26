@@ -964,7 +964,7 @@ html, body {
 
 #saturn .ring           { animation-name:     shadow-saturn-ring; }
 
-@keyframes 
+@keyframes
 shadow-saturn-ring{ 0%   { box-shadow: inset -16px  0      4px   rgba(20, 40, 50, 0.45); opacity: .4; }
                   25%    { box-shadow: inset -5px   -30px   12px  rgba(20, 40, 50, 0.3);  opacity: 1; }
                   25.01% { box-shadow: inset 5px    -30px   12px  rgba(20, 40, 50, 0.3);  opacity: 1; }
@@ -1053,9 +1053,9 @@ shadow-saturn-ring{ 0%   { box-shadow: inset -16px  0      4px   rgba(20, 40, 50
   box-shadow: inset -12px 0 5px rgba(0, 0, 0, 0.5);
   /* RIGHT */ }
 
-/* --------------------------------------------------------------------------- DEBUG 
-.pos, 
-.planet, 
+/* --------------------------------------------------------------------------- DEBUG
+.pos,
+.planet,
 .orbit,
 .ring { animation-duration: 20s!important; }
 
@@ -1094,9 +1094,9 @@ dl.infos dt {
   bottom: 30px;
   color: #FFF;
   font-size: 14px;
-  text-shadow: 1px 1px 2px black; 
+  text-shadow: 1px 1px 2px black;
   width:100px; }
-  
+
 
 dl.infos dd:after {
   position: absolute;
@@ -1257,7 +1257,7 @@ h1 span, #navbar h1 a {
 
 #controls input {
   display: block;
-  appearance: none; 
+  appearance: none;
   background: rgba(0,0,0,0);}
 
 #controls input[type="radio"]:before {
@@ -1267,7 +1267,7 @@ h1 span, #navbar h1 a {
   width: 30px;
   height: 30px;
   border: 2px solid #FFF;
-  border-radius: 16px; 
+  border-radius: 16px;
   background: rgba(0,0,0,0);
  }
 
@@ -1496,5 +1496,4 @@ body {
     font-size: 100%; } }
 @media screen and (min-width: 1600px) {
   .zoom-close .scale-d #solar-system {
-    margin-left: -120%; } 
-
+    margin-left: -120%; }
