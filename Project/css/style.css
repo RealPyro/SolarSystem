@@ -86,22 +86,10 @@ table.insidetable{
 p,ul {
 	font-family:'Sukhumvit Set Text', sans-serif !important;
 }
-div.item-owl {
-	cursor: url(cursor/Move.cur), default !important;
-}
-img.img-responsive{
+html,div.slide,img.img-responsive,div.item-owl{
 	cursor: url(cursor/Main.cur), default !important;
 }
-html,div.slide, div.mask{
-	cursor: url(cursor/Main.cur), default !important;
-}
-img,div.gallery-grids {
-	cursor: url(cursor/Select.cur), pointer !important;
-}
-div.morph, div.owl-page {
-	cursor: url(cursor/Select.cur), pointer !important;
-}
-a,img,div.gallery-grids {
+a,img,div.gallery-grids, div.mask, div.view,div.morph, div.owl-page,img,div.gallery-grids {
 	cursor: url(cursor/Select.cur), pointer !important;
 }
 
@@ -1040,12 +1028,13 @@ p.description{
 	text-indent:0;
 }
 .view p {
-  	font-size: 0.875em;
+  	font-size: 1.2em;
 	position: relative;
 	color: #FFF;
 	padding: 20px 20px 0px 13px;
 	text-align: center;
 	line-height: 1.5em;
+	font-family: Anuparp Thai !important;
 }
 .view-fifth img {
    -webkit-transition: all 0.3s ease-in-out;
@@ -1579,7 +1568,6 @@ text-shadow: 0 0 5.5px rgba(255,255,255,1);
 
 
 
-
 /*--footer--*/
 
 .footer {
@@ -1600,6 +1588,7 @@ text-shadow: 0 0 5.5px rgba(255,255,255,1);
 }
 .footer p a{
     color:#fff;
+		text-decoration: none;
 }
 .footer p a:hover{
     color:#adb9f9;
@@ -1733,8 +1722,8 @@ h3.single {
 	.view .mask, .view .content{
 		    width: 233px;
     height: 330px;
-
 	}
+
 	.s-1 h3, .s-2 h3, .s-3 h3, .s-1 h3, .s-2 h3, .s-4 h3 {
 		font-size: 1.3em;
 		padding-top: 17em;
