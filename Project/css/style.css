@@ -4,13 +4,13 @@ html {
 	margin: 0px;
 	padding: 0px;
 	overflow-x: hidden;
-	font-family:'Sukhumvit Set Text', sans-serif !important;
+	font-family:'Helvetica Thai Regular', sans-serif !important;
 }
 .paddingtop {
-    padding-top: 100px;
+    padding-top: 0px;
 }
 .fixedpadding {
-	padding-top: 100px;
+	padding-top: 110px;
 }
 .contentbodywhite{
 		text-align:left;
@@ -76,15 +76,17 @@ table.insidetable{
 	background: rgba(232, 232, 232, 0.25);
 	padding-left:12px;
 	font-size:95%;
+	font-family:'Sukhumvit Set Text', sans-serif;
 }
 .tablecontent2{
 	background: rgba(255, 255, 255, 0.25);
 	padding-left:12px;
 	font-size:95%;
+	font-family:'Sukhumvit Set Text', sans-serif;
 }
 
 p,ul {
-	font-family:'Sukhumvit Set Text', sans-serif !important;
+	font-family:'Helvetica Thai Regular', sans-serif !important;
 }
 html,div.slide,img.img-responsive,div.item-owl{
 	cursor: url(cursor/Main.cur), default !important;
@@ -113,7 +115,7 @@ body a {
   -ms-transition: 0.5s all;
 }
 html, body{
-	font-family: 'Sukhumvit Set Text', sans-serif;
+	font-family: 'Helvetica Thai Regular', sans-serif;
 	font-size: 100%;
 }
 a:hover{
@@ -128,23 +130,23 @@ input[type="button"],input[type="submit"],li.parallelogram{
 }
 h1,h4,h6{
 	margin:0;
- font-family: 'Sukhumvit Set Bold', sans-serif;
+ font-family: 'Helvetica Thai Bold', sans-serif;
 }
 div#px {
 	height:1.5vh !important;
 	width: auto !important;
 }
 h5{
-	 font-family: 'Sukhumvit Set Semibold', sans-serif;
+	 font-family: 'Helvetica Thai Bold', sans-serif;
 	 font-size:1.2em;
 }
 h3.titlenormal {
 		text-align: left;
 		text-indent: 0.5em;
     font-size: 1.85em !important;
-		font-family: 'Sukhumvit Set Semibold', sans-serif !important;
+		font-family: 'Helvetica Thai Bold', sans-serif !important;
 		color: #eeeeee;
-		margin-bottom: 0.15em;
+		margin-bottom: 0.55em;
 		margin-top: 0;
 }
 h2.titlenormal{
@@ -158,9 +160,9 @@ h3.titlewhite {
 		text-align: left;
 		text-indent: 0.5em;
     font-size: 1.85em !important;
-		font-family: 'Sukhumvit Set Semibold', sans-serif !important;
+		font-family: 'Helvetica Thai Bold', sans-serif !important;
 		color: black;
-		margin-bottom: 0.15em;
+		margin-bottom: 0.55em;
 		margin-top: 0;
 }
 h2.titlewhite{
@@ -172,7 +174,7 @@ h2.titlewhite{
 }
 p{
 	margin:0;
-	font-family: 'Sukhumvit Set Text', sans-serif;
+	font-family: 'Helvetica Thai Regular', sans-serif;
 }
 ul{
 	margin:0;
@@ -186,13 +188,11 @@ label{
 /* ::::: http://cloud.webtype.com/css/094b1fa9-6433-4dce-966d-931c186185d8.css ::::: */
 
 
-.banner {
-	  float: left;
+.center1 {
       position: relative;
       left: 50%;
 }
-.banner2 {
-	  float: left;
+.center2 {
       position: relative;
       left: -50%;
 }
@@ -252,13 +252,12 @@ label{
 }
 .top-menu li a.active{
   color: #adb9f9;
-  font-family:Sukhumvit Set Bold;
+  font-family:Helvetica Thai Bold;
   }
 /*-- nav-hover --*/
 .link-effect-4 a {
   padding: 0 10px;
   margin:0 12px;
-  color: #797878;
   text-shadow: none;
   position: relative;
 }
@@ -271,9 +270,9 @@ label{
     max-height: 0;
     color:#adb9f9;
     content: attr(data-hover);
-    -webkit-transition: max-height 0.7s;
-    -moz-transition: max-height 0.7s;
-    transition: max-height 0.7s;
+    -webkit-transition: max-height 0.65s;
+    -moz-transition: max-height 0.65s;
+    transition: max-height 0.65s;
 }
 .link-effect-4 a:hover::before {
   max-height: 100%;
@@ -765,7 +764,7 @@ figure.effect-jazz:hover p {
     font-size: 1em;
     color: #fff;
     text-decoration: none;
-    font-family: 'Sukhumvit Set Text', sans-serif;
+    font-family: 'Helvetica Thai Regular', sans-serif;
     text-transform: uppercase;
 }
 /* Bounce To Bottom */
@@ -989,7 +988,7 @@ figure.effect-jazz:hover p {
     line-height: 2em;
     padding-top: 13em;
 		padding-bottom: 1em;
-    font-family: 'Sukhumvit Set Semibold', sans-serif;
+    font-family: 'Sukhumvit Set Bold', sans-serif;
 }
 .view {
   	width: 256px;
@@ -1020,7 +1019,7 @@ figure.effect-jazz:hover p {
    font-weight:400;
    margin: 20px 16px;
    line-height: 1.6em;
-   font-family: 'Sukhumvit Set Text', sans-serif;
+   font-family: 'Helvetica Thai Regular', sans-serif;
 }
 p.description{
 	color:white;
@@ -1554,16 +1553,16 @@ h2.sec-head {
     overflow: hidden;
 }
 .titlename {
-text-shadow: 0 0 5.5px rgba(255,255,255,1);
+text-shadow: 0 0 10px rgba(255,255,255,1);
 }
 .titlename:hover {
-  animation: titlename 2s;
+  animation: titlename 3s;
 }
 @keyframes titlename  {
   from {
-  text-shadow: 0 0 5.5px rgba(255,255,255,1) ;  }
+  text-shadow: 0 0 10px rgba(255,255,255,1) ;  }
   to {
-  text-shadow: 0 0 0 rgba(255,255,255,0) ;  }
+  text-shadow: 0 0 2px rgba(255,255,255,0) ;  }
 }
 
 
@@ -1594,7 +1593,7 @@ text-shadow: 0 0 5.5px rgba(255,255,255,1);
     color:#adb9f9;
 }
 a:hover{
-    color:#adb9f9 !important;
+    color:#adb9f9;
 }
 .col-md-3 a{
 	color:#fff !important;
