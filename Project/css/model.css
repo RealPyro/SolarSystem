@@ -16,9 +16,7 @@
 	margin-bottom:0;
 	padding-bottom:0;
 }
-div.parent {
-	text-align: center;
-}
+
 @keyframes rotateearth {
   from { background-position-x: 0px; }
   to { background-position-x: 211px; }

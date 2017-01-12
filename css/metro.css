@@ -10390,11 +10390,11 @@ input[type="submit"].link:active {
   color: #1d1d1d;
 }
 .sub-header {
-	font-family:"Sukhumvit Set Text", sans-serif !important;
+	font-family:"Helvetica LT Thai Regular", sans-serif !important;
 }
 .tile-area-title {
 	padding-top:10px;
-	font-family:"Sukhumvit Set Text", sans-serif !important;
+	font-family:"Helvetica LT Thai Regular", sans-serif !important;
 }
 .panel > .heading {
   padding: .625rem 0 ;
@@ -10840,6 +10840,7 @@ input[type="submit"].link:active {
   position: absolute;
   top: 10px;
   left: 0;
+  font-family:"Segoe UI","Helvetica LT Thai Regular";
 }
 .tile-container {
   width: 100%;
