@@ -1659,15 +1659,30 @@ h2.sec-head {
     overflow: hidden;
 }
 .titlename {
-text-shadow: 0 0 10px rgba(255,255,255,1);
+	text-shadow: 0 0 15px rgba(255,255,255,1);
+	transition: text-shadow 0.5s linear; /* vendorless fallback */
+    -o-transition: text-shadow 0.5s linear; /* opera */
+    -ms-transition: text-shadow 0.5s linear; /* IE 10 */
+    -moz-transition: text-shadow 0.5s linear; /* Firefox */
+    -webkit-transition: text-shadow 0.5s linear; /*safari and chrome */
 }
 .titlename:hover {
-  animation: titlename 3s;
+   text-shadow: 0 0 5px rgba(255,255,255,0.8);
 }
+
 .starname {
-text-shadow: 0 0 40px #abb5ee, 0 0 25px #abb5ee;
-margin-bottom:20px;
+	text-shadow: 0 0 35px #abb5ee, 0 0 20px #abb5ee;
+	margin-bottom:20px;
+	transition: text-shadow 0.5s linear; /* vendorless fallback */
+    -o-transition: text-shadow 0.5s linear; /* opera */
+    -ms-transition: text-shadow 0.5s linear; /* IE 10 */
+    -moz-transition: text-shadow 0.5s linear; /* Firefox */
+    -webkit-transition: text-shadow 0.5s linear; /*safari and chrome */
 }
+.starname:hover {
+  text-shadow: 0 0 5px #abb5ee;
+}
+
 
 /*--footer--*/
 
