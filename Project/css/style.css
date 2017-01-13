@@ -1,5 +1,5 @@
 html {
-	background: url(../images/background.jpg) no-repeat center center fixed;
+	background: radial-gradient(ellipse at bottom, #1b2735 0%, #000 100%) center center fixed;
 	background-size: cover;
 	margin: 0px;
 	padding: 0px;
