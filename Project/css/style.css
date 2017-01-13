@@ -4,7 +4,6 @@ html {
 	margin: 0px;
 	padding: 0px;
 	overflow-x: hidden;
-	font-family:'Helvetica LT Thai Regular', sans-serif !important;
 }
 .paddingtop {
     padding-top: 0px;
@@ -28,7 +27,7 @@ html {
 	text-justify: distribute;
 	text-indent: 30px;
 	width:100%;
-	font-family: Anuparp Thai !important;
+	font-family: Anuparp LT Thai !important;
 	}
 .contentbodywhite p {
 	margin-top: 5px;
@@ -40,7 +39,7 @@ html {
 	text-justify: distribute;
 	text-indent: 30px;
 	width:100%;
-	font-family: Anuparp Thai !important;
+	font-family: Anuparp LT Thai !important;
 	}
 	
 h1 {
@@ -111,6 +110,7 @@ td .starcontent {
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
 	text-align: center;
+	font-family: Anuparp LT Thai !important;
 }
 
 .starcontent .view-caption { 
@@ -168,7 +168,7 @@ td .starcontent {
     border-color: #a22c48;
 }
 td .starcontent p{
-	font-family: Anuparp Thai !important;
+	font-family: Anuparp LT Thai !important;
 	margin-bottom:8px !important;
 }
 figure {
@@ -184,11 +184,14 @@ figure {
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
+	cursor: url(cursor/Main.cur), pointer !important;
 }
 .grow figure:hover img {
 	-webkit-transform: scale(1.3);
 	transform: scale(1.3);
+	cursor: url(cursor/Main.cur), pointer !important;
 }
+
 .column {
 	margin: 15px 15px 0;
 	padding: 0;
@@ -738,7 +741,7 @@ label{
   height: auto;
   background: #3085a3;
   text-align: center;
-  cursor: pointer;
+  cursor: url(cursor/Select.cur), pointer !important;
 }
 
 .grid figure img {
@@ -1081,7 +1084,7 @@ figure.effect-jazz:hover p {
     height: 40px;
 }
 .pic:hover {
-    cursor: pointer;
+    cursor: url(cursor/Select.cur), pointer !important;
 }
 #team {
        padding: 5em 0;
@@ -1139,7 +1142,7 @@ p.description{
 	padding: 20px 20px 0px 13px;
 	text-align: center;
 	line-height: 1.5em;
-	font-family: Anuparp Thai !important;
+	font-family: Anuparp LT Thai !important;
 }
 .view-fifth img {
    -webkit-transition: all 0.3s ease-in-out;
@@ -1708,9 +1711,7 @@ h2.sec-head {
 .footer p a:hover{
     color:#abb5ee;
 }
-a:hover{
-    color:#abb5ee;
-}
+
 .col-md-3 a{
 	color:#fff !important;
 }
@@ -2497,7 +2498,7 @@ h4.tittle {
 		background: url(../images/nav.png)no-repeat 0px 0px;
 		display: inline-block;
 		float: right;
-		cursor: pointer;
+		cursor: url(cursor/Select.cur), pointer !important;
 		margin: 4px 3px;
 	}
 	ul.social-icons {
@@ -2838,7 +2839,7 @@ h4.tittle {
 		background: url(../images/nav.png)no-repeat 0px 0px;
 		display: inline-block;
 		float: right;
-		cursor: pointer;
+		cursor: url(cursor/Select.cur), pointer !important;
 		margin: 4px 3px;
 	}
 	.top-menu ul {
