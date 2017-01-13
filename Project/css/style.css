@@ -5,6 +5,78 @@ html {
 	padding: 0px;
 	overflow-x: hidden;
 }
+#primary_nav_wrap
+{
+
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul a
+{
+	
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	margin:0;
+	padding:0
+}
+
+
+#primary_nav_wrap ul li:hover
+{
+	background:black;
+	
+}
+#primary_nav_wrap ul ul li:hover
+{
+	background:#abb5ee;
+	font-family: 'Helvetica LT Thai Bold', sans-serif;
+	transition: background .8s;
+}
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	left:0;
+	background:#000;
+	padding:0;
+	
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:150px
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:100%;
+	padding:10px 15px;
+    margin-bottom:5px;
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
+
 .paddingtop {
     padding-top: 0px;
 }
@@ -94,6 +166,7 @@ td .starcontent {
 	text-indent: 20px;
 	font-size: 20.5px;
 	line-height:26px;
+	z-index:1;
 }
 .paddingfooter {
 	padding-bottom:60px;
@@ -111,6 +184,7 @@ td .starcontent {
 	transition: all 0.5s;
 	text-align: center;
 	font-family: Anuparp LT Thai !important;
+	z-index:2;
 }
 
 .starcontent .view-caption { 
@@ -326,6 +400,9 @@ label{
     margin: 0 auto;
     width: 100%;
     text-align: center;
+	z-index:50;
+    position: relative;
+    z-index: 50;
 }
 .fixed {
 	padding: 0.75em;
@@ -342,7 +419,6 @@ label{
 /*-- sticky-nav --*/
 .top-menu {
     float: right;
-    margin-top: 0.8em;
 }
 .top-menu ul{
 	margin:0;
@@ -352,13 +428,27 @@ label{
 	text-transform:uppercase;
 	display:inline-block;
 }
-.top-menu li a{
+.top-menu li a {
 	color:#FFFFFF;
 	text-decoration:none;
 	display:block;
 	padding:0;
 	font-weight:400;
 	font-size:1em;
+	height:50px;
+	line-height:50px;
+	bottom:5px;
+}
+.dropdown li a {
+	color:#FFFFFF;
+	text-decoration:none;
+	display:block;
+	padding:0;
+	font-weight:400;
+	font-size:1em;
+	height:30px;
+	line-height:30px;
+	bottom:5px;
 }
 .top-menu li a.active{
   color: #abb5ee;
@@ -1692,7 +1782,7 @@ h2.sec-head {
 	position:fixed;
 	width:100%;
     bottom:0;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0);
 }
 .footer-info {
     background-size: 4px;
