@@ -2044,7 +2044,9 @@ td:first-child, th:first-child {
 }
 /*--//footer--*/
 #toTop {
-  display: none;
+  visibility: visible;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
   text-decoration: none;
   position: fixed;
   bottom: 10px;
