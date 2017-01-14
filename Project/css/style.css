@@ -5,7 +5,12 @@ html {
 	padding: 0px;
 	overflow-x: hidden;
 }
-
+::selection {
+  background: #abb5ee; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #abb5ee; /* Gecko Browsers */
+}
 img {
     user-drag: none; 
 	user-select: none;
