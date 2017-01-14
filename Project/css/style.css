@@ -42,10 +42,7 @@ img {
     -ms-user-select: none;
     user-select: none;
 }
-.indexheader {
-  -webkit-filter: drop-shadow(0 0 1.5px black);
-  filter: drop-shadow(0 0 1.5px black);
-}
+
 .welcome img {
 	cursor: url(cursor/Main.cur), default !important;
 }
@@ -511,6 +508,8 @@ label{
 	z-index:50;
     position: relative;
     z-index: 50;
+	-webkit-filter: drop-shadow(0 0 1.5px black);
+  filter: drop-shadow(0 0 1.5px black);
 }
 .fixed {
 	padding: 0.75em;
@@ -1913,6 +1912,7 @@ h2.sec-head {
     background-size: 4px;
     padding: 1.25em 0 1.25em 0;
 	overflow: hidden;
+	font-family:Helvetica LT Thai Regular;
 }
 .footer p{
     color:#fff;
