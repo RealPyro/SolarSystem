@@ -5,6 +5,9 @@ html {
 	padding: 0px;
 	overflow-x: hidden;
 }
+#myDiv {
+}
+
 ::selection {
   background: #abb5ee; /* WebKit/Blink Browsers */
 }
