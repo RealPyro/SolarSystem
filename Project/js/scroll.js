@@ -8,7 +8,7 @@ function wheel(event) {
 
     handle(delta);
     if (event.preventDefault) event.preventDefault();
-    event.returnValue = false;
+    event.returnValue = true;
 }
 
 var goUp = true;
