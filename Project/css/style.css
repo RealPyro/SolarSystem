@@ -180,7 +180,7 @@ img {
 	padding:0;
 	left: 50%;
 	border-radius:7.5px;
-	width: 130px;
+	width: 140px;
 	transform:translateX(-50%);
 }
 
@@ -323,19 +323,77 @@ table.insidetable{
 	font-family:'Helvetica LT Thai Regular', sans-serif;
 }
 td .starcontent {
-	background: rgba(232, 232, 232, 0.8);
+	background: rgba(232, 232, 232, 1);
 	display: block;
 	height:400px;
 	color: black;
 	padding:20px;
 	text-align:justify;
 	text-justify: distribute;
-	text-indent: 20px;
+	text-indent: 1.6em;
 	font-size: 20.5px;
 	line-height:25px;
 	z-index:1;
 	border-radius:15px;
+	-webkit-filter: drop-shadow(0 0 1.5px black);
 }
+#ceres {
+	height: 348px;
+    width: 348px;
+	background-size: 230px auto; 
+    background-position: center center;
+	background-repeat: no-repeat;
+	background-image: url('../images/ceres.png');
+}
+#eris {
+	height: 348px;
+    width: 348px;
+	background-size: cover; 
+    background-position: center center;
+	background-repeat: no-repeat;
+	background-image: url('../images/eris.png');
+}
+#haumea {
+	height: 348px;
+    width: 348px;
+	background-size: 220px auto; 
+    background-position: center center;
+	background-image: url('../images/haumea.png');
+	background-repeat: no-repeat;
+}
+#haumeasym {
+	width:0.8em;
+	position: relative;
+	display: inline-block;
+	-webkit-filter: drop-shadow(0.25px 0.25px 0 black)
+						drop-shadow(-0.25px 0.25px 0 black)
+						drop-shadow(0.25px -0.25px 0 black)
+						drop-shadow(-0.25px -0.25px 0 black);
+
+	filter: 	drop-shadow(0.25px 0.25px 0 black) 
+				drop-shadow(-0.25px 0.25px 0 black)
+				drop-shadow(0.25px -0.25px 0 black)
+				drop-shadow(-0.25px -0.25px 0 black);
+}
+#makemake {
+	height: 348px;
+    width: 348px;
+	background-size: 400px auto;
+    background-position: center center;
+	background-image: url('../images/makemake.png');
+	background-repeat: no-repeat;
+}
+
+.gif {
+   height:348px;
+   width:348px;
+	object-fit: cover;
+	border-radius:50px;
+	-webkit-filter: drop-shadow(0 0 2.5px black);
+}
+ 
+
+  
 .paddingfooter {
 	padding-bottom:60px;
 }
@@ -385,6 +443,7 @@ td .starcontent {
 	font-weight: normal;
 	margin-bottom: 20px;
 	margin-right:20px;
+	padding-bottom:10px;
 }
 .starcontent .view-caption span {
     color: #fff;
@@ -414,11 +473,14 @@ td .starcontent p{
 	margin-bottom:8px !important;
 }
 figure {
-	width: 348px;
-	height: 348px;
+	height: 348px; width: 348px;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+}
+
+figure img {
+	cursor: url(cursor/Main.cur), pointer !important;
 }
 
 .grow figure img {
@@ -1975,6 +2037,7 @@ td:first-child, th:first-child {
 	width:100%;
     bottom:0;
     background-color: rgba(0,0,0,0);
+	-webkit-filter: drop-shadow(0 0 1.5px black);
 }
 .footer-info {
     background-size: 4px;
@@ -2016,7 +2079,8 @@ td:first-child, th:first-child {
 .footer2 {
 	width:100%;
     bottom:0;
-    background-color: rgba(0,0,0,0.8);
+    background-color: black;
+	-webkit-filter: drop-shadow(0 0 1.5px black);
 }
 .footer2 p{
     color:#fff;
@@ -2046,15 +2110,12 @@ td:first-child, th:first-child {
 }
 /*--//footer--*/
 #toTop {
-  visibility: visible;
-  opacity: 0;
-  transition: visibility 0s, opacity 0.5s linear;
+  display: none;
   text-decoration: none;
   position: fixed;
   bottom: 10px;
   right: 10px;
   overflow: hidden;
-	border-radius: 50%;
   width: 72px;
   height: 72px;
   border: none;
@@ -2459,8 +2520,8 @@ h4.tittle {
 
 @media screen and (max-width: 1024px){
 	td .starcontent {
-		font-size: 16px  !important;
-		line-height: 19px  !important;
+		font-size: 15.5px  !important;
+		line-height: 17.5px  !important;
 	}
 }
 @media screen and (max-width: 700px){
