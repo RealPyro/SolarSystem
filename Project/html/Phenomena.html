@@ -38,6 +38,15 @@
 			});
 	</script>
 <!-- //swipe box js -->
+<style>
+#preload.img1 {background:url(../images/solareclipse.gif) no-repeat -9999px -9999px;}
+#preload.img2 {background:url(../images/lunareclipse.gif) no-repeat -9999px -9999px;}
+#preload.img3 {background:url(../images/comet.gif) no-repeat -9999px -9999px;}
+#preload.img4 {background:url(../images/meteorshower.gif) no-repeat -9999px -9999px;}
+#preload.img5 {background:url(../images/aurora.gif) no-repeat -9999px -9999px;}
+#preload.img6 {background:url(../images/sunhola.gif) no-repeat -9999px -9999px;}
+#preload {display:none;}
+</style>
 </head>
 <body onLoad="MM_preloadImages('../images/SolarSystemHover.png')" ondragstart="return false;" ondrop="return false;">
 		
@@ -126,30 +135,9 @@
 	</div>
 
 	<div id="ChangeFixed"></div>
-	<div class="hidden">
-	<script type="text/javascript">
-		<!--//--><![CDATA[//><!--
-			var images = new Array()
-			function preload() {
-				for (i = 0; i < preload.arguments.length; i++) {
-					images[i] = new Image()
-					images[i].src = preload.arguments[i]
-				}
-			}
-			preload(
-				"../images/solareclipse.gif",
-				"../images/lunarclipse.gif",
-				"../images/comet.gif",
-				"../images/meteorshower.gif",
-				"../images/aurora.gif",
-				"../images/sunhola.gif",
-			)
-		//--><!]]>
-	</script>
-</div>
+	<div id="preload" class="img1 img2 img3 img4 img5 img6"></div>
 	<font color="white">
 <div class="paddingtop">
-
 <div id='stars'></div>
 <div id='stars2'></div>
 <div id='stars3'></div></div>
