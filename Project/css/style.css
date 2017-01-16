@@ -107,7 +107,25 @@ img {
   opacity: 0;
 }
 
+.logo {
+  display: block;
+  background: url('../images/SolarSystem.png');
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;  
+  width: 120px;
+  height: 60px;
+}
 
+.logo:hover {
+  display: block;
+  background: url('../images/SolarSystemHover.png');
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;  
+  width: 120px;
+  height: 60px;
+}
 
 #primary_nav_wrap
 {
