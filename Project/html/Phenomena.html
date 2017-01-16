@@ -38,14 +38,14 @@
 			});
 	</script>
 <!-- //swipe box js -->
-<style>
-#preload.img1 {background:url(../images/solareclipse.gif) no-repeat;}
-#preload.img2 {background:url(../images/lunareclipse.gif) no-repeat;}
-#preload.img3 {background:url(../images/comet.gif) no-repeat;}
-#preload.img4 {background:url(../images/meteorshower.gif) no-repeat;}
-#preload.img5 {background:url(../images/aurora.gif) no-repeat;}
-#preload.img6 {background:url(../images/sunhola.gif) no-repeat;}
-</style>
+<script>
+$.preload = function() {
+  for (var i = 0; i < arguments.length; i++) {
+    $("<img />").attr("src", arguments[i]);
+  }
+}
+$.preload("../images/solareclipse.gif","../images/lunareclipse.gif","../images/comet.gif","../images/meteorshower.gif","../images/aurora.gif","../images/sunhola.gif");
+</script>
 </head>
 <body onLoad="MM_preloadImages('../images/SolarSystemHover.png')" ondragstart="return false;" ondrop="return false;">
 		
