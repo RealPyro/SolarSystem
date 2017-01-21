@@ -45,9 +45,15 @@ img {
     user-select: none;
 }
 
-.welcome img {
-	cursor: url(cursor/Main.cur), default !important;
+.welcomeimg {
+	background-image: url(../images/SolarSystem.png);
+	width:300px;
+	height:150px;
+	background-size:300px;
+	margin:0 auto;
 }
+
+
 .welcome h1 {
   margin:0;
   padding:0;
@@ -285,6 +291,7 @@ td .title {
 	font-family:'Helvetica LT Thai Bold', sans-serif !important;
 	color: black;
 	font-size:100%;
+	padding-bottom: 5px;
 }
 
 td .title2 {
@@ -293,6 +300,7 @@ td .title2 {
 	color: black;
 	font-family:'Helvetica LT Thai Bold', sans-serif !important;
 	font-size:100%;
+	padding-bottom: 5px;
 }
 .topleft {
 	border-radius: 20px 0 0 0;
@@ -333,12 +341,14 @@ table.insidetable{
 	padding-left:12px;
 	font-size:95%;
 	font-family:'Helvetica LT Thai Regular', sans-serif;
+	padding-bottom: 5px;
 }
 .tablecontent2{
 	background: rgba(255, 255, 255, 0.25);
 	padding-left:12px;
 	font-size:95%;
 	font-family:'Helvetica LT Thai Regular', sans-serif;
+	padding-bottom: 5px;
 }
 td .starcontent {
 	background: rgba(232, 232, 232, 1);
@@ -709,7 +719,16 @@ label{
   color: #abb5ee;
   font-family:Helvetica LT Thai Bold;
   }
-
+  
+.top-menu li ul li a.active{
+  color: #abb5ee;
+  font-family:Helvetica LT Thai Bold;
+  }
+  
+  .top-menu li ul li a.active:hover{
+  color: #fff;
+  }
+  
 /*-- nav-hover --*/
 .link-effect-4 a {
   padding: 0 10px;

@@ -2,7 +2,7 @@
 	position: relative;
 	width: 350px;
 	height: 350px;
-	background: url("../images/sun.jpg");
+	background: url("../images/sunmap.jpg");
 	border-radius: 50%;
 	background-size: 775px;
 	background-position: center;
@@ -17,13 +17,25 @@
 	padding-bottom:0;
 }
 
-@keyframes rotateearth {
-  from { background-position-x: 0px; }
-  to { background-position-x: 211px; }
+#mercury {
+  width: 120px;
+	height: 120px;
+	background: url("../images/mercurymap.png");
+	border-radius: 50%;
+	background-size: 280px;
+	background-position: center;
+	box-shadow: inset -16px 0 50px 6px rgb(0, 0, 0),
+		inset 16px 0 50px 2px rgba(255, 253, 230, 0.45);
+	animation-name: rotatemercury;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	display: inline-block;
+	margin-top: 50%;
+	-ms-transform: translateY(-50%) rotate(-7deg); /* IE 9 */
+	-webkit-transform: translateY(-50%) rotate(-7deg); /* Chrome, Safari, Opera */
+	transform: translateY(-50%) rotate(-7deg);
 }
-@keyframes rotatesun {
-  from { background-position-x: 0px; }
-  to { background-position-x: 775px; }
 }
 
 #earth {
@@ -35,7 +47,7 @@
 	box-shadow: inset -16px 0 50px 6px rgb(0, 0, 0),
 		inset 16px 0 50px 2px rgba(255, 253, 230, 0.45);
 	animation-name: rotateearth;
-	animation-duration: 12s;
+	animation-duration: 8s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	display: inline-block;
@@ -43,6 +55,21 @@
 	-ms-transform: translateY(-50%); /* IE 9 */
 	-webkit-transform: translateY(-50%); /* Chrome, Safari, Opera */
 	transform: translateY(-50%);
+}
+
+
+
+@keyframes rotatemercury {
+  from { background-position-x: 0px; }
+  to { background-position-x: 280px; }
+}
+@keyframes rotateearth {
+  from { background-position-x: 0px; }
+  to { background-position-x: 211px; }
+}
+@keyframes rotatesun {
+  from { background-position-x: 0px; }
+  to { background-position-x: 775px; }
 }
 
 
