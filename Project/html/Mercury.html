@@ -107,10 +107,10 @@
 					 $(window).scroll(function(){
 						var scrollpos=$(window).scrollTop();
 						if(scrollpos >navoffeset){
-							$(".header-bottom").addClass("fixed slideInDown animated");
+							$(".header-bottom").addClass("fixed slideInDown animated animated");
 							$(".paddingtop").addClass("fixedpadding");
 						}else{
-							$(".header-bottom").removeClass("fixed slideInDown animated");
+							$(".header-bottom").removeClass("fixed slideInDown animated animated");
 							$(".paddingtop").removeClass("fixedpadding");
 						}
 					 });
@@ -137,20 +137,20 @@
 	<div class="container fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-bottom:3.95em;">
   <tr>
-    <td width="45%"><h1 class="titlename">ดาวพุธ</h1><div id="mercury"></div></td>
+    <td width="45%"><h1 class="titlename">ดาวพุธ ☿</h1><div id="mercury"></div></td>
     <td valign="top">
     <table width="100%" border="0" cellspacing="0" cellpadding="0" class="insidetable">
   <tr>
     <td width="40%" class="title topleft">ระยะจุดไกลดวงอาทิตย์ที่สุด</td>
-    <td align="left" class="tablecontent topright">69,817,079 กม.</td>
+    <td align="left" class="tablecontent topright">69,817,079 กิโลเมตร</td>
   </tr>
   <tr>
     <td width="40%" class="title2">ระยะจุดใกล้ดวงอาทิตย์ที่สุด</td>
-    <td align="left" class="tablecontent2">46,001,272 กม.</td>
+    <td align="left" class="tablecontent2">46,001,272 กิโลเมตร</td>
   </tr>
   <tr>
     <td width="40%" class="title">กึ่งแกนเอก</td>
-    <td align="left" class="tablecontent">57,909,176 กม.</td>
+    <td align="left" class="tablecontent">57,909,176 กิโลเมตร</td>
   </tr>
   <tr>
     <td width="40%" class="title2 fitfont">เส้นรอบวงของวงโคจร</td>
@@ -162,11 +162,11 @@
   </tr>
   <tr>
     <td width="40%" class="title2">อัตราเร็วเฉลี่ยในวงโคจร</td>
-    <td align="left" class="tablecontent2">47.36 กม./วินาที</td>
+    <td align="left" class="tablecontent2">47.36 กิโลเมตรต่อวินาที</td>
   </tr>
   <tr>
     <td width="40%" class="title">อัตราเร็วสูงสุดในวงโคจร</td>
-    <td align="left" class="tablecontent">58.98 กม./วินาที</td>
+    <td align="left" class="tablecontent">58.98 กิโลเมตรต่อวินาที</td>
   </tr>
   <tr>
     <td width="40%" class="title2">ความเอียง</td>
@@ -174,19 +174,19 @@
   </tr>
   <tr>
     <td width="40%" class="title">พื้นที่ผิว</td>
-    <td align="left" class="tablecontent">7.5×10<sup>7</sup> กม.²</td>
+    <td align="left" class="tablecontent">7.5×10<sup>7</sup> ตารางกิโลเมตร</td>
   </tr>
   <tr>
     <td width="40%" class="title2">ปริมาตร</td>
-    <td align="left" class="tablecontent2">6.1×10<sup>10</sup> กม.³</td>
+    <td align="left" class="tablecontent2">6.1×10<sup>10</sup> ลูกบาศก์กิโลเมตร</td>
   </tr>
   <tr>
     <td width="40%" class="title">มวล</td>
-    <td align="left" class="tablecontent">3.302×10<sup>23</sup> กก.</td>
+    <td align="left" class="tablecontent">3.302×10<sup>23</sup> กิโลกรัม</td>
   </tr>
   <tr>
     <td width="40%" class="title2">ความหนาแน่นเฉลี่ย</td>
-    <td align="left" class="tablecontent2">5.427 กรัม/ซม.³</td>
+    <td align="left" class="tablecontent2">5.427 กรัมต่อลูกบาศก์เซนติเมตร</td>
   </tr>
   <tr>
     <td width="40%" class="title">คาบการหมุนรอบตัวเอง</td>
@@ -194,7 +194,7 @@
   </tr>
   <tr>
     <td width="40%" class="title2 bottomleft">ความเร็วการหมุนรอบตัวเอง</td>
-    <td align="left" class="tablecontent2 bottomright">10.892 กม./ชม.</td>
+    <td align="left" class="tablecontent2 bottomright">10.892 กิโลเมตรต่อชั่วโมง</td>
   </tr>
 </table>
 </td>
@@ -213,64 +213,84 @@
 	 <h2 class="titlewhite">โครงสร้าง</h2>
  		</div>
 	 <div class="wow fadeInUp animated animated" data-wow-delay=".65s" style="visibility: visible; animation-delay: 0.65s; animation-name: fadeInUp;">
-	 <h3 class="titlewhite">แกน</h3>
-		<p>ส่วนแกนของดวงอาทิตย์สันนิษฐานว่ามีรัศมีเป็น 0.2 เท่าของรัศมีดวงอาทิตย์ ความหนาแน่นประมาณ 150,000 กิโลกรัมต่อลูกบาศก์เมตร หรือ 150 เท่าของความหนาแน่นของน้ำบนโลก อุณหภูมิประมาณ 13,600,000 เคลวิน ตลอดชีวิตส่วนใหญ่ของดวงอาทิตย์ ภายในแกนจะมีปฏิกิริยาฟิวชันลูกโซ่ โปรตอน-โปรตอน ซึ่งเปลี่ยนไฮโดรเจนเป็นฮีเลียม พลังงานที่ได้นี้ทำให้ส่วนที่เหลือของดวงอาทิตย์สุกสว่างและเปล่งแสง</p>
+	 <h3 class="titlewhite">บรรยากาศ</h3>
+		<p style="margin-bottom:10px;">ดาวพุธมีชั้นบรรยากาศเบาบางและมีสเถียรภาพต่ำอันเกิดจากการที่ดาวพุธมีขนาดเล็กจนไม่มีแรงดึงดูดเพียงพอในการกักเก็บอะตอมของก๊าซเอาไว้ ชั้นบรรยากาศของดาวพุธประกอบไปด้วยไฮโดรเจน, ฮีเลียม, ออกซิเจน, โซเดียม, แคลเซียม, โพแทสเซียม และ น้ำ มีความดันบรรยากาศประมาณ 10<sup>-14</sup> บาร์</p>
+		<div class="col-md-3 baner-top wow fadeInRight animated animated" data-wow-delay=".65s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;width:360px; margin-right:7.5px;">
+					 <div class="gal-spin-effect vertical ">
+						 <img src="../images/MercuryAtmosphere.jpg" />
+						 <div class="gal-text-box">
+						 <div class="info-gal-con">
+							 <h5>บรรยากาศของดาวพุธ</h5>
+						 </div>
+						 </div>
+			 </div>
+		</div>
+		<p style="margin-bottom:10px;">บรรยากาศของดาวพุธมีการสูญเสียและถูกทดแทนอยู่ตลอดเวลาโดยมีแหล่งที่มาหลายแหล่ง ไฮโดรเจนและฮีเลียมอาจจะมาจากลมสุริยะ พวกมันแพร่เข้ามาผ่านสนามแม่เหล็กของดาวพุธก่อนจะหลุดออกจากบรรยากาศในที่สุด การสลายตัวของสารกัมมันตรังสี จากแกนของดาวก็อาจจะเป็นอีกแหล่งหนึ่งที่ช่วยเติมฮีเลียม โซเดียม และโพแทสเซียมให้กับบรรยากาศดาวพุธ</p>
+		<p style="margin-bottom:10px;">ไม่เคยถูกแสงอาทิตย์โดยตรงเลย การสำรวจได้เผยให้เห็นถึงแถบสะท้อนเรดาร์ขนาดใหญ่อยู่บริเวณขั้วของดาว ซึ่งน้ำแข็งเป็นหนึ่งในสารไม่กี่ชนิดที่สามารถสะท้อนเรดาร์ได้ดีเช่นนี้</p>
+		<p>บริเวณที่มีน้ำแข็งนั้นเชื่อกันว่าอยุ่ลึกลงไปใต้พื้นผิวเพียงไม่กี่เมตร และมีน้ำแข็งประมาณ 10<sup>14</sup> - 10<sup>15</sup> กก. เปรียบเทียบกับน้ำแข็งที่แอนตาร์กติกาของโลกเราที่มีน้ำแข็งอยู่ 4 x 10<sup>18</sup> กิโลกรัม ที่มาของน้ำแข็งบนดาวพุธยังไม่แน่ชัด แต่เชื่อกันว่าอาจจะมีที่มาจากดาวหางที่พุ่งชนดาวพุธเมื่อหลายล้านปีก่อน หรืออาจจะมาจากภายในของดาวพุธเอง</p>
 		</div>
 		<div class="wow fadeInUp animated animated" data-wow-delay=".65s" style="visibility: visible; animation-delay: 0.65s; animation-name: fadeInUp;">
-		<div class="col-md-3 baner-top wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;width: 400px;">
-				<a href="../images/SolarStructure.png" class="b-link-stripe b-animate-go swipebox" title="โครงสร้างของดวงอาทิตย์">
-					<div class="gal-spin-effect vertical ">
-						<img src="../images/SolarStructure.png" />
-						<div class="gal-text-box">
-						<div class="info-gal-con">
-							<h5>ภาพประกอบ<br>โครงสร้างของดวงอาทิตย์</h5>
-							<div id="px"></div>
-							<span class="separator"></span>
-							<p class="description">คลิกเพื่อดูรูปภาพขนาดเต็ม</p>
-							<span class="separator"></span>
-						</div>
-						</div>
-					</div>
-				</a>
-		</div>
-	 <h3 class="titlewhite">เขตแผ่รังสีความร้อน</h3>
-		<p>ในส่วนของเขตแผ่รังสีความร้อน (Radiation zone) ซึ่งอยู่ในช่วง 0.2 ถึง 0.7 ส่วนของรัศมีดวงอาทิตย์ ในชั้นนี้ไม่มีการพาความร้อน (Convection) เพราะอัตราความแตกต่างของอุณหภูมิเทียบกับระยะความสูงน้อยกว่าอัตรา การเปลี่ยนอุณหภูมิตามความสูงแบบอะเดียแบติก (Adiabatic lapse rate) พลังงานในส่วนนี้ถูกนำออกมาภายนอกช้ามากดังที่ได้กล่าวไว้ก่อนแล้ว</p>
-		<h3 class="titlewhite">เขตพาความร้อน</h3>
- 		<p>ในส่วนของเขตพาความร้อน (Convection zone) ซึ่งอยู่บริเวณผิวนอกที่เหลือ เป็นส่วนที่พลังงานถูกถ่ายเทผ่านแท่งความร้อน (Heat column) โดยเนื้อสารที่ร้อนและมีพลังงานเริ่มต้นจากด้านล่าง แล้วไหลขึ้นด้านบนจนถึงผิว จากนั้นถ่ายเทความร้อนและกลับลงไปใหม่ แท่งความร้อนสามารถสังเกตได้จาก “เกล็ด” บนภาพถ่ายผิวดวงอาทิตย์</p>
+		<div class="col-md-3 baner-top wow fadeInRight animated animated" data-wow-delay=".65s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;width:230px; float:right; margin-left:7.5px;">
+			 <a href="../images/MercurySurface.png" class="b-link-stripe b-animate-go  swipebox" title="ดาวพุธเต็มไปด้วยหลุมอุกกาบาต">
+				 <div class="gal-spin-effect vertical ">
+					 <img src="../images/MercurySurface.png" />
+					 <div class="gal-text-box">
+					 <div class="info-gal-con">
+						 <h5>ดาวพุธเต็มไปด้วยหลุมอุกกาบาต</h5>
+						 <span class="separator"></span>
+						 <p class="description">คลิกเพื่อดูรูปภาพขนาดเต็ม</p>
+						 <span class="separator"></span>
+					 </div>
+					 </div>
+				 </div>
+			 </a>
+	 </div>
+	 <h3 class="titlewhite">ภูมิประเทศ</h3>
+		<p>ดาวพุธมีหลุมอุกกาบาตจำนวนมากจนดูคล้ายดวงจันทร์ ภูมิลักษณ์ที่เด่นที่สุดบนดาวพุธ (เท่าที่สามารถถ่ายภาพได้) คือ แอ่งแคลอริส หลุมอุกกาบาตที่มีเส้นผ่านศูนย์กลางประมาณ 1,350 กิโลเมตร ผิวดาวพุธมีผาชันอยู่ทั่วไป ซึ่งก่อตัวขึ้นเมื่อหลายพันล้านปีที่แล้ว ขณะที่ใจกลางดาวพุธเย็นลงพร้อมกับหดตัว จนทำให้เปลือกดาวพุธย่นยับ พื้นที่ส่วนใหญ่ของดาวพุธปกคลุมด้วยที่ราบ 2 แบบที่มีอายุต่างกัน ที่ราบที่มีอายุน้อยจะมีหลุมอุกกาบาตหนาแน่นน้อยกว่า เป็นเพราะมีลาวาไหลมากลบหลุมอุกกาบาตที่เกิดก่อนหน้า</p>
 		</div>
 		<div class="wow fadeInUp animated animated" data-wow-delay=".65s" style="visibility: visible; animation-delay: 0.65s; animation-name: fadeInUp;">
-		<h3 class="titlewhite" style="padding-top:10px !important">โฟโตสเฟียร์</h3>
- 		<p>ในส่วนของโฟโตสเฟียร์ (Photosphere) แปลว่า ทรงกลมแห่งแสง ซึ่งเป็นส่วนที่เรามองเห็นดวงอาทิตย์ แสงสว่างที่เปล่งในดวงอาทิตย์นั้นเกิดจากอิเล็กตรอนชนกับอะตอมไฮโดรเจนเกิดเป็น H- เหนือชั้นนี้ แสงอาทิตย์ก็จะถูกปลดปล่อยออกมา และมีอุณหภูมิต่ำลงตามความสูงที่มากขึ้น จนทำให้สังเกตเห็นรอยมัวตรงขอบดวงอาทิตย์ในภาพถ่าย</p>
+		<h3 class="titlewhite" style="padding-top:10px !important">องค์ประกอบภายใน</h3>
+ 		<p>ดาวพุธมีแก่นที่ประกอบด้วยเหล็กในสัดส่วนที่สูง (แม้เมื่อเปรียบเทียบกับโลก) เป็นโลหะประมาณ 70% ที่เหลืออีก 30% เป็นซิลิเกต ความหนาแน่นเฉลี่ยมีค่า 5,430 กิโลกรัม/ลูกบาศก์เมตร ซึ่งน้อยกว่าความหนาแน่นของโลกอยู่เล็กน้อย สาเหตุที่ดาวพุธมีเหล็กอยู่มากแต่มีความหนาแน่นต่ำกว่าโลก เป็นเพราะในโลกมีการอัดตัวแน่นกว่าดาวพุธ ดาวพุธมีมวลเพียง 5.5% ของมวลโลก แก่นที่เป็นเหล็กมีปริมาตรราว 42% ของดวง (แก่นโลกมีสัดส่วนเพียง 17%) ล้อมรอบด้วยเนื้อดาวหรือแมนเทิลหนา 600 กิโลเมตร</p>
+		<div class="col-md-3 baner-top wow fadeInUp animated animated" data-wow-delay=".65s" style="visibility: visible; animation-delay: 0.65s; animation-name: fadeInUp;width:350px; float:none; margin:0 auto;">
+ 				 <div class="gal-spin-effect vertical">
+ 					 <img src="../images/MercuryStructure.png" />
+ 					 <div class="gal-text-box">
+ 					 <div class="info-gal-con">
+ 						 <h5>โครงสร้างของดาวพุธ</h5>
+ 						 <div id="px"></div>
+ 						 <p class="descriptionnoviewfull">
+						1. เปลือก - หนา 100–200 กม.<br>
+						2. แมนเทิล - หนา 600 กม.<br>
+						3. แกน - รัศมี 1,800 กม.</p>
+ 					 </div>
+ 					 </div>
+ 				 </div>
+ 	 </div>
 		</div>
-		<div class="wow fadeInUp animated animated" data-wow-delay=".65s" style="visibility: visible; animation-delay: 0.65s; animation-name: fadeInUp;">
-		<h3 class="titlewhite">บรรยากาศ</h3>
- 		<p class="normal">บรรยากาศของดวงอาทิตย์ประกอบด้วย 5 ชั้น ได้แก่ <strong>ชั้นอุณหภูมิต่ำสุด (Temperature minimum) โครโมสเฟียร์ (Chromosphere) เขตเปลี่ยนผ่าน (Transition region) โคโรนา (Corona) และเฮลิโอสเฟียร์ (Heliosphere)</strong> ตามลำดับจากต่ำไปสูง
-			<p>ชั้นแรก ชั้นอุณหภูมิต่ำสุด มีอุณหภูมิประมาณ 4,000 เคลวิน และหนา 500 กิโลเมตร ชั้นถัดไปคือโครโมสเฟียร์ ซึ่งแปลว่ารงคมณฑล หรือทรงกลมแห่งสี เหตุที่เรียกชื่อนี้ก็เพราะเห็นเป็นแสงสีแวบขณะเกิดสุริยุปราคา ชั้นนี้หนา 2,000 กิโลเมตร ชั้นต่อไปเป็นเขตเปลี่ยนผ่านซึ่งอุณหภูมิอาจติดลบถึงล้านเคลวิน และยิ่งต่ำขึ้นไปอีกในชั้นโคโรนา ทำให้สิ่งนี้เป็นปัญหาคาใจนักวิทยาศาสตร์ ซึ่งก็สันนิษฐานว่าอาจเกิดจากการต่อเชื่อมทางแม่เหล็ก (Magnetic connection) ชั้นที่เหลือชั้นสุดท้ายคือ เฮลิโอสเฟียร์ หรือสุริยมณฑล คือชั้นที่อำนาจของลมสุริยะสามารถไปถึง ซึ่งอาจมากกว่า 20 หน่วยดาราศาสตร์ (20 เท่าของระยะทางจากโลกถึงดวงอาทิตย์)
-		</p>
 		</div>
 		</div>
 		</div>
 </div>
 
-	<div class="content parallax" id="sunparallax">
+	<div class="content parallax" id="mercuryparallax">
 		<div class="container">
 		<div class="contentbodynormal">
 		<div class="wow fadeInUp animated animated" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
-	 <h2 class="titlenormal">ประวัติศาสตร์</h2>
+	 <h2 class="titlenormal">การเคลื่อนที่</h2>
  		</div>
 	 <div class="wow fadeInUp animated animated" data-wow-delay=".65s" style="visibility: visible; animation-delay: 0.65s; animation-name: fadeInUp;">
-	 <h3 class="titlenormal">ความเข้าใจในอดีต</h3>
-		<p>มนุษย์ในอดีตรู้เกี่ยวกับดวงอาทิตย์เพียงเป็นลูกไฟกลม ขึ้นจากท้องฟ้าในทิศตะวันตก ทำให้เกิดกลางคืนและตกลงไปทางทิศตะวันออก ทำให้เกิดกลางวัน ดวงอาทิตย์ให้ทั้งความมืด ความเย็น ตลอดจนความสิ้นหวังในจิตใจ จนมีการนับถือดวงอาทิตย์ให้เป็นเทพเจ้า มีการบูชายัญถวายเทพพระอาทิตย์ของชาวอัซเตก (Aztec) ซึ่งปัจจุบันอยู่ในประเทศเม็กซิโก นอกเหนือจากนี้ มนุษย์ในสมัยโบราณยังได้สร้างสิ่งประดิษฐ์สำหรับบอกตำแหน่งของดวงอาทิตย์ในวันอุตรายัน (Summer solstice) ซึ่งเป็นวันที่กลางวันยาวที่สุดในรอบปี คือประมาณวันที่ 24 มิถุนายน เช่นที่เสาหินสโตนเฮนจ์ ในประเทศอังกฤษ และพีระมิดเอลกัสตีโย (El Castillo) ประเทศเม็กซิโก</p>
+		<p class="normal wow fadeInUp animated animated" data-wow-delay=".65s" style="visibility: visible; animation-delay: 0.65s; animation-name: fadeInUp;">
+		ดาวพุธเคลื่อนรอบดวงอาทิตย์เร็วที่สุด โดยใช้เวลาเพียง 87.969 วันในการโคจรรอบดวงอาทิตย์ 1 รอบ ดาวพุธหมุนรอบตัวเองในทิศทางเดียวกับการเคลื่อนรอบดวงอาทิตย์ คือ จากทิศตะวันตกไปทิศตะวันออก หมุนรอบตัวเองรอบละ 58.6461 วัน เมื่อพิจารณาจากคาบของการหมุนรอบตัวเองและการคาบการเคลื่อนที่รอบดวงอาทิตย์ จะพบว่าระยะเวลากลางวันถึงกลางคืนบนดาวพุธยาวนานถึง 176 วัน ซึ่งยาวนานที่สุดในระบบสุริยะ</p>
+ 		</div>
 		</div>
-		<div class="wow fadeInUp animated animated" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
- 	 <h3 class="titlenormal">การพัฒนาแนวความคิดสมัยใหม่</h3>
-	 <div class="col-md-3 baner-top wow fadeInRight animated animated" data-wow-delay=".65s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;width:330px; float:right; margin-left:7.5px;">
-			 <a href="../images/Anaxagoras.jpg" class="b-link-stripe b-animate-go  swipebox" title="อะนักซากอรัสบนจิตรกรรมฝาผนังที่มหาวิทยาลัยเอเธนส์">
+		</div>
+		<div class="col-md-3 baner-top wow fadeInRight animated animated" data-wow-delay=".65s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;width:300px; float:none; margin: 15px auto 0 auto;">
+			 <a href="../images/MercuryOrbit.png" class="b-link-stripe b-animate-go  swipebox" title="วงโคจรของดาวพุธ">
 				 <div class="gal-spin-effect vertical ">
-					 <img src="../images/Anaxagoras.jpg" />
+					 <img src="../images/MercuryOrbit.png" />
 					 <div class="gal-text-box">
 					 <div class="info-gal-con">
-						 <h5>อะนักซากอรัสบนจิตรกรรมฝาผนัง<br>ที่มหาวิทยาลัยเอเธนส์</h5>
+						 <h5>วงโคจรของดาวพุธ</h5>
 						 <div id="px"></div>
 						 <span class="separator"></span>
 						 <p class="description">คลิกเพื่อดูรูปภาพขนาดเต็ม</p>
@@ -280,32 +300,6 @@
 				 </div>
 			 </a>
 	 </div>
-	 		<p class="normal">ต่อมานักปราชญ์ชาวกรีกชื่อ <strong>อะนักซากอรัส (Anaxagoras)</strong> ได้เสนอว่า ดวงอาทิตย์เป็นลูกไฟกลม ไม่ได้เป็นพระอาทิตย์ทรงพาหนะ ทำให้เขาต้องโทษประหารชีวิตในเวลาต่อมา ต่อมามีการสันนิษฐานว่าเอราโตสเทเนส ได้วัดระยะห่างจากโลกไปดวงอาทิตย์ได้เที่ยงตรงเป็นคนแรกในช่วงศตวรรษที่ 3 ก่อนคริสตกาล ซึ่งวัดได้ 149 ล้านกิโลเมตร ใกล้เคียงกับที่ยอมรับในปัจจุบัน
-			<p>
-		ในเวลาต่อมา ชาวกรีกโบราณและชาวอินเดียโบราณตั้งสมมติฐาน โลกโคจรรอบดวงอาทิตย์ และต่อมาก็ได้รับการพิสูจน์โดยนิโคเลาส์ โคเปอร์นิคัสในช่วงศตวรรษที่ 16 ต่อมาทอมัส แฮร์ริออต (Thomas Harriot) กาลิเลโอ กาลิเลอิ และนักดาราศาสตร์คนอื่น ๆ สังเกตพบจุดดำบนดวงอาทิตย์ โดยกาลิเลโอเสนอว่าจุดดำบนดวงอาทิตย์คือจุดที่เกิดบนผิวดวงอาทิตย์โดยตรง มิได้เป็นวัตถุเคลื่อนที่มาบัง ในปี พ.ศ. 2215 โจวันนี คาสซินี (Giovanni Cassini) นักดาราศาสตร์ชาวอิตาลี และชอง รีเช (Jean Richer) นักดาราศาสตร์ชาวฝรั่งเศส ได้หาระยะทางจากโลกไปดาวอังคาร และอาจจะสามารถหาระยะทางไปดวงอาทิตย์ได้หลังจากนั้น ไอแซก นิวตัน ได้สังเกตดวงอาทิตย์โดยให้แสงดวงอาทิตย์ผ่านปริซึม เขาพบว่าประกอบขึ้นด้วยหลาย ๆ แสงสี นั่นคือสิ่งที่เกิดขึ้นในรุ้งกินน้ำ ต่อมาวิลเลียม เฮอร์เชล ได้ค้นพบการแผ่รังสีอินฟราเรดในช่วงใต้แดงจากดวงอาทิตย์ เมื่อเทคโนโลยีสเปกตรัมก้าวหน้า โยเซฟ ฟอน เฟราน์โฮเฟอร์ (Joseph von Fraunhofer) ได้ค้นพบเส้นดูดกลืนในสเปกตรัมของดวงอาทิตย์ ซึ่งต่อมาเรียกว่า <strong>เส้นเฟราน์โฮเฟอร์ (Fraunhofer line)</strong></div>
-		<div class="col-md-3 baner-top wow fadeInUp animated animated" data-wow-delay=".65s" style="visibility: visible; animation-delay: 0.65s; animation-name: fadeInUp;width:700px; float:none; margin:20px auto 25px auto;">
- 			 <a href="../images/Fraunhofer_lines.jpg" class="b-link-stripe b-animate-go  swipebox" title="สเปกตรัมดวงอาทิตย์พร้อมกับเส้นเฟราน์โฮเฟอร์">
- 				 <div class="gal-spin-effect vertical">
- 					 <img src="../images/Fraunhofer_lines.jpg" />
- 					 <div class="gal-text-box">
- 					 <div class="info-gal-con">
- 						 <h5>สเปกตรัมดวงอาทิตย์พร้อมกับเส้นเฟราน์โฮเฟอร์</h5>
- 						 <div id="px"></div>
- 						 <span class="separator"></span>
- 						 <p class="description">คลิกเพื่อดูรูปภาพขนาดเต็ม</p>
- 						 <span class="separator"></span>
- 					 </div>
- 					 </div>
- 				 </div>
- 			 </a>
- 	 </div>
-		<p class="normal wow fadeInUp animated animated" data-wow-delay=".65s" style="visibility: visible; animation-delay: 0.65s; animation-name: fadeInUp;">
-		ช่วงแรก ๆ ของยุคใหม่ทางวิทยาศาสตร์ ปัญหาที่คาใจนักวิทยาศาสตร์ก็คือดวงอาทิตย์เอาพลังงานมาจากที่ใด ลอร์ดเคลวิน (วิลเลียม ทอมสัน) และแฮร์มันน์ ฟอน เฮล์มโฮลตซ์ (Hermann von Helmholtz) ได้เสนอกลไกเคลวิน-เฮล์มโฮลตซ์ (Kelvin-Helmholtz mechanism) ในการอธิบายการพาความร้อนขึ้นสู่ผิวดวงอาทิตย์ ต่อมาในปี พ.ศ. 2447 เออร์เนสต์ รัทเทอร์ฟอร์ด เสนอว่าพลังงานในดวงอาทิตย์มาจากปฏิกิริยาการคายพลังงานจากอนุภาคที่ถูกกระตุ้น แต่ก็คงอธิบายไม่ละเอียดเท่าของอัลเบิร์ต ไอน์สไตน์ ซึ่งเป็นเจ้าของสมการสมมูลมวล-พลังงาน E=mc<sup>2</sup>
-		<p class="wow fadeInUp animated animated" data-wow-delay=".65s" style="visibility: visible; animation-delay: 0.65s; animation-name: fadeInUp;">
-		ในปี พ.ศ. 2463 อาร์เทอร์ เอดดิงตัน เสนอว่าความร้อนและความดันภายในแกนเป็นตัวการที่ทำให้เกิดปฏิกิริยาฟิวชัน และก่อให้เกิดการเปลี่ยนแปลงมวลและพลังงาน สิบปีต่อมาทฤษฎีนี้เริ่มเป็นรูปเป็นร่าง โดยสุพราห์มันยัน จันทรเสกขา (Subrahmanyan Chandrasekar) นักดาราศาสตร์ชาวอเมริกันเชื้อสายอินเดีย และฮันส์ เบเทอ (Hans Bethe) นักดาราศาสตร์ชาวอเมริกันเชื้อสายเยอรมัน</p>
- 		</div>
-		</div>
-		</div>
 	</div>
 
 		<div class="contentwhite">
@@ -313,29 +307,16 @@
 			<div class="contentbodywhite">
 			<div class="wow fadeInUp animated animated" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
 		 <h2 class="titlewhite">การสำรวจ</h2>
+		 <div class="wow fadeInUp animated animated" data-wow-delay=".65s" style="visibility: visible; animation-delay: 0.65s; animation-name: fadeInUp;">
+		 <h3 class="titlewhite">โครงการมาริเนอร์ 10 <sup>(พ.ศ. 2516-2518)</sup></h3>
 	 		</div>
-			<div class="wow fadeInUp animated animated" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
-			<div class="col-md-3 baner-top wow fadeInRight animated animated" data-wow-delay=".65s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;width:310px; float:right; margin-left:7.5px;">
-	 				 <div class="gal-spin-effect vertical ">
-	 					 <img src="../images/Yohkoh.jpg" />
-	 					 <div class="gal-text-box">
-	 					 <div class="info-gal-con">
-	 						 <h5>ยานโยะโกะ</h5>
-	 					 </div>
-	 					 </div>
-	 				 </div>
-	 	 </div>
-	 	 		<p class="normal">องค์การนาซาได้เคยปล่อยยานสำรวจดวงอาทิตย์ในโครงการไพโอเนียร์ ซึ่งปล่อยช่วงปี พ.ศ. 2502 ถึง พ.ศ. 2511 โดยทำการตรวจวัดสนามแม่เหล็กของดวงอาทิตย์และลมสุริยะ ต่อมาก็ได้ส่งยานสกายแล็บเมื่อปี พ.ศ. 2516 ทำการศึกษาโคโรนาของดวงอาทิตย์ และการพ่นมวลของโคโรนา ในปี พ.ศ. 2534 ญี่ปุ่นได้ส่ง <strong>ยานโยะโกะ (<span style="font-size:16px">阳光</span>)</strong> เพื่อศึกษาเพลิงสุริยะในช่วงรังสีเอกซ์ นอกจากนี้ยังแสดงให้เห็นว่า โคโรนาจะยุบลงในช่วงที่มีกิจกรรมบนผิวดวงอาทิตย์มาก ยานโยะโกะถูกปลดระวางเมื่อ พ.ศ. 2548
-	 			<p class="normal">ภารกิจสำรวจดวงอาทิตย์ที่เรารู้จักกันมักหนีไม่พ้นหอสังเกตการณ์ดวงอาทิตย์และสุริยมณฑลหรือโซโฮ (Solar and Heliospheric Observatory; SOHO) อันเป็นความร่วมมือระหว่างสหรัฐอเมริกา และสหภาพยุโรป ถูกปล่อยเมื่อวันที่ 2 ธันวาคม พ.ศ. 2538 เดิมทีกำหนดให้ปฏิบัติงานสองปี แต่กลับปฏิบัติงานมากกว่า 10 ปี ยานโซโฮเป็นยานสังเกตการณ์ที่ทำให้เรารู้หลายอย่างเกี่ยวกับดวงอาทิตย์มากขึ้นในหลาย ๆ ช่วงคลื่นแม่เหล็กไฟฟ้า และยังสังเกตเห็นดาวหางที่พุ่งชนดวงอาทิตย์ด้วย ส่วนอีกโครงการหนึ่งที่มีแผนจะปล่อยขึ้นสู่ห้วงอวกาศในเดือนสิงหาคม ปี พ.ศ. 2551 คือโครงการหอสังเกตการณ์สุริยพลวัต (Solar Dynamic Observatory) ซึ่งจะนำไปไว้ยังจุดลากรองจ์ (Lagrangian point) หรือจุดสะเทินแรงดึงดูด ระหว่างโลกกับดวงอาทิตย์</div>
-				<p class="wow fadeInUp animated animated" data-wow-delay=".65s" style="visibility: visible; animation-delay: 0.65s; animation-name: fadeInUp;">
-				นอกเหนือจากนี้ ยังมีโครงการสังเกตระบบสุริยะจากมุมอื่น โดยมีการส่งยานยุลลิซิส (Ulysses) เมื่อ พ.ศ. 2533 โดยให้ไปยังดาวพฤหัสบดีเพื่อเหวี่ยงตัวขึ้นเหนือระนาบระบบสุริยะ ครานั้นยานสามารถสังเกตเห็นดาวหางชูเมกเกอร์-เลวี 9 ชนดาวพฤหัสบดีในปี พ.ศ. 2537 เมื่อยานยุลลิซิสถึงที่หมาย ก็จะทำการสำรวจลมสุริยะและสนามแม่เหล็กที่ละติจูดสูง ๆ และพบว่าอัตราเร็วลมสุริยะอยู่ที่ 750 กิโลเมตรต่อวินาที ซึ่งช้ากว่าที่ได้คาดไว้ และยังมีสนามแม่เหล็กที่ทำให้รังสีคอสมิกกระเจิงด้วย</p>
-				<div class="col-md-3 baner-top wow fadeInUp animated animated" data-wow-delay=".65s" style="visibility: visible; animation-delay: 0.65s; animation-name: fadeInUp; width:400px; float:none; margin:auto;">
-		 			 <a href="../images/SOHO.jpg" class="b-link-stripe b-animate-go  swipebox" title="ภาพถ่ายพวยเพลิงสุริยะโดยเครื่องมือ 4 ชิ้นบนยานโซโฮ">
+			<div class="col-md-3 baner-top wow fadeInRight animated animated" data-wow-delay=".65s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;width:400px; float:right; margin-left:7.5px;">
+	 			<a href="../images/mariner10.gif" class="b-link-stripe b-animate-go  swipebox" title="ยานมาริเนอร์ 10">
 		 				 <div class="gal-spin-effect vertical">
-		 					 <img src="../images/SOHO.jpg" />
+		 					 <img src="../images/mariner10.gif" />
 		 					 <div class="gal-text-box">
 		 					 <div class="info-gal-con">
-		 						 <h5>ภาพถ่ายพวยเพลิงสุริยะโดย<br>เครื่องมือ 4 ชิ้นบนยานโซโฮ</h5>
+		 						 <h5>ยานมาริเนอร์ 10</h5>
 		 						 <div id="px"></div>
 		 						 <span class="separator"></span>
 		 						 <p class="description">คลิกเพื่อดูรูปภาพขนาดเต็ม</p>
@@ -344,171 +325,40 @@
 		 					 </div>
 		 				 </div>
 		 			 </a>
-		 	 </div>
+			</div>
+	 	 		<p class="normal">ยานถูกส่งออกจากโลกเมื่อวันที่ 3 พฤศจิกายน พ.ศ. 2516 และสิ้นสุดโครงการในเดือนมีนาคม 2518 ระหว่างทางไปดาวพุธได้ถ่ายภาพเมฆบนดาวศุกร์ หลังจากนั้น ก็ไปโคจรรอบดวงอาทิตย์ ทำให้สามารถผ่านใกล้ดาวพุธ 3 ครั้ง ใน พ.ศ. 2517 และ 2518 และบันทึกภาพแล้วส่งกลับมายังโลกได้ 2,700 ภาพ ครอบคลุมพื้นผิว 1 ใน 3 ของดาวพุธ นอกจากนี้ ยังได้ตรวจวัดสนามแม่เหล็ก และอุณหภูมิพื้นผิวของดาวพุธ</p>
+				<h4 class="titlewhite">เป้าหมายโครงการ</h4>
+				<p class="normal">เพื่อศึกษาสำรวจ ถ่ายภาพ ลักษณะกายภาพของดาวพุธและดาวศุกร์ โดยมุ่งเน้นการสำรวจดาวพุธ เป็นสำคัญ ยานตรวจสอบบรรยากาศ สนามแม่เหล็ก พลาสมา รังสีอินฟราเรด รังสีอัลตราไวโอเลท คลื่นวิทยุ จากดาวพุธ</p>
+				<p class="normal" style="margin-bottom:40px !important;">ยานมาริเนอร์ 10 เป็นโครงการแรกที่อาศัยแรงโน้มถ่วงของดาวศุกร์ เพิ่มความเร่งส่งยานต่อไป ยังดาวพุธได้สำเร็จ เป็นยานอวกาศลำเดียวในอดีตที่ไปสำรวจดาวพุธ ยานใช้กล้องเรดาร์ถ่ายภาพ เปิดเผยลักษณะพื้นผิวที่เต็มไปด้วยหลุมอุกกาบาตมากมาย ยานโคจรเข้าใกล้ดาวพุธหลายรอบ แต่ละรอบ เป็นช่วงที่ดาวพุธหันด้านหนึ่งเข้าหาดวงอาทิตย์ จึงได้ภาพถ่ายดาวพุธเพียงด้านเดียว และยังไม่เคยเห็นอีกด้านหนึ่งของดาวพุธเลย</p></div>
+				
+				<div class="wow fadeInUp animated animated" data-wow-delay=".65s" style="visibility: visible; animation-delay: 0.65s; animation-name: fadeInUp;">
+				<h3 class="titlewhite">โครงการเมสเซนเจอร์ <sup>(พ.ศ. 2547-2558)</sup></h3>
+				<p class="normal">ยานเมสเซนเจอร์ หรือ MESSENGER <i>(ย่อจาก <strong>ME</strong>rcury <strong>S</strong>urface, <strong>S</strong>pace <strong>EN</strong>vironment, <strong>GE</strong>ochemistry and <strong>R</strong>anging probe)</i> เป็นยานอวกาศขององค์การนาซา ส่งขึ้นจากพื้นโลกเมื่อวันที่ 3 สิงหาคม พ.ศ. 2547 มีเป้าหมายเพื่อสำรวจพื้นผิวของดาวพุธ เป็นโครงการแรกในรอบ 30 ปีที่มีการส่งยานไปสำรวจดาวพุธ ยานเพียงลำเดียวก่อนหน้านี้คือ ยานมาริเนอร์ 10 ซึ่งสิ้นสุดภารกิจไปตั้งแต่เดือนมีนาคม พ.ศ. 2518</p>
+				<div class="col-md-3 baner-top wow fadeInRight animated animated" data-wow-delay=".65s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;float:right;width:420px; margin-left:7.5px;">
+	 			<a href="../images/MESSENGER.jpg" class="b-link-stripe b-animate-go  swipebox" title="ยานเมสเซนเจอร์กับดาวพุธ">
+		 				 <div class="gal-spin-effect vertical">
+		 					 <img src="../images/MESSENGER.jpg" />
+		 					 <div class="gal-text-box">
+		 					 <div class="info-gal-con">
+		 						 <h5>ยานเมสเซนเจอร์กับดาวพุธ</h5>
+		 						 <div id="px"></div>
+		 						 <span class="separator"></span>
+		 						 <p class="description">คลิกเพื่อดูรูปภาพขนาดเต็ม</p>
+		 						 <span class="separator"></span>
+		 					 </div>
+		 					 </div>
+		 				 </div>
+		 			 </a>
+			</div>
+				<h4 class="titlewhite">เป้าหมายโครงการ</h4>
+				<p class="normal">เพื่อศึกษาลักษณะและสภาพแวดล้อมของดาวพุธจากวงโคจร โดยเฉพาะเรื่ององค์ประกอบพื้นผิว ประวัติทางธรณีวิทยา แกนใจกลางและชั้นหินใต้ผิว สนามแม่เหล็ก บรรยากาศ ค้นหาน้ำหรือ ซากน้ำแข็งที่อาจฝังอยู่ที่ขั้วทั้งสองของดาวพุธ</p>
+				<p class="normal">ยานเมสเซนเจอร์ได้บินผ่านดาวพุธเป็นครั้งแรกเมื่อวันที่ 14 มกราคม พ.ศ. 2551 ที่ระดับความสูงประมาณ 200 กิโลเมตร จากพื้นผิว และตามกำหนดการที่วางไว้ ยานเมสเซนเจอร์จะบินผ่านดาวพุธอีก 2 ครั้งในวันที่ 6 ตุลาคม พ.ศ. 2551 และ 29 กันยายน พ.ศ. 2552 ก่อนจะเข้าสู่วงโคจรในวันที่ 18 มีนาคม พ.ศ. 2554 เพื่อเริ่มภารกิจการสำรวจ</p>
+				<p class="normal">ภารกิจการสำรวจของเมสเซนเจอร์สิ้นสุดลงในวันที่ 30 เมษายน พ.ศ. 2558 เมื่อตัวยานได้พุ่งชนกับผิวดาวพุธ</p>
 			</div>
 			</div>
-
 			</div>
-			</div>
-	</div>
-
- <!--start-services-->
-	<div class="phenomena wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;" id="team">
-	 	  <div class="container">
-		  <h2 class="titlewhite">ปรากฏการณ์</h2>
-	 		<div class="box2">
-	 		   <div class="col-md-3 s-1 wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
-			   <a href="#">
-	 		   	<div class="view view-fifth">
-                    <img src="../images/Limb_darkening.jpg">
-                    <div class="mask">
-                        <h4>การมืดคล้ำที่ขอบ</h4>
-                        <p>การที่ความเข้มแสงของภาพดาวฤกษ์ค่อย ๆ เจือจางลงตั้งแต่จุดศูนย์กลางของภาพออกไปยังขอบของภาพ</p>
-                     </div>
-
-				    </div>
-				  </a>
-			<h3>การมืดคล้ำที่ขอบ</h3>
-				</div>
-		<div class="col-md-3 s-2 wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
-		<a href="#">
-	 		   	<div class="view view-fifth">
-                      <img src="../images/Corona.jpg">
-                       <div class="mask">
-                        <h4>โคโรนา</h4>
-                        <p>พลาสมาชนิดหนึ่งในชั้นบรรยากาศของดวงอาทิตย์หรือวัตถุท้องฟ้าอื่นๆ ที่แผ่พุ่งออกไปในอวกาศเป็นระยะทางหลายล้านกิโลเมตร</p>
-                     </div>
-
-				    </div>
-				  </a>
-				<h3>โคโรนา</h3>
-				</div>
-			  <div class="col-md-3 s-3 wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
-			  <a href="#">
-	 		   	<div class="view view-fifth">
-                     <img src="../images/Sunspot.jpg">
-                    <div class="mask">
-                        <h4>จุดมืดดวงอาทิตย์</h4>
-                        <p>พื้นที่ส่วนหนึ่งบนชั้นโฟโตสเฟียร์ของดวงอาทิตย์ซึ่งมีอุณหภูมิต่ำกว่าบริเวณโดยรอบ และมีสนามแม่เหล็กที่มีปั่นป่วนสูงมาก</p>
-                     </div>
-
-				    </div>
-				  </a>
-					<h3>จุดมืดดวงอาทิตย์</h3>
-				</div>
-				<div class="col-md-3 s-4 wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
-				 <a href="#">
-	 		   	 <div class="view view-fifth">
-                      <img src="../images/Maunder_Minimum.png">
-                    <div class="mask">
-                        <h4>ช่วงต่ำสุดมอนเดอร์</h4>
-                        <p>ชื่อใช้เรียกช่วงเวลาประมาณปี ค.ศ. 1645-1715 ซึ่งสังเกตพบจุดมืดดวงอาทิตย์ในปริมาณที่น้อยมาก</p>
-                     </div>
-
-				    </div>
-				  </a>
-					<h3>ช่วงต่ำสุดมอนเดอร์</h3>
-				</div>
-				<div class="col-md-3 s-1 wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
-				<a href="#">
-				 <div class="view view-fifth">
-									 <img src="../images/Solar_Maximum.gif">
-									 <div class="mask">
-											 <h4>โซลาร์แม็กซิมัม</h4>
-											 <p>ป็นช่วงเวลาที่มีปรากฏการณ์บนดวงอาทิตย์สูงที่สุดในวัฏจักรสุริยะ</p>
-										</div>
-
-					 </div>
-				 </a>
-		 <h3>โซลาร์แม็กซิมัม</h3>
-			 </div>
-	 <div class="col-md-3 s-2 wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
-	 <a href="#">
-				 <div class="view view-fifth">
-										 <img src="../images/Solar_flare.jpg">
-											<div class="mask">
-											 <h4>เปลวสุริยะ</h4>
-											 <p>การระเบิดใหญ่ในชั้นบรรยากาศของ<br>ดวงอาทิตย์ ที่ปลดปล่อยพลังงานออกมาถึง 6 × 1025 จูล</p>
-										</div>
-
-					 </div>
-				 </a>
-			 <h3>เปลวสุริยะ</h3>
-			 </div>
-			 <div class="col-md-3 s-3 wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
-			 <a href="#">
-				 <div class="view view-fifth">
-										<img src="../images/Solar_storm.gif">
-									 <div class="mask">
-											 <h4>พายุสุริยะ</h4>
-											 <p>ปรากฏการณ์ที่เกิดจากการที่ผิวดวงอาทิตย์ระเบิดขึ้นมาที่เรียกว่า "การระเบิดลุกจ้า"</p>
-										</div>
-
-					 </div>
-				 </a>
-				 <h3>พายุสุริยะ</h3>
-			 </div>
-			 <div class="col-md-3 s-4 wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
-				<a href="#">
-					<div class="view view-fifth">
-										 <img src="../images/Cosmic_ray.png" style="background:white;">
-									 <div class="mask">
-											 <h4>รังสีคอสมิก</h4>
-											 <p>รังสีพลังงานสูงอย่างยิ่งที่ส่วนใหญ่กำเนิดนอกระบบสุริยะ</p>
-										</div>
-
-					 </div>
-				 </a>
-				 <h3>รังสีคอสมิก</h3>
-			 </div>
-		 	<div id="wrap">
-   <div id="content">
-   <p style="opacity:0;">This will be centered</p>
-   </div>
-</div>
-			 <div class="col-md-3 s-4 wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
-				<a href="#">
-					<div class="view view-fifth">
-										 <img src="../images/Solar_wind.jpg">
-									 <div class="mask">
-											 <h4>ลมสุริยะ</h4>
-											 <p>กระแสของอนุภาคประจุไฟฟ้าที่ถูกปล่อยออกมาจากชั้นบรรยากาศชั้นนอกของดวงอาทิตย์สู่อวกาศ</p>
-										</div>
-
-					 </div>
-				 </a>
-				 <h3>ลมสุริยะ</h3>
-			 </div>
-			 <div class="col-md-3 s-4 wow fadeIn animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
-				<a href="#">
-					<div class="view view-fifth">
-										 <img src="../images/Spicules.jpg">
-									 <div class="mask">
-											 <h4>สปิคูล</h4>
-											 <p>ลำพลังงานในชั้นโครโมสเฟียร์ของดวงอาทิตย์ที่เปลี่ยนแปลงตลอดเวลา</p>
-										</div>
-
-					 </div>
-				 </a>
-				 <h3>สปิคูล</h3>
-			 </div>
-			 <div class="col-md-3 s-4 wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
-				<a href="#">
-					<div class="view view-fifth">
-										 <img src="../images/Analemma.jpg">
-									 <div class="mask">
-											 <h4>แอนาเล็มมา</h4>
-											 <p>เส้นโค้งที่แสดงถึงตำแหน่งเชิงมุมของดวงอาทิตย โดยมองจากโลก</p>
-										</div>
-
-					 </div>
-				 </a>
-				 <h3>แอนาเล็มมา</h3>
-			 </div>
-			 </div>
-			</div>
-	 	</div>
-	<!--end-team-->
+		</div>
+ 
 
 		<!--start-smooth-scrolling-->
 						<script type="text/javascript">
@@ -535,6 +385,7 @@
 
 
 <!--footer-->
+<div class="whitefooter">
 	<div class="footer2 wow fadeIn animated animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.75s; animation-name: fadeIn;">
 		<div class="footer-info">
 			<div class="container">
@@ -545,7 +396,9 @@
 					})</script>
 				</div>
 			</div>
-
+		</div>
+	</div>
+</div>
 <!--/footer-->
 
 <script>

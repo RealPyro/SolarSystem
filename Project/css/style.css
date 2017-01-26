@@ -1,9 +1,9 @@
 html {
-	background: radial-gradient(ellipse at bottom, #1b2735 0%, #000 100%) center center fixed;
+	background: radial-gradient(ellipse at bottom, #0a0c14 0%, #000 100%) center center fixed;
 	background-size: cover;
 	margin: 0px;
 	padding: 0px;
-	overflow-x: hidden;
+
 }
 
 
@@ -252,26 +252,26 @@ img {
 .contentbodynormal p {
 	margin-top: 5px;
 	margin-bottom:18px;
-  font-size: 1.5em;
+  font-size: 1.8em;
   color: #eeeeee;
-  line-height: 1.4em;
+  line-height: 1.3em;
 	text-align: justify;
 	text-justify: distribute;
 	text-indent: 30px;
 	width:100%;
-	font-family: Anuparp LT Thai !important;
+	font-family: MN Paethai !important;
 	}
 .contentbodywhite p {
 	margin-top: 5px;
 	margin-bottom:18px;
-	font-size: 1.5em;
+	font-size: 1.8em;
 	color: black;
-	line-height: 1.4em;
+	line-height: 1.3em;
 	text-align: justify;
 	text-justify: distribute;
 	text-indent: 30px;
 	width:100%;
-	font-family: Anuparp LT Thai !important;
+	font-family: MN Paethai !important;
 	}
 	
 h1 {
@@ -324,16 +324,13 @@ table.insidetable{
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
-	text-shadow: 1px 1px 3px black;
+	text-shadow: 1px 1px 2.5px black;
 }
 #sunparallax {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../images/SunParallax.jpg') !important;
 }
-
-@media only screen and (max-device-width: 1024px) {
-    .parallax {
-        background-attachment: scroll !important;
-    }
+#mercuryparallax {
+	background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .4)), url('../images/MercuryParallax.jpg') !important;
 }
 
 .tablecontent{
@@ -342,6 +339,7 @@ table.insidetable{
 	font-size:95%;
 	font-family:'Helvetica LT Thai Regular', sans-serif;
 	padding-bottom: 5px;
+	color:white;
 }
 .tablecontent2{
 	background: rgba(255, 255, 255, 0.25);
@@ -349,6 +347,7 @@ table.insidetable{
 	font-size:95%;
 	font-family:'Helvetica LT Thai Regular', sans-serif;
 	padding-bottom: 5px;
+	color:white;
 }
 td .starcontent {
 	background: rgba(232, 232, 232, 1);
@@ -359,8 +358,8 @@ td .starcontent {
 	text-align:justify;
 	text-justify: distribute;
 	text-indent: 1.6em;
-	font-size: 20.5px;
-	line-height:25px;
+	font-size: 22.5px;
+	line-height:26px;
 	z-index:1;
 	border-radius:15px;
 	-webkit-filter: drop-shadow(0 0 1.5px black);
@@ -437,7 +436,7 @@ td .starcontent {
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
 	text-align: center;
-	font-family: Anuparp LT Thai !important;
+	font-family: MN Paethai !important;
 	z-index:2;
 }
 
@@ -497,7 +496,7 @@ td .starcontent {
     border-color: #a22c48;
 }
 td .starcontent p{
-	font-family: Anuparp LT Thai !important;
+	font-family: MN Paethai !important;
 	margin-bottom:8px !important;
 }
 figure {
@@ -600,6 +599,14 @@ h2.titlenormal {
    color: #bfbfbf;
    text-shadow: -1px -1px black, -1px 1px black, 1px -1px black, 1px 1px black;
 }
+h4.titlewhite {
+		text-align: left;
+      font-size: 1.4em !important;
+		font-family: 'Helvetica LT Thai Bold', sans-serif !important;
+		color: black;
+		margin-bottom: 0.55em;
+		margin-top: 0;
+}
 h3.titlewhite {
 		text-align: left;
 		text-indent: 0.5em;
@@ -631,13 +638,9 @@ label{
 /* ::::: http://cloud.webtype.com/css/094b1fa9-6433-4dce-966d-931c186185d8.css ::::: */
 
 
-.center1 {
-      position: relative;
-      left: 50%;
-}
-.center2 {
-      position: relative;
-      left: -50%;
+.modal.in {
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 .down {
       position: absolute;
@@ -1508,6 +1511,13 @@ figure.effect-jazz:hover p {
 }
 p.description{
 	color:white;
+	font-size: 16px;
+	text-align:center;
+	text-indent:0;
+}
+p.descriptionnoviewfull{
+	color:white;
+	font-size: 20px !important;
 	text-align:center;
 	text-indent:0;
 }
@@ -1517,8 +1527,9 @@ p.description{
 	color: #FFF;
 	padding: 20px 20px 0px 13px;
 	text-align: center;
-	line-height: 1.5em;
-	font-family: Anuparp LT Thai !important;
+	line-height: 1.2em;
+	font-size:1.55em;
+	font-family: MN Paethai !important;
 }
 .view-fifth img {
    -webkit-transition: all 0.3s ease-in-out;
@@ -2001,9 +2012,13 @@ h2.sec-head {
     min-height: 400px;
 }
 .contentwhite {
-	width: 100%;
+	width: 100vw;
     min-height: 250px;
     padding: 5em 0;
+    background: rgba(232, 232, 232, 1);
+}
+
+.whitefooter {
     background: rgba(232, 232, 232, 1);
 }
 
@@ -2049,6 +2064,7 @@ td:first-child, th:first-child {
     -ms-transition: text-shadow 0.5s linear; /* IE 10 */
     -moz-transition: text-shadow 0.5s linear; /* Firefox */
     -webkit-transition: text-shadow 0.5s linear; /*safari and chrome */
+	color:white;
 }
 .titlename:hover {
    text-shadow: 0 0 5px rgba(255,255,255,0.8);
@@ -2177,14 +2193,14 @@ h3.single {
 }
 @media (max-width:1152px) {
 	td .starcontent {
-		font-size: 18.5px !important;
-		line-height: 23px !important;
+		font-size: 20px !important;
+		line-height: 23.5px !important;
 	}
 }
 @media (max-width:1280px) {
 	td .starcontent {
-		font-size: 20.5px ;
-		line-height: 25px ;
+		font-size: 22.5px ;
+		line-height: 26px ;
 	}
 	.welcome h1 {
   font-size:45px;
@@ -2557,14 +2573,14 @@ h4.tittle {
 
 @media screen and (max-width: 1024px){
 	td .starcontent {
-		font-size: 15.5px  !important;
-		line-height: 17.5px  !important;
+		font-size: 16.75px  !important;
+		line-height: 20.25px  !important;
 	}
 }
 @media screen and (max-width: 700px){
 	td .starcontent {
-		font-size: 13px  !important;
-		line-height: 15px  !important;
+		font-size: 13.6px  !important;
+		line-height: 17.25px  !important;
 	}
 }
 

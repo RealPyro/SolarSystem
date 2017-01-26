@@ -32,15 +32,3 @@
 	font-style: normal;
 }
 
-@font-face {
-    font-family: 'Anuparp Thai';
-    src: url('AnuparpThai.eot');
-    src: url('AnuparpThai.eot') format('embedded-opentype'),
-		 url('AnuparpThai.woff2') format('woff2'),
-         url('AnuparpThai.woff') format('woff'),
-         url('AnuparpThai.ttf') format('truetype'),
-         url('AnuparpThai.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
