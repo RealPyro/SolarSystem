@@ -3080,26 +3080,26 @@ fieldset[disabled] a.btn {
   pointer-events: none;
 }
 .btn-default {
-  color: #333;
-  background-color: #fff;
+  color: #fff;
+  background-color: #111111;
   border-color: #ccc;
 }
 .btn-default:focus,
 .btn-default.focus {
-  color: #333;
-  background-color: #e6e6e6;
+  color: #fff;
+  background-color: #abb5ee;
   border-color: #8c8c8c;
 }
 .btn-default:hover {
-  color: #333;
-  background-color: #e6e6e6;
+  color: #fff;
+  background-color: #abb5ee;
   border-color: #adadad;
 }
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #333;
-  background-color: #e6e6e6;
+  color: #fff;
+  background-color: #abb5ee;
   border-color: #adadad;
 }
 .btn-default:active:hover,
@@ -3111,8 +3111,8 @@ fieldset[disabled] a.btn {
 .btn-default:active.focus,
 .btn-default.active.focus,
 .open > .dropdown-toggle.btn-default.focus {
-  color: #333;
-  background-color: #d4d4d4;
+  color: #fff;
+  background-color: #abb5ee;
   border-color: #8c8c8c;
 }
 .btn-default:active,
@@ -5868,16 +5868,16 @@ button.list-group-item-danger.active:focus {
   line-height: 1;
   color: #000;
   text-shadow: 0 1px 0 #fff;
-  filter: alpha(opacity=20);
-  opacity: .2;
+  filter: alpha(opacity=30);
+  opacity: .3;
 }
 .close:hover,
 .close:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
-  filter: alpha(opacity=50);
-  opacity: .5;
+  filter: alpha(opacity=60);
+  opacity: .6;
 }
 button.close {
   -webkit-appearance: none;
@@ -5944,15 +5944,21 @@ body.modal-open {
 }
 .modal-content {
   position: relative;
-  background-color: #fff;
+  background: rgba(232,232,232,1);
+  background: -moz-linear-gradient(top, rgba(232,232,232,1) 0%, rgba(59,58,59,1) 50%, rgba(232,232,232,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(232,232,232,1)), color-stop(50%, rgba(59,58,59,1)), color-stop(100%, rgba(232,232,232,1)));
+  background: -webkit-linear-gradient(top, rgba(232,232,232,1) 0%, rgba(59,58,59,1) 50%, rgba(232,232,232,1) 100%);
+  background: -o-linear-gradient(top, rgba(232,232,232,1) 0%, rgba(59,58,59,1) 50%, rgba(232,232,232,1) 100%);
+  background: -ms-linear-gradient(top, rgba(232,232,232,1) 0%, rgba(59,58,59,1) 50%, rgba(232,232,232,1) 100%);
+  background: linear-gradient(to bottom, rgba(232,232,232,1) 0%, rgba(59,58,59,1) 50%, rgba(232,232,232,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#e8e8e8', GradientType=0 );
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
   border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, .2);
   border-radius: 6px;
   outline: 0;
-  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
-          box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+  
 }
 .modal-backdrop {
   position: fixed;
@@ -5973,15 +5979,16 @@ body.modal-open {
 }
 .modal-header {
   padding: 15px;
-  border-bottom: 1px solid #e5e5e5;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .modal-header .close {
   margin-top: -2px;
 }
 .modal-title {
   margin: 0;
-  line-height: 2em;
+  padding:.1em 0 .35em;
   font-size:2em;
+  
 }
 
 
@@ -5991,6 +5998,8 @@ body.modal-open {
 .modal-body{
     height: 60vh;
     overflow-y: auto;
+	background:#101010;
+	color:#f2f2f2;
 }
 body.modal-open {
     overflow: hidden;
@@ -6003,7 +6012,6 @@ body.modal-open {
 .modal-footer {
   padding: 15px;
   text-align: right;
-  border-top: 1px solid #e5e5e5;
 }
 .modal-footer .btn + .btn {
   margin-bottom: 0;
