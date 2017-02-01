@@ -101,7 +101,7 @@ img {
   border-color: #fff;
   border-width: 7px 7px 0 0;
   left: 18px;
-  top: 9px;
+  top: 8px;
   transition: all 0.2s ease-out;
   
 }
@@ -241,7 +241,7 @@ img {
     padding-top: 0px;
 }
 .fixedpadding {
-	padding-top: 105px;
+	padding-top: 103px;
 }
 .contentbodywhite{
 		text-align:left;
@@ -2023,7 +2023,7 @@ h2.sec-head {
 }
 
 .contentwhite h2 {
-    margin-bottom: 15px !important;
+    margin-bottom: 35px !important;
 		margin-top: 0;
     text-align: left;
     font-size: 3em;
@@ -2035,7 +2035,7 @@ h2.sec-head {
     background: rgba(0, 0, 0, 0);
 }
 .content h2 {
-    margin-bottom: 15px !important;
+    margin-bottom: 35px !important;
 		margin-top: 0;
     text-align: left;
     font-size: 3em;
