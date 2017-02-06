@@ -105,6 +105,8 @@ html.swipebox-html.swipebox-touch {
 
 #swipebox-bottom-bar {
   bottom: -50px;
+  -webkit-filter: drop-shadow(0 0 1.5px black);
+  filter: drop-shadow(0 0 1.5px black);
 }
 #swipebox-bottom-bar.visible-bars {
   -webkit-transform: translate3d(0, -50px, 0);
@@ -113,6 +115,8 @@ html.swipebox-html.swipebox-touch {
 
 #swipebox-top-bar {
   top: -50px;
+  -webkit-filter: drop-shadow(0 0 1.5px black);
+    filter: drop-shadow(0 0 1.5px black);
 }
 #swipebox-top-bar.visible-bars {
   -webkit-transform: translate3d(0, 50px, 0);
@@ -138,6 +142,13 @@ html.swipebox-html.swipebox-touch {
   width: 50px;
   height: 50px;
   top: 0;
+  opacity: .6;
+}
+
+#swipebox-prev:hover,
+#swipebox-next:hover,
+#swipebox-close:hover {
+  opacity: 1;
 }
 
 #swipebox-arrows {
