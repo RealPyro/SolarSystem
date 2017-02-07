@@ -264,8 +264,9 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
     box-sizing: content-box;
 }
 .mejs__currenttime, .mejs__duration {
-	font-family:Helvetica LT Thai Regular;
+	font-family:Helvetica LT Thai Bold;
 	line-height:0px;
+	font-weight:normal;
 }
 /* End: Time (Current / Duration) */
 

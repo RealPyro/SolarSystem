@@ -583,6 +583,23 @@ div#px {
 	height:1.5vh !important;
 	width: auto !important;
 }
+.videotitlemodal h5 {
+	padding: 10px 10px 15px;
+	line-height:20px;
+	font-size:1em;
+	margin: 0;
+	opacity:.7;
+}
+.videotitlemodal h5:hover {
+	opacity:1;
+}
+.videotitlemodal {
+	background:rgba(0,0,0,1);
+	margin: 20px 0 0;
+	text-align:center;
+	border-radius: 20px 20px 0 0;
+}
+
 h5{
 	 font-family: 'Helvetica LT Thai Bold', sans-serif;
 	 font-size:1.4em;
@@ -2064,6 +2081,19 @@ td:first-child, th:first-child {
 	margin-bottom:0;
     overflow: hidden;
 }
+.imgtitle {
+	background:rgba(0,0,0,1);
+	text-align:center;
+	border-radius: 0 0 20px 20px;
+	padding: 8px;
+}
+.imgtitle p {
+	font-size:1.5em;
+	line-height:1.2em;
+	margin: 0;
+	text-indent: 0;
+	text-align:center;
+}
 .videotitle {
 	background:rgba(0,0,0,1);
 	margin: 20px 0 0;
@@ -2071,6 +2101,7 @@ td:first-child, th:first-child {
 	text-align:center;
 	border-radius: 20px 20px 0 0;
 }
+
 .videotitle h5 {
 	padding: 10px 10px 15px;
 	line-height:20px;

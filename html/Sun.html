@@ -30,6 +30,7 @@
 				});
 			});
 </script>
+<link rel="stylesheet" href="../css/mediaelementplayer.css" />
 <!-- swipe box js -->
 	<script src="../js/jquery.swipebox.min.js"></script>
 	    <script type="text/javascript">
@@ -351,7 +352,7 @@ $('.close-modal').click(function (e) {
 	 					 </div>
 	 					 </div>
 	 				 </div>
-	 	 </div>
+			</div>
 	 	 		<p class="normal">องค์การนาซาได้เคยปล่อยยานสำรวจดวงอาทิตย์ในโครงการไพโอเนียร์ ซึ่งปล่อยช่วงปี พ.ศ. 2502 ถึง พ.ศ. 2511 โดยทำการตรวจวัดสนามแม่เหล็กของดวงอาทิตย์และลมสุริยะ ต่อมาก็ได้ส่งยานสกายแล็บเมื่อปี พ.ศ. 2516 ทำการศึกษาโคโรนาของดวงอาทิตย์ และการพ่นมวลของโคโรนา ในปี พ.ศ. 2534 ญี่ปุ่นได้ส่ง <strong>ยานโยะโกะ (<span style="font-size:16px">阳光</span>)</strong> เพื่อศึกษาเพลิงสุริยะในช่วงรังสีเอกซ์ นอกจากนี้ยังแสดงให้เห็นว่า โคโรนาจะยุบลงในช่วงที่มีกิจกรรมบนผิวดวงอาทิตย์มาก ยานโยะโกะถูกปลดระวางเมื่อ พ.ศ. 2548
 	 			<p class="normal">ภารกิจสำรวจดวงอาทิตย์ที่เรารู้จักกันมักหนีไม่พ้นหอสังเกตการณ์ดวงอาทิตย์และสุริยมณฑลหรือโซโฮ (Solar and Heliospheric Observatory; SOHO) อันเป็นความร่วมมือระหว่างสหรัฐอเมริกา และสหภาพยุโรป ถูกปล่อยเมื่อวันที่ 2 ธันวาคม พ.ศ. 2538 เดิมทีกำหนดให้ปฏิบัติงานสองปี แต่กลับปฏิบัติงานมากกว่า 10 ปี ยานโซโฮเป็นยานสังเกตการณ์ที่ทำให้เรารู้หลายอย่างเกี่ยวกับดวงอาทิตย์มากขึ้นในหลาย ๆ ช่วงคลื่นแม่เหล็กไฟฟ้า และยังสังเกตเห็นดาวหางที่พุ่งชนดวงอาทิตย์ด้วย ส่วนอีกโครงการหนึ่งที่มีแผนจะปล่อยขึ้นสู่ห้วงอวกาศในเดือนสิงหาคม ปี พ.ศ. 2551 คือโครงการหอสังเกตการณ์สุริยพลวัต (Solar Dynamic Observatory) ซึ่งจะนำไปไว้ยังจุดลากรองจ์ (Lagrangian point) หรือจุดสะเทินแรงดึงดูด ระหว่างโลกกับดวงอาทิตย์</div>
 				<p class="wow fadeInUp animated" data-wow-delay=".25s" style="visibility: visible; animation-delay: 0.25s; animation-name: fadeInUp;">
@@ -379,206 +380,279 @@ $('.close-modal').click(function (e) {
 			</div>
 			</div>
 			
-<!-- All Modal -->
+			<!-- All Modal -->
 
-<div id="Limb Darkening" class="modal fade" role="dialog">
-<div class="modal-dialog">
-<!-- Modal content-->
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="close" data-dismiss="modal">&times;</button>
-<h4 class="modal-title">การมืดคล้ำที่ขอบ</h4>
-</div>
-<div class="modal-body">
-<p></p>
-</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">ปิด</button>
-</div>
-</div>
-</div>
-</div>
+			<div id="Limb Darkening" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+			<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">การมืดคล้ำที่ขอบ</h4>
+			</div>
+			<div class="modal-body">
+				<div class="col-md-3 baner-top" style="width:20vw; float:right; margin-left:10px;">
+					<img style="pointer-events: none" src="../images/Limb_darkening2.jpg"></img>
+					<div class="imgtitle">
+					<p>ภาพดวงอาทิตย์ในแสงที่มองเห็นได้ แสดงปรากฏการณ์มืดคล้ำที่ขอบ ซึ่งความเข้มของแสงจะลดลงที่บริเวณ "ขอบ" ของภาพจานดวงอาทิตย์</p>
+					</div>
+				 </div>
+				<p><b>การมืดคล้ำที่ขอบ</b> (Limb darkening) หมายถึงการที่ความเข้มแสงของภาพดาวฤกษ์ค่อยๆ เจือจางลงตั้งแต่จุดศูนย์กลางของภาพออกไปยังขอบของภาพ เหตุการณ์นี้เกิดขึ้นได้จาก 2 สาเหตุคือ
+				<p style="text-indent:0;padding-left:1.4em;">• ความหนาแน่นของดาวฤกษ์ลดน้อยลงขณะที่ระยะห่างจากศูนย์กลางเพิ่มขึ้น<br>
+				• อุณหภูมิของดาวฤกษ์ลดน้อยลงขณะที่ระยะห่างจากศูนย์กลางเพิ่มขึ้น</p>
+				</p>
+				<p>หัวใจสำคัญในการทำความเข้าใจกับการมืดคล้ำที่ขอบ คือแนวคิดเกี่ยวกับความหนาเชิงแสง (Optical depth) ความหนาเชิงแสงของวัตถุที่เป็นเนื้อเดียวกัน คือความหนาของแก๊สที่ดูดซับที่โฟตอนในสัดส่วน 1/e สามารถหนีพ้นออกมาได้ ซึ่งเป็นตัวนิยามขอบที่มองเห็นได้ของดาวฤกษ์ ทำให้เรามองเห็นดาวฤกษ์ในลักษณะวัตถุทึบแสง ถ้าเรามองไปที่บริเวณขอบของดาวฤกษ์ เราไม่สามารถ "มองเห็น" ความลึกหรือความหนาแบบเดียวกันกับที่เรามองที่บริเวณศูนย์กลางดาว เพราะเวลาที่มองไปบริเวณใกล้ขอบ แนวการมองเห็นต้องเดินทางมาเป็นมุมที่โค้งเอียงผ่านแก๊สของดาว กล่าวอีกนัยหนึ่งคือ รัศมีของดาวซึ่งเรามองความหนาเชิงแสงเหมือนหนึ่งว่าเป็นเนื้อเดียวกันนั้นจะเพิ่มขึ้นเมื่อเราเคลื่อนสายตาของเราออกไปยังบริเวณขอบ</p>
+			</div>
+			<div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">ปิด</button>
+			</div>
+			</div>
+			</div>
+			</div>
 
-<div id="Corona" class="modal fade" role="dialog">
-<div class="modal-dialog">
-<!-- Modal content-->
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="close" data-dismiss="modal">&times;</button>
-<h4 class="modal-title">โคโรนา</h4>
-</div>
-<div class="modal-body">
-<p></p>
-</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">ปิด</button>
-</div>
-</div>
-</div>
-</div>
+			<div id="Corona" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+			<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">โคโรนา</h4>
+			</div>
+			<div class="modal-body">
+				<div class="col-md-3 baner-top" style="width:20vw; float:right; margin-left:10px;">
+					<img style="pointer-events: none" src="../images/Corona.jpg"></img>
+					<div class="imgtitle">
+					<p>เราสามารถสังเกตเห็นโคโรนาของดวงอาทิตย์ได้ด้วยตาเปล่า ในเวลาที่เกิดสุริยุปราคาเต็มดวง</p>
+					</div>
+				 </div>
+				<p><b>โคโรนา</b> Corona) คือพลาสมาชนิดหนึ่งในชั้นบรรยากาศของดวงอาทิตย์หรือวัตถุท้องฟ้าอื่นๆ ที่แผ่พุ่งออกไปในอวกาศเป็นระยะทางหลายล้านกิโลเมตร สามารถมองเห็นได้ง่ายในเวลาที่เกิดสุริยุปราคา นอกจากนี้ยังสามารถสังเกตการได้จากกราฟโคโรนา มีรากศัพท์มาจากคำในภาษาละติน ซึ่งมีความหมายว่า "มงกุฎ" (Crown)</p>
+			</div>
+			<div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">ปิด</button>
+			</div>
+			</div>
+			</div>
+			</div>
 
-<div id="Sunspot" class="modal fade" role="dialog">
-<div class="modal-dialog">
-<!-- Modal content-->
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="close" data-dismiss="modal">&times;</button>
-<h4 class="modal-title">จุดมืดดวงอาทิตย์</h4>
-</div>
-<div class="modal-body">
-<p></p>
-</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">ปิด</button>
-</div>
-</div>
-</div>
-</div>
+			<div id="Sunspot" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+			<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">จุดมืดดวงอาทิตย์</h4>
+			</div>
+			<div class="modal-body">
+				<div class="col-md-3 baner-top" style="width:20vw; float:right; margin-left:10px;">
+					<img style="pointer-events: none" src="../images/Sunspot.jpg"></img>
+					<div class="imgtitle">
+					<p>จุดมืดดวงอาทิตย์เมื่อวันที่ 22 กรกฎาคม พ.ศ. 2547</p>
+					</div>
+				 </div>
+				<p><b>จุดมืดดวงอาทิตย์</b> หรือ <b>จุดดับบนดวงอาทิตย์</b> (Sunspot) คือ พื้นที่ส่วนหนึ่งบนชั้นโฟโตสเฟียร์ของดวงอาทิตย์ซึ่งมีอุณหภูมิต่ำกว่าบริเวณโดยรอบ และมีสนามแม่เหล็กที่มีปั่นป่วนสูงมาก ซึ่งได้ทำให้เกิดการขัดขวางกระบวนการพาความร้อนบนพื้นผิวดวงอาทิตย์ เกิดเป็นพื้นที่ที่มีความเข้มของแสงต่ำกว่าบริเวณโดยรอบ อย่างไรก็ตาม มันยังคงมีอุณหภูมิสูงถึง 4000-4500 เคลวิน เทียบกับบริเวณปกติโดยรอบที่มีอุณหภูมิประมาณ 5800 เคลวิน ถ้าเรานำจุดมืดออกมาจากดวงอาทิตย์มันจะสามารถเปล่งแสงสว่างได้มากกว่าแสงจากการเชื่อมเหล็ก เสียอีก จุดมืดยังเป็นสาเหตุของการเกิดปรากฏการณ์บนดวงอาทิตย์อีกมาก เช่น บ่วงโคโรนา (Coronal loop) และ การเชื่อมกันของสนามแม่เหล็ก (Magnetic reconnection) นอกจากนี้การระเบิดใหญ่บนดวงอาทิตย์ (Solar flare) และ การพ่นมวลโคโรนา (Coronal Mass Ejection) ก็ยังเกิดขึ้นในบริเวณสนามแม่เหล็กรอบๆ จุดมืดอีกด้วย</p>
+				
+				<h2>การแปรผันของจุดมืด</h2>
+				<p>จำนวนของจุดมืดมีการเพิ่มขึ้นและลดลงอย่างเป็นคาบ มีช่วงเวลาหนึ่งรอบประมาณสิบเอ็ดปี นอกจากนี้ยังมีรอบใหญ่ที่มีระยะเวลากว่าอีกด้วย โดยตั้งแต่ปี พ.ศ. 2443 ถึงทศวรรษที่ 2503 จะมีจำนวนจุดมืดโดยเฉลี่ยเพิ่มขึ้น แต่ตั้งแต่ทศวรรษที่ 2503 เป็นต้นมาจุดมืดกลับมีแนวโน้มลดลง</p>
+				<p>จำนวนของจุดมืดยังมีความสัมพันธ์กับการแผ่รังสีของดวงอาทิตย์ (Solar radiation) อีกด้วย ตั้งแต่ปีพ.ศ. 2522 เป็นต้นมา ได้มีการส่งดาวเทียมวัดการแผ่รังสีจากดวงอาทิตย์ออกสู่อวกาศ และทำให้เราทราบว่า เมื่อจุดมืดมีจำนวนมากจะทำให้การแผ่รังสีของดวงอาทิตย์มีปริมาณลดลง อย่างไรก็ตาม บริเวณโดยรอบจุดมืดกลับมีความสว่างเพิ่มขึ้น ซึ่งหมายความว่า ในภาพรวมการที่ดวงอาทิตย์มีจุดมืดมากขึ้นจะทำให้ดวงอาทิตย์สว่างมากขึ้น แต่ความสว่างที่เพิ่มขึ้นนี้ก็น้อยมาก แค่ประมาณ 0.1% ของความสว่างตามปกติเท่านั้น</p>
+				<p>ในระหว่าง ช่วงต่ำสุดมอนเดอร์ ในศตวรรษที่ 17 เป็นช่วงที่แทบจะไม่พบจุดมืดเลย ซึ่งเกิดขึ้นพร้อมกับช่วงปีที่เรียกกันว่า "ยุคน้ำแข็งเล็กๆ" (Little Ice Age) ซึ่งอุณหภูมิทั่วโลกลดต่ำกว่าปกติ</p>
+				
+				<h2>การสังเกตจุดดำ</h2>
+				<p>การมองตรงไปที่ดวงอาทิตย์ด้วยตาเปล่าเป็นเรื่องอันตรายอย่างมาก และการใช้กล้องสองตา กล้องส่องทางไกล หรือกล้องโทรทรรศน์ส่องดูก็ยิ่งเป็นการเพิ่มความร้ายแรงที่จะเกิดขึ้น นั่นคือเรตินาของดวงตาจะถูกทำลายลงอย่างถาวร การใช้แผ่นกระจกรมควันหรือฟิล์มกรองแสงเป็นสิ่งที่ไม่ควรทำเช่นกัน เพราะถึงแม้ว่าจะสามารถลดทอนแสงจากดวงอาทิตย์ลงจนสามารถเห็นจุดมืดได้ก็จริง แต่วิธีนี้จะไม่ได้ลดทอนรังสีอัลตราไวโอเล็ต ซึ่งการรับรังสีนี้เข้าสู่ดวงตาโดยตรงจะมีผลทำให้เป็นต้อกระจกได้ วิธีที่ปลอดภัยที่สุดในการสังเกตจุดมืดก็คือการฉายภาพของดวงอาทิตย์ผ่านกล้องโทรทรรศน์ลงบนฉากรับภาพสีขาว ซึ่งต้องกระทำโดยผู้เชี่ยวชาญเท่านั้น</p>
+			</div>
+			<div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">ปิด</button>
+			</div>
+			</div>
+			</div>
+			</div>
 
-<div id="Maunder Minimum" class="modal fade" role="dialog">
-<div class="modal-dialog">
-<!-- Modal content-->
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="close" data-dismiss="modal">&times;</button>
-<h4 class="modal-title">ช่วงต่ำสุดมอนเดอร์</h4>
-</div>
-<div class="modal-body">
-<p></p>
-</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">ปิด</button>
-</div>
-</div>
-</div>
-</div>
+			<div id="Maunder Minimum" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+			<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">ช่วงต่ำสุดมอนเดอร์</h4>
+			</div>
+			<div class="modal-body">
+				<div class="col-md-3 baner-top" style="width:35vw; float:right; margin-left:10px;">
+					<img style="pointer-events: none" src="../images/Maunder_Minimum.png"></img>
+					<div class="imgtitle">
+					<p>ภาพแสดงจำนวนจุดมืดดวงอาทิตย์ที่สังเกตพบตลอดช่วง 400 ปีมานี้</p>
+					</div>
+				 </div>
+				<p><b>ช่วงต่ำสุดมอนเดอร์</b> (Maunder Minimum) คือชื่อใช้เรียกช่วงเวลาประมาณปี ค.ศ. 1645-1715 ซึ่งสังเกตพบจุดมืดดวงอาทิตย์ในปริมาณที่น้อยมาก</p>
+				<p>หลักการนี้เริ่มมีชื่อเสียงขึ้นเมื่อ จอห์น เอ. เอ็ดดี้ เผยแพร่บทความชิ้นสำคัญเมื่อปี 1976 ในวารสาร Science ชื่อว่า "The Maunder Minimum" นักดาราศาสตร์ยุคก่อนหน้าเอ็ดดี้ตั้งชื่อช่วงเวลานี้ตามชื่อของนักดาราศาสตร์ดวงอาทิตย์ เอ็ดเวิร์ด ดับเบิลยู. มอนเดอร์ (1851-1928) ผู้ศึกษาว่าละติจูดของจุดมืดบนดวงอาทิตย์มีการเปลี่ยนแปลงไปเมื่อเวลาผ่านไป ช่วงเวลาที่มอนเดอร์เฝ้าสังเกตการณ์ครอบคลุมช่วงครึ่งหลังของคริสต์ศตวรรษที่ 16 เอ็ดเวิร์ด มอนเดอร์ ตีพิมพ์บทความ 2 ชิ้นในปี 1890 และ 1894 โดยอ้างถึงบทความก่อนหน้านี้ที่เขียนโดย กุสตาฟ สปอร์เรอร์</p>
+				<p>ช่วงต่ำสุดมอนเดอร์ ครอบคลุมช่วงเวลาที่อุณหภูมิของโลกมีค่าต่ำกว่าค่าเฉลี่ย ซึ่งสอดคล้องกันกับ ช่วงต่ำสุดดาลตัน และ ช่วงต่ำสุดสปอร์เรอร์</p>
+				<p>ตลอดช่วงเวลา 30 ปีของช่วงต่ำสุดมอนเดอร์ นักดาราศาสตร์สังเกตพบจุดมืดดวงอาทิตย์เพียง 50 จุด ขณะที่ตามปกติแล้วจะพบจุดมืดประมาณ 40,000-50,000 จุดในปัจจุบัน</p>
+			</div>
+			<div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">ปิด</button>
+			</div>
+			</div>
+			</div>
+			</div>
 
-<div id="Solar Maximum" class="modal fade" role="dialog">
-<div class="modal-dialog">
-<!-- Modal content-->
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="close" data-dismiss="modal">&times;</button>
-<h4 class="modal-title">โซลาร์แม็กซิมัม</h4>
-</div>
-<div class="modal-body">
-<p></p>
-</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">ปิด</button>
-</div>
-</div>
-</div>
-</div>
+			<div id="Solar Maximum" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+			<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">โซลาร์แม็กซิมัม</h4>
+			</div>
+			<div class="modal-body">
+				<div class="col-md-3 baner-top" style="width:20vw; float:right; margin-left:10px;">
+					<img style="pointer-events: none" src="../images/Solar-cycle-data.png"></img>
+					<div class="imgtitle">
+					<p>สามวัฏจักรสุริยะล่าสุด</p>
+					</div>
+				 </div>
+				<p><b>โซลาร์แม็กซิมัม</b> (Solar maximum) หรือ <b>โซลาร์แม็กซ์</b> (Solar max) เป็นช่วงเวลาที่มีปรากฏการณ์บนดวงอาทิตย์สูงที่สุดในวัฏจักรสุริยะ ระหว่างโซลาร์แม็กซิมัม จุดดับบนดวงอาทิตย์จะปรากฏ</p>
+				<p>โซลาร์แม็กซิมัมเป็นช่วงเวลาที่เส้นสนามแม่เหล็กของดวงอาทิตย์บิดเบี้ยวไปมากที่สุดเนื่องจากสนามแม่เหล็กบนเส้นศูนย์สูตรของดวงอาทิตย์หมุนด้วยอัตราเร็วกว่าขั้วดวงอาทิตย์เล็กน้อย วัฏจักรสุริยะแต่ละวัฏจักรกินเวลาเฉลี่ย 11 ปี โดยผลที่ได้จากการสังเกตพบว่าอยู่ระหว่าง 9 ถึง 14 ปีในวัฏจักรสุริยะใด ๆ</p>
+				<h2>ประวัติ</h2>
+					<div class="col-md-3 baner-top" style="width:15vw; margin-right:10px;">
+						<img style="pointer-events: none" src="../images/Solar_Maximum Sunspot.gif"></img>
+						<div class="imgtitle">
+						<p>ภาพแสดงจุดมืดดวงอาทิตย์<br>เมื่อวันที่ 19 กรกฎาคม พ.ศ. 2543</p>
+						</div>
+					</div>
+				<p>โซลาร์แม็กซิมัมครั้งล่าสุดเกิดขึ้นในปี พ.ศ. 2543 โดยโซลาร์แม็กซิมัมครั้งถัดไปได้รับการทำนายไว้ว่าจะเกิดขึ้นในเดือนพฤษภาคม พ.ศ. 2556 และจะเป็นหนึ่งในวัฏจักรที่อ่อนที่สุดนับตั้งแต่ พ.ศ. 2471</p>
+				<p>ความไม่น่าเชื่อถือของการทำนายโซลาร์แม็กซิมัมได้เกิดขึ้นในการทำนายขององค์การนาซาที่เคยทำนายไว้ว่าโซลาร์แม็กซิมัมจะเกิดขึ้นในปี พ.ศ. 2553/2554 และมีความเป็นไปได้ว่าจะเกิดในปลายปี พ.ศ. 2555 ที่ผ่านมา เมื่อวันที่ 10 มีนาคม พ.ศ. 2549 นักวิจัยของนาซาได้ประกาศว่าโซลาร์แม็กซิมัมครั้งถัดไปจะเป็นครั้งที่รุนแรงที่สุดนับตั้งแต่โซลาร์แม็กซิมัมในปี พ.ศ. 2501 ซึ่งแสงเหนือสามารถมองเห็นได้ไกลถึงจากโรม ราว 42° เหนือของเส้นศูนย์สูตร</p>
+			</div>
+			<div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">ปิด</button>
+			</div>
+			</div>
+			</div>
+			</div>
 
-<div id="Solar flare" class="modal fade" role="dialog">
-<div class="modal-dialog">
-<!-- Modal content-->
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="close" data-dismiss="modal">&times;</button>
-<h4 class="modal-title">เปลวสุริยะ</h4>
-</div>
-<div class="modal-body">
-<p></p>
-</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">ปิด</button>
-</div>
-</div>
-</div>
-</div>
+			<div id="Solar flare" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+			<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">เปลวสุริยะ</h4>
+			</div>
+			<div class="modal-body">
+				<div class="col-md-3 baner-top" style="width:25vw; float:right; margin-left:10px;">
+					<img style="pointer-events: none" src="../images/Solar_Flare2.jpg"></img>
+					<div class="imgtitle">
+					<p>ภาพต่อเนื่อง 2 ภาพของปรากฏการณ์เปลวสุริยะที่เกิดขึ้นบนดวงอาทิตย์ โดยตัดแผ่นจานดวงอาทิตย์ออกไปจากภาพเพื่อให้เห็นเปลวได้ชัดเจนขึ้น</p>
+					</div>
+				 </div>
+				<p><b>เปลวสุริยะ</b> (Solar flare) คือการระเบิดใหญ่ในชั้นบรรยากาศของดวงอาทิตย์ ที่ปลดปล่อยพลังงานออกมาถึง 6 × 10<sup>25</sup> จูล (ประมาณ 1 ใน 6 ของพลังงานที่ปลดปล่อยจากดวงอาทิตย์ทุกวินาที) คำนี้สามารถใช้เรียกปรากฏการณ์ลักษณะเดียวกันที่เกิดขึ้นบนดาวฤกษ์อื่นๆ โดยจะเรียกว่า เปลวดาวฤกษ์ (Stellar flare)</p>
+				<p>เปลวสุริยะส่งผลกระทบต่อชั้นบรรยากาศของดวงอาทิตย์ทั้งหมด (โฟโตสเฟียร์, โครโมสเฟียร์, และโคโรนา) ทำให้พลาสมามีความร้อนถึงหลายสิบล้านเคลวิน และเร่งอนุภาคอิเล็กตรอน โปรตอน และไอออนหนักจนเข้าใกล้ความเร็วแสง เกิดการแผ่รังสีแม่เหล็กไฟฟ้าผ่านข้ามสเปกตรัมแม่เหล็กไฟฟ้าที่ทุกช่วงความยาวคลื่น นับตั้งแต่คลื่นวิทยุไปจนถึงรังสีแกมมา เปลวสุริยะส่วนมากจะเกิดขึ้นในย่านแอ็กทีฟเช่น บริเวณจุดมืดดวงอาทิตย์ ซึ่งมีสนามแม่เหล็กกำลังแรง รังสีเอ็กซ์และการแผ่รังสีอุลตราไวโอเล็ตที่แผ่ออกมาโดยเปลวสุริยะสามารถส่งผลกระทบต่อชั้นบรรยากาศของโลก และทำลายการสื่อสารด้วยคลื่นวิทยุช่วงยาว การปะทะของคลื่นโดยตรงที่ความยาวคลื่นขนาดเดซิเมตรอาจรบกวนการทำงานของเรดาร์และอุปกรณ์อื่นๆ ที่ทำงานในช่วงความถี่ดังกล่าว</p>
+			</div>
+			<div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">ปิด</button>
+			</div>
+			</div>
+			</div>
+			</div>
 
-<div id="Solar storm" class="modal fade" role="dialog">
-<div class="modal-dialog">
-<!-- Modal content-->
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="close" data-dismiss="modal">&times;</button>
-<h4 class="modal-title">พายุสุริยะ</h4>
-</div>
-<div class="modal-body">
-<p></p>
-</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">ปิด</button>
-</div>
-</div>
-</div>
-</div>
+			<div id="Solar storm" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+			<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">พายุสุริยะ</h4>
+			</div>
+			<div class="modal-body">
+				<div class="media-wrapper" style="float:right;margin:0 0 0 25px;">
+				<div class="videotitlemodal" style="width:300px;margin:0"><h5>วิดีโอแสดงเปลวสุริยะที่มาจากผิวดวงอาทิตย์ เนื่องจากปรากฏการณ์พายุสุริยะ</h5></div>
+					<video id="player" width="300" height="300" preload="auto">
+						<source src="../videos/Solar_Blast.ogv" type="video/mp4">
+					</video>
+				</div>
+				<p><b>พายุสุริยะ</b> (Solar storm) เป็นปรากฏการณ์หนึ่งที่เกิดจากการที่ผิวดวงอาทิตย์ระเบิดขึ้นมาที่เรียกว่า "การระเบิดลุกจ้า" ซึ่งทำให้อนุภาคประจุไฟฟ้าพุ่งออกมาจำนวนมหาศาล ประจุไฟฟ้าที่พุ่งออกมานี้จะรบกวนระบบการสื่อสารมีผลทำให้การสื่อสารระยะไกลเป็นอัมพาต ทำให้เครื่องบินไม่สามารถติดต่อกับหอบังคับการได้ โทรศัพท์มือถือใช้งานไม่ได้รวมไปถึงดาวเทียมเสียหาย การทำนายความรุนแรงของพายุสุริยะสามารถทำได้โดยตรวจสอบจุดมืดดวงอาทิตย์ เนื่องจากจุดดำเกิดจากความแปรปรวนของสนามแม่เหล็ก เมื่อมีจุดมืดมากขึ้นก็จะส่งผลให้อนุภาคกระแสไฟฟ้าเพิ่มมากขึ้นส่งผลให้เกิดความรุนแรงเพิ่มมากขึ้น</p>
+				<h2>สาเหตุ</h2>
+				<h3>ลมสุริยะ</h3>
+				<h3>เปลวสุริยะ</h3>
+				<h3>การปลดปล่อยก้อนมวลสารจากโคโรนา</h3>
+				<h3>อนุภาคพลังงานสูงจากดวงอาทิตย์</h3>
+			</div>
+			<div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">ปิด</button>
+			</div>
+			</div>
+			</div>
+			</div>
 
-<div id="Cosmic ray" class="modal fade" role="dialog">
-<div class="modal-dialog">
-<!-- Modal content-->
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="close" data-dismiss="modal">&times;</button>
-<h4 class="modal-title">รังสีคอสมิก</h4>
-</div>
-<div class="modal-body">
-<p></p>
-</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">ปิด</button>
-</div>
-</div>
-</div>
-</div>
+			<div id="Cosmic ray" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+			<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">รังสีคอสมิก</h4>
+			</div>
+			<div class="modal-body">
+			<p></p>
+			</div>
+			<div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">ปิด</button>
+			</div>
+			</div>
+			</div>
+			</div>
 
-<div id="Solar wind" class="modal fade" role="dialog">
-<div class="modal-dialog">
-<!-- Modal content-->
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="close" data-dismiss="modal">&times;</button>
-<h4 class="modal-title">ลมสุริยะ</h4>
-</div>
-<div class="modal-body">
-<p></p>
-</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">ปิด</button>
-</div>
-</div>
-</div>
-</div>
+			<div id="Solar wind" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+			<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">ลมสุริยะ</h4>
+			</div>
+			<div class="modal-body">
+			<p></p>
+			</div>
+			<div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">ปิด</button>
+			</div>
+			</div>
+			</div>
+			</div>
 
-<div id="Spicules" class="modal fade" role="dialog">
-<div class="modal-dialog">
-<!-- Modal content-->
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="close" data-dismiss="modal">&times;</button>
-<h4 class="modal-title">สปิคูล</h4>
-</div>
-<div class="modal-body">
-<p></p>
-</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">ปิด</button>
-</div>
-</div>
-</div>
-</div>
+			<div id="Spicules" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+			<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">สปิคูล</h4>
+			</div>
+			<div class="modal-body">
+			<p></p>
+			</div>
+			<div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">ปิด</button>
+			</div>
+			</div>
+			</div>
+			</div>
 
-<div id="Analemma" class="modal fade" role="dialog">
-<div class="modal-dialog">
-<!-- Modal content-->
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="close" data-dismiss="modal">&times;</button>
-<h4 class="modal-title">แอนาเล็มมา</h4>
-</div>
-<div class="modal-body">
-<p></p>
-</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">ปิด</button>
-</div>
-</div>
-</div>
-</div>
-<!-- End All Modal -->
+			<div id="Analemma" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+			<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">แอนาเล็มมา</h4>
+			</div>
+			<div class="modal-body">
+			<p></p>
+			</div>
+			<div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">ปิด</button>
+			</div>
+			</div>
+			</div>
+			</div>
+			<!-- End All Modal -->
 
  <!--start-services-->
 	<div class="phenomena wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;" id="team">
@@ -780,7 +854,8 @@ $('.close-modal').click(function (e) {
 <script>
  new WOW().init();
 </script>
-
+<script src="../js/player.js"></script>
+<script src="../js/mediaelement-and-player.js"></script>
 <link href="../css/animate.min.css" rel="stylesheet">
 <script src="../js/wow.min.js"></script> <!-- //animation-effect -->
 

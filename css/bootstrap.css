@@ -6007,8 +6007,32 @@ body.modal-open {
 }
 .modal-body {
   position: relative;
-  padding: 15px 30px;
+  padding: 40px;
+  font-family: MN Paethai;
 }
+.modal-body p {
+  font-size:1.75em;
+  line-height:1.3em;
+  text-indent:1em;
+  margin-bottom: 0.4em;
+  text-align:justify;
+  text-justify:distribute;
+}
+.modal-body h2 {
+	font-size: 1.75em;
+	margin-bottom: 0.7em !important;
+   font-family: 'Helvetica LT Thai Bold', sans-serif;
+   color: #eeeeee;
+   text-shadow: -1px -1px black, -1px 1px black, 1px -1px black, 1px 1px black;
+}
+.modal-body h3 {
+	font-size: 1.9em;
+	line-height:1.4em;
+	margin: 0;
+   font-weight: bold;
+   color: white;
+}
+
 .modal-footer {
   padding: 15px;
   text-align: right;
