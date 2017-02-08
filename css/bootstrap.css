@@ -6000,16 +6000,15 @@ body.modal-open {
     overflow-y: auto;
 	background:#101010;
 	color:#f2f2f2;
+	position: relative;
+	padding: 2.1vw;
+  font-family: MN Paethai;
 }
 body.modal-open {
     overflow: hidden;
     width: 100%;
 }
-.modal-body {
-  position: relative;
-  padding: 40px;
-  font-family: MN Paethai;
-}
+
 .modal-body p {
   font-size:1.75em;
   line-height:1.3em;
@@ -6022,7 +6021,7 @@ body.modal-open {
 	font-size: 1.75em;
 	margin-bottom: 0.7em !important;
    font-family: 'Helvetica LT Thai Bold', sans-serif;
-   color: #eeeeee;
+   color: #abb5ee;
    text-shadow: -1px -1px black, -1px 1px black, 1px -1px black, 1px 1px black;
 }
 .modal-body h3 {
@@ -6030,9 +6029,32 @@ body.modal-open {
 	line-height:1.4em;
 	margin: 0;
    font-weight: bold;
-   color: white;
+   color: #d5daf6;
 }
-
+.modal-table {
+	width: 80vw;
+	display: table;
+	margin: 0 auto;
+	border-color: rgba(255,255,255,.7);
+	border-width: 1px;
+}
+.modal-table tr th, .modal-table tr td{
+	text-align: center;
+}
+.modal-table th {
+	 font-size:1.8em;
+	line-height:1.35em;
+	margin: 0 auto;
+	color:black;
+	background-color: #eaecfb;
+	border-color: rgba(0,0,0,.7);
+}
+.modal-table td {
+	 font-size:1.75em;
+	line-height:1.3em;
+	height:1.3em;
+	margin: 0 auto;
+}
 .modal-footer {
   padding: 15px;
   text-align: right;
