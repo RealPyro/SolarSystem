@@ -6,6 +6,41 @@ html {
 
 }
 
+.parallaxvideo{ 
+	height: 100vh;
+}
+.parallaxvideo video{ 
+    position: fixed;
+	z-index: -100;
+    top: 50%;
+    left: 50%;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+}
+.testpx {
+	float:left;
+	display:inline-block;
+	width:10px;
+	height:10px;
+	background:red;
+	margin:0;
+	padding:0;
+}
+.parallaxvideo h1 {
+	position: fixed;
+	z-index: -100;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%, -50%);
+    color: #fff;
+    font-size: 10vw;
+	margin-top:-4vh;
+    text-align: center;
+	text-shadow: 0 0 .3vw rgba(0, 0, 0, .85);
+}
 
 ::selection {
   background: #abb5ee; /* WebKit/Blink Browsers */
@@ -14,7 +49,7 @@ html {
   background: #abb5ee; /* Gecko Browsers */
 }
 img {
-    user-drag: none; 
+    user-drag: none;
 	user-select: none;
 	-moz-user-select: none;
 	-webkit-user-drag: none;
@@ -29,6 +64,7 @@ img {
 	animation-duration:2s;
 }
 .welcome {
+	border:none;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -103,7 +139,7 @@ img {
   left: 18px;
   top: 9px;
   transition: all 0.2s ease-out;
-  
+
 }
 .speaker:hover span.button:before {
   transform: scale(0.8) translate(-3px, 0) rotate(42deg);
@@ -118,7 +154,7 @@ img {
   background: url('../images/SolarSystem.png');
   background-size:     cover;
   background-repeat:   no-repeat;
-  background-position: center center;  
+  background-position: center center;
   width: 120px;
   height: 60px;
 }
@@ -128,7 +164,7 @@ img {
   background: url('../images/SolarSystemHover.png');
   background-size:     cover;
   background-repeat:   no-repeat;
-  background-position: center center;  
+  background-position: center center;
   width: 120px;
   height: 60px;
 }
@@ -272,7 +308,7 @@ img {
 	width:100%;
 	font-family: MN Paethai !important;
 	}
-	
+
 h1 {
 	font-size: 300%;
 	text-align:center;
@@ -326,7 +362,7 @@ h1.pagetitle {
     margin-top: -20px;
 }
 .parallax {
-    height: 100% !important; 
+    height: 100% !important;
     background-attachment: fixed !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -368,7 +404,7 @@ td .starcontent {
 #ceres {
 	height: 348px;
     width: 348px;
-	background-size: 230px auto; 
+	background-size: 230px auto;
     background-position: center center;
 	background-repeat: no-repeat;
 	background-image: url('../images/ceres.png');
@@ -376,7 +412,7 @@ td .starcontent {
 #eris {
 	height: 348px;
     width: 348px;
-	background-size: cover; 
+	background-size: cover;
     background-position: center center;
 	background-repeat: no-repeat;
 	background-image: url('../images/eris.png');
@@ -384,7 +420,7 @@ td .starcontent {
 #haumea {
 	height: 348px;
     width: 348px;
-	background-size: 220px auto; 
+	background-size: 220px auto;
     background-position: center center;
 	background-image: url('../images/haumea.png');
 	background-repeat: no-repeat;
@@ -398,7 +434,7 @@ td .starcontent {
 						drop-shadow(0.25px -0.25px 0 black)
 						drop-shadow(-0.25px -0.25px 0 black);
 
-	filter: 	drop-shadow(0.25px 0.25px 0 black) 
+	filter: 	drop-shadow(0.25px 0.25px 0 black)
 				drop-shadow(-0.25px 0.25px 0 black)
 				drop-shadow(0.25px -0.25px 0 black)
 				drop-shadow(-0.25px -0.25px 0 black);
@@ -419,16 +455,16 @@ td .starcontent {
 	border-radius:50px;
 	-webkit-filter: drop-shadow(0 0 2.5px black);
 }
- 
 
-  
+
+
 .paddingfooter {
 	padding-bottom:60px;
 }
 
 .starcontent {
 	background-color: #FFF;
-	display: block; 
+	display: block;
 	overflow: hidden;
 	position: relative;
 	-webkit-transition: all 0.5s;
@@ -441,7 +477,7 @@ td .starcontent {
 	z-index:2;
 }
 
-.starcontent .view-caption { 
+.starcontent .view-caption {
 	display:flex;
     align-items: center;
     justify-content: center;
@@ -462,7 +498,7 @@ td .starcontent {
     -o-transition: all 0.5s;
     transition: all 0.5s;
 	-webkit-border-radius: 100%;
-	-moz-border-radius: 100%; 
+	-moz-border-radius: 100%;
 	border-radius: 100%;
 }
 .starcontent .view-caption h5{
@@ -481,7 +517,7 @@ td .starcontent {
     border: 2px solid #fff;
     padding: 12px;
 }
-.starcontent:hover .view-caption { 
+.starcontent:hover .view-caption {
 	background-color: rgba(0, 0, 0, 0.8);
 	-webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -489,7 +525,7 @@ td .starcontent {
     -ms-transform: scale(1);
     transform: scale(1);
 	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px; 
+	-moz-border-radius: 15px;
 	border-radius: 15px;
 }
 .starcontent .view-caption span:hover {
@@ -507,10 +543,13 @@ figure {
 	overflow: hidden;
 }
 
-figure img {
+figure img, .haumeatitle img{
 	cursor: url(cursor/Main.cur), pointer !important;
 }
-
+.haumeatitle img{
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
 .grow figure img {
 	-webkit-transform: scale(1);
 	transform: scale(1);
@@ -587,6 +626,7 @@ div#px {
 	font-size:1em;
 	margin: 0;
 	opacity:.7;
+	color:white;
 }
 .videotitlemodal h5:hover {
 	opacity:1;
@@ -726,6 +766,7 @@ label{
 	-webkit-filter: drop-shadow(0 0 1.5px black);
     filter: drop-shadow(0 0 1.5px black);
 	position:absolute;
+	top: 0;
 }
 .fixed {
 	padding: 0.75em;
@@ -781,16 +822,16 @@ label{
   color: #abb5ee;
   font-family:Helvetica LT Thai Bold;
   }
-  
+
 .top-menu li ul li a.active{
   color: #abb5ee;
   font-family:Helvetica LT Thai Bold;
   }
-  
+
   .top-menu li ul li a.active:hover{
   color: #fff;
   }
-  
+
 /*-- nav-hover --*/
 .link-effect-4 a {
   padding: 0 10px;
@@ -1980,6 +2021,7 @@ h4.tittle{
 .info-gal-con p {
     font-size: 22px;
     line-height: 2.2em;
+	font-family: MN Paethai !important;
 }
 /*--bottom-*/
 .bottom{
@@ -2143,6 +2185,7 @@ td:first-child, th:first-child {
 	font-size:1.3em;
 	margin: 0;
 	opacity:.7;
+	color:white;
 }
 .videotitle h5:hover {
 	opacity:1;
@@ -2163,6 +2206,37 @@ td:first-child, th:first-child {
    text-shadow: 0 0 5px rgba(255,255,255,0.8);
 }
 
+.titlename {
+	text-shadow: 0 0 15px rgba(255,255,255,1);
+	transition: text-shadow 0.5s linear; /* vendorless fallback */
+    -o-transition: text-shadow 0.5s linear; /* opera */
+    -ms-transition: text-shadow 0.5s linear; /* IE 10 */
+    -moz-transition: text-shadow 0.5s linear; /* Firefox */
+    -webkit-transition: text-shadow 0.5s linear; /*safari and chrome */
+	color:white;
+}
+.titlename:hover {
+   text-shadow: 0 0 5px rgba(255,255,255,0.8);
+}
+
+.haumeatitle {
+	filter: drop-shadow(0 0 5px rgba(255,255,255,1));
+	transition: filter 0.5s linear; /* vendorless fallback */
+    -o-transition: filter 0.5s linear; /* opera */
+    -ms-transition: filter 0.5s linear; /* IE 10 */
+    -moz-transition: filter 0.5s linear; /* Firefox */
+    -webkit-transition: filter 0.5s linear; /*safari and chrome */
+	color:white;
+}
+.haumeatitle img {
+	filter: invert(100%);
+}
+.haumeatitle:hover {
+   	filter: drop-shadow(0 0 2px rgba(255,255,255,0.8));
+}
+h1.haumeatitle::selection {
+	filter: drop-shadow(0 0 50px rgba(255,255,255,0));
+}
 .starname {
 	color:white;
 	text-shadow: 0 0 35px #abb5ee, 0 0 20px #abb5ee;
@@ -2268,9 +2342,9 @@ td:first-child, th:first-child {
   border: none;
   text-indent: 100%;
   background: url(../images/top-button.png) no-repeat 0px 0px;
-	 background-size: cover; 
+	 background-size: cover;
     background-repeat:   no-repeat;
-    background-position: center center; 
+    background-position: center center;
   z-index:999;
 }
 /*-- responsive-design starts-here --*/
@@ -2318,7 +2392,7 @@ h3.single {
 }
 
 @media (max-width:1024px) {
-	
+
 	.welcome h1 {
   font-size:40px;
 }
@@ -2671,7 +2745,7 @@ h4.tittle {
 		width: 100%;
 		z-index: 999;
 	}
-	
+
 	#about, #team, #gallery, #contact, .blog-section,.test-monials {
 		padding: 3.5em 0;
 	}

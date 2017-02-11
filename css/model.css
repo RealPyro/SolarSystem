@@ -6,7 +6,7 @@
 	border-radius: 50%;
 	background-size: 775px;
 	background-position: center;
-	animation:sunglow 3s ease-in-out infinite alternate, rotatesun 30s infinite linear;
+	animation:sunglow 10s ease-in-out infinite alternate, rotatesun 90s infinite linear;
 	-ms-transform: translateY(-50%); /* IE 9 */
 	-webkit-transform: translateY(-50%); /* Chrome, Safari, Opera */
 	transform: translateY(-50%);
@@ -26,7 +26,7 @@
 	box-shadow: inset -16px 0 50px 6px rgb(0, 0, 0),
 		inset 16px 0 50px 2px rgba(255, 253, 230, 0.45);
 	animation-name: rotatemercury;
-	animation-duration: 8s;
+	animation-duration: 20s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	-ms-transform: translateY(-50%) rotate(-7deg); /* IE 9 */
@@ -48,7 +48,7 @@
 	box-shadow: inset -16px 0 50px 6px rgb(0, 0, 0),
 		inset 16px 0 50px 2px rgba(255, 253, 230, 0.45);
 	animation-name: rotatevenus;
-	animation-duration: 5s;
+	animation-duration: 30s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	-ms-transform: translateY(-50%) rotate(-3.3deg); /* IE 9 */
@@ -60,22 +60,146 @@
 }
 
 #earth {
-  width: 100px;
-	height: 100px;
-	background: url(http://www.noirextreme.com/digital/Earth-Color4096.jpg);
+	position: relative;
+    width: 160px;
+	height: 160px;
+	background: url("../images/Maps/Earth.jpg");
 	border-radius: 50%;
-	background-size: 210px;
+	background-size: 340px;
+	background-position: center center;
 	box-shadow: inset -16px 0 50px 6px rgb(0, 0, 0),
 		inset 16px 0 50px 2px rgba(255, 253, 230, 0.45);
 	animation-name: rotateearth;
-	animation-duration: 8s;
+	animation-duration: 9s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
-	display: inline-block;
-	margin-top: 50%;
-	-ms-transform: translateY(-50%); /* IE 9 */
-	-webkit-transform: translateY(-50%); /* Chrome, Safari, Opera */
-	transform: translateY(-50%);
+	-ms-transform: translateY(-50%) rotate(-7.15deg); /* IE 9 */
+	-webkit-transform: translateY(-50%) rotate(-7.15deg); /* Chrome, Safari, Opera */
+	transform: translateY(-50%) rotate(-7.15deg);
+	z-index: -99;
+    margin: auto;
+	margin-top:15em;
+}
+
+#mars {
+	position: relative;
+    width: 115px;
+	height: 115px;
+	background: url("../images/Maps/Mars.png");
+	border-radius: 50%;
+	background-size: 260px;
+	background-position: center center;
+	box-shadow: inset -16px 0 50px 6px rgb(0, 0, 0),
+		inset 16px 0 50px 2px rgba(255, 253, 230, 0.45);
+	animation-name: rotatemars;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	-ms-transform: translateY(-50%) rotate(-1.85deg); /* IE 9 */
+	-webkit-transform: translateY(-50%) rotate(-1.85deg); /* Chrome, Safari, Opera */
+	transform: translateY(-50%) rotate(-1.85deg);
+	z-index: -99;
+    margin: auto;
+	margin-top:15em;
+}
+
+#ceresplanet {
+	position: relative;
+    width: 50px;
+	height: 50px;
+	background: url("../images/Maps/Ceres.jpg");
+	border-radius: 50%;
+	background-size: 130px;
+	background-position: center center;
+	box-shadow: inset -5px 0 15px 1px rgb(0, 0, 0),
+		inset 5px 0 15px 1px rgba(255, 253, 230, 0.45);
+	animation-name: rotateceres;
+	animation-duration: 3.4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	-ms-transform: translateY(-50%) rotate(-10.58deg); /* IE 9 */
+	-webkit-transform: translateY(-50%) rotate(-10.58deg); /* Chrome, Safari, Opera */
+	transform: translateY(-50%) rotate(-10.58deg);
+	z-index: -99;
+    margin: auto;
+	margin-top:10em;
+}
+
+#erisplanet {
+	position: relative;
+    width: 70px;
+	height: 70px;
+	background: url("../images/Maps/Eris.jpg");
+	border-radius: 50%;
+	background-size: 130px;
+	background-position: center center;
+	box-shadow: inset -8px 0 15px 1px rgb(0, 0, 0),
+		inset 8px 0 15px 1px rgba(255, 253, 230, 0.45);
+	animation-name: rotateceres;
+	animation-duration: 3.65s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	-ms-transform: translateY(-50%) rotate(-44deg); /* IE 9 */
+	-webkit-transform: translateY(-50%) rotate(-44deg); /* Chrome, Safari, Opera */
+	transform: translateY(-50%) rotate(-44deg);
+	z-index: -99;
+    margin: auto;
+	margin-top:10em;
+}
+
+#haumeaplanet {
+	position: relative;
+    width: 50px;
+	height: 65px;
+	background: url("../images/Maps/Haumea.jpg");
+	border-radius: 50%;
+	background-size: 155px;
+	background-position: center center;
+	box-shadow: inset -4px 0 15px 1px rgb(0, 0, 0),
+		inset 4px 0 15px 1px rgba(255, 253, 230, 0.45);
+	animation-name: rotatehaumea;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	-ms-transform: translateY(-50%) rotate(28deg); /* IE 9 */
+	-webkit-transform: translateY(-50%) rotate(28deg); /* Chrome, Safari, Opera */
+	transform: translateY(-50%) rotate(28deg);
+	z-index: -99;
+    margin: auto;
+	margin-top:10em;
+}
+
+#makemakeplanet {
+	position: relative;
+    width: 55px;
+	height: 55px;
+	background: url("../images/Maps/Makemake.jpg");
+	border-radius: 50%;
+	background-size: 130px;
+	background-position: center center;
+	box-shadow: inset -3px 0 15px 1px rgb(0, 0, 0),
+		inset 3px 0 15px 1px rgba(255, 253, 230, 0.45);
+	animation-name: rotateceres;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	-ms-transform: translateY(-50%) rotate(-29deg); /* IE 9 */
+	-webkit-transform: translateY(-50%) rotate(-29deg); /* Chrome, Safari, Opera */
+	transform: translateY(-50%) rotate(-29deg);
+	z-index: -99;
+    margin: auto;
+	margin-top:10em;
+}
+
+@keyframes rotatesun {
+  from { background-position-x: 0px; }
+  to { background-position-x: 775px; }
+}
+
+
+@keyframes rotatemercury {
+  from { background-position-x: 0px; }
+  to { background-position-x: 280px; }
 }
 
 @keyframes rotatevenus {
@@ -83,20 +207,25 @@
   to { background-position-x: 0px; }
 }
 
-@keyframes rotatemercury {
-  from { background-position-x: 0px; }
-  to { background-position-x: 280px; }
-}
 @keyframes rotateearth {
   from { background-position-x: 0px; }
-  to { background-position-x: 211px; }
+  to { background-position-x: 340px; }
 }
-@keyframes rotatesun {
+
+@keyframes rotatemars {
   from { background-position-x: 0px; }
-  to { background-position-x: 775px; }
+  to { background-position-x: 260px; }
 }
 
+@keyframes rotateceres {
+  from { background-position-x: 0px; }
+  to { background-position-x: 130px; }
+}
 
+@keyframes rotatehaumea {
+  from { background-position-x: 0px; }
+  to { background-position-x: 155px; }
+}
 /*glow for webkit*/
 
 @-webkit-keyframes sunglow  {
@@ -124,11 +253,10 @@
 
 @keyframes sunglow  {
   from {
-    box-shadow: 0 0 110px 9px rgb(255, 69, 0), inset 0 0 20px 4px rgb(255, 69, 0);
+    box-shadow: 0 0 120px 10px rgb(255, 69, 0), inset 0 0 15px 4px rgb(255, 69, 0);
   }
   to {
-    box-shadow: 0 0 55px 4.5px rgb(255, 69, 0), inset 0 0 60px 8px rgb(255, 69, 0);
+    box-shadow: 0 0 60px 2px rgb(255, 69, 0), inset 0 0 60px 10px rgb(255, 69, 0);
   }
 }
 
-box-shadow: 0 0 60px 10px rgb(255, 69, 0);

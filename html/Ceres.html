@@ -1,0 +1,336 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>ดาวซีรีส - Solar System</title>
+<meta content=’width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0′ name=’viewport’ />
+<meta name=”viewport” content=”width=device-width” />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="ระบบสุริยะ" />
+<script type="applisalonion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="../css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link rel="icon" href="../images/icon.png">
+<link href="../css/iconeffects.css" rel='stylesheet' type='text/css' />
+<link href="../css/style.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="../css/swipebox.css" />
+<link rel="stylesheet" href="../fonts/stylesheet.css" />
+<link rel="stylesheet" href="../css/stars.css" />
+<link href="../css/model.css" type="text/css" rel="stylesheet">
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/bootstrap.js"> </script>
+<script type="text/javascript" src="../js/move-top.js"></script>
+<script type="text/javascript" src="../js/easing.js"></script>
+<link rel="stylesheet" href="../css/pace.css" />
+<script type="text/javascript" src="../js/pace.min.js"></script>
+<script type="text/javascript" src="../js/scroll.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+<link rel="stylesheet" href="../css/mediaelementplayer.css" />
+<!-- swipe box js -->
+	<script src="../js/jquery.swipebox.min.js"></script>
+	    <script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+	</script>
+<!-- //swipe box js -->
+
+</head>
+<body ondragstart="return false;" ondrop="return false;">
+		<div class="center1" id="home">
+		<div class="center2">
+		<div class="header-bottom">
+		     <div class="container">
+			      <!--logo-->
+				  <div class="logo fadeInLeft animated" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+				   <ul style="list-style: none; ">
+						<li><a href="Index.html"><div class="logo" ></div></a></li>
+					</ul>
+				   </div>
+					<!--//logo-->
+					<div class="top-menu fadeInRight animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;">
+							<nav class="link-effect-4" id="primary_nav_wrap">
+                              <ul style="list-style: none; ">
+								<li><a data-hover="หน้าแรก" href="Index.html">หน้าแรก</a></li>
+								<li><a data-hover="ดวงอาทิตย์" href="Sun.html">ดวงอาทิตย์</a></li>
+								<li><a data-hover="ดาวเคราะห์" href="Planets.html">ดาวเคราะห์</a>
+								<ul class="dropdown fadeIn animated" data-wow-delay=".04s" style="visibility: visible; animation-delay: 0.04s; animation-name: fadeIn;">
+								<li><a href="Mercury.html">ดาวพุธ</a></li>
+								<li><a href="Venus.html">ดาวศุกร์</a></li>
+								<li><a href="Earth.html">โลก</a></li>
+								<li><a href="Mars.html">ดาวอังคาร</a></li>
+								<li><a href="Jupiter.html">ดาวพฤหัสบดี</a></li>
+								<li><a href="Saturn.html">ดาวเสาร์</a></li>
+								<li><a href="Uranus.html">ดาวยูเรนัส</a></li>
+								<li><a href="Neptune.html">ดาวเนปจูน</a></li>
+								</ul>
+								</li>
+								<li><a data-hover="ดาวเคราะห์แคระ" href="DwaftPlanets.html">ดาวเคราะห์แคระ</a>
+								<ul class="dropdown fadeIn animated" data-wow-delay=".04s" style="visibility: visible; animation-delay: 0.04s; animation-name: fadeIn;">
+								<li><a href="Pluto.html">ดาวพลูโต</a></li>
+								<li><a href="Ceres.html" class="active">ดาวซีรีส</a></li>
+								<li><a href="Eris.html">ดาวอีริส</a></li>
+								<li><a href="Haumea.html">ดาวเฮาเมอา</a></li>
+								<li><a href="Makemake.html">ดาวมาคีมาคี</a></li>
+								</ul>
+								</li>
+								<li><a data-hover="ปรากฎการณ์" href="Phenomena.html">ปรากฎการณ์</a>
+								<ul class="dropdown fadeIn animated" data-wow-delay=".04s" style="visibility: visible; animation-delay: 0.04s; animation-name: fadeIn;">
+								<li><a href="SolarEclipse.html">สุริยุปราคา</a></li>
+								<li><a href="LunarEclipse.html">จันทรุปราคา</a></li>
+								<li><a href="Comet.html">ดาวหาง</a></li>
+								<li><a href="MeteorShower.html">ฝนดาวตก</a></li>
+								<li><a href="Aurora.html">ออโรรา</a></li>
+								<li><a href="SunHola.html">อาทิตย์ทรงกลด</a></li>
+								</ul>
+								</li>
+								</ul>
+							</nav>
+					<div>
+							<!-- script-for-menu -->
+								<script>
+									$("span.menu").click(function(){
+										$(".top-menu ul").slideToggle("slow" , function(){
+										});
+									});
+								</script>
+								<!-- script-for-menu -->
+
+				 <div class="clearfix"></div>
+					<script>
+				$(document).ready(function() {
+					 var navoffeset=$("#ChangeFixed").offset().top;
+					 $(window).scroll(function(){
+						var scrollpos=$(window).scrollTop();
+						if(scrollpos >navoffeset){
+							$(".header-bottom").addClass("fixed slideInDown animated");
+						}else{
+							$(".header-bottom").removeClass("fixed slideInDown animated");
+						}
+					 });
+				});
+
+				</script>
+
+		</div>
+	</div>
+	</div>
+	</div>
+		</div>
+	</div>
+
+<div class="paddingtop" id="home"></div>
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+<div id="ChangeFixed"></div>
+<div id="contenttable">
+	<div class="container fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-bottom:3.95em;">
+  <tr>
+    <td width="45%"><h1 class="titlename">ดาวซีรีส ⚳</h1><div id="ceresplanet"></div></td>
+    <td valign="top">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="insidetable">
+  <tr>
+    <td width="40%" class="title topleft">ค้นพบโดย</td>
+    <td align="left" class="tablecontent topright">จูเซปเป ปีอาซซี</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2">ค้นพบเมื่อ</td>
+    <td align="left" class="tablecontent2">1 มกราคม พ.ศ. 2344</td>
+  </tr>
+    <tr>
+    <td width="40%" class="title">ระยะจุดไกลดวงอาทิตย์ที่สุด</td>
+    <td align="left" class="tablecontent">447,838,164 กิโลเมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2">ระยะจุดใกล้ดวงอาทิตย์ที่สุด</td>
+    <td align="left" class="tablecontent2">381,419,582 กิโลเมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title">กึ่งแกนเอก</td>
+    <td align="left" class="tablecontent">414,703,838 กิโลเมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2">คาบดาราคติ</td>
+    <td align="left" class="tablecontent2">1679.819 วัน</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title fitfont">อัตราเร็วเฉลี่ยในวงโคจร</td>
+    <td align="left" class="tablecontent">17.882 กิโลเมตรต่อวินาที</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2">ความเอียง</td>
+    <td align="left" class="tablecontent2">10.585°</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title">พื้นที่ผิว</td>
+    <td align="left" class="tablecontent">2,850,000 ตารางกิโลเมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2">ปริมาตร</td>
+    <td align="left" class="tablecontent2">1.08321×10<sup>12</sup> ลูกบาศก์กิโลเมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title">มวล</td>
+    <td align="left" class="tablecontent">9.43±0.07×10<sup>20</sup> กิโลกรัม</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2">ความหนาแน่นเฉลี่ย</td>
+    <td align="left" class="tablecontent2">2.077 ± 0.036 กรัมต่อลูกบาศก์เซนติเมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title bottomleft">คาบการหมุนรอบตัวเอง</td>
+    <td align="left" class="tablecontent bottomright">0.3781 วัน</td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+
+	<div class="contentwhite">
+		<div class="container">
+		<div class="contentbodywhite">
+		<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+	 <h2 class="titlewhite">การค้นพบ</h2>
+ 		</div>
+	 <div class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+		 <div class="col-md-3 baner-top wow fadeInRight animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;width:360px;float:right; margin-left:15px;">
+				 <div class="gal-spin-effect vertical ">
+					 <img src="../images/CeresOrbit.png" />
+					 <div class="gal-text-box">
+					 <div class="info-gal-con">
+						 <h5>วงโคจรของซีรีส (สีเหลือง) และดาวอังคาร (สีแดง)</h5>
+					 </div>
+					 </div>
+				 </div>
+		 </div>
+		<p>แนวคิดที่ว่ามีดาวเคราะห์ที่ยังไม่ถูกค้นพบอยู่ระหว่างวงโคจรของดาวอังคารกับดาวพฤหัสบดี ได้รับการเสนอโดยโยฮันน์ อีแลร์ต โบเดอใน ค.ศ. 1772 ก่อนหน้าใน ใน ค.ศ. 1596 เคปเลอร์ได้สังเกตช่องว่างระหว่างดาวอังคารกับดาวพฤหัสบดีแล้ว การพิจารณาของโบเดออิงกฎของทิเทียส-โบเดอ ซึ่งปัจจุบันถูกล้มล้างแล้ว ที่เสนอขึ้นครั้งแรกโดยโยฮัน ดาเนียล ทิเทียสใน ค.ศ. 1766 จากการสังเกตว่ามีรูปแบบสม่ำเสมอในกึ่งแกนเอกของดาวเคราะห์ที่ทราบกัน แต่ใช้ไม่ได้เฉพาะกับช่องว่างใหญ่ระหว่างดาวอังคารกับดาวพฤหัสบดีเพียงจุดเดียว รูปแบบดังกล่าวทำนายว่าดาวเคราะห์ที่หายไปมีกึ่งแกนเอกที่ใกล้กับ 2.8 หน่วยดาราศาสตร์ การค้นพบดาวยูเรนัสของวิลเลียม เฮอร์เชลใน ค.ศ. 1781 ใกล้กับระยะห่างที่ทำนายไว้จากวัตถุถัดไปจากดาวเสาร์เพิ่มความเชื่อมั่นในกฎของทิเทียสและโบเดอ และใน ค.ศ. 1800 พวกเขาส่งคำร้องไปยังนักดาราศาสตร์ผู้เชี่ยวชาญยี่สิบสี่คน ร้องขอให้พวกเขาประสานงานกันและเริ่มต้นค้นหาดาวเคราะห์ที่คาดคะเนไว้อย่างเป็นระบบ กลุ่มนี้ ซึ่งนำโดยฟรันซ์ ซาแวร์ ฟอน ซัค บรรณาธิการโมนัทลีเชอคอร์เรสปอนเดนซ์ (Monatliche Correspondenz) ขณะที่พวกเขาไม่พบซีรีส ภายหลังได้พบดาวเคราะห์น้อยขนาดใหญ่จำนวนมาก</p>
+		<p class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">หนึ่งในนักดาราศาสตร์ที่ถูกเลือกมาค้นหานั้นมีจูเซปเป ปีอาซซีจากสถาบันปาเลอร์โม ซิซิลี ก่อนได้รับการเชิญให้เข้าร่วมกลุ่ม จูเซปเป ปีอาซซีค้นพบซีรีสแล้วเมื่อวันที่ 1 มกราคม ค.ศ. 180 เขากำลังค้นหา "[ดาวฤกษ์] ดวงที่ 87 ในบัญชีรายชื่อดาวฤกษ์จักรราศีของคุณลา ไคลล์" แต่พบว่า "มันตามหลังอีกดวงหนึ่ง" แทนที่จะพบดาวฤกษ์ เขากลับพบวัตถุคล้ายดาวฤกษ์เคลื่อนที่ ซึ่งตอนแรกเขาคิดว่าเป็นดาวหาง ปีอาซซีสังเกตซีรีสรวม 24 ครั้ง ครั้งสุดท้ายเมื่อวันที่ 11 กุมภาพันธ์ ค.ศ. 1801 เมื่อความเจ็บป่วยรบกวนการเฝ้าสังเกตของเขา เขาประกาศการค้นพบของตัวเมื่อวันที่ 24 มกราคม ค.ศ. 1801 ในจดหมายถึงนักดาราศาสตร์ผู้ติดตามเพียงสองคน บาร์นาบา โอเรียนีแห่งมิลาน เพื่อนร่วมชาติ และโบเดอแห่งเบอร์ลิน เขารายงานว่ามันเป็นดาวหางแต่ "เพราะการเคลื่อนที่ของมันช้ามากและค่อนข้างมีแบบแผน มันได้ปรากฏต่อผมหลายครั้งจนมันน่าจะเป็นอะไรที่ดีกว่าดาวหาง" ในเดือนเมษายน ปีอาซซีส่งการสังเกตสมบูรณ์ของเขาไปยังโอเรียนี โบเดอและเจอโรม ลาล็องด์ในกรุงปารีส ข้อมูลนี้ได้รับการตีพิมพ์ในโมนัทลีเชอคอร์เรสปอนเดนซ์ฉบับเดือนกันยายน ค.ศ. 1801</p>
+		<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+		<div class="col-md-3 baner-top wow fadeInRight animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;width:450px; margin-right:15px;">
+				<div class="gal-spin-effect vertical ">
+					<img src="../images/CeresOrbit2.png" />
+					<div class="gal-text-box">
+					<div class="info-gal-con">
+						<h5>วงโคจรของซีรีส (สีเหลือง) และดาวอังคาร (สีแดง)</h5>
+					</div>
+					</div>
+				</div>
+		</div>
+		<p>ถึงขณะนี้ ตำแหน่งปรากฏของซีรีสได้เปลี่ยนไปแล้ว (ส่วนใหญ่เนื่องจากการหมุนโคจรของโลก) และใกล้แสงจ้าของดวงอาทิตย์เกินกว่าที่นักดาราศาสตร์คนอื่นจะยืนยันการสังเกตของปีอาซซีได้ ซีรีสควรมองเห็นได้อีกครั้ง แต่หลังจากเวลานานเช่นนั้น เป็นการยากที่จะทำนายตำแหน่งที่แน่ชัด เพื่อหาซีรีสอีกครั้ง คาร์ล ฟรีดริช เกาส์ ซึ่งขณะนั้นอายุ 24 ปี พัฒนาวิธีการตรวจหาวงโคจรที่มีประสิทธิภาพเขาจัดงานพิจารณาการเคลื่อนที่แบบเคปเลอร์จากการสังเกตสมบูรณ์สามอย่าง (เวลา ไรท์แอสเซนชั่นและเดคลิเนชั่น) ในเวลาเพียงไม่กี่สัปดาห์ เขาทำนายทางเดินของซีรีสและส่งผลการคำนวณให้แก่ฟอน ซัค ในวันที่ 31 ธันวาคม ค.ศ. 1801 ฟอน ซัคและไฮน์ริช เว เอ็ม ออลแบร์สพบซีรีสใกล้กับตำแหน่งที่ทำนายและเป็นการพบอีกครั้งหนึ่ง</p></div>
+		<p class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">การสังเกตช่วงแรกเพียงสามารถคำนวณขนาดของซีรีสได้จากลำดับความสว่างเท่านั้น แฮร์เชลประเมินขนาดมันต่ำกว่าจริงที่ 260 กิโลเมตรใน ค.ศ. 1802 ขณะที่โยฮันน์ ฮีโรนือมุส ชเรอแทร์ประเมินขนาดสูงกว่าจริงที่ 2,613 กิโลเมตร</p>
+		<div class="col-md-3 baner-top wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;width:400px; float:none; margin:25px auto 0 auto;">
+ 				 <div class="gal-spin-effect vertical">
+ 					 <img src="../images/CeresMoon.png" />
+ 					 <div class="gal-text-box">
+ 					 <div class="info-gal-con">
+ 						 <h5>จากซ้ายไปขวา: เวสตา, ซีรีส, ดวงจันทร์ของโลก</h5>
+ 					 </div>
+ 					 </div>
+ 				 </div>
+		</div>
+
+		</div>
+		</div>
+		</div>
+		</div>
+</div>
+	<div class="content parallax" style="background: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) .15vw, rgba(0, 0, 0, 0.5) .15vw, rgba(0, 0, 0, 0.5) .3vw), url(../images/CeresParallax.png);
+">
+		<div class="container">
+		<div class="contentbodynormal">
+		<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+	 <h2 class="titlenormal">ชื่อ</h2>
+ 		</div>
+	 <div class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+		<p class="normal wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+		ปีอาซซีเดิมเสนอชื่อ เซเรเร แฟร์ดีนันเดอา (Cerere Ferdinandea) สำหรับการค้นพบของเขา ตามชื่อเทพในตำนานเทพปกรณัมเซเรส (เทพีโรมันแห่งเกษตรกรรม ภาษาอิตาลีว่า เซเรเร) และพระเจ้าเฟอร์ดินันที่ 3 แห่งซิซิลี "แฟร์ดีนันเดอา" ไม่ได้รับการยอมรับต่อชาติอื่นในโลกและได้ตัดออก ซีรีสยังเรียกอีกชื่อว่า เฮรา เป็นช่วงสั้น ๆ ในเยอรมนี ในกรีซ ซีรีสเรียกว่า Δήμητρα (เดเมเทอร์) ตามเทพีกรีกที่ตรงกับซีรีสของโรมัน (แต่ในภาษาอังกฤษ ชื่อนั้นใช้สำหรับดาวเคราะห์น้อย 1108 เดเมเทอร์) นอกจากนี้ ชาติอื่น ๆ ยังได้เรียกชื่อต่างกันออกไป แต่ทั้งหมดหมายความถึงซีรีส สัญลักษณ์ทางดาราศาสตร์เก่าของซีรีสเป็นรูปเคียว ⚳ (สัญลักษณ์รูปเคียวของซีรีส) คล้ายคลึงกับสัญลักษณ์ ♀ ของดาวศุกร์ แต่วงกลมไม่ขาด ภายหลังสัญลักษณ์นี้แทนด้วยวงกลมล้อมรอบตัวเลข ① ชื่อธาตุซีเรียม ซึ่งค้นพบใน ค.ศ. 1803 ตั้งตามชื่อซีรีส ในปีเดียวกัน อีกธาตุหนึ่งได้ตั้งชื่อตามซีรีสแต่แรก แต่ผู้ค้นพบมันเปลี่ยนชื่อเป็นพัลลาเดียม (ตามชื่อดาวเคราะห์น้อยดวงที่สอง 2 พัลลัส) เมื่อชื่อซีเรียมถูกตั้งไปแล้ว</p>
+ 		</div>
+		</div>
+		</div>
+	 </div>
+<script>
+$(document).ready(function(){
+    $('.player').click(function(){
+		$('.player').removeClass('wow fadeInUp animated');
+	});
+});
+</script>
+		<div class="contentwhite">
+			<div class="container">
+			<div class="contentbodywhite">
+			<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+		 <h2 class="titlewhite">สถานะ</h2>
+		 <div class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+		 	<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">การจัดประเภทซีรีสนั้นเปลี่ยนแปลงมากกว่าหนึ่งครั้งและยังเป็นหัวข้อถกเถียงกันอยู่ในบางเรื่อง โยฮันน์ อีแลร์ท โบเดอเชื่อว่าซีรีสเป็น "ดาวเคราะห์ที่หายไป" ซึ่งเขาเสนอว่ามีอยู่ระหว่างดาวอังคารกับดาวพฤหัสบดี ที่ระยะห่าง 419 ล้านกิโลเมตร (2.8 หน่วยดาราศาสตร์) จากดวงอาทิตย์ ได้มีการกำหนดสัญลักษณ์ดาวเคราะห์ให้ซีรีส และยังขึ้นทะเบียนเป็นดาวเคราะห์ในหนังสือและตารางดาราศาสตร์หลายแหล่ง (ร่วมกับ 2 พัลลัส, 3 จูโน และ 4 เวสตา) เป็นเวลาราวครึ่งศตวรรษ</p>
+			<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">เมื่อวัตถุอื่นถูกค้นพบในบริเวณนั้น จึงเป็นที่ทราบว่าซีรีสเป็นตัวแทนวัตถุชิ้นแรกของชั้นวัตถุคล้ายกันจำนวนมาก ใน ค.ศ. 1802 เซอร์วิลเลียม เฮอร์เชลได้ประดิษฐ์คำว่า asteroid (ดาวเคราะห์น้อย, ความหมายตามตัวอักษรว่า "คล้ายดาวฤกษ์") สำหรับวัตถุเหล่านี้ โดยเขียนว่า "พวกมันดูคล้ายดาวฤกษ์ขนาดเล็กมากเสียจนยากที่จะแยกแยะจากมันได้ แม้แต่กล้องโทรทรรศน์ที่ดีมากก็ตาม" เนื่องจากเป็นวัตถุประเภทนี้ชิ้นแรกที่ถูกค้นพบ จึงได้หมายเลข 1 ซีรีสภายใต้ระบบการกำหนดหมายเลขดาวเคราะห์น้อยสมัยใหม่</p>
+			<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">การโต้วาทีเกี่ยวกับดาวพลูโตและองค์ประกอบของ "ดาวเคราะห์" ใน ค.ศ. 2006 ทำให้ซีรีสถูกนำไปพิจารณาจัดประเภทใหม่ในฐานะดาวเคราะห์ด้วย การเสนอนิยามดาวเคราะห์ต่อสหภาพดาราศาสตร์สากล ได้นิยามว่าดาวเคราะห์เป็น "เทหวัตถุซึ่ง (ก) มีมวลมากพอที่แรงโน้มถ่วงของตัวเองจะเอาชนะแรงวัตถุแข็งเกร็ง เพื่อที่จะยังคงรูปร่างสมดุลอุทกสถิต (เกือบกลม) ได้, และ (ข) อยู่ในวงโคจรรอบดาวฤกษ์ และต้องไม่ใช่ดาวฤกษ์หรือดาวบริวารของดาวเคราะห์" หากมตินี้ผ่าน จะทำให้ซีรีสเป็นดาวเคราะห์ดวงที่ห้านับจากดวงอาทิตย์ แต่มตินี้ไม่ได้รับการยอมรับ และในประเด็นนิยามทางเลือกมีผลบังคับจนถึงวันที่ 24 สิงหาคม ค.ศ. 2006 กำหนดเงื่อนไขเพิ่มอีกว่า "ดาวเคราะห์" ต้องมี "ย่านโล่งรอบวงโคจรของมัน" ด้วยนิยามนี้ ซีรีสจึงมิใช่ดาวเคราะห์ เพราะมันไม่ได้ครองวงโคจรของมัน แต่ต้องแบ่งกับดาวเคราะห์น้อยอีกหลายพันดวงในแถบดาวเคราะห์น้อยและประกอบด้วยมวลเพียงหนึ่งในสามของมวลทั้งหมด ปัจจุบัน ซีรีสจึงถูกจัดเป็นดาวเคราะห์แคระ</p>
+			<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">บางครั้งมีการสันนิษฐานว่าซีรีสได้ถูกจัดประเภทเป็นดาวเคราะห์แคระอีกครั้ง และดังนั้น จึงไม่ถูกจัดเป็นดาวเคราะห์น้อยอีกต่อไป ตัวอย่างเช่น ข่าวอัปเดตที่สเปซ.คอม พูดถึง "พัลลัส ดาวเคราะห์น้อยดวงใหญ่ที่สุด และซีรีส ดาวเคราะห์แคระซึ่งอดีตจัดเป็นดาวเคราะห์น้อยดวงใหญ่ที่สุด" ขณะที่โพสต์ถามและตอบของสหภาพดาราศาสตร์สากลแถลงว่า "ซีรีสเป็น (หรือปัจจุบันเราสามารถพูดได้ว่าเคยเป็น) ดาวเคราะห์น้อยดวงใหญ่สุด" แม้ในหน้านั้นพูดถึง "ดาวเคราะห์น้อยดวงอื่น" ข้ามทางเดินของซีรีสและจึงแสดงนัยว่าซีรีสเองยังเป็นหนึ่งในดาวเคราะห์น้อย ศูนย์ดาวเคราะห์น้อยบันทึกว่า วัตถุเหล่านี้อาจมีการกำหนดคู่ มติสหภาพดาราศาสตร์สากล ค.ศ. 2006 ซึ่งจัดซีรีสเป็นดาวเคราะห์แคระไม่เคยระบุว่ามันเป็นหรือไม่เป็นดาวเคราะห์น้อย และที่จริงแล้ว สหภาพดาราศาสตร์สากลไม่เคยนิยามคำว่า "ดาวเคราะห์น้อย" (asteroid) แต่อย่างใด โดยใช้คำว่า "ดาวเคราะห์น้อย" (minor planet) แทน กระทั่ง ค.ศ. 2006 และ "วัตถุระบบสุริยะขนาดเล็ก" และ "ดาวเคราะห์แคระ" หลัง ค.ศ. 2006 นาซายังเรียกซีรีสว่าเป็นดาวเคราะห์น้อยต่อไป โดยกล่าวในการแถลงข่าวเมื่อ ค.ศ. 2011 ว่า "ดอว์นจะโคจรรอบดาวเคราะห์น้อยใหญ่ที่สุดในแถบหลังสองดวง" เช่นเดียวกับหนังสือเรียนวิชาการหลายสำนัก</p>
+			</div>
+			</div>
+			</div>
+		</div>
+ </div>
+
+		<!--start-smooth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear'
+								 		};
+										*/
+
+										$().UItoTop({ easingType: 'easeOutQuart' });
+
+									});
+								</script>
+								<!--end-smooth-scrolling-->
+		<a href="#home" id="toTop" class="scroll fadeInUp animated" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- animation-effect -->
+<link href="../css/animate.min.css" rel="stylesheet">
+<script src="../js/wow.min.js"></script>
+<!-- animation-effect -->
+
+
+<!--footer-->
+<div class="whitefooter">
+	<div class="footer2 wow fadeIn animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.75s; animation-name: fadeIn;">
+		<div class="footer-info">
+			<div class="container">
+				<div class="wow slideInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: slideInUp;">
+					<p><a data-hover="คณะผู้จัดทำ" href="Builder.html" class="scroll">คณะผู้จัดทำ</a></p>
+					<script>$(function () {
+					  $('[data-toggle="tooltip"]').tooltip()
+					})</script>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--/footer-->
+
+<script>
+ new WOW().init();
+</script>
+<script src="../js/player.js"></script>
+<script src="../js/mediaelement-and-player.js"></script>
+<link href="../css/animate.min.css" rel="stylesheet">
+<script src="../js/wow.min.js"></script> <!-- //animation-effect -->
+
+</body>
+</html>
