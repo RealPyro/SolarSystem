@@ -884,6 +884,12 @@ label{
 	position: absolute;
 	bottom: 20%;
 }
+.hidevideo {
+	visibility:hidden;
+}
+.hidevideo h1 {
+	visibility:hidden;
+}
 .header-bottombg {
 	position: fixed;
 	top: 0;

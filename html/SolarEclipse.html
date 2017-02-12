@@ -53,6 +53,7 @@ $(function() {
 <div id="home"></div>
 <section id="scrollsection" class="scrollbutton">
 <div class="bgsection">
+<div id="HideVideo"></div>
 		<div class="parallaxvideo">
 			<video autoplay muted loop>
 					<source src="../videos/SolarEclipse.mp4" type="video/mp4">
@@ -61,6 +62,7 @@ $(function() {
 			<a href="#targetcontent"><span></span><span></span><span></span>เลื่อนลง</a>
 		</div>
 		<div id="ChangeVisible"></div>
+		
 </section>
 			</div>
 		<div class="header-bottombg"></div>
@@ -134,6 +136,20 @@ $(function() {
 						}
 					 });
 				});
+				</script>
+				
+				<script>
+				$(document).ready(function() {
+					 var navoffeset=$("#HideVideo").offset().top;
+					 $(window).scroll(function(){
+						var scrollpos=$(window).scrollTop();
+						if(scrollpos >navoffeset){
+							$("#scrollsection").addClass("hidevideo");
+						}else{
+							$("#scrollsection").removeClass("hidevideo");
+						}
+					 });
+				});
 
 				</script>
 
@@ -177,15 +193,63 @@ $(function() {
 </div>	
 
 <div class="contentwhite">
-		<div class="container">
-		<div class="contentbodywhite">
-		<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-	 <h2 class="titlewhite">ความหมายของสุริยุปราคา</h2>
+	<div class="container">
+	<div class="contentbodywhite">
+	<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+	 <h2 class="titlewhite">การพยากรณ์สุริยุปราคา</h2>
  		</div>
-		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">สุริยุปราคา หรือ สุริยคราส เป็นปรากฏการณ์ธรรมชาติ เกิดขึ้นเมื่อดวงอาทิตย์ ดวงจันทร์ และโลก โคจรมาเรียงอยู่ในแนวเดียวกันโดยมีดวงจันทร์อยู่ตรงกลาง เกิดขึ้นเฉพาะในวันที่ดวงจันทร์มีดิถีตรงกับจันทร์ดับ เมื่อสังเกตจากพื้นโลกจะเห็นดวงจันทร์เคลื่อนเข้ามาบดบังดวงอาทิตย์ โดยอาจบังมิดหมดทั้งดวงหรือบางส่วนก็ได้ ในแต่ละปีสามารถเกิดสุริยุปราคาบนโลกได้อย่างน้อย 2 ครั้ง สูงสุดไม่เกิน 5 ครั้ง ในจำนวนนี้อาจไม่มีสุริยุปราคาเต็มดวงเลยแม้แต่ครั้งเดียว หรืออย่างมากไม่เกิน 2 ครั้ง[1] โอกาสที่จะได้เห็นสุริยุปราคาเต็มดวงสำหรับสถานที่ใดสถานที่หนึ่งบนพื้นโลกนั้นค่อนข้างยาก เนื่องจากสุริยุปราคาเต็มดวงแต่ละครั้งจะเกิดในบริเวณแคบ ๆ ภายในแถบที่เงามืดของดวงจันทร์พาดผ่านเท่านั้น</p>
-		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">สุริยุปราคาเต็มดวงเป็นปรากฏการณ์ธรรมชาติที่สวยงาม น่าตื่นเต้น และสร้างความประทับใจแก่คนที่ได้ชม ผู้คนจำนวนมากต่างพากันเดินทางไปยังดินแดนอันห่างไกลเพื่อคอยเฝ้าสังเกตปรากฏการณ์นี้ สุริยุปราคาเต็มดวงเมื่อ พ.ศ. 2542 ที่เห็นได้ในทวีปยุโรป ทำให้สาธารณชนหันมาสนใจสุริยุปราคาเพิ่มขึ้นมาก สังเกตได้จากจำนวนประชาชนที่เดินทางไปเฝ้าสังเกตสุริยุปราคาวงแหวนใน พ.ศ. 2548 และสุริยุปราคาเต็มดวงใน พ.ศ. 2549 สุริยุปราคาครั้งที่ผ่านมาเมื่อเร็ว ๆ นี้ คือสุริยุปราคาวงแหวนเมื่อวันที่ 26 มกราคม พ.ศ. 2552 และสุริยุปราคาเต็มดวงเมื่อวันที่ 22 กรกฎาคม พ.ศ. 2552</p>
+		<div class="wow fadeInUp animated" data-wow-delay=".12s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+		<h3 class="titlewhite">รูปแบบ</h3>
+		<div class="col-md-3 baner-top wow fadeInRight animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;width:255px; float:right; margin-left:10px;">
+			 <a href="../images/Solar_eclipse.png" class="b-link-stripe b-animate-go  swipebox" title="แผนภาพแสดงการเกิดสุริยุปราคา (ภาพไม่เป็นไปตามมาตราส่วน)">
+				 <div class="gal-spin-effect vertical ">
+					 <img src="../images/Solar_eclipse.png" />
+					 <div class="gal-text-box">
+					 <div class="info-gal-con">
+						 <h5>แผนภาพแสดงการเกิดสุริยุปราคา</h5>
+						 <div id="px"></div>
+						 <span class="separator"></span>
+						 <p class="description">คลิกเพื่อดูรูปภาพขนาดเต็ม</p>
+						 <span class="separator"></span>
+					 </div>
+					 </div>
+				 </div>
+			 </a>
 		</div>
+		<p>แผนภาพทางขวาแสดงให้เห็นการเรียงตัวกันของดวงอาทิตย์ ดวงจันทร์ และโลก ระหว่างการเกิดสุริยุปราคา บริเวณสีเทาเข้มใต้ดวงจันทร์คือเขตเงามืด ซึ่งดวงอาทิตย์จะถูกดวงจันทร์บดบังไปทั้งดวง บริเวณเล็ก ๆ ที่เงามืดทาบกับผิวโลกคือจุดที่สามารถมองเห็นสุริยุปราคาเต็มดวงได้ บริเวณสีเทาอ่อนที่กว้างกว่าคือเขตเงามัว ซึ่งจะสังเกตเห็นสุริยุปราคาบางส่วน</p>
+		<p>ระนาบวงโคจรของดวงจันทร์เอียงทำมุมประมาณ 5 องศา กับระนาบวงโคจรโลกรอบดวงอาทิตย์ ด้วยเหตุนี้ ในเวลาที่ดวงจันทร์โคจรมาที่ตำแหน่งจันทร์ดับ ส่วนใหญ่มันจะผ่านไปทางด้านเหนือหรือด้านใต้ของดวงอาทิตย์โดยเงาของดวงจันทร์ไม่สัมผัสผิวโลก จึงไม่เกิดสุริยุปราคา สุริยุปราคาจะเกิดขึ้นก็ต่อเมื่อจันทร์ดับเกิดในช่วงที่ดวงจันทร์เคลื่อนมาอยู่บริเวณใกล้จุดตัดของระนาบวงโคจรทั้งสอง</p>
+		<p>วงโคจรของดวงจันทร์เป็นรูปวงรี ทำให้ระยะห่างระหว่างดวงจันทร์กับโลกแปรผันได้ประมาณ 6 เปอร์เซ็นต์จากค่าเฉลี่ย เพราะฉะนั้น ขนาดปรากฏของดวงจันทร์จึงแปรผันไปตามระยะห่างซึ่งส่งผลต่อการเกิดสุริยุปราคา ขนาดเฉลี่ยของดวงจันทร์เมื่อมองจากโลกมีขนาดเล็กกว่าดวงอาทิตย์เล็กน้อย ทำให้สุริยุปราคาส่วนใหญ่เป็นแบบวงแหวน แต่หากในวันที่เกิดสุริยุปราคานั้น ดวงจันทร์โคจรมาอยู่บริเวณจุดใกล้โลกที่สุด ก็จะเกิดสุริยุปราคาเต็มดวง ส่วนวงโคจรของโลกก็เป็นวงรีเช่นกัน ระยะห่างระหว่างดวงอาทิตย์กับโลกก็แปรผันไปในรอบปี แต่ส่งผลไม่มากนักต่อการเกิดสุริยุปราคา</p>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ดวงจันทร์โคจรรอบโลกใช้เวลาประมาณ 27.3 วัน เมื่อเทียบกับกรอบอ้างอิงคงที่ เรียกว่าเดือนดาราคติ (Sidereal month) แต่โลกก็โคจรรอบดวงอาทิตย์ในทิศทางเดียวกัน ทำให้ระยะเวลาจากจันทร์เพ็ญถึงจันทร์เพ็ญอีกครั้งหนึ่งกินเวลานานกว่านั้น คือ ประมาณ 29.6 วัน เรียกว่า เดือนจันทรคติ (Lunar month) หรือเดือนดิถี (Synodic month)
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">การนับเวลาที่ดวงจันทร์โคจรผ่านจุดโหนดขึ้น (Ascending node) ซึ่งเป็นจุดที่ดวงจันทร์เคลื่อนที่จากใต้ระนาบสุริยวิถีขึ้นไปทางเหนือครบหนึ่งรอบก็เป็นการนับเดือนอีกวิธีหนึ่งเช่นกัน เดือนแบบนี้สั้นกว่าแบบแรกเล็กน้อย เนื่องจากจุดโหนดเคลื่อนที่ถอยหลังโดยเกิดจากอิทธิพลแรงโน้มถ่วงของดวงอาทิตย์ด้วยคาบ 18.6 ปี เรียกเดือนแบบนี้ว่า เดือนราหู (Draconic month)</p>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">เดือนอีกแบบหนึ่งนับจากที่ดวงจันทร์โคจรผ่านจุดใกล้โลกที่สุด 2 ครั้งติดกัน เรียกว่า เดือนจุดใกล้ (Anomalistic month) มีค่าไม่เท่ากับเดือนดาราคติ เนื่องจากวงโคจรของดวงจันทร์ส่ายไปโดยรอบด้วยคาบประมาณ 9 ปี</p>
+		<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+		<div class="col-md-3 baner-top wow fadeInRight animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;width:350px; float:right; margin-left:10px;">
+			 <a href="../images/Zonsverduistering_Malta.jpg" class="b-link-stripe b-animate-go  swipebox" title="แผนภาพแสดงการเกิดสุริยุปราคา (ภาพไม่เป็นไปตามมาตราส่วน)">
+				 <div class="gal-spin-effect vertical ">
+					 <img src="../images/Zonsverduistering_Malta.jpg" />
+					 <div class="gal-text-box">
+					 <div class="info-gal-con">
+						 <h5>แผนภาพแสดงการเกิดสุริยุปราคา</h5>
+						 <div id="px"></div>
+						 <span class="separator"></span>
+						 <p class="description">คลิกเพื่อดูรูปภาพขนาดเต็ม</p>
+						 <span class="separator"></span>
+					 </div>
+					 </div>
+				 </div>
+			 </a>
 		</div>
+		<h3>ความถี่</h3>
+		<p>วงโคจรของดวงจันทร์ตัดกับสุริยวิถี 2 จุด ซึ่งห่างกัน 180 องศา ดังนั้น ดวงจันทร์ในวันจันทร์ดับจะอยู่บริเวณจุดนี้ปีละ 2 ช่วง ห่างกัน 6 เดือน ทำให้เกิดสุริยุปราคาอย่างน้อยปีละ 2 ครั้ง บางครั้งเกิดจันทร์ดับ 2 ครั้งติดกันใกล้ ๆ กับจุดโหนด ส่งผลให้บางปีสามารถเกิดสุริยุปราคาได้มากถึง 5 ครั้ง อย่างไรก็ตาม เงามืดของดวงจันทร์มักจะทอดเลยออกไปทางเหนือหรือใต้ของโลกโดยไม่สัมผัสผิวโลก จึงเกิดเป็นสุริยุปราคาบางส่วนเท่านั้น นอกจากนี้ เงามืดอาจสัมผัสผิวโลกในที่ห่างไกลบริเวณใกล้ขั้วโลกอย่างอาร์กติกและทวีปแอนตาร์กติกา ซึ่งยากต่อการเดินทางไปสังเกตการณ์</p>
+		</div>
+		
+		<h3 class="titlewhite wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">ความถี่</h3>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">สุริยุปราคาเต็มดวงจะเกิดในเวลาสั้นๆ เนื่องจากดวงจันทร์โคจรรอบโลกอย่างรวดเร็ว ในขณะที่โลกก็โคจรไปรอบดวงอาทิตย์ด้วยเช่นกัน ทำให้เงามืดที่ตกบริเวณโลกเคลื่อนที่อย่างรวดเร็วจากตะวันตกไปตะวันออกในระยะเวลาสั้นๆ
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">หากสุริยุปราคาเกิดขึ้นเมื่อดวงจันทร์โคจรอยู่ใกล้ตำแหน่ง perigee มากๆ จะทำให้สุริยุปราคาเต็มดวงสามารถสังเกตได้ในบริเวณกว้าง ประมาณ 250 กิโลเมตร และเวลาในการเกิดนั้นอาจนานประมาณ 7 นาที
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">สุริยุปราคาบางส่วน ซึ่งเกิดจากเงามัวของดวงจันทร์นั้นสามารถเกิดได้ในบริเวณกว้างกว่าสุริยุปราคาเต็มดวงมาก</p>
+		</div>
+	</div>
+	</div>
 </div>
 
 		<!--start-smooth-scrolling-->
