@@ -884,10 +884,11 @@ label{
 	position: absolute;
 	bottom: 20%;
 }
+
 .hidevideo {
 	visibility:hidden;
 }
-.hidevideo h1 {
+.hidevideo > *{
 	visibility:hidden;
 }
 .header-bottombg {

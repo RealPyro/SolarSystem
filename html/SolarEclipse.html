@@ -53,16 +53,14 @@ $(function() {
 <div id="home"></div>
 <section id="scrollsection" class="scrollbutton">
 <div class="bgsection">
-<div id="HideVideo"></div>
 		<div class="parallaxvideo">
 			<video autoplay muted loop>
 					<source src="../videos/SolarEclipse.mp4" type="video/mp4">
 			</video>
-			<h1 class="fadeIn" data-wow-delay="0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;animation-duration:4s;">สุริยุปราคา</h1>
+			<h1 class="fadeIn" data-wow-delay="0s" style="animation-delay: 0s; animation-name: fadeIn;animation-duration:4s;">สุริยุปราคา</h1>
 			<a href="#targetcontent"><span></span><span></span><span></span>เลื่อนลง</a>
 		</div>
 		<div id="ChangeVisible"></div>
-		
 </section>
 			</div>
 		<div class="header-bottombg"></div>
@@ -144,9 +142,9 @@ $(function() {
 					 $(window).scroll(function(){
 						var scrollpos=$(window).scrollTop();
 						if(scrollpos >navoffeset){
-							$("#scrollsection").addClass("hidevideo");
+							$(".parallaxvideo").addClass("hidevideo");
 						}else{
-							$("#scrollsection").removeClass("hidevideo");
+							$(".parallaxvideo").removeClass("hidevideo");
 						}
 					 });
 				});
@@ -159,12 +157,12 @@ $(function() {
 
 	</div>
 
-
 	<div id="targetcontent" class="contentwhite">
 		<div class="container">
+		
 		<div class="contentbodywhite">
 		<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-	 <h2 class="titlewhite">ความหมายของสุริยุปราคา</h2>
+	 <h2 class="titlewhite" id="HideVideo">ความหมายของสุริยุปราคา</h2>
  		</div>
 		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;"><b>สุริยุปราคา</b> หรือ <b>สุริยคราส</b> เป็นปรากฏการณ์ธรรมชาติ เกิดขึ้นเมื่อดวงอาทิตย์ ดวงจันทร์ และโลก โคจรมาเรียงอยู่ในแนวเดียวกันโดยมีดวงจันทร์อยู่ตรงกลาง เกิดขึ้นเฉพาะในวันที่ดวงจันทร์มีดิถีตรงกับจันทร์ดับ เมื่อสังเกตจากพื้นโลกจะเห็นดวงจันทร์เคลื่อนเข้ามาบดบังดวงอาทิตย์ โดยอาจบังมิดหมดทั้งดวงหรือบางส่วนก็ได้ ในแต่ละปีสามารถเกิดสุริยุปราคาบนโลกได้อย่างน้อย 2 ครั้ง สูงสุดไม่เกิน 5 ครั้ง ในจำนวนนี้อาจไม่มีสุริยุปราคาเต็มดวงเลยแม้แต่ครั้งเดียว หรืออย่างมากไม่เกิน 2 ครั้ง[1] โอกาสที่จะได้เห็นสุริยุปราคาเต็มดวงสำหรับสถานที่ใดสถานที่หนึ่งบนพื้นโลกนั้นค่อนข้างยาก เนื่องจากสุริยุปราคาเต็มดวงแต่ละครั้งจะเกิดในบริเวณแคบ ๆ ภายในแถบที่เงามืดของดวงจันทร์พาดผ่านเท่านั้น</p>
 		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">สุริยุปราคาเต็มดวงเป็นปรากฏการณ์ธรรมชาติที่สวยงาม น่าตื่นเต้น และสร้างความประทับใจแก่คนที่ได้ชม ผู้คนจำนวนมากต่างพากันเดินทางไปยังดินแดนอันห่างไกลเพื่อคอยเฝ้าสังเกตปรากฏการณ์นี้ สุริยุปราคาเต็มดวงเมื่อ พ.ศ. 2542 ที่เห็นได้ในทวีปยุโรป ทำให้สาธารณชนหันมาสนใจสุริยุปราคาเพิ่มขึ้นมาก สังเกตได้จากจำนวนประชาชนที่เดินทางไปเฝ้าสังเกตสุริยุปราคาวงแหวนใน พ.ศ. 2548 และสุริยุปราคาเต็มดวงใน พ.ศ. 2549 สุริยุปราคาครั้งที่ผ่านมาเมื่อเร็ว ๆ นี้ คือสุริยุปราคาวงแหวนเมื่อวันที่ 26 มกราคม พ.ศ. 2552 และสุริยุปราคาเต็มดวงเมื่อวันที่ 22 กรกฎาคม พ.ศ. 2552</p>
@@ -239,7 +237,7 @@ $(function() {
 				 </div>
 			 </a>
 		</div>
-		<h3>ความถี่</h3>
+		<h3 class="titlewhite">ความถี่</h3>
 		<p>วงโคจรของดวงจันทร์ตัดกับสุริยวิถี 2 จุด ซึ่งห่างกัน 180 องศา ดังนั้น ดวงจันทร์ในวันจันทร์ดับจะอยู่บริเวณจุดนี้ปีละ 2 ช่วง ห่างกัน 6 เดือน ทำให้เกิดสุริยุปราคาอย่างน้อยปีละ 2 ครั้ง บางครั้งเกิดจันทร์ดับ 2 ครั้งติดกันใกล้ ๆ กับจุดโหนด ส่งผลให้บางปีสามารถเกิดสุริยุปราคาได้มากถึง 5 ครั้ง อย่างไรก็ตาม เงามืดของดวงจันทร์มักจะทอดเลยออกไปทางเหนือหรือใต้ของโลกโดยไม่สัมผัสผิวโลก จึงเกิดเป็นสุริยุปราคาบางส่วนเท่านั้น นอกจากนี้ เงามืดอาจสัมผัสผิวโลกในที่ห่างไกลบริเวณใกล้ขั้วโลกอย่างอาร์กติกและทวีปแอนตาร์กติกา ซึ่งยากต่อการเดินทางไปสังเกตการณ์</p>
 		</div>
 		
