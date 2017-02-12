@@ -150,9 +150,9 @@
 #haumeaplanet {
 	position: relative;
     width: 50px;
-	height: 65px;
+	height: 63px;
 	background: url("../images/Maps/Haumea.jpg");
-	border-radius: 50%;
+	border-radius: 49%;
 	background-size: 155px;
 	background-position: center center;
 	box-shadow: inset -4px 0 15px 1px rgb(0, 0, 0),

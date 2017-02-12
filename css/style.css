@@ -37,6 +37,10 @@ html {
 	line-height: 2em;
 	color: #fff;
 	border-color: #fff;
+	border-right: none;
+}
+.phenomenatable tr:last-of-type td{
+	border-bottom: none;
 }
 .bgsection {
 	position: relative;
