@@ -1,0 +1,392 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>ฝนดาวตก - Solar System</title>
+<meta content=’width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0? name=’viewport’ />
+<meta name=”viewport” content=”width=device-width” />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="ระบบสุริยะ" />
+<script type="applisalonion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="../css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link rel="icon" href="../images/icon.png">
+<link href="../css/iconeffects.css" rel='stylesheet' type='text/css' />
+<link href="../css/style.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="../css/swipebox.css" />
+<link rel="stylesheet" href="../fonts/stylesheet.css" />
+<link rel="stylesheet" href="../css/stars.css" />
+<link href="../css/model.css" type="text/css" rel="stylesheet">
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/bootstrap.js"> </script>
+<script type="text/javascript" src="../js/move-top.js"></script>
+<script type="text/javascript" src="../js/easing.js"></script>
+<link rel="stylesheet" href="../css/pace.css" />
+<script type="text/javascript" src="../js/pace.min.js"></script>
+<script type="text/javascript" src="../js/scroll.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+<script>
+$(function() {
+	$('a[href*=#]').on('click', function(e) {
+		e.preventDefault();
+		$('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 1200, 'linear');
+	});
+});
+</script>
+<link rel="stylesheet" href="../css/mediaelementplayer.css" />
+<!-- swipe box js -->
+	<script src="../js/jquery.swipebox.min.js"></script>
+	    <script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+	</script>
+<!-- //swipe box js -->
+
+</head>
+<body ondragstart="return false;" ondrop="return false;">
+<div id="home"></div>
+<section id="scrollsection" class="scrollbutton">
+<div class="bgsection">
+		<div class="parallaxvideo">
+			<video preload="auto" autoplay muted loop style="width:100vw" id="myVideo">
+					<source src="../videos/MeteorShower.mp4" type="video/mp4">
+			</video>
+			<script>
+			var vid = document.getElementById("myVideo");
+			vid.playbackRate = 0.75;
+			</script>
+			<h1 class="fadeIn" data-wow-delay="0s" style="animation-delay: 0s; animation-name: fadeIn;animation-duration:4s;">ฝนดาวตก</h1>
+			<a href="#targetcontent"><span></span><span></span><span></span>เลื่อนลง</a>
+		</div>
+		<div id="ChangeVisible"></div>
+</section>
+			</div>
+		<div class="header-bottombg"></div>
+		<div class="header-bottom" style="position:fixed;padding: .75em 0 ">
+		     <div class="container">
+			      <!--logo-->
+				  <div class="logo fadeInLeft animated" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+				   <ul style="list-style: none; ">
+						<li><a href="Index.html"><div class="logo" ></div></a></li>
+					</ul>
+				   </div>
+					<!--//logo-->
+					<div class="top-menu fadeInRight animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;">
+							<nav class="link-effect-4" id="primary_nav_wrap">
+                              <ul style="list-style: none; ">
+								<li><a data-hover="หน้าแรก" href="Index.html">หน้าแรก</a></li>
+								<li><a data-hover="ดวงอาทิตย์" href="Sun.html">ดวงอาทิตย์</a></li>
+								<li><a data-hover="ดาวเคราะห์" href="Planets.html">ดาวเคราะห์</a>
+								<ul class="dropdown fadeIn animated" data-wow-delay=".04s" style="visibility: visible; animation-delay: 0.04s; animation-name: fadeIn;">
+								<li><a href="Mercury.html">ดาวพุธ</a></li>
+								<li><a href="Venus.html">ดาวศุกร์</a></li>
+								<li><a href="Earth.html">โลก</a></li>
+								<li><a href="Mars.html">ดาวอังคาร</a></li>
+								<li><a href="Jupiter.html">ดาวพฤหัสบดี</a></li>
+								<li><a href="Saturn.html">ดาวเสาร์</a></li>
+								<li><a href="Uranus.html">ดาวยูเรนัส</a></li>
+								<li><a href="Neptune.html">ดาวเนปจูน</a></li>
+								</ul>
+								</li>
+								<li><a data-hover="ดาวเคราะห์แคระ" href="DwaftPlanets.html">ดาวเคราะห์แคระ</a>
+								<ul class="dropdown fadeIn animated" data-wow-delay=".04s" style="visibility: visible; animation-delay: 0.04s; animation-name: fadeIn;">
+								<li><a href="Pluto.html">ดาวพลูโต</a></li>
+								<li><a href="Ceres.html">ดาวซีรีส</a></li>
+								<li><a href="Eris.html">ดาวอีริส</a></li>
+								<li><a href="Haumea.html">ดาวเฮาเมอา</a></li>
+								<li><a href="Makemake.html">ดาวมาคีมาคี</a></li>
+								</ul>
+								</li>
+								<li><a data-hover="ปรากฎการณ์" href="Phenomena.html">ปรากฎการณ์</a>
+								<ul class="dropdown fadeIn animated" data-wow-delay=".04s" style="visibility: visible; animation-delay: 0.04s; animation-name: fadeIn;">
+								<li><a href="SolarEclipse.html">สุริยุปราคา</a></li>
+								<li><a href="LunarEclipse.html">จันทรุปราคา</a></li>
+								<li><a href="Comet.html">ดาวหาง</a></li>
+								<li><a href="MeteorShower.html" class="active">ฝนดาวตก</a></li>
+								<li><a href="Aurora.html">ออโรรา</a></li>
+								<li><a href="SunHola.html">อาทิตย์ทรงกลด</a></li>
+								</ul>
+								</li>
+								</ul>
+							</nav>
+					<div>
+							<!-- script-for-menu -->
+								<script>
+									$("span.menu").click(function(){
+										$(".top-menu ul").slideToggle("slow" , function(){
+										});
+									});
+								</script>
+								<!-- script-for-menu -->
+
+				 <div class="clearfix"></div>
+					<script>
+				$(document).ready(function() {
+					 var navoffeset=$("#ChangeVisible").offset().top;
+					 $(window).scroll(function(){
+						var scrollpos=$(window).scrollTop();
+						if(scrollpos >navoffeset){
+							$(".header-bottombg").addClass("visible slideInDown header-bottombganimated");
+						}else{
+							$(".header-bottombg").removeClass("visible slideInDown header-bottombganimated");
+						}
+					 });
+				});
+				</script>
+				
+				<script>
+				$(document).ready(function() {
+					 var navoffeset=$("#HideVideo").offset().top;
+					 $(window).scroll(function(){
+						var scrollpos=$(window).scrollTop();
+						if(scrollpos >navoffeset){
+							$(".parallaxvideo").addClass("hidevideo");
+						}else{
+							$(".parallaxvideo").removeClass("hidevideo");
+						}
+					 });
+				});
+
+				</script>
+
+		</div>
+	</div>
+	</div>
+
+	</div>
+
+<div id="targetcontent" class="contentwhite">
+		<div class="container">
+		<div class="contentbodywhite">
+		<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+	 <h2 class="titlewhite" id="HideVideo">ประวัติ</h2>
+ 		</div>
+		<h3 class="titlewhite wow fadeInUp animated" data-wow-delay=".12s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">ชื่อและสัญลักษณ์</h2>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">คำว่า "ดาวหาง" มีที่มาจากลักษณะปรากฏคล้ายหางสัตว์ ชื่อภาษาอังกฤษ Comet มีรากศัพท์จากภาษาละตินว่า Cometes ซึ่งมาจากคำภาษากรีก komē มีความหมายว่า "เส้นผมจากศีรษะ" อริสโตเติลเป็นคนแรกที่ใช้ชื่อ komētēs กับดาวหาง เพื่อบรรยายว่ามันเป็น "ดาวที่มีผม" สัญลักษณ์ทางดาราศาสตร์สำหรับดาวหางคือ (☄) ซึ่งเป็นภาพวาดแผ่นกลมกับเส้นหางยาว ๆ เหมื่อนเส้นผม ภาษาจีน ญี่ปุ่น เกาหลี ฯลฯ เรียก "ดาวไม้กวาด" (จีน: 彗星) เพราะรูปร่างของมันคล้ายไม้กวาดบ้าน</p>
+		<h3 class="titlewhite wow fadeInUp animated" data-wow-delay=".12s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">วงโคจรและต้นกำเนิด</h3>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ดาวหางมีคาบการโคจรที่แตกต่างกันหลายแบบ นับตั้งแต่คาบโคจรเพียงไม่กี่ปี ไปจนถึงหลายร้อยหรือหลายพันปี ขณะที่ดาวหางบางดวงเชื่อว่าผ่านเข้ามาถึงระบบสุริยะชั้นในเพียงครั้งเดียวเท่านั้น ก่อนจะเหวี่ยงตัวเองออกไปสู่ห้วงอวกาศระหว่างดาว เชื่อกันว่า ดาวหางคาบสั้นมีต้นกำเนิดมาจากแถบไคเปอร์หรือแถบหินกระจาย ซึ่งอยู่ไกลออกไปจากวงโคจรของดาวเนปจูน ดาวหางคาบยาวมาจากห้วงอวกาศที่ไกลกว่านั้น เช่นจากกลุ่มเมฆน้ำแข็งซึ่งประกอบด้วยชิ้นส่วนเศษซากที่หลงเหลืออยู่หลังจากการรวมตัวกันของเนบิวลาสุริยะ เมฆเหล่านี้เรียกว่า เมฆออร์ต ซึ่งตั้งชื่อตามนักดาราศาสตร์ แจน ออร์ต เมฆออร์ตอยู่ในระยะที่ไกลออกไปจากแถบไคเปอร์ ดาวหางเหวี่ยงตัวเองจากขอบนอกของระบบสุริยะเข้ามาหาดวงอาทิตย์ได้เนื่องจากผลกระทบจากแรงโน้มถ่วงอันยุ่งเหยิงของบรรดาดาวเคราะห์รอบนอก (ในกรณีของวัตถุจากแถบไคเปอร์) หรือจากดาวฤกษ์อื่นใกล้เคียง (ในกรณีของวัตถุจากเมฆออร์ต) หรือเป็นผลจากการกระทบกันเองระหว่างวัตถุในย่านเหล่านี้</p>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ดาวหางแตกต่างจากดาวเคราะห์น้อย โดยสามารถสังเกตได้จากโคมา และหาง แม้ว่าดาวหางที่เก่าแก่มากๆ จะสูญเสียความสามารถในการระเหยของธาตุในตัวไปจนหมด ทำให้มีลักษณะคล้ายคลึงกับดาวเคราะห์น้อย ทั้งนี้ เชื่อกันว่าดาวเคราะห์น้อยมีกำเนิดที่แตกต่างไปจากกำเนิดของดาวหาง เพราะดาวเคราะห์น้อยน่าจะก่อตัวอยู่ในบริเวณระบบสุริยะชั้นใน มิได้มาจากส่วนนอกของระบบสุริยะ แต่จากการค้นพบไม่นานมานี้ ทำให้การแยกแยะระหว่างดาวเคราะห์น้อยกับดาวหางไม่ชัดเจนนัก (ดูเพิ่มที่ เซนทอร์ และ คำจำกัดความของดาวเคราะห์น้อย)</p>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">นับถึงเดือนพฤษภาคม ค.ศ. 2005 มีรายงานการค้นพบดาวหางแล้วจำนวน 3,648 ดวง ในจำนวนนี้ 1,500 ดวงเป็นดาวหางเฉียดดวงอาทิตย์ตระกูลครอทซ์ และประมาณ 400 ดวงเป็นดาวหางคาบสั้น ตัวเลขนี้ยังคงเพิ่มขึ้นเรื่อยๆ อย่างไรก็ดี นี่แสดงให้เห็นถึงจำนวนประชากรเพียงส่วนเล็กน้อยของจำนวนดาวหางทั้งหมดเท่านั้น วัตถุคล้ายดาวหางทั้งหมดที่มีในระบบสุริยะชั้นนอกน่าจะมีอยู่เป็นจำนวนล้านล้านดวง จำนวนดาวหางที่สามารถมองเห็นได้ด้วยตาเปล่าเฉลี่ยแล้วมีประมาณปีละ 1 ดวง แม้ว่าส่วนมากจะค่อนข้างจางแสงมากและไม่สวยงามน่าชม เมื่อมีการพบดาวหางสว่างมากหรือสวยงามโดดเด่นในประวัติศาสตร์ ซึ่งมีผู้มองเห็นเป็นจำนวนมากๆ มักจะเรียกดาวหางเหล่านั้นว่า ดาวหางใหญ่</p>
+		</div>
+		</div>
+</div>
+		
+<div class="content parallax" style="background: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) .15vw, rgba(0, 0, 0, 0.6) .15vw, rgba(0, 0, 0, 0.6) .3vw), url(../images/CometParallax.jpg);">
+	<div class="container" >
+	<div class="contentbodynormal">
+	<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+	 <h2 class="titlenormal">ลักษณะทางกายภาพ</h2>
+ 	 </div>
+	 <div  class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+	 <div class="col-md-3 baner-top wow fadeInRight animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;width:340px; float:left; margin-right:10px;padding-left:0;">
+				 <div class="gal-spin-effect vertical ">
+					 <img src="../images/Tempel_1_(PIA02127).jpg" />
+					 <div class="gal-text-box">
+					 <div class="info-gal-con">
+						 <h5>นิวเคลียสของดาวหางเทมเพล 1<br>ถ่ายจากยานลูกของยานดีปอิมแพกต์ โดยมีขนาดประมาณ 6 กิโลเมตร</h5>
+					 </div>
+					 </div>
+				 </div>
+		</div>
+		<p>ลักษณะทางกายภาพของดาวหางสามารถแบ่งออกได้เป็น 3 ส่วน คือ ส่วนนิวเคลียส โคม่าและหาง</p>
+		<p><b>นิวเคลียส</b> ของดาวหางมีขนาดตั้งแต่ 0.5 กิโลเมตรไปจนถึง 50 กิโลเมตร ประกอบไปด้วยหินแข็ง ฝุ่น น้ำแข็ง และแก๊สแข็งเช่น คาร์บอนมอนอกไซด์ คาร์บอนไดออกไซด์ มีเทน และแอมโมเนีย องค์ประกอบนี้มักนิยมเรียกกันว่า "ก้อนหิมะสกปรก" แม้จากการสังเกตเมื่อไม่นานมานี้พบว่าพื้นผิวของดาวหางนั้นแห้งและเป็นพื้นหิน สันนิษฐานว่าก้อนน้ำแข็งซ่อนอยู่ใต้เปลือก ในดาวหางยังมีสารประกอบอินทรีย์ปรากฏอยู่ด้วย นอกเหนือจากแก๊สหลายชนิดดังกล่าวข้างต้นแล้ว ยังมีเมทานอล ไฮโดรเจนไซยาไนด์ ฟอร์มัลดีไฮด์ เอทานอล และอีเทน บางทีก็มีโมเลกุลที่ซับซ้อนมากขึ้นเช่น สารประกอบไฮโดรคาร์บอนห่วงโซ่ยาว และกรดอะมิโน นอกจากนี้ จากการศึกษาดาวหางในย่านความถี่อัลตราไวโอเลต พบว่ามีชั้นของไฮโดรเจนห่อหุ้มดาวหางอีกชั้นหนึ่ง ไฮโดรเจนเหล่านี้เกิดจากไอน้ำที่แตกตัวอันเนื่องมาจากรังสีจากดวงอาทิตย์ นิวเคลียสของดาวหางมีรูปร่างบิดเบี้ยวไม่เป็นทรง เพราะมันไม่มีมวล (ซึ่งแปรผันกับแรงโน้มถ่วง) มากพอที่จะกลายเป็นทรงกลมได้</p>
+		</div>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ในระบบสุริยะรอบนอก ดาวหางจะคงสภาพแช่แข็งและไม่สามารถสังเกตได้จากโลกหรือสังเกตได้ยากมาก เนื่องจากมันมีขนาดเล็กมาก (แต่ก็มีนิวเคลียสดาวหางบางดวงในแถบไคเปอร์ที่สามารถมองเห็นได้) เมื่อดาวหางเคลื่อนเข้ามาสู่ระบบสุริยะรอบใน ใกล้ดวงอาทิตย์มากขึ้น ความร้อนจากดวงอาทิตย์จะทำให้น้ำแข็งและแก๊สแข็งระเหิดเป็นไอ และปล่อยแก๊สออกมาเกาะกลุ่มกับฝุ่นผงในอวกาศกลายเป็นม่านทรงกลมขนาดมหึมาล้อมรอบนิวเคลียส เรียกว่า <b>โคม่า</b> ซึ่งโคม่าอาจมีขนาดเส้นผ่านศูนย์กลางถึงหลายล้านกิโลเมตรก็ได้ แรงดันจากรังสีที่แผ่จากดวงอาทิตย์และลมสุริยะจะกระทำต่อโคม่านี้ ทำให้เกิดเป็นละอองขนาดใหญ่ลากยาวออกไปเป็นหาง ในทิศทางตรงกันข้ามกับดวงอาทิตย์</p>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">กระแสฝุ่นและแก๊สทำให้เกิด "หาง" ในรูปแบบที่แตกต่างกัน คือ <b>หางแก๊ส</b> หรือ หางพลาสมา หรือ หางไอออน ประกอบด้วยไอออน และโมเลกุลที่ส่องสว่างโดยการเรืองแสง ถูกผลักออกไปโดยสนามแม่เหล็กในลมสุริยะ ดังนั้นความผันแปรของลมสุริยะจึงมีผลต่อการเปลี่ยนรูปร่างของหางแก๊สด้วย หางแก๊สจะอยู่ในระนาบวงโคจรของดาวหาง และชี้ไปในทิศเกือบตรงข้ามดวงอาทิตย์พอดี หางอีกชนิดหนึ่งคือ <b>หางฝุ่น</b> ประกอบด้วยฝุ่นหรืออนุภาคอื่น ๆ ที่เป็นกลางทางไฟฟ้า ถูกผลักออกจากดาวหางด้วยแรงดันจากการแผ่รังสี กลายเป็นหางที่มีรูปทรงห่อโค้งไปด้านหลัง ในขณะที่ดาวหางเข้าใกล้ดวงอาทิตย์ หางของมันอาจยาวได้ถึงหลายร้อยล้านกิโลเมตร ความยาวของหางแก๊สเคยบันทึกได้สูงสุดมากกว่า 1 หน่วยดาราศาสตร์ (ประมาณ 150 ล้านกิโลเมตร)</p>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ทั้งโคม่าและหางจะเรืองแสงได้จากดวงอาทิตย์ และสามารถมองเห็นได้จากโลกเมื่อดาวหางเคลื่อนเข้ามาสู่ระบบสุริยะชั้นใน ฝุ่นสะท้อนแสงอาทิตย์ได้โดยตรง ขณะที่กลุ่มแก๊สเรืองแสงได้ด้วยการแตกตัวเป็นไอออน ดาวหางส่วนใหญ่จะมีความสว่างเพียงจาง ๆ ซึ่งจะมองเห็นได้โดยใช้กล้องโทรทรรศน์ แต่ก็มีดาวหางจำนวนหนึ่งที่มีความสว่างพอจะมองเห็นได้ด้วยตาเปล่า ผ่านเข้ามาใกล้ทุก ๆ ทศวรรษ บางครั้งก็มีการระเบิดใหญ่ขึ้นแบบฉับพลันในกลุ่มแก๊สและฝุ่น ทำให้ขนาดของโคม่าขยายตัวขึ้นมากชั่วขณะหนึ่ง เหตุการณ์นี้เคยเกิดขึ้นในปี พ.ศ. 2550 กับดาวหางโฮมส์</p>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ข้อมูลที่น่าพิศวงคือ นิวเคลียสของดาวหางนับเป็นวัตถุอวกาศที่มืดที่สุดพวกหนึ่งในบรรดาวัตถุในระบบสุริยะ ยานจอตโตพบว่านิวเคลียสของดาวหางฮัลเลย์มีความสามารถสะท้อนแสงเพียง 4% เท่านั้น ส่วนยานดีปสเปซ 1 พบว่าพื้นผิวของดาวหางโบร์เรลลีสามารถสะท้อนแสงได้ราว 2.4 ถึง 3% ขณะที่พื้นผิวยางมะตอยสามารถสะท้อนแสงได้ 7% คาดกันว่าสารประกอบอินทรีย์อันซับซ้อนของนิวเคลียสเหล่านั้นเป็นวัสดุที่มีพื้นผิวมืด ความร้อนจากแสงอาทิตย์ทำให้องค์ประกอบที่ระเหยง่ายกลายเป็นไอหายไป เหลือแต่สารประกอบอินทรีย์แบบห่วงโซ่ยาวซึ่งเป็นสสารมืดเหมือนอย่างน้ำมันดินหรือน้ำมันดิบ พื้นผิวที่มืดของดาวหางทำให้มันสามารถดูดซับความร้อนได้ดีและยิ่งระเหิดได้ง่ายขึ้น</p>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ในปี พ.ศ. 2539 มีการค้นพบว่าดาวหางปลดปล่อยรังสีเอกซ์ออกมาด้วย ซึ่งทำให้เหล่านักวิจัยพากันประหลาดใจ เพราะไม่เคยคาดกันมาก่อนว่าจะมีการปล่อยรังสีเอกซ์จากดาวหาง เชื่อว่ารังสีเอกซ์เกิดจากปฏิกิริยาระหว่างดาวหางกับลมสุริยะ ขณะที่ประจุไฟฟ้าศักย์สูงเคลื่อนผ่านบรรยากาศรอบดาวหางแล้วเกิดปะทะกับอะตอมและโมเลกุลของดาวหาง ในการปะทะนั้นไอออนได้จับกับอิเล็กตรอนจำนวนหนึ่ง แล้วปล่อยรังสีเอกซ์รวมถึงโฟตอนที่ความถี่ระดับอัลตราไวโอเลตไกล</p>
+	</div>
+	</div>
+</div>	
+
+<div class="contentwhite">
+	<div class="container">
+	<div class="contentbodywhite">
+	<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+	 <h2 class="titlewhite">ลักษณะของวงโคจร</h2>
+ 		</div>
+		<div class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+		<div class="col-md-3 baner-top wow fadeInRight animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;width:380px; float:right; margin-left:12.5px;">
+			 <a href="../images/Comet_Kohoutek_orbit_p391.png" class="b-link-stripe b-animate-go  swipebox" title="วงโคจรของดาวหางโคฮูเทค (เส้นสีแดง) และวงโคจรของโลก (เส้นสีน้ำเงิน) แสดงให้เห็นถึงความรีของวงโคจร และการเคลื่อนที่ที่เร็วมากขึ้นเมื่อเข้าใกล้ดวงอาทิตย์">
+				 <div class="gal-spin-effect vertical ">
+					 <img src="../images/Comet_Kohoutek_orbit_p391.png" />
+					 <div class="gal-text-box">
+					 <div class="info-gal-con">
+						 <h5>วงโคจรของดาวหางโคฮูเทค (เส้นสีแดง) และวงโคจรของโลก (เส้นสีน้ำเงิน)</h5>
+						 <div id="px"></div>
+						 <span class="separator"></span>
+						 <p class="description">คลิกเพื่อดูรูปภาพขนาดเต็ม</p>
+						 <span class="separator"></span>
+					 </div>
+					 </div>
+				 </div>
+			 </a>
+		</div>
+		<p>ดาวหางส่วนใหญ่มีวงโคจรเป็นวงรีที่เรียวมาก ๆ โดยมีปลายข้างหนึ่งของวงรีเข้าใกล้ดวงอาทิตย์ ส่วนปลายอีกข้างหนึ่งทอดไกลออกไปยังด้านนอกของระบบสุริยะ สามารถแบ่งประเภทของดาวหางได้เป็นกลุ่มตามคาบการโคจร ยิ่งดาวหางมีคาบการโคจรยาวเท่าใด รูปวงรีก็จะยิ่งเรียวมากขึ้น
+		<div style="margin: 18px 0 0 30px;"><p style="text-indent: -15px; margin: 0;"><font color="#2337a9"><span style="margin: 18px 6px 0 0;">•</span><i>ดาวหางคาบสั้น (Short-period comets)</i></font> เป็นดาวหางที่มีคาบการโคจรรอบดวงอาทิตย์น้อยกว่า 200 ปี โดยทั่วไปมักมีระนาบวงโคจรใกล้เคียงกับระนาบสุริยวิถี และเคลื่อนที่ไปในทิศทางเดียวกับดาวเคราะห์ จุดปลายของวงรีอีกด้านที่ไกลจากดวงอาทิตย์ที่สุดมักอยู่ในแถบของดาวเคราะห์รอบนอกของระบบสุริยะ (ตั้งแต่ดาวพฤหัสบดีออกไป) ตัวอย่างเช่น ดาวหางฮัลเลย์มีจุดไกลที่สุดจากดวงอาทิตย์อยู่ในบริเวณวงโคจรของดาวเนปจูน ส่วนดาวหางที่มีคาบโคจรสั้นกว่านั้นเช่นดาวหางเองเคอ (Comet Encke) มีจุดไกลที่สุดเพียงไม่เกินวงโคจรของดาวพฤหัสบดี ดาวหางคาบสั้น สามารถแบ่งได้เป็น 2 กลุ่มคือ กลุ่มดาวพฤหัสบดี (คาบโคจรไม่เกิน 20 ปี) และกลุ่มดาวหางฮัลเลย์ (คาบโคจรระหว่าง 20 ถึง 200 ปี)
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp; text-indent: -15px; margin: 0;"><font color="#2337a9"><span style="margin: 18px 6px 0 0;">•</span><i>ดาวหางคาบยาว (Long-period comets)</i></font> มีความรีของวงโคจรมากกว่า และมีคาบโคจรตั้งแต่ 200 ปีขึ้นไปจนถึงหลายพันหรือหลายล้านปี (ตามนิยามแล้ว ดาวหางเหล่านี้จะต้องยังคงอยู่ภายใต้แรงโน้มถ่วงของดวงอาทิตย์ ดาวหางที่ถูกดีดออกจากระบบสุริยะหลังจากเคลื่อนผ่านดาวเคราะห์ขนาดใหญ่จะไม่นับว่าเป็นดาวหางที่มี "คาบโคจร" อีกต่อไป) จุดปลายของวงรีด้านที่ไกลจากดวงอาทิตย์จะอยู่นอกเขตแดนดาวเคราะห์รอบนอกออกไปอีก
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp; text-indent: -15px; margin: 0;"><font color="#2337a9"><span style="margin: 18px 6px 0 0;">•</span><i>ดาวหางแบบปรากฏครั้งเดียว (Single-apparition comets)</i></font> ดาวหางแบบปรากฏครั้งเดียว (Single-apparition comets)</i> มีลักษณะคล้ายคลึงกับดาวหางคาบยาว แต่มักมีเส้นทางแบบพาราโบลาหรือไฮเพอร์โบลา ทำให้มันผ่านเข้ามาในระบบสุริยะเพียงครั้งเดียว
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;  text-indent: -15px; margin: 0;"><font color="#2337a9"><span style="margin: 18px 6px 0 0;">•</span></font>นักวิชาการบางคนใช้คำว่า "ดาวหางรายคาบ" (Periodic comet) สำหรับดาวหางใด ๆ ที่มีวงโคจรเป็นวงรี (ได้แก่ทั้งดาวหางคาบสั้นและดาวหางคาบยาว)  แต่บางคนก็นับแต่เพียงดาวหางคาบสั้นเท่านั้น ในทำนองเดียวกัน แม้คำว่า "ดาวหางแบบไม่มีคาบ" (non-periodic comet) จะมีความหมายเดียวกับดาวหางแบบปรากฏครั้งเดียว แต่นักวิชาการบางคนก็ใช้ในความหมายรวมถึงดาวหางคาบยาว หรือคาบยาวนานกว่า 200 ปีด้วย ในระยะหลังมีการค้นพบแถบดาวหางหลัก (Main-belt comets) ซึ่งทำให้เกิดการแบ่งประเภทเพิ่มขึ้นอีกหนึ่งชนิด ดาวหางในกลุ่มนี้มีวงโคจรค่อนข้างกลมมากกว่ากลุ่มอื่น ๆ ในระยะเดียวกันกับแถบดาวเคราะห์น้อย</p>
+		</div>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">เมื่อดูจากลักษณะของวงโคจร เชื่อกันว่าดาวหางคาบสั้นน่าจะมีต้นกำเนิดมาจากแถบไคเปอร์ซึ่งอยู่ในห้วงอวกาศแถบวงโคจรของดาวเนปจูน ส่วนดาวหางคาบยาวน่าจะมาจากแหล่งที่ไกลกว่านั้น เช่นในกลุ่มเมฆออร์ต (ตั้งชื่อตามนักดาราศาสตร์ชาวเนเธอร์แลนด์ เจน เฮนดริก ออร์ต ผู้ค้นพบ) เชื่อกันว่า มีวัตถุลักษณะคล้ายดาวหางจำนวนมากโคจรรอบดวงอาทิตย์เป็นวงเกือบกลมในระยะวงโคจรราว ๆ นั้นอยู่แล้ว แต่อิทธิพลจากแรงโน้มถ่วงของดาวเคราะห์รอบนอก (กรณีแถบไคเปอร์) หรือแรงโน้มถ่วงจากดวงดาวอื่น (กรณีกลุ่มเมฆออร์ต) อาจส่งผลโดยบังเอิญทำให้วัตถุอวกาศในเขตนั้นเปลี่ยนวงโคจรกลายเป็นวงรีและเคลื่อนเข้าหาดวงอาทิตย์ จนกลายมาเป็นดาวหางที่เรามองเห็น แต่ทว่าการปรากฏของดาวหางใหม่ ๆ ตามสมมุติฐานข้อนี้ยังไม่อาจคาดการณ์ได้
+		<div class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+		<div class="col-md-3 baner-top wow fadeInRight animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;width:350px; float:right; margin-left:12.5px;">
+				 <div class="gal-spin-effect vertical ">
+					 <img src="../images/Comet_Diagram_text_stripped.png" />
+					 <div class="gal-text-box">
+					 <div class="info-gal-con">
+						 <h5>การโคจรของดาวหางส่วนใหญ่</h5>
+					 </div>
+					 </div>
+				 </div>
+		</div>
+		<p>วงโคจรอันเป็นวงรีทำให้ดาวหางผ่านเข้าไปใกล้ดาวเคราะห์ขนาดใหญ่บ่อยครั้ง ทำให้วงโคจรของดาวหางบิดเพี้ยนไป ดาวหางคาบสั้นมักมีจุดปลายสุดของวงโคจรด้านไกลดวงอาทิตย์อยู่ในรัศมีวงโคจรของดาวเคราะห์ขนาดใหญ่ เช่นดาวพฤหัสบดี ซึ่งมีมวลรวมมากกว่าดาวเคราะห์ที่เหลือทั้งหมดรวมกัน ในบางครั้งดาวหางคาบยาวก็อาจถูกแรงโน้มถ่วงรบกวนเส้นทางโคจรจนทำให้กลายมาเป็นดาวหางคาบสั้นได้ (ดาวหางฮัลเลย์อาจเป็นตัวอย่างหนึ่งของกรณีนี้)
+		<p>การเฝ้าสังเกตการณ์ในยุคแรกไม่ค่อยพบดาวหางที่มีวงโคจรแบบไฮเพอร์โบลา (หรือดาวหางแบบไม่มีคาบ) แต่ไม่มีดาวหางดวงใดจะรอดพ้นแรงโน้มถ่วงรบกวนจากดาวพฤหัสบดีไปได้ หากดาวหางเคลื่อนไปในห้วงอวกาศระหว่างดาว มันจะต้องเคลื่อนที่ไปด้วยความเร็วในระดับเดียวกับความเร็วสัมพัทธ์ของดาวที่อยู่ใกล้ดวงอาทิตย์ (ระดับหลายสิบกิโลเมตรต่อวินาที) เมื่อวัตถุเหล่านั้นเข้ามาในระบบสุริยะก็มักจะมีวิถีโคจรเป็นแบบไฮเพอร์โบลา จากการคำนวณอย่างหยาบ ๆ พบว่าจะมีดาวหางที่มีวงโคจรแบบไฮเพอร์โบลาเกิดขึ้นประมาณศตวรรษละสี่ดวง
+		</div>
+		<p class="wow fadeInUp animated" data-wow-delay=".17s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ปัจจุบัน ดาวหางรายคาบที่ค้นพบในศตวรรษที่แล้วจำนวนหนึ่งได้ "สูญหายไป" แต่วงโคจรของมันเท่าที่ตรวจวัดยังไม่ละเอียดดีพอสำหรับทำนายการปรากฏตัวในอนาคต อย่างไรก็ดี มีการค้นพบ "ดาวหางใหม่" บางดวง และเมื่อคำนวณวงโคจรของมันแล้ว อาจเป็นไปได้ว่ามันคือดาวหางเก่าที่ "สูญหายไป" นั่นเอง ตัวอย่างเช่นดาวหางเทมเพล-ซวิฟท์-ลีเนียร์ ซึ่งค้นพบในปี พ.ศ. 2412 (ค.ศ. 1869) แต่ไม่สามารถสังเกตการณ์ได้อีกหลังจากปี พ.ศ. 2451 เนื่องจากการรบกวนวงโคจรของดาวพฤหัสบดี กลับมาปรากฏตัวอีกครั้งโดยบังเอิญโดยโครงการลีเนียร์ (LINEAR; Lincoln Laboratory Near-Earth Asteroid Research project : โครงการความร่วมมือระหว่างกองทัพอากาศสหรัฐฯ, นาซา และเอ็มไอที) ในปี พ.ศ. 2544</p>
+		</div>
+	</div>
+	</div>
+</div>
+
+<div class="content parallax" style="background: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) .15vw, rgba(0, 0, 0, 0.6) .15vw, rgba(0, 0, 0, 0.6) .3vw), url(../images/CometParallax2.jpg);">
+	<div class="container" >
+	<div class="contentbodynormal">
+	<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+	 <h2 class="titlenormal">จุดจบของดาวหาง</h2>
+ 		</div>
+		<div>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">โดยทั่วไปเมื่อดาวหางโคจรรอบดวงอาทิตย์ไปนานเข้า องค์ประกอบในนิวเคลียสที่ระเหิดง่ายจะค่อย ๆ ระเหิดหายไปจนหมด ดาวหางอาจสลายตัวกลายเป็นฝุ่นผง หรือกลายเป็นเศษซากก้อนหินดำมืด มีสภาพคล้ายกับดาวเคราะห์น้อย ดาวหางบางดวงก็แตกออกเป็นเสี่ยง ๆ ตัวอย่างเช่นดาวหางชวาสมานน์-วัคมานน์ 3 ที่แตกเป็นเสี่ยงเมื่อปี พ.ศ. 2549 การแตกกระจายของดาวหางเกิดได้จากแรงโน้มถ่วงมหาศาลจากดวงอาทิตย์หรือดาวเคราะห์ขนาดใหญ่ ทำให้เกิด "การระเบิด" ขององค์ประกอบที่ระเหิดได้ หรืออาจเกิดจากสาเหตุอื่นที่ยังไม่มีคำอธิบายที่ชัดเจน</p>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ดาวหางบางดวงมีจุดจบที่อลังการกว่านั้น เช่นพุ่งไปตกบนดวงอาทิตย์ หรือพุ่งเข้าชนดาวเคราะห์หรือวัตถุอวกาศอื่น ๆ เชื่อกันว่าเหตุการณ์ที่ดาวหางพุ่งชนดาวเคราะห์หรือดวงจันทร์เกิดขึ้นเป็นปกติมานานแล้วในช่วงเริ่มต้นของระบบสุริยะ หลุมบ่อขนาดใหญ่มากมายบนดวงจันทร์ก็สันนิษฐานว่าเกิดจากการพุ่งชนของดาวหาง การพุ่งชนของดาวหางครั้งล่าสุดเกิดขึ้นเมื่อปี พ.ศ. 2537 เมื่อดาวหางชูเมกเกอร์-เลวี 9 แตกเป็นเสี่ยงๆ แล้วพุ่งเข้าชนดาวพฤหัสบดี</p>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ดาวหางและดาวเคราะห์น้อยหลายดวงเคยพุ่งชนโลกเมื่อยุคเริ่มแรก นักวิทยาศาสตร์จำนวนมากเชื่อว่าการที่ดาวหางมากมายพุ่งชนโลกในวัยเยาว์ (เมื่อประมาณ 4 พันล้านปีก่อน) นำพาน้ำจำนวนมหาศาลซึ่งปัจจุบันกลายเป็นมหาสมุทรที่ปกคลุมผิวโลก แต่นักวิจัยบางคนยังตั้งข้อสงสัยต่อทฤษฎีนี้ การตรวจพบโมเลกุลอินทรีย์บนดาวหางทำให้เกิดแนวคิดขึ้นว่า ดาวหางหรือดาวตกอาจเป็นตัวนำ ชีวิต มายังโลก ปัจจุบันมีดาวหางจำนวนมากที่มีวงโคจรเข้าใกล้โลก แต่กระนั้นโอกาสที่โลกจะถูกชนด้วยดาวเคราะห์น้อยยังมีความเป็นไปได้มากกว่า</p>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">นอกจากนี้ยังมีแนวคิดว่า นานมาแล้วดาวหางอาจเคยพุ่งชนดวงจันทร์ ทำให้เกิดน้ำปริมาณมากบนดวงจันทร์ของโลก ซึ่งปัจจุบันอาจหลงเหลืออยู่ในรูปของน้ำแข็งบนดวงจันทร์</p>
+	</div>
+	</div>
+</div>	
+</div>
+
+<div class="contentwhite">
+		<div class="container">
+		<div class="contentbodywhite">
+		<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+	 <h2 class="titlewhite">ประเภทดาวหางที่สำคัญ</h2>
+ 		</div>
+		<h3 class="titlewhite wow fadeInUp animated" data-wow-delay=".12s" style="visibility: visible; animation-delay: 0.12s; animation-name: fadeInUp;">ดาวหางใหญ่</h3>
+		<div class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+		<div class="col-md-3 baner-top wow fadeInRight animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;width:360px; float:right; margin-left:12.5px;">
+			 <a href="../images/Great_Comet_of_1882.jpg" class="b-link-stripe b-animate-go  swipebox" title="ดาวหางใหญ่แห่งปี 1882 เป็นหนึ่งในดาวหางตระกูลครอทซ์">
+				 <div class="gal-spin-effect vertical ">
+					 <img src="../images/Great_Comet_of_1882.jpg" />
+					 <div class="gal-text-box">
+					 <div class="info-gal-con">
+						 <h5>ดาวหางใหญ่แห่งปี 1882</h5>
+						 <div id="px"></div>
+						 <span class="separator"></span>
+						 <p class="description">คลิกเพื่อดูรูปภาพขนาดเต็ม</p>
+						 <span class="separator"></span>
+					 </div>
+					 </div>
+				 </div>
+			 </a>
+		</div>
+		<p>แต่ละปีมีดาวหางขนาดเล็กมากมายหลายร้อยดวงผ่านเข้ามาในระบบสุริยะชั้นใน แต่มีเพียงไม่กี่ดวงเท่านั้นที่สาธารณชนสามารถสังเกตได้ โดยเฉลี่ยทุก ๆ ทศวรรษจะมีดาวหางหนึ่งดวงที่สว่างมากพอจนสามารถสังเกตเห็นได้ด้วยตาเปล่า ดาวหางเหล่านี้จัดอยู่ในกลุ่มดาวหางใหญ่ (Great Comets) ในอดีตที่ผ่านมา ดาวหางที่สว่างมักทำให้เกิดการแตกตื่นคลุ้มคลั่งในหมู่ประชาชน เพราะเชื่อกันว่าเป็นลางร้ายนำมาซึ่งหายนะ ครั้นในระยะหลัง หลังจากดาวหางฮัลเลย์กลับมาเยือนในปี พ.ศ. 2453 (ค.ศ. 1910) และโลกได้เดินทางผ่านเข้าไปในหางของดาวหาง รายงานข่าวที่ผิดพลาดของหนังสือพิมพ์และสื่อมากมายทำให้เกิดความหวาดหวั่นเกี่ยวกับพิษของไซยาโนเจนและเชื้อโรคซึ่งอ้างว่าอาจคร่าชีวิตคนเป็นล้าน การปรากฏของดาวหางเฮล-บอปป์ในปี พ.ศ. 2540 ทำให้กลุ่มสาวกของลัทธิเฮเวนส์ เกต พากันฆ่าตัวตายไปเป็นจำนวนมาก อย่างไรก็ดี คนส่วนใหญ่ยังคงมองดาวหางว่าเป็นสิ่งสวยงามน่าชม
+		</div>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">การคาดการณ์ว่าดาวหางดวงใดจะเป็นดาวหางใหญ่นั้นทำได้ยากมาก เพราะมีหลายปัจจัยที่มีผลต่อความสว่างของดาวหาง และอาจทำให้การพยากรณ์คลาดเคลื่อนไปได้ โดยทั่วไปหากดาวหางมีนิวเคลียสขนาดใหญ่ ผ่านเข้าใกล้ดวงอาทิตย์มาก และไม่ถูกแสงอาทิตย์กลบเมื่อสังเกตจากโลก ก็มีแนวโน้มว่าดาวหางดวงนั้นจะเป็นดาวหางใหญ่ได้ อย่างไรก็ดี ในปี พ.ศ. 2516 ดาวหางโคฮูเทค (Kohoutek) มีคุณสมบัติทุกประการที่จะเป็นดาวหางใหญ่ แต่มันก็ไม่ได้เป็น ดาวหางเวสต์ซึ่งปรากฏขึ้นสามปีหลังจากนั้น ท่ามกลางความคาดหวังที่น้อยกว่ามาก (อาจเป็นเพราะความล้มเหลวที่เกิดกับดาวหางโคฮูเทค นักดาราศาสตร์จึงระมัดระวังมากยิ่งขึ้นในการพยากรณ์ความสว่างของดาวหาง) แต่ดาวหางเวสต์ได้กลับกลายเป็นดาวหางที่สุกสว่างน่าประทับใจอย่างยิ่ง
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ปลายคริสต์ศตวรรษที่ 20 เป็นช่วงทิ้งห่าง ไม่มีดาวหางใหญ่ปรากฏขึ้นเลยเป็นเวลานานหลายปี จากนั้นก็ปรากฏดาวหางใหญ่สองดวงติด ๆ กัน คือดาวหางเฮียะกุตะเกะ (Hyakutake) ในปี พ.ศ. 2539 ตามด้วยดาวหางเฮล-บอปป์ในปี พ.ศ. 2540 ซึ่งสว่างสูงสุดในปีนั้น หลังจากที่ค้นพบก่อนหน้านั้นนานถึงสองปี ดาวหางใหญ่ดวงแรกของคริสต์ศตวรรษที่ 21 คือดาวหางแมกนอต สามารถมองเห็นได้ด้วยตาเปล่าในเดือนมกราคม พ.ศ. 2550 เป็นดาวหางที่สว่างที่สุดในรอบกว่า 40 ปี อย่างไรก็ตาม ประเทศไทยไม่เห็นดาวหางดวงนี้ เนื่องจากมันมีตำแหน่งใกล้ขอบฟ้ามาก
+		<h3 class="titlewhite wow fadeInUp animated" data-wow-delay=".12s" style="visibility: visible; animation-delay: 0.12s; animation-name: fadeInUp;">ดาวหางเฉียดดวงอาทิตย์</h3>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ดาวหางเฉียดดวงอาทิตย์ (Sungrazing comet) คือดาวหางที่เข้าใกล้ดวงอาทิตย์มากเป็นพิเศษ บางครั้งเข้าใกล้เพียงไม่กี่พันกิโลเมตรจากพื้นผิวดวงอาทิตย์ ดาวหางขนาดเล็กอาจระเหิดหายไปเลยเมื่อเข้าใกล้ดวงอาทิตย์มาก ๆ แต่ถ้าดวงใหญ่สักหน่อยก็จะสามารถเคลื่อนผ่านจุดใกล้ดวงอาทิตย์ที่สุดได้หลายครั้ง แต่ส่วนใหญ่แล้วแรงโน้มถ่วงมหาศาลของดวงอาทิตย์มักจะส่งผลให้มันแตกออกเป็นเสี่ยง ๆ เสียมากกว่า
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ประมาณ 90% ของดาวหางประเภทนี้ที่สังเกตการณ์โดยยานโซโฮ มักเป็นดาวหางในตระกูลครอทซ์ (Kreutz) ซึ่งมีกำเนิดจากดาวหางขนาดยักษ์ดวงหนึ่งที่แตกเป็นชิ้นเล็กชิ้นน้อยระหว่างการเข้าสู่ระบบสุริยะชั้นในเป็นครั้งแรก ส่วนอีก 10% ที่เหลือเป็นดาวหางทั่วไป ยังมีกลุ่มของดาวหางอีก 4 กลุ่มที่ถูกจัดอยู่ในประเภทนี้ ได้แก่ ดาวหางตระกูลครอต (Kracht), ครอต 2 เอ (Kracht 2a), มาร์สเดน (Marsden) และมีเยอร์ (Meyer) กลุ่มดาวหางมาร์สเดนและครอตต่างเกี่ยวข้องกับดาวหางมัคโฮลซ์ (96P/Machholz) ซึ่งเป็นดาวหางต้นกำเนิดของธารสะเก็ดดาวในฝนดาวตกควอดแดรนต์ (Quadrantids) และฝนดาวตกแกะ (Arietids)
+		<h3 class="titlewhite wow fadeInUp animated" data-wow-delay=".12s" style="visibility: visible; animation-delay: 0.12s; animation-name: fadeInUp;">ดาวหางที่ผิดปกติ</h3>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ในบรรดาดาวหางซึ่งเรารู้จักแล้วเป็นจำนวนนับพันดวง มีบางดวงที่เป็นดาวหางผิดปกติ ดาวหางเองเคอมีวงโคจรตั้งแต่เขตรอบนอกของแถบดาวเคราะห์น้อยเข้ามาจนถึงวงโคจรของดาวพุธ ขณะที่ดาวหางชวาสมานน์-วัคมานน์ (29P/Schwassmann-Wachmann) มีวงโคจรที่เคลื่อนอยู่ระหว่างดาวพฤหัสบดีและดาวเสาร์เท่านั้น ดาวหาง 2060 ไครอน ซึ่งมีวงโคจรที่ไม่เสถียร เปลี่ยนแปรอยู่ระหว่างดาวเสาร์กับดาวยูเรนัส ถูกจัดประเภทเป็นดาวเคราะห์น้อยเมื่อตอนที่ค้นพบครั้งแรก จนกระทั่งต่อมามีการค้นพบหางโคม่าอย่างจาง ๆ ในทำนองเดียวกัน ดาวหางชูเมกเกอร์-เลวี 2 ก็ถูกจัดประเภทเริ่มต้นเป็นดาวเคราะห์น้อย 1990 UL3 คาดว่าดาวเคราะห์น้อยที่เข้ามาใกล้โลกประมาณ 6% เป็นนิวเคลียสของดาวหางที่หมดอายุ ไม่มีแก๊สหลงเหลืออยู่อีกต่อไปแล้ว
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">มีการเฝ้าสังเกตดาวหางบางดวงไปจนกระทั่งถึงกาลแตกดับระหว่างเข้าใกล้ดวงอาทิตย์มากที่สุด ในจำนวนนี้รวมถึงดาวหางเวสต์และดาวหางอิเกะยะ-เซะกิ (Ikeya-Seki) ส่วนดาวหางบีลาเป็นตัวอย่างที่พิเศษ มันแตกออกเป็นสองส่วนระหว่างการเข้าใกล้ดวงอาทิตย์มากที่สุดในปี ค.ศ. 1846 จากนั้นมีการสังเกตพบชิ้นส่วนทั้งสองแยกจากกันในปี ค.ศ. 1852 แล้วก็ไม่ได้พบกับมันอีกเลย แต่กลับพบฝนดาวตกที่งดงามน่าดูในปี ค.ศ. 1872 และ 1885 ซึ่งเป็นปีที่ดาวหางควรจะกลับมาปรากฏอีกครั้ง นอกจากนี้ยังมีฝนดาวตกขนาดเล็กในกลุ่มดาวแอนดรอเมดาเกิดขึ้นในเดือนพฤศจิกายนเป็นประจำทุกปี ซึ่งเป็นจังหวะที่โลกเคลื่อนที่ตัดผ่านวงโคจรของดาวหางบีลาพอดี
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">การสูญสลายของดาวหางที่น่าจดจำอีกเหตุการณ์หนึ่งคือดาวหางชูเมกเกอร์-เลวี 9 ซึ่งค้นพบในปี พ.ศ. 2536 ในตอนที่ค้นพบนั้นดาวหางกำลังอยู่ในวงโคจรแถวดาวพฤหัสบดี แล้วถูกแรงดึงดูดของดาวเคราะห์จับตัวไว้เมื่อมันเคลื่อนเข้าใกล้ในปี พ.ศ. 2535 การประจันหน้ากันครั้งนั้นทำให้ดาวหางแตกออกเป็นเสี่ยงๆ หลายร้อยชิ้น และใช้เวลาหกวันในเดือนกรกฎาคม 2537 ที่ชิ้นส่วนทั้งหมดพุ่งเข้าสู่ชั้นบรรยากาศของดาวพฤหัสบดี นับเป็นครั้งแรกที่นักดาราศาสตร์สังเกตเห็นการรวมตัวกันของวัตถุอวกาศสองชนิดในระบบสุริยะ นอกจากนี้ ยังมีข้อสันนิษฐานว่าวัตถุที่ทำให้เกิดเหตุระเบิดที่ทังกัสกาในปี ค.ศ. 1908 น่าจะเป็นชิ้นส่วนหนึ่งของดาวหางเองเคอ
+		</div>
+		</div>
+</div>
+
+<div class="content parallax" style="background: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) .15vw, rgba(0, 0, 0, 0.6) .15vw, rgba(0, 0, 0, 0.6) .3vw), url(../images/CometParallax3.jpg);padding: 5em 0 0;">
+	<div class="container" >
+	<div class="contentbodynormal">
+	<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+	 <h2 class="titlenormal">การเฝ้าดูดาวหาง</h2>
+ 		</div>
+		<div class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+		<div class="col-md-3 baner-top wow fadeInRight animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;width:400px; float:right; margin-left:12.5px;">
+			 <a href="../images/Comet_2006_VZ13_linear_orbital_element_example.jpg" class="b-link-stripe b-animate-go  swipebox" title="ตัวอย่างการวาดเส้นทางเคลื่อนที่ของดาวหางบนแผนที่ดาวด้วยซอฟต์แวร์ SkyMap Pro">
+				 <div class="gal-spin-effect vertical ">
+					 <img src="../images/Comet_2006_VZ13_linear_orbital_element_example.jpg" />
+					 <div class="gal-text-box">
+					 <div class="info-gal-con">
+						 <h5>ตัวอย่างการวาดเส้นทางเคลื่อนที่ของดาวหางบนแผนที่ดาวด้วยซอฟต์แวร์ SkyMap Pro</h5>
+						 <div id="px"></div>
+						 <span class="separator"></span>
+						 <p class="description">คลิกเพื่อดูรูปภาพขนาดเต็ม</p>
+						 <span class="separator"></span>
+					 </div>
+					 </div>
+				 </div>
+			 </a>
+		</div>	
+		<p>การค้นพบดาวหางดวงใหม่อาจเกิดได้จากการเฝ้าดูผ่านกล้องโทรทรรศน์หรือกล้องสองตา แต่กระนั้นนักดาราศาสตร์สมัครเล่นที่ไม่มีเครื่องมือตรวจดูท้องฟ้าก็ยังสามารถค้นพบดาวหางเฉียดดวงอาทิตย์ (Sungrazing comet) ได้แบบออนไลน์ โดยการดาวน์โหลดภาพถ่ายจากดาวเทียมสังเกตการณ์ของสถานีวิจัยต่าง ๆ เช่น ยานโซโฮ เป็นต้น
+		<p>การพบดาวหางบนท้องฟ้าด้วยตาเปล่าอาจเป็นไปได้ยากและไม่บ่อยนัก แต่หากใช้กล้องโทรทรรศน์แบบมือสมัครเล่น (ขนาด 50 มม.-100 ซม.) ก็สามารถเห็นภาพท้องฟ้าได้กระจ่างพอที่จะพบดาวหางได้ปีละหลายดวง บางครั้งอาจพบดาวหางมากกว่าหนึ่งดวงบนท้องฟ้าในเวลาเดียวกัน ซอฟต์แวร์ดาราศาสตร์โดยทั่วไปสามารถสร้างภาพเส้นทางโคจรของดาวหางที่รู้จักแล้วได้ ช่วยให้สามารถสังเกตดาวหางเปรียบเทียบกับวัตถุท้องฟ้าอื่น ๆ ได้ แต่การสังเกตการเคลื่อนที่ของดาวหางผ่านช่องมองอาจเป็นไปได้ยาก ในแต่ละคืนดาวหางอาจเคลื่อนตำแหน่งไปจากเดิมได้หลายองศาทีเดียว ดังนั้นผู้เฝ้าดูดาวหางจึงควรมีแผนที่ดาวไว้ด้วยสำหรับใช้ประกอบการสังเกตการณ์
+		</div>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ภาพการปรากฏตัวของดาวหางขึ้นกับปัจจัยมากมาย เช่นองค์ประกอบของดาวหางและระยะห่างจากดวงอาทิตย์ บรรดาสสารบนดาวหางจะระเหิดน้อยลงเมื่อมันเคลื่อนห่างออกจากดวงอาทิตย์ การเฝ้าสังเกตจึงทำได้ยากขึ้น ไม่เพียงเพราะระยะทางที่ห่างไกลขึ้นเท่านั้น แต่ความสว่างของดาวหางก็ลดลง และการส่องแสงของหางก็จางลงด้วย ดาวหางจะปรากฏอย่างงดงามเมื่อนิวเคลียสของมันสว่างจ้าและทอดหางเป็นแนวยาว บางครั้งต้องใช้กล้องโทรทรรศน์ขนาดเล็กที่มีขอบเขตภาพกว้างขึ้น เพื่อให้มองเห็นภาพครบถ้วนชัดเจนที่สุด ดังนั้นเครื่องมือขนาดใหญ่สำหรับนักดูดาวสมัครเล่น (ช่องรับแสงตั้งแต่ 25 ซม.ขึ้นไป) ที่สามารถจับภาพวัตถุที่มีความสว่างต่ำมาก ๆ ได้ ก็อาจไม่ได้เปรียบอะไรมากนักในการดูดาวหาง โดยทั่วไปมีโอกาสที่จะมองเห็นดาวหางสวยงามจากกล้องดูดาวสมัครเล่นขนาดเล็ก (8-15 ซม.) มากกว่าจำนวนดาวหางที่ได้รับความสนใจจากสื่อมวลชนเสียอีก</p>
+	</div>
+	</div>
+
+
+		<!--start-smooth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear'
+								 		};
+										*/
+
+										$().UItoTop({ easingType: 'easeOutQuart' });
+
+									});
+								</script>
+								<!--end-smooth-scrolling-->
+		<a href="#home" id="toTop" class="scroll fadeInUp animated" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- animation-effect -->
+<link href="../css/animate.min.css" rel="stylesheet">
+<script src="../js/wow.min.js"></script>
+<!-- animation-effect -->
+
+
+<!--footer-->
+<div class="footer2 wow fadeIn animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.75s; animation-name: fadeIn; margin-top:5em;">
+		<div class="footer-info">
+			<div class="container">
+				<div class="wow slideInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: slideInUp;">
+					<p><a data-hover="คณะผู้จัดทำ" href="Builder.html" class="scroll">คณะผู้จัดทำ</a></p>
+					<script>$(function () {
+					  $('[data-toggle="tooltip"]').tooltip()
+					})</script>
+				</div>
+			</div>
+		</div>
+</div></div>
+<!--/footer-->
+
+<script>
+ new WOW().init();
+</script>
+
+<link href="../css/animate.min.css" rel="stylesheet">
+<script src="../js/wow.min.js"></script> <!-- //animation-effect -->
+
+</body>
+</html>
