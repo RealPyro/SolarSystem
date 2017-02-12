@@ -42,6 +42,46 @@ html {
 .phenomenatable tr:last-of-type td{
 	border-bottom: none;
 }
+
+.phenomenatablewhite {
+	width: 80%;
+	margin: 30px auto 0;
+	text-align: center;
+	text-shadow: none;
+	border-color: #fff;
+	border: none;
+}
+.phenomenatablewhite th {
+	font-family: 'MN Paethai';
+	text-align: center;
+	font-size: 1.8em;
+	line-height: 1.8em;
+	color: #1a1a1a;
+	background: rgba(192, 199, 242, .8);
+	border-color: #1a1a1a;
+	border-top: none;
+	border-right: none;
+}
+.phenomenatablewhite th:first-of-type {
+	border-radius: 30px 0 0 0;
+}
+.phenomenatablewhite th:last-of-type {
+	border-radius: 0 30px 0 0 ;
+}
+.phenomenatablewhite td {
+	font-family: 'MN Paethai';
+	text-align: center;
+	font-size: 1.8em;
+	line-height: 1.8em;
+	color: #1a1a1a;
+	border-color: #1a1a1a;
+	border-right: none;
+}
+.phenomenatablewhite tr:last-of-type td{
+	border-bottom: none;
+}
+
+
 .bgsection {
 	position: relative;
 	width: 100%;
@@ -925,7 +965,7 @@ label{
 	visibility:hidden;
 }
 .hidevideo > *{
-	display:hidden;
+	visibility:hidden;
 }
 .header-bottombg {
 	position: fixed;
