@@ -54,9 +54,13 @@ $(function() {
 <section id="scrollsection" class="scrollbutton">
 <div class="bgsection">
 		<div class="parallaxvideo">
-			<video autoplay muted loop>
-					<source src="../videos/SolarEclipse.mp4" type="video/mp4">
+			<video id="myVideo" autoplay muted loop>
+					<source src="../videos/LunarEclipse.mp4" type="video/mp4">
 			</video>
+			<script>
+			var vid = document.getElementById("myVideo");
+			vid.playbackRate = 0.55;
+			</script>
 			<h1 class="fadeIn" data-wow-delay="0s" style="animation-delay: 0s; animation-name: fadeIn;animation-duration:4s;">จันทรุปราคา</h1>
 			<a href="#targetcontent"><span></span><span></span><span></span>เลื่อนลง</a>
 		</div>
