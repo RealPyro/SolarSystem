@@ -889,7 +889,7 @@ label{
 	visibility:hidden;
 }
 .hidevideo > *{
-	visibility:hidden;
+	display:hidden;
 }
 .header-bottombg {
 	position: fixed;
