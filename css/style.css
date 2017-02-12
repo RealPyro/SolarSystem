@@ -17,7 +17,7 @@ html {
 	font-family: 'MN Paethai';
 	text-align: center;
 	font-size: 2em;
-	line-height: 2em;
+	height: 2em;
 	color: #1a1a1a;
 	background: rgba(192, 199, 242, .8);
 	border-color: #1a1a1a;
@@ -34,7 +34,7 @@ html {
 	font-family: 'MN Paethai';
 	text-align: center;
 	font-size: 2em;
-	line-height: 2em;
+	height: 2em;
 	color: #fff;
 	border-color: #fff;
 	border-right: none;
@@ -44,7 +44,7 @@ html {
 }
 
 .phenomenatablewhite {
-	width: 80%;
+	width: 100%;
 	margin: 30px auto 0;
 	text-align: center;
 	text-shadow: none;
@@ -55,9 +55,9 @@ html {
 	font-family: 'MN Paethai';
 	text-align: center;
 	font-size: 1.8em;
-	line-height: 1.8em;
+	height: 2em;
 	color: #1a1a1a;
-	background: rgba(192, 199, 242, .8);
+	background: rgba(192, 199, 242, .9);
 	border-color: #1a1a1a;
 	border-top: none;
 	border-right: none;
@@ -72,16 +72,21 @@ html {
 	font-family: 'MN Paethai';
 	text-align: center;
 	font-size: 1.8em;
-	line-height: 1.8em;
+	height: 2em;
 	color: #1a1a1a;
 	border-color: #1a1a1a;
 	border-right: none;
 }
 .phenomenatablewhite tr:last-of-type td{
 	border-bottom: none;
+	border-radius: 0 0 0 30px;
 }
-
-
+.phenomenatablewhite tr td:first-of-type{
+	background: rgba(192, 199, 242, .3);
+}
+.phenomenatablewhite tr td:first-of-type{
+	
+}
 .bgsection {
 	position: relative;
 	width: 100%;
