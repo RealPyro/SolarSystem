@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>สุริยุปราคา - Solar System</title>
-<meta content=’width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0′ name=’viewport’ />
+<meta content=’width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0? name=’viewport’ />
 <meta name=”viewport” content=”width=device-width” />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="ระบบสุริยะ" />
@@ -30,6 +30,14 @@
 				});
 			});
 </script>
+<script>
+$(function() {
+	$('a[href*=#]').on('click', function(e) {
+		e.preventDefault();
+		$('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 1200, 'linear');
+	});
+});
+</script>
 <link rel="stylesheet" href="../css/mediaelementplayer.css" />
 <!-- swipe box js -->
 	<script src="../js/jquery.swipebox.min.js"></script>
@@ -42,14 +50,21 @@
 
 </head>
 <body ondragstart="return false;" ondrop="return false;">
-<div id="home">
-			<div class="parallaxvideo">
-					<video autoplay muted loop>
-						<source src="../videos/SolarEclipse.mp4" type="video/mp4">
-					</video>
-					<h1 class="fadeIn" data-wow-delay="0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;animation-duration:4s;">สุริยุปราคา</h1>
+<div id="home"></div>
+<section id="scrollsection" class="scrollbutton">
+<div class="bgsection">
+		<div class="parallaxvideo">
+			<video autoplay muted loop>
+					<source src="../videos/SolarEclipse.mp4" type="video/mp4">
+			</video>
+			<h1 class="fadeIn" data-wow-delay="0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;animation-duration:4s;">สุริยุปราคา</h1>
+			<a href="#targetcontent"><span></span><span></span><span></span>เลื่อนลง</a>
+		</div>
+		<div id="ChangeVisible"></div>
+</section>
 			</div>
-		<div class="header-bottom">
+		<div class="header-bottombg"></div>
+		<div class="header-bottom" style="position:fixed;padding: .75em 0 ">
 		     <div class="container">
 			      <!--logo-->
 				  <div class="logo fadeInLeft animated" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
@@ -109,13 +124,13 @@
 				 <div class="clearfix"></div>
 					<script>
 				$(document).ready(function() {
-					 var navoffeset=$("#ChangeFixed").offset().top;
+					 var navoffeset=$("#ChangeVisible").offset().top;
 					 $(window).scroll(function(){
 						var scrollpos=$(window).scrollTop();
 						if(scrollpos >navoffeset){
-							$(".header-bottom").addClass("fixed slideInDown animated");
+							$(".header-bottombg").addClass("visible slideInDown header-bottombganimated");
 						}else{
-							$(".header-bottom").removeClass("fixed slideInDown animated");
+							$(".header-bottombg").removeClass("visible slideInDown header-bottombganimated");
 						}
 					 });
 				});
@@ -125,12 +140,11 @@
 		</div>
 	</div>
 	</div>
-	</div>
-		</div>
+
 	</div>
 
-<div id="ChangeFixed"></div>
-	<div class="contentwhite">
+
+	<div id="targetcontent" class="contentwhite">
 		<div class="container">
 		<div class="contentbodywhite">
 		<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
