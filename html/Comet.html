@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>สุริยุปราคา - Solar System</title>
+<title>ดาวหาง - Solar System</title>
 <meta content=’width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0? name=’viewport’ />
 <meta name=”viewport” content=”width=device-width” />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -105,9 +105,9 @@ $(function() {
 								</li>
 								<li><a data-hover="ปรากฎการณ์" href="Phenomena.html">ปรากฎการณ์</a>
 								<ul class="dropdown fadeIn animated" data-wow-delay=".04s" style="visibility: visible; animation-delay: 0.04s; animation-name: fadeIn;">
-								<li><a href="SolarEclipse.html"  class="active">สุริยุปราคา</a></li>
+								<li><a href="SolarEclipse.html">สุริยุปราคา</a></li>
 								<li><a href="LunarEclipse.html">จันทรุปราคา</a></li>
-								<li><a href="Comet.html">ดาวหาง</a></li>
+								<li><a href="Comet.html" class="active">ดาวหาง</a></li>
 								<li><a href="MeteorShower.html">ฝนดาวตก</a></li>
 								<li><a href="Aurora.html">ออโรรา</a></li>
 								<li><a href="SunHola.html">อาทิตย์ทรงกลด</a></li>
@@ -210,17 +210,16 @@ $(function() {
 	<div class="container">
 	<div class="contentbodywhite">
 	<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-	 <h2 class="titlewhite">การพยากรณ์สุริยุปราคา</h2>
+	 <h2 class="titlewhite">ลักษณะของวงโคจร</h2>
  		</div>
-		<div class="wow fadeInUp animated" data-wow-delay=".12s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-		<h3 class="titlewhite">รูปแบบ</h3>
-		<div class="col-md-3 baner-top wow fadeInRight animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;width:255px; float:right; margin-left:10px;">
-			 <a href="../images/Solar_eclipse.png" class="b-link-stripe b-animate-go  swipebox" title="แผนภาพแสดงการเกิดสุริยุปราคา (ภาพไม่เป็นไปตามมาตราส่วน)">
+		<div class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+		<div class="col-md-3 baner-top wow fadeInRight animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;width:380px; float:right; margin-left:12.5px;">
+			 <a href="../images/Comet_Kohoutek_orbit_p391.png" class="b-link-stripe b-animate-go  swipebox" title="วงโคจรของดาวหางโคฮูเทค (เส้นสีแดง) และวงโคจรของโลก (เส้นสีน้ำเงิน) แสดงให้เห็นถึงความรีของวงโคจร และการเคลื่อนที่ที่เร็วมากขึ้นเมื่อเข้าใกล้ดวงอาทิตย์">
 				 <div class="gal-spin-effect vertical ">
-					 <img src="../images/Solar_eclipse.png" />
+					 <img src="../images/Comet_Kohoutek_orbit_p391.png" />
 					 <div class="gal-text-box">
 					 <div class="info-gal-con">
-						 <h5>แผนภาพแสดงการเกิดสุริยุปราคา</h5>
+						 <h5>วงโคจรของดาวหางโคฮูเทค (เส้นสีแดง) และวงโคจรของโลก (เส้นสีน้ำเงิน)</h5>
 						 <div id="px"></div>
 						 <span class="separator"></span>
 						 <p class="description">คลิกเพื่อดูรูปภาพขนาดเต็ม</p>
@@ -230,51 +229,44 @@ $(function() {
 				 </div>
 			 </a>
 		</div>
-		<p>แผนภาพทางขวาแสดงให้เห็นการเรียงตัวกันของดวงอาทิตย์ ดวงจันทร์ และโลก ระหว่างการเกิดสุริยุปราคา บริเวณสีเทาเข้มใต้ดวงจันทร์คือเขตเงามืด ซึ่งดวงอาทิตย์จะถูกดวงจันทร์บดบังไปทั้งดวง บริเวณเล็ก ๆ ที่เงามืดทาบกับผิวโลกคือจุดที่สามารถมองเห็นสุริยุปราคาเต็มดวงได้ บริเวณสีเทาอ่อนที่กว้างกว่าคือเขตเงามัว ซึ่งจะสังเกตเห็นสุริยุปราคาบางส่วน</p>
-		<p>ระนาบวงโคจรของดวงจันทร์เอียงทำมุมประมาณ 5 องศา กับระนาบวงโคจรโลกรอบดวงอาทิตย์ ด้วยเหตุนี้ ในเวลาที่ดวงจันทร์โคจรมาที่ตำแหน่งจันทร์ดับ ส่วนใหญ่มันจะผ่านไปทางด้านเหนือหรือด้านใต้ของดวงอาทิตย์โดยเงาของดวงจันทร์ไม่สัมผัสผิวโลก จึงไม่เกิดสุริยุปราคา สุริยุปราคาจะเกิดขึ้นก็ต่อเมื่อจันทร์ดับเกิดในช่วงที่ดวงจันทร์เคลื่อนมาอยู่บริเวณใกล้จุดตัดของระนาบวงโคจรทั้งสอง</p>
-		<p>วงโคจรของดวงจันทร์เป็นรูปวงรี ทำให้ระยะห่างระหว่างดวงจันทร์กับโลกแปรผันได้ประมาณ 6 เปอร์เซ็นต์จากค่าเฉลี่ย เพราะฉะนั้น ขนาดปรากฏของดวงจันทร์จึงแปรผันไปตามระยะห่างซึ่งส่งผลต่อการเกิดสุริยุปราคา ขนาดเฉลี่ยของดวงจันทร์เมื่อมองจากโลกมีขนาดเล็กกว่าดวงอาทิตย์เล็กน้อย ทำให้สุริยุปราคาส่วนใหญ่เป็นแบบวงแหวน แต่หากในวันที่เกิดสุริยุปราคานั้น ดวงจันทร์โคจรมาอยู่บริเวณจุดใกล้โลกที่สุด ก็จะเกิดสุริยุปราคาเต็มดวง ส่วนวงโคจรของโลกก็เป็นวงรีเช่นกัน ระยะห่างระหว่างดวงอาทิตย์กับโลกก็แปรผันไปในรอบปี แต่ส่งผลไม่มากนักต่อการเกิดสุริยุปราคา</p>
-		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ดวงจันทร์โคจรรอบโลกใช้เวลาประมาณ 27.3 วัน เมื่อเทียบกับกรอบอ้างอิงคงที่ เรียกว่าเดือนดาราคติ (Sidereal month) แต่โลกก็โคจรรอบดวงอาทิตย์ในทิศทางเดียวกัน ทำให้ระยะเวลาจากจันทร์เพ็ญถึงจันทร์เพ็ญอีกครั้งหนึ่งกินเวลานานกว่านั้น คือ ประมาณ 29.6 วัน เรียกว่า เดือนจันทรคติ (Lunar month) หรือเดือนดิถี (Synodic month)
-		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">การนับเวลาที่ดวงจันทร์โคจรผ่านจุดโหนดขึ้น (Ascending node) ซึ่งเป็นจุดที่ดวงจันทร์เคลื่อนที่จากใต้ระนาบสุริยวิถีขึ้นไปทางเหนือครบหนึ่งรอบก็เป็นการนับเดือนอีกวิธีหนึ่งเช่นกัน เดือนแบบนี้สั้นกว่าแบบแรกเล็กน้อย เนื่องจากจุดโหนดเคลื่อนที่ถอยหลังโดยเกิดจากอิทธิพลแรงโน้มถ่วงของดวงอาทิตย์ด้วยคาบ 18.6 ปี เรียกเดือนแบบนี้ว่า เดือนราหู (Draconic month)</p>
-		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">เดือนอีกแบบหนึ่งนับจากที่ดวงจันทร์โคจรผ่านจุดใกล้โลกที่สุด 2 ครั้งติดกัน เรียกว่า เดือนจุดใกล้ (Anomalistic month) มีค่าไม่เท่ากับเดือนดาราคติ เนื่องจากวงโคจรของดวงจันทร์ส่ายไปโดยรอบด้วยคาบประมาณ 9 ปี</p>
-		<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-		<div class="col-md-3 baner-top wow fadeInRight animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;width:350px; float:right; margin-left:10px;">
-			 <a href="../images/Zonsverduistering_Malta.jpg" class="b-link-stripe b-animate-go  swipebox" title="แผนภาพแสดงการเกิดสุริยุปราคา (ภาพไม่เป็นไปตามมาตราส่วน)">
+		<p>ดาวหางส่วนใหญ่มีวงโคจรเป็นวงรีที่เรียวมาก ๆ โดยมีปลายข้างหนึ่งของวงรีเข้าใกล้ดวงอาทิตย์ ส่วนปลายอีกข้างหนึ่งทอดไกลออกไปยังด้านนอกของระบบสุริยะ สามารถแบ่งประเภทของดาวหางได้เป็นกลุ่มตามคาบการโคจร ยิ่งดาวหางมีคาบการโคจรยาวเท่าใด รูปวงรีก็จะยิ่งเรียวมากขึ้น
+		<div style="margin: 18px 0 0 30px;"><p style="text-indent: -15px; margin: 0;"><font color="#2337a9"><span style="margin: 18px 6px 0 0;">•</span><i>ดาวหางคาบสั้น (Short-period comets)</i></font> เป็นดาวหางที่มีคาบการโคจรรอบดวงอาทิตย์น้อยกว่า 200 ปี โดยทั่วไปมักมีระนาบวงโคจรใกล้เคียงกับระนาบสุริยวิถี และเคลื่อนที่ไปในทิศทางเดียวกับดาวเคราะห์ จุดปลายของวงรีอีกด้านที่ไกลจากดวงอาทิตย์ที่สุดมักอยู่ในแถบของดาวเคราะห์รอบนอกของระบบสุริยะ (ตั้งแต่ดาวพฤหัสบดีออกไป) ตัวอย่างเช่น ดาวหางฮัลเลย์มีจุดไกลที่สุดจากดวงอาทิตย์อยู่ในบริเวณวงโคจรของดาวเนปจูน ส่วนดาวหางที่มีคาบโคจรสั้นกว่านั้นเช่นดาวหางเองเคอ (Comet Encke) มีจุดไกลที่สุดเพียงไม่เกินวงโคจรของดาวพฤหัสบดี ดาวหางคาบสั้น สามารถแบ่งได้เป็น 2 กลุ่มคือ กลุ่มดาวพฤหัสบดี (คาบโคจรไม่เกิน 20 ปี) และกลุ่มดาวหางฮัลเลย์ (คาบโคจรระหว่าง 20 ถึง 200 ปี)
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp; text-indent: -15px; margin: 0;"><font color="#2337a9"><span style="margin: 18px 6px 0 0;">•</span><i>ดาวหางคาบยาว (Long-period comets)</i></font> มีความรีของวงโคจรมากกว่า และมีคาบโคจรตั้งแต่ 200 ปีขึ้นไปจนถึงหลายพันหรือหลายล้านปี (ตามนิยามแล้ว ดาวหางเหล่านี้จะต้องยังคงอยู่ภายใต้แรงโน้มถ่วงของดวงอาทิตย์ ดาวหางที่ถูกดีดออกจากระบบสุริยะหลังจากเคลื่อนผ่านดาวเคราะห์ขนาดใหญ่จะไม่นับว่าเป็นดาวหางที่มี "คาบโคจร" อีกต่อไป) จุดปลายของวงรีด้านที่ไกลจากดวงอาทิตย์จะอยู่นอกเขตแดนดาวเคราะห์รอบนอกออกไปอีก
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp; text-indent: -15px; margin: 0;"><font color="#2337a9"><span style="margin: 18px 6px 0 0;">•</span><i>ดาวหางแบบปรากฏครั้งเดียว (Single-apparition comets)</i></font> ดาวหางแบบปรากฏครั้งเดียว (Single-apparition comets)</i> มีลักษณะคล้ายคลึงกับดาวหางคาบยาว แต่มักมีเส้นทางแบบพาราโบลาหรือไฮเพอร์โบลา ทำให้มันผ่านเข้ามาในระบบสุริยะเพียงครั้งเดียว
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;  text-indent: -15px; margin: 0;"><font color="#2337a9"><span style="margin: 18px 6px 0 0;">•</span></font>นักวิชาการบางคนใช้คำว่า "ดาวหางรายคาบ" (Periodic comet) สำหรับดาวหางใด ๆ ที่มีวงโคจรเป็นวงรี (ได้แก่ทั้งดาวหางคาบสั้นและดาวหางคาบยาว)  แต่บางคนก็นับแต่เพียงดาวหางคาบสั้นเท่านั้น ในทำนองเดียวกัน แม้คำว่า "ดาวหางแบบไม่มีคาบ" (non-periodic comet) จะมีความหมายเดียวกับดาวหางแบบปรากฏครั้งเดียว แต่นักวิชาการบางคนก็ใช้ในความหมายรวมถึงดาวหางคาบยาว หรือคาบยาวนานกว่า 200 ปีด้วย ในระยะหลังมีการค้นพบแถบดาวหางหลัก (Main-belt comets) ซึ่งทำให้เกิดการแบ่งประเภทเพิ่มขึ้นอีกหนึ่งชนิด ดาวหางในกลุ่มนี้มีวงโคจรค่อนข้างกลมมากกว่ากลุ่มอื่น ๆ ในระยะเดียวกันกับแถบดาวเคราะห์น้อย</p>
+		</div>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">เมื่อดูจากลักษณะของวงโคจร เชื่อกันว่าดาวหางคาบสั้นน่าจะมีต้นกำเนิดมาจากแถบไคเปอร์ซึ่งอยู่ในห้วงอวกาศแถบวงโคจรของดาวเนปจูน ส่วนดาวหางคาบยาวน่าจะมาจากแหล่งที่ไกลกว่านั้น เช่นในกลุ่มเมฆออร์ต (ตั้งชื่อตามนักดาราศาสตร์ชาวเนเธอร์แลนด์ เจน เฮนดริก ออร์ต ผู้ค้นพบ) เชื่อกันว่า มีวัตถุลักษณะคล้ายดาวหางจำนวนมากโคจรรอบดวงอาทิตย์เป็นวงเกือบกลมในระยะวงโคจรราว ๆ นั้นอยู่แล้ว แต่อิทธิพลจากแรงโน้มถ่วงของดาวเคราะห์รอบนอก (กรณีแถบไคเปอร์) หรือแรงโน้มถ่วงจากดวงดาวอื่น (กรณีกลุ่มเมฆออร์ต) อาจส่งผลโดยบังเอิญทำให้วัตถุอวกาศในเขตนั้นเปลี่ยนวงโคจรกลายเป็นวงรีและเคลื่อนเข้าหาดวงอาทิตย์ จนกลายมาเป็นดาวหางที่เรามองเห็น แต่ทว่าการปรากฏของดาวหางใหม่ ๆ ตามสมมุติฐานข้อนี้ยังไม่อาจคาดการณ์ได้
+		<div class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+		<div class="col-md-3 baner-top wow fadeInRight animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;width:350px; float:right; margin-left:12.5px;">
 				 <div class="gal-spin-effect vertical ">
-					 <img src="../images/Zonsverduistering_Malta.jpg" />
+					 <img src="../images/Comet_Diagram_text_stripped.png" />
 					 <div class="gal-text-box">
 					 <div class="info-gal-con">
-						 <h5>แผนภาพแสดงการเกิดสุริยุปราคา</h5>
-						 <div id="px"></div>
-						 <span class="separator"></span>
-						 <p class="description">คลิกเพื่อดูรูปภาพขนาดเต็ม</p>
-						 <span class="separator"></span>
+						 <h5>การโคจรของดาวหางส่วนใหญ่</h5>
 					 </div>
 					 </div>
 				 </div>
-			 </a>
 		</div>
-		<h3 class="titlewhite">ความถี่</h3>
-		<p>วงโคจรของดวงจันทร์ตัดกับสุริยวิถี 2 จุด ซึ่งห่างกัน 180 องศา ดังนั้น ดวงจันทร์ในวันจันทร์ดับจะอยู่บริเวณจุดนี้ปีละ 2 ช่วง ห่างกัน 6 เดือน ทำให้เกิดสุริยุปราคาอย่างน้อยปีละ 2 ครั้ง บางครั้งเกิดจันทร์ดับ 2 ครั้งติดกันใกล้ ๆ กับจุดโหนด ส่งผลให้บางปีสามารถเกิดสุริยุปราคาได้มากถึง 5 ครั้ง อย่างไรก็ตาม เงามืดของดวงจันทร์มักจะทอดเลยออกไปทางเหนือหรือใต้ของโลกโดยไม่สัมผัสผิวโลก จึงเกิดเป็นสุริยุปราคาบางส่วนเท่านั้น นอกจากนี้ เงามืดอาจสัมผัสผิวโลกในที่ห่างไกลบริเวณใกล้ขั้วโลกอย่างอาร์กติกและทวีปแอนตาร์กติกา ซึ่งยากต่อการเดินทางไปสังเกตการณ์</p>
+		<p>วงโคจรอันเป็นวงรีทำให้ดาวหางผ่านเข้าไปใกล้ดาวเคราะห์ขนาดใหญ่บ่อยครั้ง ทำให้วงโคจรของดาวหางบิดเพี้ยนไป ดาวหางคาบสั้นมักมีจุดปลายสุดของวงโคจรด้านไกลดวงอาทิตย์อยู่ในรัศมีวงโคจรของดาวเคราะห์ขนาดใหญ่ เช่นดาวพฤหัสบดี ซึ่งมีมวลรวมมากกว่าดาวเคราะห์ที่เหลือทั้งหมดรวมกัน ในบางครั้งดาวหางคาบยาวก็อาจถูกแรงโน้มถ่วงรบกวนเส้นทางโคจรจนทำให้กลายมาเป็นดาวหางคาบสั้นได้ (ดาวหางฮัลเลย์อาจเป็นตัวอย่างหนึ่งของกรณีนี้)
+		<p>การเฝ้าสังเกตการณ์ในยุคแรกไม่ค่อยพบดาวหางที่มีวงโคจรแบบไฮเพอร์โบลา (หรือดาวหางแบบไม่มีคาบ) แต่ไม่มีดาวหางดวงใดจะรอดพ้นแรงโน้มถ่วงรบกวนจากดาวพฤหัสบดีไปได้ หากดาวหางเคลื่อนไปในห้วงอวกาศระหว่างดาว มันจะต้องเคลื่อนที่ไปด้วยความเร็วในระดับเดียวกับความเร็วสัมพัทธ์ของดาวที่อยู่ใกล้ดวงอาทิตย์ (ระดับหลายสิบกิโลเมตรต่อวินาที) เมื่อวัตถุเหล่านั้นเข้ามาในระบบสุริยะก็มักจะมีวิถีโคจรเป็นแบบไฮเพอร์โบลา จากการคำนวณอย่างหยาบ ๆ พบว่าจะมีดาวหางที่มีวงโคจรแบบไฮเพอร์โบลาเกิดขึ้นประมาณศตวรรษละสี่ดวง
 		</div>
-		
-		<h3 class="titlewhite wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">ความถี่</h3>
-		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">สุริยุปราคาเต็มดวงจะเกิดในเวลาสั้น ๆ เนื่องจากดวงจันทร์โคจรรอบโลกอย่างรวดเร็ว ในขณะที่โลกก็โคจรไปรอบดวงอาทิตย์ด้วยเช่นกัน ทำให้เงามืดที่ตกบริเวณโลกเคลื่อนที่อย่างรวดเร็วจากตะวันตกไปตะวันออกในระยะเวลาสั้น ๆ 
-		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">หากสุริยุปราคาเกิดขึ้นเมื่อดวงจันทร์โคจรอยู่ใกล้ตำแหน่ง perigee มาก ๆ จะทำให้สุริยุปราคาเต็มดวงสามารถสังเกตได้ในบริเวณกว้าง ประมาณ 250 กิโลเมตร และเวลาในการเกิดนั้นอาจนานประมาณ 7 นาที
-		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">สุริยุปราคาบางส่วน ซึ่งเกิดจากเงามัวของดวงจันทร์นั้นสามารถเกิดได้ในบริเวณกว้างกว่าสุริยุปราคาเต็มดวงมาก</p>
+		<p class="wow fadeInUp animated" data-wow-delay=".17s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ปัจจุบัน ดาวหางรายคาบที่ค้นพบในศตวรรษที่แล้วจำนวนหนึ่งได้ "สูญหายไป" แต่วงโคจรของมันเท่าที่ตรวจวัดยังไม่ละเอียดดีพอสำหรับทำนายการปรากฏตัวในอนาคต อย่างไรก็ดี มีการค้นพบ "ดาวหางใหม่" บางดวง และเมื่อคำนวณวงโคจรของมันแล้ว อาจเป็นไปได้ว่ามันคือดาวหางเก่าที่ "สูญหายไป" นั่นเอง ตัวอย่างเช่นดาวหางเทมเพล-ซวิฟท์-ลีเนียร์ ซึ่งค้นพบในปี พ.ศ. 2412 (ค.ศ. 1869) แต่ไม่สามารถสังเกตการณ์ได้อีกหลังจากปี พ.ศ. 2451 เนื่องจากการรบกวนวงโคจรของดาวพฤหัสบดี กลับมาปรากฏตัวอีกครั้งโดยบังเอิญโดยโครงการลีเนียร์ (LINEAR; Lincoln Laboratory Near-Earth Asteroid Research project : โครงการความร่วมมือระหว่างกองทัพอากาศสหรัฐฯ, นาซา และเอ็มไอที) ในปี พ.ศ. 2544</p>
 		</div>
 	</div>
 	</div>
 </div>
 
-<div class="content parallax" style="background: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) .15vw, rgba(0, 0, 0, 0.6) .15vw, rgba(0, 0, 0, 0.6) .3vw), url(../images/SolarEclipseParallax2.jpg);">
+<div class="content parallax" style="background: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) .15vw, rgba(0, 0, 0, 0.6) .15vw, rgba(0, 0, 0, 0.6) .3vw), url(../images/CometParallax2.jpg);">
 	<div class="container" >
 	<div class="contentbodynormal">
 	<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-	 <h2 class="titlenormal">สุริยุปราคาในประวัติศาสตร์</h2>
+	 <h2 class="titlenormal">จุดจบของดาวหาง</h2>
  		</div>
 		<div>
-		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">บันทึกในประวัติศาสตร์เล่าถึงสงครามกับปรากฏการณ์อุปราคาที่เลื่องลือที่สุด คือ เมื่อครั้งเกิดสุริยุปราคาเต็มดวง วันที่ 28 พฤษภาคม พ.ศ. -41 ท้องฟ้าสว่างไสวในตอนกลางวันกลายเป็นกลางคืนไปชั่วขณะหนึ่ง เป็นเหตุให้สงครามเปอร์เซียที่นานยืดเยื้อถึง 6 ปี ระหว่างชาวลิเดียกับชาวเมเดสยุติลงได้ด้วยการเจรจาสันติภาพ และผูกสัมพันธ์ด้วยการแต่งงานกัน 2 คู่ ทั้งนี้ด้วยความยำเกรงในอำนาจสิ่งศักดิ์สิทธิ์ที่แสดงอิทธิฤทธิ์ในบัดดล ในครั้งนั้นเทลิส (Thales) นักดาราศาสตร์และนักปรัชญาชาวกรีกได้ทำนายการเกิดสุริยุปราคาไว้ก่อนแล้ว แต่ทั้งสองชนชาติอาจไม่รู้ถึงการทำนายนั้น</p>
-		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">พระเจ้าหลุยส์ จักรพรรดิผู้ยิ่งใหญ่แห่งดินแดนยุโรปครั้งนั้น ถึงกับพิศวงงงงวยกับปรากฏการณ์ฟากฟ้าที่ดวงอาทิตย์มืดหมดดวงนานถึง 5 นาที ในวันที่ 5 พฤษภาคม พ.ศ. 1383 แล้วพระองค์ก็สิ้นพระชนม์ เล่ากันว่าคงเป็นเพราะความตกใจ หลังจากนั้นเกิดศึกแย่งชิงบัลลังก์ยาวนานถึง 3 ปี มายุติลงด้วยสนธิสัญญาสันติภาพ (Treaty of Verdun) ซึ่งแบ่งยุโรปออกเป็นดินแดน 3 ประเทศ ที่เรารู้จักกันทุกวันนี้คือ ฝรั่งเศส เยอรมัน และอิตาลี</p>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">โดยทั่วไปเมื่อดาวหางโคจรรอบดวงอาทิตย์ไปนานเข้า องค์ประกอบในนิวเคลียสที่ระเหิดง่ายจะค่อย ๆ ระเหิดหายไปจนหมด ดาวหางอาจสลายตัวกลายเป็นฝุ่นผง หรือกลายเป็นเศษซากก้อนหินดำมืด มีสภาพคล้ายกับดาวเคราะห์น้อย ดาวหางบางดวงก็แตกออกเป็นเสี่ยง ๆ ตัวอย่างเช่นดาวหางชวาสมานน์-วัคมานน์ 3 ที่แตกเป็นเสี่ยงเมื่อปี พ.ศ. 2549 การแตกกระจายของดาวหางเกิดได้จากแรงโน้มถ่วงมหาศาลจากดวงอาทิตย์หรือดาวเคราะห์ขนาดใหญ่ ทำให้เกิด "การระเบิด" ขององค์ประกอบที่ระเหิดได้ หรืออาจเกิดจากสาเหตุอื่นที่ยังไม่มีคำอธิบายที่ชัดเจน</p>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ดาวหางบางดวงมีจุดจบที่อลังการกว่านั้น เช่นพุ่งไปตกบนดวงอาทิตย์ หรือพุ่งเข้าชนดาวเคราะห์หรือวัตถุอวกาศอื่น ๆ เชื่อกันว่าเหตุการณ์ที่ดาวหางพุ่งชนดาวเคราะห์หรือดวงจันทร์เกิดขึ้นเป็นปกติมานานแล้วในช่วงเริ่มต้นของระบบสุริยะ หลุมบ่อขนาดใหญ่มากมายบนดวงจันทร์ก็สันนิษฐานว่าเกิดจากการพุ่งชนของดาวหาง การพุ่งชนของดาวหางครั้งล่าสุดเกิดขึ้นเมื่อปี พ.ศ. 2537 เมื่อดาวหางชูเมกเกอร์-เลวี 9 แตกเป็นเสี่ยงๆ แล้วพุ่งเข้าชนดาวพฤหัสบดี</p>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ดาวหางและดาวเคราะห์น้อยหลายดวงเคยพุ่งชนโลกเมื่อยุคเริ่มแรก นักวิทยาศาสตร์จำนวนมากเชื่อว่าการที่ดาวหางมากมายพุ่งชนโลกในวัยเยาว์ (เมื่อประมาณ 4 พันล้านปีก่อน) นำพาน้ำจำนวนมหาศาลซึ่งปัจจุบันกลายเป็นมหาสมุทรที่ปกคลุมผิวโลก แต่นักวิจัยบางคนยังตั้งข้อสงสัยต่อทฤษฎีนี้ การตรวจพบโมเลกุลอินทรีย์บนดาวหางทำให้เกิดแนวคิดขึ้นว่า ดาวหางหรือดาวตกอาจเป็นตัวนำ ชีวิต มายังโลก ปัจจุบันมีดาวหางจำนวนมากที่มีวงโคจรเข้าใกล้โลก แต่กระนั้นโอกาสที่โลกจะถูกชนด้วยดาวเคราะห์น้อยยังมีความเป็นไปได้มากกว่า</p>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">นอกจากนี้ยังมีแนวคิดว่า นานมาแล้วดาวหางอาจเคยพุ่งชนดวงจันทร์ ทำให้เกิดน้ำปริมาณมากบนดวงจันทร์ของโลก ซึ่งปัจจุบันอาจหลงเหลืออยู่ในรูปของน้ำแข็งบนดวงจันทร์</p>
 	</div>
 	</div>
 </div>	
@@ -284,64 +276,71 @@ $(function() {
 		<div class="container">
 		<div class="contentbodywhite">
 		<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-	 <h2 class="titlewhite">การสังเกตสุริยุปราคา</h2>
+	 <h2 class="titlewhite">ประเภทดาวหางที่สำคัญ</h2>
  		</div>
-		<div class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-		<div class="wow fadeInRight animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight; float:right; margin-left:30px;">
+		<h3 class="titlewhite wow fadeInUp animated" data-wow-delay=".12s" style="visibility: visible; animation-delay: 0.12s; animation-name: fadeInUp;">ดาวหางใหญ่</h3>
+		<div class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+		<div class="col-md-3 baner-top wow fadeInRight animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;width:360px; float:right; margin-left:12.5px;">
+			 <a href="../images/Great_Comet_of_1882.jpg" class="b-link-stripe b-animate-go  swipebox" title="ดาวหางใหญ่แห่งปี 1882 เป็นหนึ่งในดาวหางตระกูลครอทซ์">
 				 <div class="gal-spin-effect vertical ">
-					 <img src="../images/Solar_eclipse_animate_(2009-Jul-22).gif" style="width:300px;" />
+					 <img src="../images/Great_Comet_of_1882.jpg" />
 					 <div class="gal-text-box">
 					 <div class="info-gal-con">
-						 <h5>ภาพจำลองแสดงการเคลื่อนที่ของเงาดวงจันทร์ขณะเกิดสุริยุปราคา เมื่อวันที่ 22 กรกฎาคม พ.ศ. 2552 เห็นได้ในเอเชียและมหาสมุทรแปซิฟิก ตรงกลางคือเงามืดที่ใหญ่กว่าคือเงามัว</h5>
+						 <h5>ดาวหางใหญ่แห่งปี 1882</h5>
+						 <div id="px"></div>
+						 <span class="separator"></span>
+						 <p class="description">คลิกเพื่อดูรูปภาพขนาดเต็ม</p>
+						 <span class="separator"></span>
 					 </div>
 					 </div>
 				 </div>
+			 </a>
 		</div>
-		<p>การมองดวงอาทิตย์ด้วยตาเปล่าไม่ว่าจะมองในเวลาใดก็ตามส่งผลเสียต่อดวงตา แม้แต่มองดวงอาทิตย์ขณะเกิดสุริยุปราคา แต่สุริยุปราคาก็เป็นปรากฏการณ์ธรรมชาติที่น่าสนใจและศึกษาอย่างมาก การใช้อุปกรณ์ช่วยในการมอง เช่นกล้องสองตาหรือกล้องโทรทรรศน์ ก็ยิ่งทำให้เป็นอันตรายมากยิ่งขึ้นไปอีก</p>
-		<p>ดังนั้นการดูดวงอาทิตย์จึงต้องอาศัยอุปกรณ์ช่วยกรองรังสีบางชนิดที่จะเข้าสู่ดวงตา การใช้แว่นกันแดดในการมองเป็นวิธีการที่ไม่ถูกต้อง เพราะไม่สามารถป้องกันสิ่งที่เป็นอันตราย รวมทั้งรังสีอินฟราเรดที่มองไม่เห็นซึ่งจะเป็นอันตรายต่อเรตินาได้ การสังเกตจำเป็นต้องใช้อุปกรณ์ที่ทำมาโดยเฉพาะ จึงจะสามารถมองดูดวงอาทิตย์ได้ตรง ๆ</p>
-		<p>การสังเกตที่ปลอดภัยมากที่สุด คือการฉายแสงจากดวงอาทิตย์ผ่านอุปกรณ์อื่น เช่น กล้องสองตา หรือกล้องโทรทรรศน์ แล้วใช้กระดาษสีขาวมารองรับแสงนั้น จากนั้นมองภาพจากกระดาษที่รับแสง แต่การทำเช่นนี้ต้องมั่นใจว่าไม่มีใครมองผ่านอุปกรณ์นั้นโดยตรง ไม่เช่นนั้นจะทำอันตรายต่อดวงตาของคนนั้นอย่างมาก โดยเฉพาะถ้ามีเด็กอยู่บริเวณนั้นต้องได้รับการดูแลเป็นพิเศษ</p>
+		<p>แต่ละปีมีดาวหางขนาดเล็กมากมายหลายร้อยดวงผ่านเข้ามาในระบบสุริยะชั้นใน แต่มีเพียงไม่กี่ดวงเท่านั้นที่สาธารณชนสามารถสังเกตได้ โดยเฉลี่ยทุก ๆ ทศวรรษจะมีดาวหางหนึ่งดวงที่สว่างมากพอจนสามารถสังเกตเห็นได้ด้วยตาเปล่า ดาวหางเหล่านี้จัดอยู่ในกลุ่มดาวหางใหญ่ (Great Comets) ในอดีตที่ผ่านมา ดาวหางที่สว่างมักทำให้เกิดการแตกตื่นคลุ้มคลั่งในหมู่ประชาชน เพราะเชื่อกันว่าเป็นลางร้ายนำมาซึ่งหายนะ ครั้นในระยะหลัง หลังจากดาวหางฮัลเลย์กลับมาเยือนในปี พ.ศ. 2453 (ค.ศ. 1910) และโลกได้เดินทางผ่านเข้าไปในหางของดาวหาง รายงานข่าวที่ผิดพลาดของหนังสือพิมพ์และสื่อมากมายทำให้เกิดความหวาดหวั่นเกี่ยวกับพิษของไซยาโนเจนและเชื้อโรคซึ่งอ้างว่าอาจคร่าชีวิตคนเป็นล้าน การปรากฏของดาวหางเฮล-บอปป์ในปี พ.ศ. 2540 ทำให้กลุ่มสาวกของลัทธิเฮเวนส์ เกต พากันฆ่าตัวตายไปเป็นจำนวนมาก อย่างไรก็ดี คนส่วนใหญ่ยังคงมองดาวหางว่าเป็นสิ่งสวยงามน่าชม
 		</div>
-		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">อย่างไรก็ตาม สามารถดูดวงอาทิตย์ด้วยตาเปล่าโดยตรงได้เฉพาะในช่วงที่เกิดสุริยุปราคาเต็มดวงเท่านั้น นอกจากจะไม่เป็นอันตรายแล้ว สุริยุปราคาเต็มดวงยังสวยงามอีกด้วย ขณะเกิดสุริยุปราคาเต็มดวงจะเห็นบรรยากาศชั้นคอโรนาแผ่ไปรอบดวงอาทิตย์ บางครั้งอาจเห็นโครโมสเฟียร์ (Chromosphere) และเปลวสุริยะ (Prominence) ที่พุ่งออกมาจากขอบดวงอาทิตย์ ซึ่งปกติจะไม่สามารถมองเห็นได้ แต่ควรหยุดดูดวงอาทิตย์ก่อนที่จะสิ้นสุดสุริยุปราคาเต็มดวงเล็กน้อย</p>
-		<h3 class="titlewhite wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">ประโยชน์ของการสังเกตสุริยุปราคา</h2>
-		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">นักดาราศาสตร์ใช้การเกิดสุริยุปราคาเต็มดวงในการสังเกตบรรยากาศชั้นโคโรนาของดวงอาทิตย์ ซึ่งตามปกติจะถูกแสงที่สว่างจ้าของบรรยากาศชั้นโฟโตสเฟียร์กลบจนไม่สามารถมองเห็นได้</p>
-		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">สุริยุปราคามีระยะเวลา หรือวงรอบของการเกิดที่แน่นอน ทำให้สามารถทำนายการเกิดสุริยุปราคาครั้งต่อไปได้โดยการคำนวณอย่างง่าย ๆ จากความเร็วในการเคลื่อนที่ไปรอบดวงอาทิตย์ เปรียบเทียบตำแหน่งกับการที่ดวงจันทร์หมุนรอบโลก</p>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">การคาดการณ์ว่าดาวหางดวงใดจะเป็นดาวหางใหญ่นั้นทำได้ยากมาก เพราะมีหลายปัจจัยที่มีผลต่อความสว่างของดาวหาง และอาจทำให้การพยากรณ์คลาดเคลื่อนไปได้ โดยทั่วไปหากดาวหางมีนิวเคลียสขนาดใหญ่ ผ่านเข้าใกล้ดวงอาทิตย์มาก และไม่ถูกแสงอาทิตย์กลบเมื่อสังเกตจากโลก ก็มีแนวโน้มว่าดาวหางดวงนั้นจะเป็นดาวหางใหญ่ได้ อย่างไรก็ดี ในปี พ.ศ. 2516 ดาวหางโคฮูเทค (Kohoutek) มีคุณสมบัติทุกประการที่จะเป็นดาวหางใหญ่ แต่มันก็ไม่ได้เป็น ดาวหางเวสต์ซึ่งปรากฏขึ้นสามปีหลังจากนั้น ท่ามกลางความคาดหวังที่น้อยกว่ามาก (อาจเป็นเพราะความล้มเหลวที่เกิดกับดาวหางโคฮูเทค นักดาราศาสตร์จึงระมัดระวังมากยิ่งขึ้นในการพยากรณ์ความสว่างของดาวหาง) แต่ดาวหางเวสต์ได้กลับกลายเป็นดาวหางที่สุกสว่างน่าประทับใจอย่างยิ่ง
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ปลายคริสต์ศตวรรษที่ 20 เป็นช่วงทิ้งห่าง ไม่มีดาวหางใหญ่ปรากฏขึ้นเลยเป็นเวลานานหลายปี จากนั้นก็ปรากฏดาวหางใหญ่สองดวงติด ๆ กัน คือดาวหางเฮียะกุตะเกะ (Hyakutake) ในปี พ.ศ. 2539 ตามด้วยดาวหางเฮล-บอปป์ในปี พ.ศ. 2540 ซึ่งสว่างสูงสุดในปีนั้น หลังจากที่ค้นพบก่อนหน้านั้นนานถึงสองปี ดาวหางใหญ่ดวงแรกของคริสต์ศตวรรษที่ 21 คือดาวหางแมกนอต สามารถมองเห็นได้ด้วยตาเปล่าในเดือนมกราคม พ.ศ. 2550 เป็นดาวหางที่สว่างที่สุดในรอบกว่า 40 ปี อย่างไรก็ตาม ประเทศไทยไม่เห็นดาวหางดวงนี้ เนื่องจากมันมีตำแหน่งใกล้ขอบฟ้ามาก
+		<h3 class="titlewhite wow fadeInUp animated" data-wow-delay=".12s" style="visibility: visible; animation-delay: 0.12s; animation-name: fadeInUp;">ดาวหางเฉียดดวงอาทิตย์</h3>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ดาวหางเฉียดดวงอาทิตย์ (Sungrazing comet) คือดาวหางที่เข้าใกล้ดวงอาทิตย์มากเป็นพิเศษ บางครั้งเข้าใกล้เพียงไม่กี่พันกิโลเมตรจากพื้นผิวดวงอาทิตย์ ดาวหางขนาดเล็กอาจระเหิดหายไปเลยเมื่อเข้าใกล้ดวงอาทิตย์มาก ๆ แต่ถ้าดวงใหญ่สักหน่อยก็จะสามารถเคลื่อนผ่านจุดใกล้ดวงอาทิตย์ที่สุดได้หลายครั้ง แต่ส่วนใหญ่แล้วแรงโน้มถ่วงมหาศาลของดวงอาทิตย์มักจะส่งผลให้มันแตกออกเป็นเสี่ยง ๆ เสียมากกว่า
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ประมาณ 90% ของดาวหางประเภทนี้ที่สังเกตการณ์โดยยานโซโฮ มักเป็นดาวหางในตระกูลครอทซ์ (Kreutz) ซึ่งมีกำเนิดจากดาวหางขนาดยักษ์ดวงหนึ่งที่แตกเป็นชิ้นเล็กชิ้นน้อยระหว่างการเข้าสู่ระบบสุริยะชั้นในเป็นครั้งแรก ส่วนอีก 10% ที่เหลือเป็นดาวหางทั่วไป ยังมีกลุ่มของดาวหางอีก 4 กลุ่มที่ถูกจัดอยู่ในประเภทนี้ ได้แก่ ดาวหางตระกูลครอต (Kracht), ครอต 2 เอ (Kracht 2a), มาร์สเดน (Marsden) และมีเยอร์ (Meyer) กลุ่มดาวหางมาร์สเดนและครอตต่างเกี่ยวข้องกับดาวหางมัคโฮลซ์ (96P/Machholz) ซึ่งเป็นดาวหางต้นกำเนิดของธารสะเก็ดดาวในฝนดาวตกควอดแดรนต์ (Quadrantids) และฝนดาวตกแกะ (Arietids)
+		<h3 class="titlewhite wow fadeInUp animated" data-wow-delay=".12s" style="visibility: visible; animation-delay: 0.12s; animation-name: fadeInUp;">ดาวหางที่ผิดปกติ</h3>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ในบรรดาดาวหางซึ่งเรารู้จักแล้วเป็นจำนวนนับพันดวง มีบางดวงที่เป็นดาวหางผิดปกติ ดาวหางเองเคอมีวงโคจรตั้งแต่เขตรอบนอกของแถบดาวเคราะห์น้อยเข้ามาจนถึงวงโคจรของดาวพุธ ขณะที่ดาวหางชวาสมานน์-วัคมานน์ (29P/Schwassmann-Wachmann) มีวงโคจรที่เคลื่อนอยู่ระหว่างดาวพฤหัสบดีและดาวเสาร์เท่านั้น ดาวหาง 2060 ไครอน ซึ่งมีวงโคจรที่ไม่เสถียร เปลี่ยนแปรอยู่ระหว่างดาวเสาร์กับดาวยูเรนัส ถูกจัดประเภทเป็นดาวเคราะห์น้อยเมื่อตอนที่ค้นพบครั้งแรก จนกระทั่งต่อมามีการค้นพบหางโคม่าอย่างจาง ๆ ในทำนองเดียวกัน ดาวหางชูเมกเกอร์-เลวี 2 ก็ถูกจัดประเภทเริ่มต้นเป็นดาวเคราะห์น้อย 1990 UL3 คาดว่าดาวเคราะห์น้อยที่เข้ามาใกล้โลกประมาณ 6% เป็นนิวเคลียสของดาวหางที่หมดอายุ ไม่มีแก๊สหลงเหลืออยู่อีกต่อไปแล้ว
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">มีการเฝ้าสังเกตดาวหางบางดวงไปจนกระทั่งถึงกาลแตกดับระหว่างเข้าใกล้ดวงอาทิตย์มากที่สุด ในจำนวนนี้รวมถึงดาวหางเวสต์และดาวหางอิเกะยะ-เซะกิ (Ikeya-Seki) ส่วนดาวหางบีลาเป็นตัวอย่างที่พิเศษ มันแตกออกเป็นสองส่วนระหว่างการเข้าใกล้ดวงอาทิตย์มากที่สุดในปี ค.ศ. 1846 จากนั้นมีการสังเกตพบชิ้นส่วนทั้งสองแยกจากกันในปี ค.ศ. 1852 แล้วก็ไม่ได้พบกับมันอีกเลย แต่กลับพบฝนดาวตกที่งดงามน่าดูในปี ค.ศ. 1872 และ 1885 ซึ่งเป็นปีที่ดาวหางควรจะกลับมาปรากฏอีกครั้ง นอกจากนี้ยังมีฝนดาวตกขนาดเล็กในกลุ่มดาวแอนดรอเมดาเกิดขึ้นในเดือนพฤศจิกายนเป็นประจำทุกปี ซึ่งเป็นจังหวะที่โลกเคลื่อนที่ตัดผ่านวงโคจรของดาวหางบีลาพอดี
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">การสูญสลายของดาวหางที่น่าจดจำอีกเหตุการณ์หนึ่งคือดาวหางชูเมกเกอร์-เลวี 9 ซึ่งค้นพบในปี พ.ศ. 2536 ในตอนที่ค้นพบนั้นดาวหางกำลังอยู่ในวงโคจรแถวดาวพฤหัสบดี แล้วถูกแรงดึงดูดของดาวเคราะห์จับตัวไว้เมื่อมันเคลื่อนเข้าใกล้ในปี พ.ศ. 2535 การประจันหน้ากันครั้งนั้นทำให้ดาวหางแตกออกเป็นเสี่ยงๆ หลายร้อยชิ้น และใช้เวลาหกวันในเดือนกรกฎาคม 2537 ที่ชิ้นส่วนทั้งหมดพุ่งเข้าสู่ชั้นบรรยากาศของดาวพฤหัสบดี นับเป็นครั้งแรกที่นักดาราศาสตร์สังเกตเห็นการรวมตัวกันของวัตถุอวกาศสองชนิดในระบบสุริยะ นอกจากนี้ ยังมีข้อสันนิษฐานว่าวัตถุที่ทำให้เกิดเหตุระเบิดที่ทังกัสกาในปี ค.ศ. 1908 น่าจะเป็นชิ้นส่วนหนึ่งของดาวหางเองเคอ
 		</div>
 		</div>
 </div>
 
-<div class="content parallax" style="background: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) .15vw, rgba(0, 0, 0, 0.6) .15vw, rgba(0, 0, 0, 0.6) .3vw), url(../images/SolarEclipseParallax3.jpg);padding: 5em 0 0">
+<div class="content parallax" style="background: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) .15vw, rgba(0, 0, 0, 0.6) .15vw, rgba(0, 0, 0, 0.6) .3vw), url(../images/CometParallax3.jpg);padding: 5em 0 0;">
 	<div class="container" >
 	<div class="contentbodynormal">
 	<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-	 <h2 class="titlenormal">สุริยุปราคาในประเทศไทย</h2>
+	 <h2 class="titlenormal">การเฝ้าดูดาวหาง</h2>
  		</div>
-		<div>
 		<div class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
-		<h3 class="titlenormal">จากบันทึกในประวัติศาสตร์</h3>
-		<p>อาณาจักรอยุธยา มีบันทึกการสังเกตสุริยุปราคาในสมัยสมเด็จพระนารายณ์มหาราช ในตอนสายของวันที่ 30 เมษายน พ.ศ. 2231 เป็นสุริยุปราคาเต็มดวงที่แนวคราสมืดไม่ได้พาดผ่านสยามประเทศ จึงสังเกตเห็นเป็นชนิดบางส่วน
-		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;"><b>กรุงรัตนโกสินทร์</b></p>
-		<div style="margin: 18px 0 0 30px;"><p class="wow fadeInUp animated" data-wow-delay=".17s" style="visibility: visible; animation-delay: 0.17s; animation-name: fadeInUp; text-indent: -15px; margin: 0;"><font color="#abb5ee"><span style="margin: 18px 6px 0 0;">•</span>ครั้งที่ 1</font> เกิดสุริยุปราคาเต็มดวง 18 สิงหาคม พ.ศ. 2411 ตรงตามเวลาที่พระบาทสมเด็จพระจอมเกล้าเจ้าอยู่หัวทรงคำนวณไว้ ที่ตำบลหว้ากอจังหวัดประจวบคีรีขันธ์ เป็นสุริยุปราคาเต็มดวงครั้งแรกในประวัติศาสตร์ของไทย
-		<p class="wow fadeInUp animated" data-wow-delay=".17s" style="visibility: visible; animation-delay: 0.17s; animation-name: fadeInUp; text-indent: -15px; margin: 0;"><font color="#abb5ee"><span style="margin: 18px 6px 0 0;">•</span>ครั้งที่ 2</font> เกิดสุริยุปราคาเต็มดวงเมื่อวันที่ 6 เมษายน พ.ศ. 2418 โดยเป็นสุริยุปราคาเต็มดวงครั้งแรกที่เห็นได้ในกรุงเทพมหานครนับตั้งแต่สถาปนากรุงรัตนโกสินทร์เป็นต้นมา โดยกินหมดดวงเวลา 14:31:29 น. - 14:35:21 น. ตามเวลามาตรฐานประเทศไทยในปัจจุบัน แต่เส้นกึ่งกลางคราสไม่ผ่านกรุงเทพฯ
-		<p class="wow fadeInUp animated" data-wow-delay=".17s" style="visibility: visible; animation-delay: 0.17s; animation-name: fadeInUp; text-indent: -15px; margin: 0;"><font color="#abb5ee"><span style="margin: 18px 6px 0 0;">•</span>ครั้งที่ 3</font> เกิดสุริยุปราคาเต็มดวงวันที่ 9 พฤษภาคม พ.ศ. 2472 เห็นได้ที่จังหวัดสตูล สงขลา ยะลา ปัตตานี นราธิวาส โดยพระบาทสมเด็จพระปกเกล้าเจ้าอยู่หัวเสด็จไปทอดพระเนตรที่จังหวัดปัตตานี โดยมีคณะนักดาราศาสตร์จากต่างประเทศขนอุปกรณ์มาศึกษาสุริยุปราคาด้วย แต่หลังจากนั้นก็มีการประดิษฐ์เครื่องมือศึกษาดวงอาทิตย์ได้โดยไม่ต้องพึ่งสุริยุปราคาอีก
-		<p class="wow fadeInUp animated" data-wow-delay=".17s" style="visibility: visible; animation-delay: 0.17s; animation-name: fadeInUp;  text-indent: -15px; margin: 0;"><font color="#abb5ee"><span style="margin: 18px 6px 0 0;">•</span>ครั้งที่ 4</font> เกิดสุริยุปราคาเต็มดวง ในหลายจังหวัด เมื่อวันที่ 20 มิถุนายน พ.ศ. 2498 นับเป็นสุริยุปราคาเต็มดวงครั้งที่สองที่เห็นได้ในกรุงเทพ
-		<p class="wow fadeInUp animated" data-wow-delay=".17s" style="visibility: visible; animation-delay: 0.17s; animation-name: fadeInUp;  text-indent: -15px; margin: 0;"><font color="#abb5ee"><span style="margin: 18px 6px 0 0;">•</span>ครั้งที่ 5</font> เกิดสุริยุปราคาเต็มดวง ในเขต 11 จังหวัด ได้แก่ จังหวัดตาก จังหวัดกำแพงเพชร จังหวัดอุทัยธานี จังหวัดนครสวรรค์ จังหวัดลพบุรี จังหวัดเพชรบูรณ์ จังหวัดนครราชสีมา จังหวัดบุรีรัมย์ จังหวัดสระแก้ว จังหวัดพิจิตร และ จังหวัดชัยภูมิ เมื่อวันที่ 24 ตุลาคม พ.ศ. 2538</p>
+		<div class="col-md-3 baner-top wow fadeInRight animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;width:400px; float:right; margin-left:12.5px;">
+			 <a href="../images/Comet_2006_VZ13_linear_orbital_element_example.jpg" class="b-link-stripe b-animate-go  swipebox" title="ตัวอย่างการวาดเส้นทางเคลื่อนที่ของดาวหางบนแผนที่ดาวด้วยซอฟต์แวร์ SkyMap Pro">
+				 <div class="gal-spin-effect vertical ">
+					 <img src="../images/Comet_2006_VZ13_linear_orbital_element_example.jpg" />
+					 <div class="gal-text-box">
+					 <div class="info-gal-con">
+						 <h5>ตัวอย่างการวาดเส้นทางเคลื่อนที่ของดาวหางบนแผนที่ดาวด้วยซอฟต์แวร์ SkyMap Pro</h5>
+						 <div id="px"></div>
+						 <span class="separator"></span>
+						 <p class="description">คลิกเพื่อดูรูปภาพขนาดเต็ม</p>
+						 <span class="separator"></span>
+					 </div>
+					 </div>
+				 </div>
+			 </a>
+		</div>	
+		<p>การค้นพบดาวหางดวงใหม่อาจเกิดได้จากการเฝ้าดูผ่านกล้องโทรทรรศน์หรือกล้องสองตา แต่กระนั้นนักดาราศาสตร์สมัครเล่นที่ไม่มีเครื่องมือตรวจดูท้องฟ้าก็ยังสามารถค้นพบดาวหางเฉียดดวงอาทิตย์ (Sungrazing comet) ได้แบบออนไลน์ โดยการดาวน์โหลดภาพถ่ายจากดาวเทียมสังเกตการณ์ของสถานีวิจัยต่าง ๆ เช่น ยานโซโฮ เป็นต้น
+		<p>การพบดาวหางบนท้องฟ้าด้วยตาเปล่าอาจเป็นไปได้ยากและไม่บ่อยนัก แต่หากใช้กล้องโทรทรรศน์แบบมือสมัครเล่น (ขนาด 50 มม.-100 ซม.) ก็สามารถเห็นภาพท้องฟ้าได้กระจ่างพอที่จะพบดาวหางได้ปีละหลายดวง บางครั้งอาจพบดาวหางมากกว่าหนึ่งดวงบนท้องฟ้าในเวลาเดียวกัน ซอฟต์แวร์ดาราศาสตร์โดยทั่วไปสามารถสร้างภาพเส้นทางโคจรของดาวหางที่รู้จักแล้วได้ ช่วยให้สามารถสังเกตดาวหางเปรียบเทียบกับวัตถุท้องฟ้าอื่น ๆ ได้ แต่การสังเกตการเคลื่อนที่ของดาวหางผ่านช่องมองอาจเป็นไปได้ยาก ในแต่ละคืนดาวหางอาจเคลื่อนตำแหน่งไปจากเดิมได้หลายองศาทีเดียว ดังนั้นผู้เฝ้าดูดาวหางจึงควรมีแผนที่ดาวไว้ด้วยสำหรับใช้ประกอบการสังเกตการณ์
 		</div>
-		</div>
-		
-		<div class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
-		<h3 class="titlenormal" style="margin-top:15px">การตรวจสอบด้วยคณิตกรณ์</h3>
-		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;"><b>อาณาจักรอยุธยา</b> ระหว่าง พ.ศ. 1893-2310 ใช้เวลาถึง 417 ควรมีสุริยุปราคาครบทุกรูปแบบ ไม่ว่าแบบบางส่วน แบบวงแหวน แบบเต็มดวง และแบบผสม หลายครั้งแนวคราสก็พาดผ่านเข้ามาในเขตสยาม แต่หากเจาะจงเฉพาะเกาะเมืองกรุงศรีอยุธยา ความน่าจะเป็นที่จะได้เห็นสุริยุปราคาเต็มดวงพาดผ่าน มีอย่างน้อย 1-2 ครั้ง เพราะโดยเฉลี่ยทั่วโลกแล้ว จะใช้เวลาประมาณ 360 ปีถึงจะได้เห็นสุริยุปราคาเต็มดวงในจุดเดิมอีกครั้ง แต่จากการตรวจสอบด้วยคณิตกรณ์ มีสุริยุปราคาเต็มดวงที่แนวคราสพาดผ่านเกาะเมืองอยุธยาถึง 3 ครั้ง ซึ่งถือว่าสูงกว่าค่าเฉลี่ยทั่วโลก แต่กลับไม่มีในบันทึกประวัติศาสตร์เลยสักครั้ง
-		กรุงรัตนโกสินทร์</p>
-		<div style="margin: 18px 0 0 30px;"><p class="wow fadeInUp animated" data-wow-delay=".17s" style="visibility: visible; animation-delay: 0.17s; animation-name: fadeInUp; text-indent: -15px; margin: 0;"><font color="#abb5ee"><span style="margin: 18px 6px 0 0;">•</span>ครั้งที่ 1</font> วันที่ 21 กันยายน พ.ศ. 2111 แนวคราสกว้างครอบคลุมถึงบางกอก และยังเฉียดไปใกล้กับหงส์สาวดี
-		<p class="wow fadeInUp animated" data-wow-delay=".17s" style="visibility: visible; animation-delay: 0.17s; animation-name: fadeInUp; text-indent: -15px; margin: 0;"><font color="#abb5ee"><span style="margin: 18px 6px 0 0;">•</span>ครั้งที่ 2</font> วันที่ 20 มีนาคม พ.ศ. 2186
-		<p class="wow fadeInUp animated" data-wow-delay=".17s" style="visibility: visible; animation-delay: 0.17s; animation-name: fadeInUp; text-indent: -15px; margin: 0;"><font color="#abb5ee"><span style="margin: 18px 6px 0 0;">•</span>ครั้งที่ 3</font> วันที่ 3 มิถุนายน พ.ศ. 2285 ตอนเช้าตรู่
-		<p class="wow fadeInUp animated" data-wow-delay=".17s" style="visibility: visible; animation-delay: 0.17s; animation-name: fadeInUp;  text-indent: -15px; margin: 0;"><font color="#abb5ee"><span style="margin: 18px 6px 0 0;">•</span></font>ส่วนสุริยุปราคาเต็มดวงที่จะเห็นในประเทศไทยครั้งต่อไป จะเกิดในวันที่ 11 เมษายน พ.ศ. 2613 ที่จังหวัดประจวบคีรีขันธ์</p>
-		</div>
-		</div>
-		
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ภาพการปรากฏตัวของดาวหางขึ้นกับปัจจัยมากมาย เช่นองค์ประกอบของดาวหางและระยะห่างจากดวงอาทิตย์ บรรดาสสารบนดาวหางจะระเหิดน้อยลงเมื่อมันเคลื่อนห่างออกจากดวงอาทิตย์ การเฝ้าสังเกตจึงทำได้ยากขึ้น ไม่เพียงเพราะระยะทางที่ห่างไกลขึ้นเท่านั้น แต่ความสว่างของดาวหางก็ลดลง และการส่องแสงของหางก็จางลงด้วย ดาวหางจะปรากฏอย่างงดงามเมื่อนิวเคลียสของมันสว่างจ้าและทอดหางเป็นแนวยาว บางครั้งต้องใช้กล้องโทรทรรศน์ขนาดเล็กที่มีขอบเขตภาพกว้างขึ้น เพื่อให้มองเห็นภาพครบถ้วนชัดเจนที่สุด ดังนั้นเครื่องมือขนาดใหญ่สำหรับนักดูดาวสมัครเล่น (ช่องรับแสงตั้งแต่ 25 ซม.ขึ้นไป) ที่สามารถจับภาพวัตถุที่มีความสว่างต่ำมาก ๆ ได้ ก็อาจไม่ได้เปรียบอะไรมากนักในการดูดาวหาง โดยทั่วไปมีโอกาสที่จะมองเห็นดาวหางสวยงามจากกล้องดูดาวสมัครเล่นขนาดเล็ก (8-15 ซม.) มากกว่าจำนวนดาวหางที่ได้รับความสนใจจากสื่อมวลชนเสียอีก</p>
 	</div>
 	</div>
-</div>	
+
 
 		<!--start-smooth-scrolling-->
 						<script type="text/javascript">
