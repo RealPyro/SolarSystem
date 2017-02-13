@@ -1,0 +1,335 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>ออโรรา - Solar System</title>
+<meta content=’width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0? name=’viewport’ />
+<meta name=”viewport” content=”width=device-width” />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="ระบบสุริยะ" />
+<script type="applisalonion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="../css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link rel="icon" href="../images/icon.png">
+<link href="../css/iconeffects.css" rel='stylesheet' type='text/css' />
+<link href="../css/style.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="../css/swipebox.css" />
+<link rel="stylesheet" href="../fonts/stylesheet.css" />
+<link rel="stylesheet" href="../css/stars.css" />
+<link href="../css/model.css" type="text/css" rel="stylesheet">
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/bootstrap.js"> </script>
+<script type="text/javascript" src="../js/move-top.js"></script>
+<script type="text/javascript" src="../js/easing.js"></script>
+<link rel="stylesheet" href="../css/pace.css" />
+<script type="text/javascript" src="../js/pace.min.js"></script>
+<script type="text/javascript" src="../js/scroll.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+<script>
+$(function() {
+	$('a[href*=#]').on('click', function(e) {
+		e.preventDefault();
+		$('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 1200, 'linear');
+	});
+});
+</script>
+<link rel="stylesheet" href="../css/mediaelementplayer.css" />
+<!-- swipe box js -->
+	<script src="../js/jquery.swipebox.min.js"></script>
+	    <script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+	</script>
+<!-- //swipe box js -->
+
+</head>
+<body ondragstart="return false;" ondrop="return false;">
+<div id="home"></div>
+<section id="scrollsection" class="scrollbutton">
+<div class="bgsection">
+		<div class="parallaxvideo">
+			<video preload="auto" autoplay muted loop style="width:100vw" id="myVideo">
+					<source src="../videos/Aurora.mp4" type="video/mp4">
+			</video>
+			<script>
+			var vid = document.getElementById("myVideo");
+			vid.playbackRate = 0.75;
+			</script>
+			<h1 class="fadeIn" data-wow-delay="0s" style="animation-delay: 0s; animation-name: fadeIn;animation-duration:4s;">ออโรรา</h1>
+			<a href="#targetcontent"><span></span><span></span><span></span>เลื่อนลง</a>
+		</div>
+		<div id="ChangeVisible"></div>
+</section>
+			</div>
+		<div class="header-bottombg"></div>
+		<div class="header-bottom" style="position:fixed;padding: .75em 0 ">
+		     <div class="container">
+			      <!--logo-->
+				  <div class="logo fadeInLeft animated" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+				   <ul style="list-style: none; ">
+						<li><a href="Index.html"><div class="logo" ></div></a></li>
+					</ul>
+				   </div>
+					<!--//logo-->
+					<div class="top-menu fadeInRight animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;">
+							<nav class="link-effect-4" id="primary_nav_wrap">
+                              <ul style="list-style: none; ">
+								<li><a data-hover="หน้าแรก" href="Index.html">หน้าแรก</a></li>
+								<li><a data-hover="ดวงอาทิตย์" href="Sun.html">ดวงอาทิตย์</a></li>
+								<li><a data-hover="ดาวเคราะห์" href="Planets.html">ดาวเคราะห์</a>
+								<ul class="dropdown fadeIn animated" data-wow-delay=".04s" style="visibility: visible; animation-delay: 0.04s; animation-name: fadeIn;">
+								<li><a href="Mercury.html">ดาวพุธ</a></li>
+								<li><a href="Venus.html">ดาวศุกร์</a></li>
+								<li><a href="Earth.html">โลก</a></li>
+								<li><a href="Mars.html">ดาวอังคาร</a></li>
+								<li><a href="Jupiter.html">ดาวพฤหัสบดี</a></li>
+								<li><a href="Saturn.html">ดาวเสาร์</a></li>
+								<li><a href="Uranus.html">ดาวยูเรนัส</a></li>
+								<li><a href="Neptune.html">ดาวเนปจูน</a></li>
+								</ul>
+								</li>
+								<li><a data-hover="ดาวเคราะห์แคระ" href="DwaftPlanets.html">ดาวเคราะห์แคระ</a>
+								<ul class="dropdown fadeIn animated" data-wow-delay=".04s" style="visibility: visible; animation-delay: 0.04s; animation-name: fadeIn;">
+								<li><a href="Pluto.html">ดาวพลูโต</a></li>
+								<li><a href="Ceres.html">ดาวซีรีส</a></li>
+								<li><a href="Eris.html">ดาวอีริส</a></li>
+								<li><a href="Haumea.html">ดาวเฮาเมอา</a></li>
+								<li><a href="Makemake.html">ดาวมาคีมาคี</a></li>
+								</ul>
+								</li>
+								<li><a data-hover="ปรากฎการณ์" href="Phenomena.html">ปรากฎการณ์</a>
+								<ul class="dropdown fadeIn animated" data-wow-delay=".04s" style="visibility: visible; animation-delay: 0.04s; animation-name: fadeIn;">
+								<li><a href="SolarEclipse.html">สุริยุปราคา</a></li>
+								<li><a href="LunarEclipse.html">จันทรุปราคา</a></li>
+								<li><a href="Comet.html">ดาวหาง</a></li>
+								<li><a href="MeteorShower.html">ฝนดาวตก</a></li>
+								<li><a href="Aurora.html" class="active">ออโรรา</a></li>
+								<li><a href="SunHola.html">อาทิตย์ทรงกลด</a></li>
+								</ul>
+								</li>
+								</ul>
+							</nav>
+					<div>
+							<!-- script-for-menu -->
+								<script>
+									$("span.menu").click(function(){
+										$(".top-menu ul").slideToggle("slow" , function(){
+										});
+									});
+								</script>
+								<!-- script-for-menu -->
+
+				 <div class="clearfix"></div>
+					<script>
+				$(document).ready(function() {
+					 var navoffeset=$("#ChangeVisible").offset().top;
+					 $(window).scroll(function(){
+						var scrollpos=$(window).scrollTop();
+						if(scrollpos >navoffeset){
+							$(".header-bottombg").addClass("visible slideInDown header-bottombganimated");
+						}else{
+							$(".header-bottombg").removeClass("visible slideInDown header-bottombganimated");
+						}
+					 });
+				});
+				</script>
+				
+				<script>
+				$(document).ready(function() {
+					 var navoffeset=$("#HideVideo").offset().top;
+					 $(window).scroll(function(){
+						var scrollpos=$(window).scrollTop();
+						if(scrollpos >navoffeset){
+							$(".parallaxvideo").addClass("hidevideo");
+						}else{
+							$(".parallaxvideo").removeClass("hidevideo");
+						}
+					 });
+				});
+
+				</script>
+
+		</div>
+	</div>
+	</div>
+
+	</div>
+
+<div id="targetcontent" class="contentwhite">
+		<div class="container">
+		<div class="contentbodywhite">
+		<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+	 <h2 class="titlewhite" id="HideVideo">ความหมายของออโรรา</h2>
+ 		</div>
+		<div class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+		<div class="col-md-3 baner-top wow fadeInRight animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;width:370px; float:right; margin-left:10px;padding-right:0;">
+			<a href="../images/Polarlicht.jpg" class="b-link-stripe b-animate-go  swipebox" onmouseover="this.title='';" onclick="this.title='แสงออโรราบนท้องฟ้า';">
+				<div class="gal-spin-effect vertical ">
+					 <img src="../images/Polarlicht.jpg" />
+					 <div class="gal-text-box">
+					 <div class="info-gal-con">
+						 <h5>แสงออโรราบนท้องฟ้า</h5>
+						 <div id="px"></div>
+						 <span class="separator"></span>
+						 <p class="description">คลิกเพื่อดูรูปภาพขนาดเต็ม</p>
+						 <span class="separator"></span>
+					 </div>
+					 </div>
+				 </div>
+			</a>
+		</div>
+		<p><b>ออโรรา</b> เป็นปรากฏการณ์ทางธรรมชาติ ที่มีแสงเรืองบนท้องฟ้าในเวลากลางคืน โดยมักจะขึ้นในบริเวณแถบขั้วโลก โดยบางครั้งจะเรียกว่า <i>แสงเหนือ</i> หรือ <i>แสงใต้</i> ขึ้นอยู่กับแหล่งกำเนิด</p>
+		<p>ปรากฏการออโรราเป็นตัวอย่างปรากฏการณ์ทางฟิสิกส์ที่น่าทึงที่สุดที่เกิดขึ้นในอวกาศที่ใกล้พื้นโลก มันอาจปรากฏจากสิ่งจางๆ เป็นวงนิ่ง แล้วระเบิดออกมาเป็นสีต่าง ๆ พุ่งกระจายภายในเวลาไม่กี่วินาที บางครั้งจะปรากฏเหมือนมันจะแตะกับพื้น หรือในเวลาอื่นอาจเห็นมันพุ่งสูงขึ้นสู่ท้องฟ้า แต่ความจริงแล้ว แสงออโรรานั้นเกิดขึ้นที่ความสูงจากพื้นโลก (Altitudes) ประมาณ 100 ถึง 300 กิโลเมตร บริเวณที่อยู่บริเวณบรรยากาศชั้นบนที่อยู่ใกล้กับอวกาศ</p>
+		</div>
+		<h3 class="titlewhite wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">ความหมายของชื่อ</h3>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">แสงเหนือ ตามประวัตินั้นมีชื่อมากมายหลายชื่อ ชื่อวิทยาศาสตร์ของปรากฏการณ์นี้ คือ ออโรรา บอเรลลีส (Aurora Borealis) ซึ่งเป็นภาษาละติน แปลเป็นภาษาไทยได้ว่า รุ่งอรุณสีแดงแห่งทิศเหนือ ซึ่งตั้งชื่อโดย กาลิเลโอ กาลิเลอิ (Galileo Galilei) (ค.ศ. 1564 – 1642)</p>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">คำว่า "Aurora Borealis" แปลว่า "แสงเหนือ" (Northern Light) ส่วน "Aurora Australis" แปลว่า "แสงใต้" (Southern Light) และคำว่า "Aurora Polaris" แปลว่า "แสงขั้วโลก" ใช้เรียกทั้งแสงเหนือและแสงใต้</p>
+		</div>
+		</div>
+</div>
+		
+<div class="content parallax" style="background: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) .15vw, rgba(0, 0, 0, 0.6) .15vw, rgba(0, 0, 0, 0.6) .3vw), url(../images/AuroraParallax.jpg);">
+	<div class="container" >
+	<div class="contentbodynormal">
+	<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+	 <h2 class="titlenormal">สถานที่และโอกาสการเกิดออโรรา</h2>
+ 	 </div>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ในเขตที่มีการปรากฏของออโรรา สามารถสังเกตออโรราได้ทุกคืนที่ฟ้าโล่งในฤดูหนาว โดยมีข้อสังเกตดังนี้</p>
+		<div style="margin: 18px 0 0 30px;"><p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp; text-indent: -15px; margin: 0;"><font color="#abb5ee"><span style="margin: 18px 6px 0 0;">•</span></font>ออโรราจะปรากฏบ่อยครั้ง ตั้งแต่เวลา 22.00 น ถึง เที่ยงคืน
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp; text-indent: -15px; margin: 0;"><font color="#abb5ee"><span style="margin: 18px 6px 0 0;">•</span></font>ออโรราจะสว่างจ้าในช่วง 27 วันที่ดวงอาทิตย์หันด้านแอคทีฟ (Active Area) มายังโลก</p>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp; text-indent: -15px; margin: 0;"><font color="#abb5ee"><span style="margin: 18px 6px 0 0;">•</span></font>ช่วงปลายฤดูใบไม้ร่วงจนถึงต้นฤดูใบไม้ผลิ ในเดือนตุลาคม กุมภาพันธ์ และ มีนาคม เป็นเดือนที่เหมาะสำหรับการชมออโรราทางซีกโลกเหนือ</p>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;  text-indent: -15px; margin: 0;"><font color="#abb5ee"><span style="margin: 18px 6px 0 0;">•</span></font>ออโรรามีความสัมพันธ์กับจุดสุริยะ (Sun Spot) บนดวงอาทิตย์ ซึ่งเป็นวัฎจักรประมาณ 11 ปี แต่ดูเหมือนว่า จะมีการล่าช้าไป 1 ปีสำหรับการเกิดจุดดับมากที่สุดกับการเกิดออโรรามากที่สุด</p>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;  text-indent: -15px; margin: 0;"><font color="#abb5ee"><span style="margin: 18px 6px 0 0;">•</span></font>ออโรราจะปรากฏลดลง 20-30% กว่าตอนที่เกิดจุดสุริยะมากที่สุด เมื่อเกิดจุดสุริยะบนดวงอาทิตย์น้อยที่สุด</p>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;  text-indent: -15px; margin: 0;"><font color="#abb5ee"><span style="margin: 18px 6px 0 0;">•</span></font>ออโรราจะปรากฏในแถบประเทศเมดิเตอเรเนียนเมื่อเกิดจุดสุริยะหรือมีลมสุริยะมากๆ อาจถึง 10 ปีต่อครั้ง โดยเฉลี่ยแล้วเกิด 100 ปีต่อครั้ง
+		</p>
+		</div>
+		<h3 class="titlenormal wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp; margin: 30px 0;">=ตารางแสดงความถี่ในการปรากฏออโรราในสถานที่ต่าง ๆ ทั่วโลก</h3>
+		<table class="phenomenatable" border="1">
+				  <tr>
+					<th width="55%">สถานที่</th>
+					<th>ความถี่ในการปรากฏ</th>
+				  </tr>
+				  <tr>
+					<td>เมืองอันเดเนส ประเทศนอร์เวย์</td>
+					<td>เกือบทุกคืนที่ฟ้าโล่ง</td>
+				  </tr>
+				  <tr>
+					<td>เมืองแฟร์แบงค์ รัฐอลาสกา</td>
+					<td>5 – 10 ครั้งต่อเดือน</td>
+				  </tr>
+				  <tr>
+					<td>เมืองออสโล ประเทศนอร์เวย์</td>
+					<td>3 คืนต่อเดือน</td>
+				  </tr>
+				  <tr>
+					<td>สกอตแลนด์เหนือ</td>
+					<td>เดือนละครั้ง</td>
+				  </tr>
+				  <tr>
+					<td>พรมแดนสหรัฐ/แคนาดา</td>
+					<td>2 – 4 ครั้งต่อปี</td>
+				  </tr>
+				  <tr>
+					<td>เม็กซิโก และ เมดิเตอเรเนียน</td>
+					<td>1 – 2 ครั้งใน 10 ปี</td>
+				  </tr>
+				  <tr>
+					<td>ประเทศตอนใต้ทะเลเมดิเตอเรเนียน</td>
+					<td>1 – 2 ครั้งในศตวรรษ</td>
+				  </tr>
+				  <tr>
+					<td>แถบศูนย์สูตร</td>
+					<td>1 ครั้งในรอบ 2000 ปี</td>
+				  </tr>
+				</table>
+		<h3 class="titlenormal wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp; margin: 30px 0 15px;";>ลักษณะสถานที่ปรากฏออโรรา</h3>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">บริเวณที่เกิดออโรราเป็นบริเวณรูปไข่ (Oval-shape region) รอบๆ ขั้วแม่เหล็กของโลก โดยรูปไข่จะเบ้ไปทางด้านกลางคืนของโลก เมื่อออโรราสงบ รูปไข่จะมีเส้นผ่านศูนย์กลาง 3000 กิโลเมตร แต่เมื่อเกิดออโรรารุนแรงขึ้น รูปไข่จะกว้างขึ้นกว่า 4000 หรือ 5000 กิโลเมตร เนื่องจากขั้วแม่เหล็กเหนือของโลกอยู่ทางตอนเหนือของแคนาดา ออโรรา โบเรลลีส (Aurora Borealis) จึงพบมากที่เส้นรุ้ง (Latitude) ที่มีประชากรอาศัยมากในซีกโลก (hemisphere) ตะวันตก ส่วนออโรราออลเตรลีส (Aurora Australis) สามารถมองเห็นได้จากเกาะทัชมาเนีย (Tasmania) และทางตอนใต้ของนิวซีแลนด์</p>
+		<h3 class="titlenormal wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp; margin: 30px 0 15px;";>แหล่งที่มาและระดับพลังงานของอนุภาค</h3>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ออโรราที่ปรากฏนั้นเกิดจากอนุภาคมีพลังงานเคลื่อนที่ตามเส้นสนามแม่เหล็กมาจากเมกนีโตเทล (Magnetotail) มาสู่บรรยากาศชั้นบน อนุภาคส่วนใหญ่คืออิเล็กตรอน แต่โปรตอนและไอออนอื่น ก็อาจพบได้ เมื่ออนุภาคมีประจุ (Charged Particles) พุ่งมาจาก แมกนีโทสเฟียร์ (Magnetosphere) มาสู่บรรยากาศชั้นบน จะเกิดการชนกับแก๊สที่ไม่มีความสำคัญอะไรที่นั่น</p>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">อนุภาคออโรราเป็นเพียงหนึ่งในหลายอนุภาคมีประจุที่กระหน่ำมายังโลก รวมถึงอนุภาคที่มีพลังงานฟลักซ์มหาศาลในช่วง พันล้านอิเล็กตรอนโวลต์ (GeV) หรือล้านอิเล็กตรอนโวลต์ (MeV) อย่างเช่น รังสีคอสมิค (Cosmic Rays) อนุภาคจากแถบกัมมันตรังสี (Radiation Belt) พลังงานสูง และอนุภาคสุริยะ (Solar Energetic Particles) ส่วนอนุภาคออโรรานั้นเกิดขึ้นในแผ่นพลาสมาแม่เหล็ก (Magnetospheric Plasma Sheet) และมีพลังงานอยู่ในช่วง 1 ถึง 10 พันอิเล็กตรอนโวลต์ (keV) แต่บางทีอาจมีพลังงานมากถึง 100 พันอิเล็กตรอนโวลต์ (keV) และอนุภาคพลังงานต่ำ เช่น ลมสุริยะที่เข้าสู่แมกนีโตสเฟียร์ทาง ซีกโลกกลางวัน (Dayside Cusp ) ใกล้กับขั้วแม่เหล็กโลก เป็นต้น ความลึกที่อนุภาคเหล่านี้จะเจาะเข้าไปในชั้นบรรยากาศ ขึ้นอยู่กับพลังงานของมัน ยิ่งพลังงานมากยิ่งเข้าได้ลึก รังสีคอสมิค สามารถเดินทางไปถึงชั้นบรรยากาศโทรโพสเฟียร์ (Troposphere) หรืออาจลึกไปถึงพื้นโลก อนุภาคจากแถบกัมมันตรังสีและอนุภาคสุริยะพลังงานสูง เข้ามาได้ถึงชั้นสตราโตสเฟียร์ (Stratosphere) และชั้นมีโซสเฟียร์ (Mesosphere) ส่วนออโรรานั้นมาได้แค่ชั้นเทอร์โมสเฟียร์ (Thermosphere) ซึ่งสูงประมาณ 100 กิโลเมตร นั่นทำให้ออโรราเกิดขึ้นในชั้นบรรยากาศนี้</p>
+	</div>
+	</div>
+</div>
+
+<div class="contentwhite">
+	<div class="container">
+	<div class="contentbodywhite">
+	<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+	 <h2 class="titlewhite">ลักษณะของออโรรา</h2>
+ 		</div>
+		<h3 class="titlewhite wow fadeInUp animated" data-wow-delay=".12s" style="visibility: visible; animation-delay: 0.12s; animation-name: fadeInUp;">เสียงของออโรรา</h3>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">มีข้อโต้เถียงกันมานานเกี่ยวกับเสียงของออโรราว่ามันสามารถได้ยินโดยผู้สำรวจบนพื้นโลกหรือไม่ คลื่นเสียงนั้นมีความถี่ประมาณ 340 เมตรต่อวินาทีในอากาศบนระดับพื้นโลก แต่ที่ความสูง 80 ถึง 500 กิโลเมตร ซึ่งเป็นบริเวณที่ออโรราปรากฏนั้นอยู่ใกล้สุญญากาศมาก ทำให้เป็นเป็นไปไม่ได้ที่จะเกิดเสียงขึ้น กระนั้น ก็มีรายงานมากมายว่าได้ยินเสียงระหว่างเกิดออโรรา เสียงที่ได้ฟังนั้น ไม่ใช่เป็นเสียงที่บันทึกจากออโรราโดยตรง แต่เป็นเสียงที่บันทึกจาก แมกนีโตมิเตอร์ (Magnetometer) เสียงที่เปลี่ยนไปคือการเปลี่ยนไปของสนามแม่เหล็กซึ่งเกิดจากอนุภาคสุริยะ (Solar Particles)</p>
+		
+		<h3 class="titlewhite wow fadeInUp animated" data-wow-delay=".12s" style="visibility: visible; animation-delay: 0.12s; animation-name: fadeInUp;">สีของออโรรา</h3>
+		<p class="normal wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ดวงอาทิตย์ปล่อยแสงทุกสีที่มองเห็นได้ออกมาก ทำให้เราเห็นแสงอาทิตย์เป็นสีขาว ส่วนสเปคตรัมของออโรรา ก่อนจะศึกษารายละเอียด เราต้องรู้เรื่อง สาเหตุการเกิดแสงก่อน
+		<p class="normal wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ในบรรยากาศประกอบด้วยไนโตรเจน และ ออกซิเจน เป็นหลัก อนุภาคของแก๊สเหล่านี้จะปลดปล่อยโฟตอนซึ่งมีความยาวคลื่นคงที่ เมื่ออนุภาคมีประจุไฟฟ้า กระตุ้นแก๊สในบรรยากาศ อิเล็กตรอนจะเริ่มเคลื่อนที่รูปนิวเคลียสในวงโคจรที่เปลี่ยนแปลงไป เพราะมีพลังงานเหลือเฟือ อนุภาคที่ถูกกระตุ้นจะไม่เสถียรและจะปลดปล่อย พลังงานออกมาในรูปของแสง เรียกว่าแสงนี้ว่า ออโรรา
+		<p class="normal wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">แสงสีเขียวเข้ม เกิดที่ความสูง (Altitudes) ที่ 120 ถึง 180 กิโลเมตร แสงเหนือสีแดงปรากฏที่ความสูงที่สูงกว่า ส่วนสีฟ้า และม่วงปรากฏที่ความสูงต่ำกว่า 120 กิโลเมตร เมื่อเกิดพายุสุริยะ 000 แสงสีแดงจะปรากฏที่ความสูงตั้งแต่ 90 ถึง 100 กิโลเมตร
+		<p class="normal wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">เมื่อออโรราจางลง มันจะปรากฏเป็นสีขาวเมื่อมองด้วยตาเปล่า เมื่อมันสว่างขึ้น สีจึงมองเห็นขึ้นมา และสีเขียวซีดที่เป็นเอกลักษณ์ของมันจะมองเห็นขึ้นมา
+		<p class="normal wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">เมื่อมีความหนาแน่นมากขึ้น ในบริเวณที่ต่ำลงมาจะมองเห็นเป็นสีเขียวสด และ สีแดงจางๆ จะมองเห็นที่ความสูงมากๆ
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">เหนือชั้นบรรยากาศขึ้นไป 100 กิโลเมตร ประกอบด้วยโมเลกุลไนโตรเจนและออกซิเจนเป็นส่วนใหญ่ ซึ่ง ไนโตเจนจะมีมากที่ความสูง 10 กิโลเมตร และออกซิเจน มีมากที่ 200 กิโลเมตร เส้นกราฟสีเขียวแสดงความหนาแน่นของก๊าซออกซิเจนและสีม่วงแสดงความหนาแน่นของก๊าซไนโตรเจน ณ ความสูงต่าง ๆ ในชั้นบรรยากาศเทอโมสเฟียร์ เมื่ออะตอมออกซิเจนถูกกระตุ้น มันจะปล่อยแสงมากมายหลายสีออกมาก แต่สีที่ที่ส ว่างที่สุดคือที่แดงและสีเขียว</p>
+		
+		<h3 class="titlewhite wow fadeInUp animated" data-wow-delay=".12s" style="visibility: visible; animation-delay: 0.12s; animation-name: fadeInUp;">ความสูงของออโรรา (จากพื้นโลก)</h3>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ตั้งแต่ปี 1915 เป็นต้นมา ความสูงของออโรราเป็นที่โต้เถียงกันในวงการวิทยาศาสตร์ จนในปี ค.ศ. 1910 – 1940 คาร์ล สตอร์เมอร์ (Carl Størmer) ได้ใช้หลักการพาราแล็กซ์ (Parallax) ในการวัดขนาด นักสำรวจ 2 คนที่ความสูง 50 ถึง 100 กิโลเมตรโดยใช้ภาพออโรรา 2 ภาพที่ถ่ายในเวลาเดียวกัน และใช้แผนที่ดวงดาว อ่านขนาดมุม และคำนวณหาความสูง
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ภาพพาราแล็กซ์กว่า 20000 ภาพ ทำให้สตอร์เมอร์คำนวณความสูงของออโรราอย่างแม่นยำ ออโรราในยามค่ำคืนจะพบที่ความสูง 90 ถึง 150 กิโลเมตร มีบางส่วนที่อาจแผ่กว้างถึง 500 กิโลเมตร แต่โดยเฉลี่ย มีความสูงที่ 100 ถึง 120 กิโลเมตร
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">เราใช้เครื่องวัดแสง ที่เรียกว่า ออโรรา โฟโตมิเตอร์ (Aurora Photometre)</p>
+	</div>
+	</div>
+</div>
+
+
+
+		<!--start-smooth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear'
+								 		};
+										*/
+
+										$().UItoTop({ easingType: 'easeOutQuart' });
+
+									});
+								</script>
+								<!--end-smooth-scrolling-->
+		<a href="#home" id="toTop" class="scroll fadeInUp animated" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- animation-effect -->
+<link href="../css/animate.min.css" rel="stylesheet">
+<script src="../js/wow.min.js"></script>
+<!-- animation-effect -->
+
+
+<!--footer-->
+<div class="whitefooter">
+<div class="footer2 wow fadeIn animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.75s; animation-name: fadeIn;">
+		<div class="footer-info">
+			<div class="container">
+				<div class="wow slideInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: slideInUp;">
+					<p><a data-hover="คณะผู้จัดทำ" href="Builder.html" class="scroll">คณะผู้จัดทำ</a></p>
+					<script>$(function () {
+					  $('[data-toggle="tooltip"]').tooltip()
+					})</script>
+				</div>
+			</div>
+		</div>
+</div></div></div>
+<!--/footer-->
+
+<script>
+ new WOW().init();
+</script>
+
+<link href="../css/animate.min.css" rel="stylesheet">
+<script src="../js/wow.min.js"></script> <!-- //animation-effect -->
+
+</body>
+</html>
