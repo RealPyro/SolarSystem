@@ -963,7 +963,7 @@ label{
 	width:1px;
 	height:1px;
 	position: absolute;
-	bottom: 20%;
+	bottom: 18%;
 }
 
 .hidevideo {
@@ -2326,12 +2326,7 @@ h2.sec-head {
     width: 100%;
     min-height: 400px;
 }
-.contentwhite {
-	width: 100vw;
-    min-height: 250px;
-    padding: 5em 0;
-    background: rgba(232, 232, 232, 1);
-}
+
 
 .whitefooter {
     background: rgba(232, 232, 232, 1);
@@ -2342,6 +2337,12 @@ h2.sec-head {
 		margin-top: 0;
     text-align: left;
     font-size: 3em;
+}
+.contentwhite {
+	width: 100%;
+    min-height: 250px;
+    padding: 5em 0;
+    background: rgba(232, 232, 232, 1);
 }
 .content {
 	width: 100%;
