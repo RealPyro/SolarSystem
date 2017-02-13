@@ -873,6 +873,14 @@ h3.titlenormal {
 		margin-bottom: 0.55em;
 		margin-top: 0;
 }
+h3.titlewhite {
+	text-align: left;
+	text-indent: 0.5em;
+    font-size: 1.85em !important;
+	font-family: 'Helvetica LT Thai Bold', sans-serif !important;
+	color: black;
+	margin-bottom: 0.55em;
+}
 h2.titlenormal {
 	margin-top:0;
 	margin-bottom:10px !important;
@@ -888,15 +896,7 @@ h4.titlewhite {
 	margin-bottom: 0.75em;
 	margin-top: 0;
 }
-h3.titlewhite {
-	text-align: left;
-	text-indent: 0.5em;
-    font-size: 1.85em !important;
-	font-family: 'Helvetica LT Thai Bold', sans-serif !important;
-	color: black;
-	margin-bottom: 0.55em;
-	margin-top: 40px;
-}
+
 
 h2.titlewhite{
 	margin-top:0;

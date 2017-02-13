@@ -103,6 +103,28 @@
 	margin-top:15em;
 }
 
+#plutoplanet {
+	position: relative;
+    width: 67px;
+	height: 67px;
+	background: url("../images/Maps/Pluto2.jpg");
+	border-radius: 50%;
+	background-size: 175px;
+	background-position: center top;
+	box-shadow: inset -5px 0 15px 1px rgb(0, 0, 0),
+		inset 5px 0 15px 1px rgba(255, 253, 230, 0.45);
+	animation-name: rotatepluto;
+	animation-duration: 12s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	-ms-transform: translateY(-50%) rotate(-17deg); /* IE 9 */
+	-webkit-transform: translateY(-50%) rotate(-17deg); /* Chrome, Safari, Opera */
+	transform: translateY(-50%) rotate(-17deg);
+	z-index: -99;
+    margin: auto;
+	margin-top:10em;
+}
+
 #ceresplanet {
 	position: relative;
     width: 50px;
@@ -215,6 +237,11 @@
 @keyframes rotatemars {
   from { background-position-x: 0px; }
   to { background-position-x: 260px; }
+}
+
+@keyframes rotatepluto {
+  from { background-position-x: 0px; }
+  to { background-position-x: 175px; }
 }
 
 @keyframes rotateceres {
