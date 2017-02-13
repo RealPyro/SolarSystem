@@ -1,0 +1,435 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>ดาวอังคาร - Solar System</title>
+<meta content=’width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0′ name=’viewport’ />
+<meta name=”viewport” content=”width=device-width” />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="ระบบสุริยะ" />
+<script type="applisalonion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="../css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link rel="icon" href="../images/icon.png">
+<link href="../css/iconeffects.css" rel='stylesheet' type='text/css' />
+<link href="../css/style.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="../css/swipebox.css" />
+<link rel="stylesheet" href="../fonts/stylesheet.css" />
+<link rel="stylesheet" href="../css/stars.css" />
+<link href="../css/model.css" type="text/css" rel="stylesheet">
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/bootstrap.js"> </script>
+<script type="text/javascript" src="../js/move-top.js"></script>
+<script type="text/javascript" src="../js/easing.js"></script>
+<link rel="stylesheet" href="../css/pace.css" />
+<script type="text/javascript" src="../js/pace.min.js"></script>
+<script type="text/javascript" src="../js/scroll.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+<link rel="stylesheet" href="../css/mediaelementplayer.css" />
+<!-- swipe box js -->
+	<script src="../js/jquery.swipebox.min.js"></script>
+	    <script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+	</script>
+<!-- //swipe box js -->
+
+</head>
+<body ondragstart="return false;" ondrop="return false;">
+		<div class="center1" id="home">
+		<div class="center2">
+		<div class="header-bottom">
+		     <div class="container">
+			      <!--logo-->
+				  <div class="logo fadeInLeft animated" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+				   <ul style="list-style: none; ">
+						<li><a href="Index.html"><div class="logo" ></div></a></li>
+					</ul>
+				   </div>
+					<!--//logo-->
+					<div class="top-menu fadeInRight animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;">
+							<nav class="link-effect-4" id="primary_nav_wrap">
+                              <ul style="list-style: none; ">
+								<li><a data-hover="หน้าแรก" href="Index.html">หน้าแรก</a></li>
+								<li><a data-hover="ดวงอาทิตย์" href="Sun.html">ดวงอาทิตย์</a></li>
+								<li><a data-hover="ดาวเคราะห์" href="Planets.html">ดาวเคราะห์</a>
+								<ul class="dropdown fadeIn animated" data-wow-delay=".04s" style="visibility: visible; animation-delay: 0.04s; animation-name: fadeIn;">
+								<li><a href="Mercury.html">ดาวพุธ</a></li>
+								<li><a href="Venus.html">ดาวศุกร์</a></li>
+								<li><a href="Earth.html">โลก</a></li>
+								<li><a href="Mars.html" class="active">ดาวอังคาร</a></li>
+								<li><a href="Jupiter.html">ดาวพฤหัสบดี</a></li>
+								<li><a href="Saturn.html">ดาวเสาร์</a></li>
+								<li><a href="Uranus.html">ดาวยูเรนัส</a></li>
+								<li><a href="Neptune.html">ดาวเนปจูน</a></li>
+								</ul>
+								</li>
+								<li><a data-hover="ดาวเคราะห์แคระ" href="DwaftPlanets.html">ดาวเคราะห์แคระ</a>
+								<ul class="dropdown fadeIn animated" data-wow-delay=".04s" style="visibility: visible; animation-delay: 0.04s; animation-name: fadeIn;">
+								<li><a href="Pluto.html">ดาวพลูโต</a></li>
+								<li><a href="Ceres.html">ดาวซีรีส</a></li>
+								<li><a href="Eris.html">ดาวอีริส</a></li>
+								<li><a href="Haumea.html">ดาวเฮาเมอา</a></li>
+								<li><a href="Makemake.html">ดาวมาคีมาคี</a></li>
+								</ul>
+								</li>
+								<li><a data-hover="ปรากฏการณ์" href="Phenomena.html">ปรากฏการณ์</a>
+								<ul class="dropdown fadeIn animated" data-wow-delay=".04s" style="visibility: visible; animation-delay: 0.04s; animation-name: fadeIn;">
+								<li><a href="SolarEclipse.html">สุริยุปราคา</a></li>
+								<li><a href="LunarEclipse.html">จันทรุปราคา</a></li>
+								<li><a href="Comet.html">ดาวหาง</a></li>
+								<li><a href="MeteorShower.html">ฝนดาวตก</a></li>
+								<li><a href="Aurora.html">ออโรรา</a></li>
+								<li><a href="SunHalo.html">อาทิตย์ทรงกลด</a></li>
+								</ul>
+								</li>
+								</ul>
+							</nav>
+					<div>
+							<!-- script-for-menu -->
+								<script>
+									$("span.menu").click(function(){
+										$(".top-menu ul").slideToggle("slow" , function(){
+										});
+									});
+								</script>
+								<!-- script-for-menu -->
+
+				 <div class="clearfix"></div>
+					<script>
+				$(document).ready(function() {
+					 var navoffeset=$("#ChangeFixed").offset().top;
+					 $(window).scroll(function(){
+						var scrollpos=$(window).scrollTop();
+						if(scrollpos >navoffeset){
+							$(".header-bottom").addClass("fixed slideInDown animated");
+						}else{
+							$(".header-bottom").removeClass("fixed slideInDown animated");
+						}
+					 });
+				});
+
+				</script>
+
+		</div>
+	</div>
+	</div>
+	</div>
+		</div>
+	</div>
+
+<div class="paddingtop" id="home"></div>
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+<div id="ChangeFixed"></div>
+
+<div id="contenttable">
+	<div class="container fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-bottom:3.95em;">
+  <tr>
+    <td width="45%"><h1 class="titlename">ดาวอังคาร ♂</h1><div id="mars"></div></td>
+    <td valign="top">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="insidetable">
+  <tr>
+    <td width="40%" class="title topleft">ระยะจุดไกลดวงอาทิตย์ที่สุด</td>
+    <td align="left" class="tablecontent topright">249.23 ล้านกิโลเมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2">ระยะจุดใกล้ดวงอาทิตย์ที่สุด</td>
+    <td align="left" class="tablecontent2">206.62 ล้านกิโลเมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title">กึ่งแกนเอก</td>
+    <td align="left" class="tablecontent">227,939,100 กิโลเมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2 fitfont">เส้นรอบวงของวงโคจร</td>
+    <td align="left" class="tablecontent2">1.429 เทระเมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title">คาบการโคจร</td>
+    <td align="left" class="tablecontent">686.971 วัน</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2">อัตราเร็วเฉลี่ยในวงโคจร</td>
+    <td align="left" class="tablecontent2">24.077 กิโลเมตรต่อวินาที</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title">อัตราเร็วสูงสุดในวงโคจร</td>
+    <td align="left" class="tablecontent">26.499 กิโลเมตรต่อวินาที</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2">ความเอียง</td>
+    <td align="left" class="tablecontent2">1.850°</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title">พื้นที่ผิว</td>
+    <td align="left" class="tablecontent">144,798,500 ตารางกิโลเมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2">ปริมาตร</td>
+    <td align="left" class="tablecontent2">1.6318×10<sup>11</sup> ลูกบาศก์กิโลเมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title">มวล</td>
+    <td align="left" class="tablecontent">6.4185×10<sup>23</sup> กิโลกรัม</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2">ความหนาแน่นเฉลี่ย</td>
+    <td align="left" class="tablecontent2">3.9335±0.0004 กรัมต่อลูกบาศก์เซนติเมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title">คาบการหมุนรอบตัวเอง</td>
+    <td align="left" class="tablecontent">1.025957 วัน (24ชั่วโมง 37นาที 22วินาที)</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2 bottomleft">ความเร็วการหมุนรอบตัวเอง</td>
+    <td align="left" class="tablecontent2 bottomright">868.22 กิโลเมตรต่อชั่วโมง</td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+
+	<div class="contentwhite">
+		<div class="container">
+		<div class="contentbodywhite">
+		<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+	 <h2 class="titlewhite">โครงสร้าง</h2>
+ 		</div>
+	 <div class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+	 <div class="col-md-3 baner-top wow fadeInRight animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;width:340px; float:right; margin-left:7.5px;">
+			 <a href="../images/VenusSurface.png" class="b-link-stripe b-animate-go  swipebox" title="หลุมอุกกาบาตบนดาวศุกร์">
+				 <div class="gal-spin-effect vertical ">
+					 <img src="../images/VenusSurface.png" />
+					 <div class="gal-text-box">
+					 <div class="info-gal-con">
+						 <h5>หลุมอุกกาบาตบนดาวศุกร์</h5>
+						 <span class="separator"></span>
+						 <p class="description">คลิกเพื่อดูรูปภาพขนาดเต็ม</p>
+						 <span class="separator"></span>
+					 </div>
+					 </div>
+				 </div>
+			 </a>
+	 </div>
+	 <h3 class="titlewhite">บรรยากาศ</h3>
+		<p style="margin-bottom:10px;">บรรยากาศของดาวศุกร์ ประกอบด้วยก๊าซคาร์บอนไดออกไซด์ 97% ไนโตรเจน 3.5% ซัลเฟอร์ไดออกไซด์และ อาร์กอน 0.5% มีชั้นเมฆคาร์บอนไดออกไซด์ที่หนาทึบมาก ปกคลุมดาวศุกร์ทั้งดวงทำให้สะท้อนแสงอาทิตย์ได้ดี จึงเห็นดาวศุกร์เป็นดาวเคราะห์ที่สว่างสุกใสมาก และยานอวกาศที่ไปสำรวจดาวศุกร์ก็ไม่สามารถถ่ายภาพพื้นผิว โดยตรงได้ ต้องอาศัยคลื่นเรดาห์ผ่านทะลุชั้นเมฆแล้วนำมาวิเคราะห์ด้วยคอมพิวเตอร์อีกครั้ง</p>
+		<p style="margin-bottom:10px;">อุณหภูมิของดาวศุกร์ ด้วยชั้นเมฆหนาของดาวศุกร์ทำให้เกิดสภาวะเรือนกระจก อุณหภูมิบนดาวศุกร์สูงมาก ประมาณ 500 องศาเซลเซียส ตลอดทั้งกลางวันและกลางคืน</p>
+		</div>
+		<div class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+		<h3 class="titlewhite" style="padding-top:10px !important">องค์ประกอบภายใน</h3>
+ 		<p>ดาวศุกร์เป็นดาวที่มีขนาดและมวลที่ใกล้เคียงกับโลกมากนักวิทยาศาสตร์จึงเชื่อว่าโครงสร้างของดาวศุกร์มีความคล้ายคลึงกับโลก โดยแกนชั้นใน (Inner core) ประกอบไปด้วยโลหะแข็ง (เหล็กและนิกเกิล) ส่วนแกนชั้นนอก (Outer core) เป็นโลหะเหลวที่เป็นเหล็กและนิกเกิลเช่นเดียวกับแกนชั้นใน แต่ไม่ปรากฏว่าไม่สามารถวัดสนามแม่เหล็กของดาวศุกร์ได้<p>ทั้งนี้เนื่องจากว่าดาวศุกร์มีการหมุนรอบตัวเองที่ช้ามากเมื่อเทียบกับโลกจึงไม่สามารถทำให้โลหะเหลวในแกนชั้นนอกเเกิดการหมุนเวียน (Circulation) ได้ จึงไม่ทำให้เกิดสนามแม่เหล็ก ในส่วนของชั้นแมนเทิลจะเป็นหินและชั้นเปลือกจะประกอบด้วยซิลิเกตเป็นหลัก พื้นผิวของดาวศุกร์จะมีความแห้งแล้งและร้อนกว่าดาวเคราะห์อื่น ๆ ในระบบสุริยะ</p>
+		<div class="col-md-3 baner-top wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;width:350px; float:none; margin:0 auto;">
+ 				 <div class="gal-spin-effect vertical">
+ 					 <img src="../images/VenusStructure.png" />
+ 					 <div class="gal-text-box">
+ 					 <div class="info-gal-con">
+ 						 <h5>โครงสร้างของดาวศุกร์</h5>
+ 						 <div id="px"></div>
+ 					 </div>
+ 					 </div>
+ 				 </div>
+ 	 </div>
+		</div>
+		</div>
+		</div>
+		</div>
+</div>
+<div id="thing"></div>
+	<div class="content parallax" style="background: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) .15vw, rgba(0, 0, 0, 0.6) .15vw, rgba(0, 0, 0, 0.6) .3vw), url(../images/VenusParallax.jpg);
+">
+		<div class="container">
+		<div class="contentbodynormal">
+		<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+	 <h2 class="titlenormal">การเคลื่อนที่</h2>
+ 		</div>
+	 <div class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+		<p class="normal wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+		ดาวศุกร์หมุนรอบตัวเอง 1 รอบใช้เวลานานกว่าการเคลื่อนที่รอบดวงอาทิตย์ 1 รอบ และถ้าเราอยู่บนดาวศุกร์เวลา 1 วัน จะไม่ยาวเท่ากับเวลาที่ดาวศุกร์หมุนรอบตัวเอง 1 รอบ นี่คือลักษณะพิเศษที่ดาวศุกร์ไม่เหมือนดาวเคราะห์ดวงใด ๆ นอกจากนี้ดาวศุกร์ยังหมุนตามเข็มนาฬิกาหรือหมุนจากทิศตะวันออกไปทิศตะวันตก ในขณะที่เคลื่อนที่รอบดวงอาทิตย์จากทิศตะวันตกไปทิศตะวันออก ดาวศุกร์จึงหมุนสวนทางกับดาวเคราะห์ดวงอื่น และหมุนสวนทางกับการเคลื่อนที่รอบดวงอาทิตย์ ดาวศุกร์หมุนรอบตัวเองรอบละ 243 วัน แต่ 1 วันของดาวศุกร์ยาวนานเท่ากับ 117 วันของโลก เพราะตั้งแต่ดวงอาทิตย์ขึ้นจนถึงดวงอาทิตย์ตกยาวนาน 58.5 วันของโลก ดาวศุกร์เคลื่อนรอบดวงอาทิตย์รอบละ 225 วัน 1 ปีของดาวศุกร์จึงยาวนาน 225 วันของโลก</p>
+ 		</div>
+		</div>
+		</div>
+		 <div class="player wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp; max-width:640px; margin:0 auto;">
+				<div class="media-wrapper">
+					<div class="videotitle"><h5>ดาวศุกร์หมุนรอบตัวเองในทิศทางที่ต่างจากดาวเคราะห์ส่วนใหญ่ในระบบสุริยะ</h5></div>
+					<video id="player" width="640" height="360" preload="auto">
+						<source src="../videos/VenusAnimation.ogv" type="video/mp4">
+					</video>
+				</div>
+         </div>
+	 </div>
+<script>
+$(document).ready(function(){
+    $('.player').click(function(){
+		$('.player').removeClass('wow fadeInUp animated');
+	});
+});
+</script>
+		<div class="contentwhite">
+			<div class="container">
+			<div class="contentbodywhite">
+			<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+		 <h2 class="titlewhite">การสำรวจ</h2>
+		 <div class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+		 <h3 class="titlewhite">โครงการไพโอเนียร์ วีนัส <sup>(พ.ศ. 2521-2535)</sup></h3>
+		 </div>
+		 <div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+			 <div class="col-md-3 baner-top wow fadeInRight animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInRight;width:280px; float:right; margin-left:7.5px;">
+					<a href="../images/pioneer12.jpg" class="b-link-stripe b-animate-go  swipebox" title="ยานไพโอเนียร์ วีนัส 1 หรือไพโอเนียร์ 12">
+							 <div class="gal-spin-effect vertical">
+								 <img src="../images/pioneer12.jpg" />
+								 <div class="gal-text-box">
+								 <div class="info-gal-con">
+									 <h5>ยานไพโอเนียร์ วีนัส 1</h5>
+									 <div id="px"></div>
+									 <span class="separator"></span>
+									 <p class="description">คลิกเพื่อดูรูปภาพขนาดเต็ม</p>
+									 <span class="separator"></span>
+								 </div>
+								 </div>
+							 </div>
+						 </a>
+			</div>
+		 		 <h4 class="titlewhite" style="margin-top:25px;">ยานไพโอเนียร์ วีนัส 1</h3>
+	 	 		<p class="normal">หรือรู้จักกันในชื่อ ไพโอเนียร์ 12 ถูกส่งออกไปเมื่อ 20 พฤษภาคม 2521 เป็นยานอวกาศลำแรกที่โคจรสำรวจทำแผนที่พื้นผิวดาวศุกร์ด้วยระบบเรดาร์ ตรวจพบว่ามีฟ้าแลบ ฟ้าผ่าในบรรยากาศของดาวศุกร์ แต่ไม่พบสนามแม่เหล็ก เครื่องมือส่วนใหญ่ยังคงปฏิบัติงานได้ดีจนสัญญาณขาดหายไปเมื่อวันที่ 8 ตุลาคม พ.ศ.2535 สันนิษฐานว่ายานถูกเผาไหม้สลายไป เมื่อเข้าสู่บรรยากาศดาวศุกร์</p>
+	 	</div>
+
+		<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+		 		 <h4 class="titlewhite" style="margin-top:25px;">ยานไพโอเนียร์ วีนัส 2</h3>
+				 	<div class="col-md-3 baner-top wow fadeInRight animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInRight;width:200px; float:right; margin-left:7.5px;">
+						<a href="../images/pioneer13.jpg" class="b-link-stripe b-animate-go  swipebox" title="ยานไพโอเนียร์ วีนัส 2 หรือไพโอเนียร์ 13">
+							 <div class="gal-spin-effect vertical">
+								 <img src="../images/pioneer13.jpg" />
+								 <div class="gal-text-box">
+								 <div class="info-gal-con">
+									 <h5 style="font-size:1.1em;">ยานไพโอเนียร์ วีนัส 2</h5>
+									 <div id="px"></div>
+									 <span class="separator"></span>
+									 <p class="description" style="font-size:1.3em;">คลิกเพื่อดูรูปภาพขนาดเต็ม</p>
+									 <span class="separator"></span>
+								 </div>
+								 </div>
+							 </div>
+						 </a>
+					</div>
+	 	 		<p class="normal"> ยานไพโอเนียร์ วีนัส 2 หรือเรียกกันว่า ไพโอเนียร์ 13 ประกอบด้วยยานหลายส่วน คือ ยานโดยสาร
+				<p style="margin-bottom:40px !important;">ซึ่งบรรทุกยานสำรวจบรรยากาศลำใหญ่ 1 ลำ และยานลำลูกเล็ก ๆ อีก 3 ลำ เพื่อแยกลงสำรวจบรรยากาศของดาวศุกร์ ยานไพโอเนียร์ วีนัส 2 ปล่อยยานลำลูกทั้ง 4 ลำ ฝ่าบรรยากาศหนาทึบของดาวศุกร์ลงไปกับร่มชูชีพ ยานลำใหญ่ถูกเผาไหม้สลายไปในบรรยากาศระดับสูง ขณะที่ยานลำลูกลงจอดบนพื้นผิวดาวศุกร์ส่งข้อมูลกลับมายังโลกนานประมาณ 1 ชั่วโมง</p>
+		</div>
+
+			<div class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+				<h3 class="titlewhite">โครงการเวเนรา <sup>(พ.ศ. 2510-2526)</sup></h3>
+				<p class="normal wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">สหภาพโซเวียตรัสเซียส่งยานอวกาศในโครงการเวเนราสำรวจดาวศุกร์หลายลำ และประสบความสำเร็จมาเป็นลำดับนับจากยานเวเนรา 4- 16</p>
+				<p class="normal wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">ยานเวเนรา 9 และ 10 ถูกส่งตามกันไปเปิดเผยสภาพดาวศุกร์มากที่สุด ยานแต่ละลำประกอบด้วยยานโคจรและยานลงพื้นดิน ยานโคจรรอบดาวศุกร์ถ่ายภาพเมฆและสำรวจบรรยากาศชั้นบน ตรวจวัดสภาวะอากาศ ยานลำลูก 2 ลำลงสู่พื้นผิว ส่งภาพถ่ายขาวดำของพื้นผิวดาวศุกร์มาเป็นครั้งแรก พื้นที่ยานลงจอดเต็มไปด้วยก้อนหิน ยานเวเนรา 9 ส่งข้อมูลนาน 53 นาที ส่วนยานเวเนรา 10 ส่งข้อมูลนาน 65 นาที</p>
+				<p class="normal wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">ยานเวเนรา 13 และ 14 หนัก 5,000 กิโลกรัม ยานลำลูกส่งภาพขาวดำและภาพสีรอบทิศของพื้นผิวดาวศุกร์เป็นครั้งแรก</p>
+				<div class="col-md-3 baner-top wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;width:800px; float:none; margin:20px auto 25px auto;">
+					<a href="../images/venera13.jpg" class="b-link-stripe b-animate-go  swipebox" title="ภาพสีของพื้นผิวดาวศุกร์ที่ถูกถ่ายเป็นครั้งแรกโดยยานเวเนารา 13 เมื่อวันที่ 1 มีนาคม พ.ศ. 2525">
+						 <div class="gal-spin-effect vertical">
+							 <img src="../images/venera13.jpg" />
+							 <div class="gal-text-box">
+							 <div class="info-gal-con">
+								 <h5 style="font-size:1.25em">ภาพสีของพื้นผิวดาวศุกร์ที่ถูกถ่ายเป็นครั้งแรกโดยยานเวเนารา 13<br>เมื่อวันที่ 1 มีนาคม พ.ศ. 2525</h5>
+								 <div id="px"></div>
+								 <span class="separator" style="margin:0 auto;"></span>
+								 <p class="description" style="margin:0 auto;">คลิกเพื่อดูรูปภาพขนาดเต็ม</p>
+								 <span class="separator" style="margin:0 auto;"></span>
+							 </div>
+							 </div>
+						 </div>
+					 </a>
+				</div>
+			</div>
+
+			<div class="wow fadeInUp animated" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+				<h3 class="titlewhite">โครงการแมกเจลแลน <sup>(พ.ศ. 2532-2537)</sup></h3>
+				<div class="col-md-3 baner-top wow fadeInRight animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInRight;width:280px; float:right; margin-left:7.5px;">
+						<a href="../images/magellan.jpg" class="b-link-stripe b-animate-go  swipebox" title="ยานแมกเจลแลน">
+							 <div class="gal-spin-effect vertical">
+								 <img src="../images/magellan.jpg" />
+								 <div class="gal-text-box">
+								 <div class="info-gal-con">
+									 <h5>ยานแมกเจลแลน</h5>
+									 <div id="px"></div>
+									 <span class="separator"></span>
+									 <p class="description">คลิกเพื่อดูรูปภาพขนาดเต็ม</p>
+									 <span class="separator"></span>
+								 </div>
+								 </div>
+							 </div>
+						 </a>
+					</div>
+				<p class="normal">ยานแมกเจลแลนถูกส่งออกไปเมื่อเดือนพฤษภาคม 2532 โคจรรอบดาวศุกร์นาน 4 ปี ระหว่าง พ.ศ.2533-2537 ในแนวขั้วเหนือใต้เป็นรูปวงรี ยานถ่ายภาพด้วยระบบเรดาร์ทำให้ได้ข้อมูล ทำแผนที่ดาวศุกร์ได้ถึง 99 % </p>
+				<p class="normal">ยานแมกเจลแลนเริ่มทดสอบเทคนิคการเข้าสู่วงโคจรรอบดาวเคราะห์ โดยใช้แรงเสียดทานของ บรรยากาศค่อย ๆ ลดระดับการโคจรรอบดาวเคราะห์ เรียกวิธีการนี้ว่า aerobraking ในที่สุด ยานถูกกำหนดให้ตกเข้าสู่บรรยากาศดาวศุกร์ เพื่อสำรวจข้อมูลของบรรยากาศก่อนที่ยานจะถูก เผาไหม้สลายไป</p>
+				<h4 class="titlewhite wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">เป้าหมายโครงการ</h4>
+				<p class="normal wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">เพื่อศึกษาสำรวจดาวศุกร์ในเรื่องต่าง ๆ เช่น ลักษณะทางธรณีวิทยา ใจกลางดาวศุกร์ ทำแผนที่ พื้นผิว สนามความโน้มถ่วง อุณหภูมิ ความกดบรรยากาศ สภาพการสึกกร่อนบนดาวศุกร์ องค์ประกอบและกระบวนการทางเคมีบนดาวศุกร์ เป็นต้น</p>
+			</div>
+
+
+			</div>
+			</div>
+		</div>
+ </div>
+
+		<!--start-smooth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear'
+								 		};
+										*/
+
+										$().UItoTop({ easingType: 'easeOutQuart' });
+
+									});
+								</script>
+								<!--end-smooth-scrolling-->
+		<a href="#home" id="toTop" class="scroll fadeInUp animated" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- animation-effect -->
+<link href="../css/animate.min.css" rel="stylesheet">
+<script src="../js/wow.min.js"></script>
+<!-- animation-effect -->
+
+
+<!--footer-->
+<div class="whitefooter">
+	<div class="footer2 wow fadeIn animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.75s; animation-name: fadeIn;">
+		<div class="footer-info">
+			<div class="container">
+				<div class="wow slideInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: slideInUp;">
+					<p><a data-hover="คณะผู้จัดทำ" href="Builder.html" class="scroll">คณะผู้จัดทำ</a></p>
+					<script>$(function () {
+					  $('[data-toggle="tooltip"]').tooltip()
+					})</script>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--/footer-->
+
+<script>
+ new WOW().init();
+</script>
+<script src="../js/player.js"></script>
+<script src="../js/mediaelement-and-player.js"></script>
+<link href="../css/animate.min.css" rel="stylesheet">
+<script src="../js/wow.min.js"></script> <!-- //animation-effect -->
+
+</body>
+</html>

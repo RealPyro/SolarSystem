@@ -1,0 +1,335 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>ดาวยูเรนัส - Solar System</title>
+<meta content=’width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0′ name=’viewport’ />
+<meta name=”viewport” content=”width=device-width” />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="ระบบสุริยะ" />
+<script type="applisalonion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="../css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link rel="icon" href="../images/icon.png">
+<link href="../css/iconeffects.css" rel='stylesheet' type='text/css' />
+<link href="../css/style.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="../css/swipebox.css" />
+<link rel="stylesheet" href="../fonts/stylesheet.css" />
+<link rel="stylesheet" href="../css/stars.css" />
+<link href="../css/model.css" type="text/css" rel="stylesheet">
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/bootstrap.js"> </script>
+<script type="text/javascript" src="../js/move-top.js"></script>
+<script type="text/javascript" src="../js/easing.js"></script>
+<link rel="stylesheet" href="../css/pace.css" />
+<script type="text/javascript" src="../js/pace.min.js"></script>
+<script type="text/javascript" src="../js/scroll.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+<link rel="stylesheet" href="../css/mediaelementplayer.css" />
+<!-- swipe box js -->
+	<script src="../js/jquery.swipebox.min.js"></script>
+	    <script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+	</script>
+<!-- //swipe box js -->
+
+</head>
+<body ondragstart="return false;" ondrop="return false;">
+		<div class="center1" id="home">
+		<div class="center2">
+		<div class="header-bottom">
+		     <div class="container">
+			      <!--logo-->
+				  <div class="logo fadeInLeft animated" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+				   <ul style="list-style: none; ">
+						<li><a href="Index.html"><div class="logo" ></div></a></li>
+					</ul>
+				   </div>
+					<!--//logo-->
+					<div class="top-menu fadeInRight animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;">
+							<nav class="link-effect-4" id="primary_nav_wrap">
+                              <ul style="list-style: none; ">
+								<li><a data-hover="หน้าแรก" href="Index.html">หน้าแรก</a></li>
+								<li><a data-hover="ดวงอาทิตย์" href="Sun.html">ดวงอาทิตย์</a></li>
+								<li><a data-hover="ดาวเคราะห์" href="Planets.html">ดาวเคราะห์</a>
+								<ul class="dropdown fadeIn animated" data-wow-delay=".04s" style="visibility: visible; animation-delay: 0.04s; animation-name: fadeIn;">
+								<li><a href="Mercury.html">ดาวพุธ</a></li>
+								<li><a href="Venus.html">ดาวศุกร์</a></li>
+								<li><a href="Earth.html">โลก</a></li>
+								<li><a href="Mars.html">ดาวอังคาร</a></li>
+								<li><a href="Jupiter.html">ดาวพฤหัสบดี</a></li>
+								<li><a href="Saturn.html">ดาวเสาร์</a></li>
+								<li><a href="Uranus.html" class="active">ดาวยูเรนัส</a></li>
+								<li><a href="Neptune.html">ดาวเนปจูน</a></li>
+								</ul>
+								</li>
+								<li><a data-hover="ดาวเคราะห์แคระ" href="DwaftPlanets.html">ดาวเคราะห์แคระ</a>
+								<ul class="dropdown fadeIn animated" data-wow-delay=".04s" style="visibility: visible; animation-delay: 0.04s; animation-name: fadeIn;">
+								<li><a href="Pluto.html">ดาวพลูโต</a></li>
+								<li><a href="Ceres.html">ดาวซีรีส</a></li>
+								<li><a href="Eris.html">ดาวอีริส</a></li>
+								<li><a href="Haumea.html">ดาวเฮาเมอา</a></li>
+								<li><a href="Makemake.html">ดาวมาคีมาคี</a></li>
+								</ul>
+								</li>
+								<li><a data-hover="ปรากฏการณ์" href="Phenomena.html">ปรากฏการณ์</a>
+								<ul class="dropdown fadeIn animated" data-wow-delay=".04s" style="visibility: visible; animation-delay: 0.04s; animation-name: fadeIn;">
+								<li><a href="SolarEclipse.html">สุริยุปราคา</a></li>
+								<li><a href="LunarEclipse.html">จันทรุปราคา</a></li>
+								<li><a href="Comet.html">ดาวหาง</a></li>
+								<li><a href="MeteorShower.html">ฝนดาวตก</a></li>
+								<li><a href="Aurora.html">ออโรรา</a></li>
+								<li><a href="SunHalo.html">อาทิตย์ทรงกลด</a></li>
+								</ul>
+								</li>
+								</ul>
+							</nav>
+					<div>
+							<!-- script-for-menu -->
+								<script>
+									$("span.menu").click(function(){
+										$(".top-menu ul").slideToggle("slow" , function(){
+										});
+									});
+								</script>
+								<!-- script-for-menu -->
+
+				 <div class="clearfix"></div>
+					<script>
+				$(document).ready(function() {
+					 var navoffeset=$("#ChangeFixed").offset().top;
+					 $(window).scroll(function(){
+						var scrollpos=$(window).scrollTop();
+						if(scrollpos >navoffeset){
+							$(".header-bottom").addClass("fixed slideInDown animated");
+						}else{
+							$(".header-bottom").removeClass("fixed slideInDown animated");
+						}
+					 });
+				});
+
+				</script>
+
+		</div>
+	</div>
+	</div>
+	</div>
+		</div>
+	</div>
+
+<div class="paddingtop" id="home"></div>
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+<div id="ChangeFixed"></div>
+
+<div id="contenttable" style="margin-bottom:3.9em;">
+	<div class="container fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="45%"><h1 class="titlename">ดาวยูเรนัส ⛢</h1><div id="uranus"></div>
+	</td>
+    <td valign="top">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="insidetable">
+  <tr>
+    <td width="40%" class="title topleft">ระยะจุดไกลดวงอาทิตย์ที่สุด</td>
+    <td align="left" class="tablecontent topright">3,006,389,405 กิโลเมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2">ระยะจุดใกล้ดวงอาทิตย์ที่สุด</td>
+    <td align="left" class="tablecontent2">2,735,555,035 กิโลเมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title">กึ่งแกนเอก</td>
+    <td align="left" class="tablecontent">2,870,972,220 กิโลเมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2 fitfont">เส้นรอบวงของวงโคจร</td>
+    <td align="left" class="tablecontent2">18.029 เทระเมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title">คาบดาราคติ</td>
+    <td align="left" class="tablecontent">30,708.1600 วัน</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2">อัตราเร็วเฉลี่ยในวงโคจร</td>
+    <td align="left" class="tablecontent2">6.795 กิโลเมตรต่อวินาที</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title">อัตราเร็วสูงสุดในวงโคจร</td>
+    <td align="left" class="tablecontent">7.128 กิโลเมตรต่อวินาที</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2">ความเอียง</td>
+    <td align="left" class="tablecontent2">0.76986°</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title">พื้นที่ผิว</td>
+    <td align="left" class="tablecontent">8.084×10<sup>9</sup> ตารางกิโลเมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2">ปริมาตร</td>
+    <td align="left" class="tablecontent2">6.834×10<sup>13</sup> ลูกบาศก์กิโลเมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title">มวล</td>
+    <td align="left" class="tablecontent">8.6832×10<sup>25</sup> กิโลกรัม</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2">ความหนาแน่นเฉลี่ย</td>
+    <td align="left" class="tablecontent2">1.318 กรัมต่อลูกบาศก์เซนติเมตร</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title">คาบการหมุนรอบตัวเอง</td>
+    <td align="left" class="tablecontent">−0.718333333 วัน (17 ชม. 14 นาที 24.00000 วินาที)</td>
+  </tr>
+  <tr>
+    <td width="40%" class="title2 bottomleft">ความเร็วการหมุนรอบตัวเอง</td>
+    <td align="left" class="tablecontent2 bottomright">2.59 กิโลเมตรต่อชั่วโมง</td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+
+	<div class="contentwhite">
+		<div class="container">
+		<div class="contentbodywhite">
+		<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+	 <h2 class="titlewhite">ข้อมูล</h2>
+ 		</div>
+		<p class="normal wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;"><b>ดาวยูเรนัส</b> (หรือ <b>มฤตยู</b>) เป็นดาวเคราะห์ที่อยู่ห่างจากดวงอาทิตย์เป็นลำดับที่ 7 ในระบบสุริยะ จัดเป็นดาวเคราะห์แก๊ส มีขนาดใหญ่เป็นอันดับที่ 3. ตั้งชื่อตามเทพเจ้า Ouranos ของกรีก สัญลักษณ์แทนดาวยูเรนัส คือ Uranus symbol.ant.png หรือ สัญลักษณ์ดาราศาสตร์ดาวยูเรนัส (ส่วนใหญ่ใช้ในดาราศาสตร์) ชื่อไทยของยูเรนัส คือ <b>ดาวมฤตยู</b>
+		<p class="normal wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ผู้ค้นพบดาวยูเรนัส คือ เซอร์วิลเลียม เฮอร์เชล(Sir William Herschel) พบในปี พ.ศ. 2324 (ค.ศ. 1781)
+		<p class="normal wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ต่อมาในปี พ.ศ. 2520 (ค.ศ. 1977) นักดาราศาสตร์จากหอดูดาวไคเปอร์แอร์บอร์น (James L. Elliot, Edward W. Dunham, and Douglas J. Mink using the Kuiper Airborne Observatory) ค้นพบว่า ดาวยูเรนัสมี วงแหวนจางๆโดยรอบ
+		<p class="normal wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">และเราก็ได้เห็นรายละเอียด ของดาวยูเรนัสพร้อมทั้งวงแหวน และดวงจันทร์บริวารในปี พ.ศ. 2529 (ค.ศ. 1986) เมื่อยานวอยเอเจอร์ 2 (Voyager 2) เคลื่อนผ่าน</p>
+ 	 </div>
+		</div>
+		</div>
+		</div>
+		</div>
+</div>
+
+<div class="content parallax" style="background: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) .15vw, rgba(0, 0, 0, 0.6) .15vw, rgba(0, 0, 0, 0.6) .3vw), url(../images/UranusParallax.jpg);">
+		<div class="container">
+		<div class="contentbodynormal">
+		<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+	 <h2 class="titlenormal">โครงสร้างภายใน</h2>
+ 		</div>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">บรรยากาศชั้นนอก ประกอบด้วยไฮโดรเจน และฮีเลียม เป็นส่วนใหญ่ แต่ลึกลงไปชั้นในมีส่วนประกอบของ แอมโมเนีย มีเทน ผสมอยู่ด้วย ดาวยูเรนัสแผ่ความร้อนออกจากตัวดาวน้อยมาก อาจจะเป็นเพราะภายในดาวไม่มีการยุบตัวแล้ว หรืออาจมีบางอย่างได้ปิดกั้นไว้แต่ก็ยังไม่ทราบอย่างแน่ชัด นักดาราศาสตร์คาดว่า แกนของดาวยูเรนัส มีลักษณะคล้ายกับดาวเสาร์และดาวพฤหัสบดี ถัดมาเป็นแกนชั้นนอกที่เต็มไปด้วยแอมโม้เนียและมีเทน ซึ่งทำให้เรามองดาวยูเรนัสมีลักษณะเป็นสีเขียว</p>
+ 		</div>
+		</div>	
+</div>
+
+ <div class="contentwhite">
+		<div class="container">
+		<div class="contentbodywhite">
+			<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+			<h2 class="titlewhite">วงแหวน</h2>
+			</div>
+			<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+			วงแหวนของดาวยูเรนัสมีความมืดมาก ผิดกับวงแหวนที่สว่างของดาวเสาร์ ถ้าไม่มองด้วยกล้องโทรทรรศน์ก็จะมองไม่เห็น วงแหวนของดาวยูเรนัสถูกพบโดยหอดูดาวแอร์บอร์นในปี 1977 ซึ่งเป็นยานชนิดพิเศษที่นำกล้องโทรทัศน์ไปด้วย นักดาราศาสตร์บนเครื่องบินเฝ้ามองดูดาวยูเรนัสเมื่อมีดาวฤกษ์เคลื่อนไหวมาตรงข้ามหน้าของมัน ยานวอยเอเจอร์ 2 มองดูที่วงแหวนเมื่อมันบินผ่านดาวยูเรนัส วงแหวนของดาวยูเรนัสจะแคบ วงแหวนที่กว้างที่สุดคือช่องว่างที่ใหญ่ซึ่งประกอบไปด้วยก้อนฝุ่น ยานวอเยเจอร์พบส่วนโค้งบางอย่าง ซึ่งเป็นส่วนของวงแหวนที่ไม่สมบูรณ์ วงแหวนของดาวยูเรนัสประกอบด้วยชิ้นน้ำแข็งมืดที่เคลื่อนไหว น้ำแข็งประกอบด้วยมีเทนแข็ง ชิ้นส่วนของมันอาจจะชนกันและทำให้เกิดฝุ่นที่อยู่ในช่องว่างระหว่างวงแหวน</p>
+			<div class="col-md-3 baner-top wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;width:520px; float:none; margin:30px auto 10px;">
+							 <div class="gal-spin-effect vertical">
+								 <img src="../images/UranusRings.jpg" />
+								 <div class="gal-text-box">
+								 <div class="info-gal-con">
+									 <h5>ดาวยูเรนัสและวงแหวน</h5>
+								 </div>
+								 </div>
+							 </div>
+			</div>
+		</div>
+		</div>
+  </div>
+  
+  <div class="content parallax" style="background: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) .15vw, rgba(0, 0, 0, 0.6) .15vw, rgba(0, 0, 0, 0.6) .3vw), url(../images/UranusParallax2.jpg);padding: 5em 0 0">
+		<div class="container">
+		<div class="contentbodynormal">
+		<div class="wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+	 <h2 class="titlenormal">ดาวบริวาร</h2>
+ 		</div>
+		<div class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+		<div class="col-md-3 baner-top wow fadeInRight animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;width:300px; float:right; margin: -15px 0 0 20px; padding-left:0 ;">
+			 <a href="../images/Uranus_moons.jpg" class="b-link-stripe b-animate-go  swipebox" title="ดาวบริวารของดาวยูเรนัสบางส่วนตั้งแต่ขนาดใหญ่จนถึงขนาดเล็ก จากซ้ายไปขวา: พัก, มิแรนดา, แอเรียล, อัมเบรียล, ไททาเนีย และโอเบอรอน">
+				 <div class="gal-spin-effect vertical ">
+					 <img src="../images/Uranus_moons.jpg" />
+					 <div class="gal-text-box">
+					 <div class="info-gal-con">
+						 <h5 style="font-size:1.18em">ดาวบริวารของดาวยูเรนัสบางส่วนตั้งแต่ขนาดใหญ่จนถึงขนาดเล็ก จากซ้ายไปขวา: พัก, มิแรนดา, แอเรียล, อัมเบรียล, ไททาเนีย และโอเบอรอน</h5>
+						 <p class="description">คลิกเพื่อดูรูปภาพขนาดเต็ม</p>
+					 </div>
+					 </div>
+				 </div>
+			 </a>
+		</div>
+		<p>ดาวยูเรนัส เป็นดาวเคราะห์แก๊สขนาดยักษ์ในระบบสุริยะ มีดาวบริวารที่รู้จักแล้ว 27 ดวง โดยทั้งหมดถูกตั้งชื่อตามตัวละครในผลงานการประพันธ์ของวิลเลียม เชกสเปียร์ และอเล็กซานเดอร์ โปป โดยใน ค.ศ. 1787 ดาวบริวารสองดวงแรกถูกค้นพบโดยวิลเลียม เฮอร์เชล ได้แก่ ทิทาเนียและโอเบอรอน ส่วนดาวบริวารทรงกลมอื่น ๆ ถูกค้นพบโดยวิลเลียม ลาสเซลล์ ในปี ค.ศ. 1851 (ได้แก่ แอเรียลและอัมเบรียล) และในปี ค.ศ. 1948 โดยเจอราร์ด ไคเปอร์ (มิแรนดา) ดาวบริวารที่เหลือถูกค้นพบหลังจากปี ค.ศ. 1985 โดยภารกิจของวอยเอจเจอร์ 2 และด้วยความช่วยเหลือของกล้องโทรทรรศน์บนโลกที่ทันสมัย
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ดาวบริวารของดาวยูเรนัสถูกแบ่งออกเป็น 3 กลุ่ม ได้แก่ กลุ่มดาวบริวารรอบในสิบสามดวง (Thirteen inner moons), กลุ่มดาวบริวารขนาดใหญ่ห้าดวง (Five major moons) และกลุ่มดาวบริวารทรงแปลกเก้าดวง (Nine irregular moons) โดยกลุ่มดาวบริวารรอบในสิบสามดวงจะกระจัดกระจายอยู่ภายในบริเวณวงแหวนของดาวยูเรนัส กลุ่มดาวบริวารขนาดใหญ่ห้าดวงเป็นดาวบริวารที่มีขนาดใหญ่และเป็นทรงกลม ในนั้น 4 ดวงเป็นดาวบริวารที่ยังมีกระบวนการภายใน มีภูเขาไฟ และการเปลี่ยนแปลงบนเปลือกดาวอยู่ ดาวบริวารที่มีขนาดใหญ่ที่สุดในกลุ่มคือ ไททาเนีย มีขนาดเส้นผ่านศูนย์กลางประมาณ 1,578 กม. และยังเป็น 1 ใน 8 ดาวบริวารขนาดใหญ่ในระบบสุริยะ ส่วนกลุ่มดาวบริวารทรงแปลกเก้าดวง เป็นดาวบริวารที่มีรูปร่างผิดปกติและมีวงโคจรที่เอียง (ส่วนใหญ่) ทำมุมกับดาวยูเรนัสและโคจรอยู่ไกลมาก</p>
+		
+		<h3 class="titlenormal wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">การค้นพบ</h3>
+		<p class="wow fadeInUp animated" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">ในครั้งแรก ดาวบริวารทิทาเนียกับดาวบริวารโอเบอรอน ถูกค้นพบโดยเซอร์วิลเลียม เฮอร์เชล เมื่อวันที่ 11 มกราคม ค.ศ. 1787 6 ปีหลังจากที่เขาค้นพบดาวเคราะห์ของตัวเอง ต่อมา เฮอร์เชลได้ค้นพบดาวบริวารอีกถึง 6 ดวง</p>
+		</div>
+ 		</div>
+		</div>	
+		
+		<!--start-smooth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear'
+								 		};
+										*/
+
+										$().UItoTop({ easingType: 'easeOutQuart' });
+
+									});
+								</script>
+								<!--end-smooth-scrolling-->
+		<a href="#home" id="toTop" class="scroll fadeInUp animated" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- animation-effect -->
+<link href="../css/animate.min.css" rel="stylesheet">
+<script src="../js/wow.min.js"></script>
+<!-- animation-effect -->
+
+
+<!--footer-->
+	<div class="footer2 wow fadeIn animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.75s; animation-name: fadeIn; margin-top:5em;">
+		<div class="footer-info">
+			<div class="container">
+				<div class="wow slideInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: slideInUp;">
+					<p><a data-hover="คณะผู้จัดทำ" href="Builder.html" class="scroll">คณะผู้จัดทำ</a></p>
+					<script>$(function () {
+					  $('[data-toggle="tooltip"]').tooltip()
+					})</script>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--/footer-->
+
+<script>
+ new WOW().init();
+</script>
+<script src="../js/player.js"></script>
+<script src="../js/mediaelement-and-player.js"></script>
+<link href="../css/animate.min.css" rel="stylesheet">
+<script src="../js/wow.min.js"></script> <!-- //animation-effect -->
+
+</body>
+</html>

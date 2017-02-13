@@ -2689,9 +2689,7 @@ h3.single {
 .bottom-top {
     padding-top: 5em;
 }
-.bottom {
-    min-height: 300px;
-}
+
 h4.tittle {
     color: #fff;
     font-size: 2.5em;
@@ -2866,9 +2864,7 @@ h4.tittle {
 .bottom-top {
     padding-top: 3em;
 }
-.bottom {
-    min-height: 275px;
-}
+
 .bottom-top p {
     margin: 1em auto;
     width: 100%;
@@ -3341,9 +3337,7 @@ h4.tittle {
 .bottom-top {
     padding-top: 3em;
 }
-.bottom {
-    min-height: 240px;
-}
+
 h4.tittle {
     font-size: 1.7em;
 }
