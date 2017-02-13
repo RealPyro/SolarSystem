@@ -1,0 +1,310 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>คณะผู้จัดทำ - Solar System</title>
+<meta content=’width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0′ name=’viewport’ />
+<meta name=”viewport” content=”width=device-width” />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="ระบบสุริยะ" />
+<script type="applisalonion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="../css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link rel="icon" href="../images/icon.png">
+<link href="../css/iconeffects.css" rel='stylesheet' type='text/css' />
+<link href="../css/style.css" rel='stylesheet' type='text/css' />
+<link href="../css/font-awesome.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="../css/swipebox.css" />
+<link rel="stylesheet" href="../fonts/stylesheet.css" />
+<link rel="stylesheet" href="../css/stars.css" />
+<link href="../css/model.css" type="text/css" rel="stylesheet">
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/bootstrap.js"> </script>
+<script type="text/javascript" src="../js/move-top.js"></script>
+<script type="text/javascript" src="../js/easing.js"></script>
+<link rel="stylesheet" href="../css/pace.css" />
+<script type="text/javascript" src="../js/pace.min.js"></script>
+<script type="text/javascript" src="../js/scroll.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+<script>
+$(function() {
+	$('a[href*=#]').on('click', function(e) {
+		e.preventDefault();
+		$('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 1000, 'linear');
+	});
+});
+</script>
+<link rel="stylesheet" href="../css/mediaelementplayer.css" />
+<!-- swipe box js -->
+	<script src="../js/jquery.swipebox.min.js"></script>
+	    <script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+	</script>
+<!-- //swipe box js -->
+<script type="text/javascript">
+    // add callbacks before document ready
+    $.yams.viewport.addCallback(funcion(viewport) {
+        // viewport object schema
+        // {
+        //     name: name of currently set viewport
+        //     width: current window width
+        //     height: current window height
+        // }
+        console.log('viewport is now ', viewport)
+    })
+</script> 
+<style>
+.mejs__controls, .mejs__overlay {
+	border-radius:0;
+}
+html, body {
+
+}
+</style>
+</head>
+<body ondragstart="return false;" ondrop="return false;">
+<div id="home"></div>
+		<div class="header-bottom">
+		     <div class="container">
+			      <!--logo-->
+				  <div class="logo fadeInLeft animated" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+				   <ul style="list-style: none; ">
+						<li><a href="Index.html"><div class="logo" ></div></a></li>
+					</ul>
+				   </div>
+					<!--//logo-->
+					<div class="top-menu fadeInRight animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;">
+							<nav class="link-effect-4" id="primary_nav_wrap">
+                              <ul style="list-style: none; ">
+								<li><a data-hover="หน้าแรก" href="Index.html">หน้าแรก</a></li>
+								<li><a data-hover="ดวงอาทิตย์" href="Sun.html"  class="active">ดวงอาทิตย์</a></li>
+								<li><a data-hover="ดาวเคราะห์" href="Planets.html">ดาวเคราะห์</a>
+								<ul class="dropdown fadeIn animated" data-wow-delay=".04s" style="visibility: visible; animation-delay: 0.04s; animation-name: fadeIn;">
+								<li><a href="Mercury.html">ดาวพุธ</a></li>
+								<li><a href="Venus.html">ดาวศุกร์</a></li>
+								<li><a href="Earth.html">โลก</a></li>
+								<li><a href="Mars.html">ดาวอังคาร</a></li>
+								<li><a href="Jupiter.html">ดาวพฤหัสบดี</a></li>
+								<li><a href="Saturn.html">ดาวเสาร์</a></li>
+								<li><a href="Uranus.html">ดาวยูเรนัส</a></li>
+								<li><a href="Neptune.html">ดาวเนปจูน</a></li>
+								</ul>				 
+								</li>
+								<li><a data-hover="ดาวเคราะห์แคระ" href="DwaftPlanets.html">ดาวเคราะห์แคระ</a>
+								<ul class="dropdown fadeIn animated" data-wow-delay=".04s" style="visibility: visible; animation-delay: 0.04s; animation-name: fadeIn;">
+								<li><a href="Pluto.html">ดาวพลูโต</a></li>
+								<li><a href="Ceres.html">ดาวซีรีส</a></li>
+								<li><a href="Eris.html">ดาวอีริส</a></li>
+								<li><a href="Haumea.html">ดาวเฮาเมอา</a></li>
+								<li><a href="Makemake.html">ดาวมาคีมาคี</a></li>
+								</ul>				 
+								</li>
+								<li><a data-hover="ปรากฏการณ์" href="Phenomena.html">ปรากฏการณ์</a>
+								<ul class="dropdown fadeIn animated" data-wow-delay=".04s" style="visibility: visible; animation-delay: 0.04s; animation-name: fadeIn;">
+								<li><a href="SolarEclipse.html">สุริยุปราคา</a></li>
+								<li><a href="LunarEclipse.html">จันทรุปราคา</a></li>
+								<li><a href="Comet.html">ดาวหาง</a></li>
+								<li><a href="MeteorShower.html">ฝนดาวตก</a></li>
+								<li><a href="Aurora.html">ออโรรา</a></li>
+								<li><a href="SunHalo.html">อาทิตย์ทรงกลด</a></li>
+								</ul>				 
+								</li>
+								</ul>
+							</nav>
+					<div>
+							<!-- script-for-menu -->
+								<script>
+									$("span.menu").click(function(){
+										$(".top-menu ul").slideToggle("slow" , function(){
+										});
+									});
+								</script>
+								<!-- script-for-menu -->
+
+				 <div class="clearfix"></div>
+					<script>
+				$(document).ready(function() {
+					 var navoffeset=$("#ChangeFixed").offset().top;
+					 $(window).scroll(function(){
+						var scrollpos=$(window).scrollTop();
+						if(scrollpos >navoffeset){
+							$(".header-bottom").addClass("fixed slideInDown animated");
+						}else{
+							$(".header-bottom").removeClass("fixed slideInDown animated");
+						}
+					 });
+				});
+				
+				</script>
+<script>
+$('.open-modal').click(function (e) {
+    e.preventDefault();
+    $('.modal').toggle();
+    scrollTo = $('body').scrollTop();
+    $('body').css("position", "fixed");
+});
+
+$('.close-modal').click(function (e) {
+    e.preventDefault();
+    $('modal').toggle();
+    $('body').css("position", "static");
+    $('body').animate({scrollTop: scrollTo}, 0);
+});
+ R
+</script>
+		</div>
+	</div>
+	</div>
+	</div>
+		</div>
+	</div>
+
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+<div id="targetcontent" class="">
+<section id="nattakorn" class="scrollbuttondown scrolldown">
+
+<div class="parallax" style="background: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) .15vw, rgba(0, 0, 0, 0.65) .15vw, rgba(0, 0, 0, 0.65) .3vw), url(../images/GallaxyParallax2.jpg);">
+<div class="builder-info">
+				<ul class="address">
+						<li>
+							<h1>นายณัฐกร  ใจอารี</h1>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>ห้อง</b></li>
+								<li>คพ.2.3</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>เลขที่</b></li>
+								<li></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>เบอร์โทรศัพท์ </b></li>
+								<li>+00 111 222 3333</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>อีเมล</b></li>
+								<li><a href="mailto:example@mail.com"> mail@example.com</a></li>
+							</ul>
+						</li>
+					</ul>
+
+<img src="../images/Nattakorn.jpg" />
+<span class="social-icons icon-circle icon-rotate"> 
+	  <a href="https://www.facebook.com/tar.nattakorn"><i class="fa fa-facebook"></i></a>
+</span>
+					
+</div>
+</div>
+
+<a href="#amarit" class="button"><span></span><span></span><span></span>เลื่อนลง</a>
+</section>
+
+<section id="amarit" class="scrollbuttonup scrollup">
+
+<div class="parallax" style="background: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) .15vw, rgba(0, 0, 0, 0.65) .15vw, rgba(0, 0, 0, 0.65) .3vw), url(../images/GallaxyParallax2.jpg);">
+<a href="#nattakorn" class="button">เลื่อนขึ้น<span></span><span></span><span></span></a>
+<div class="builder-info">
+
+<ul class="address">
+							<li>
+							<h1>นายอมฤต  นันทภักดิ์</h1>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>ห้อง</b></li>
+								<li>คพ.2.3</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>เลขที่</b></li>
+								<li>35</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>เบอร์โทรศัพท์ </b></li>
+								<li>092-156-4595</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>อีเมล</b></li>
+								<li><a href="mailto:gut_e@live.com">gut_e@live.com</a></li>
+							</ul>
+					</ul>
+
+
+<img src="../images/Amarit.jpg" />
+<span class="social-icons icon-circle icon-rotate"> 
+	  <a href="https://www.facebook.com/pyro.amarit"><i class="fa fa-facebook"></i></a>
+</span>
+
+</div>
+</div>
+<div class="footer2 wow fadeIn animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.75s; animation-name: fadeIn; position: relative; margin-top: -55px;">
+		<div class="footer-info">
+			<div class="container">
+				<div class="wow slideInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: slideInUp;">
+					<p><a data-hover="คณะผู้จัดทำ" href="Builder.html" class="scroll">คณะผู้จัดทำ</a></p>
+					<script>$(function () {
+					  $('[data-toggle="tooltip"]').tooltip()
+					})</script>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+	<!--end-team-->
+
+		<!--start-smooth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear'
+								 		};
+										
+
+										$().UItoTop({ easingType: 'easeOutQuart' });
+
+									});
+								</script>
+								<!--end-smooth-scrolling-->
+<!-- animation-effect -->
+<link href="../css/animate.min.css" rel="stylesheet">
+<script src="../js/wow.min.js"></script>
+<!-- animation-effect -->
+
+
+
+<script>
+ new WOW().init();
+</script>
+<script src="../js/player.js"></script>
+<script src="../js/mediaelement-and-player.js"></script>
+<link href="../css/animate.min.css" rel="stylesheet">
+<script src="../js/wow.min.js"></script> <!-- //animation-effect -->
+
+</body>
+</html>
