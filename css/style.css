@@ -2240,16 +2240,7 @@ h4.tittle{
 	font-family: MN Paethai !important;
 }
 /*--bottom-*/
-.bottom{
-  background: url("../images/bottom.jpg") no-repeat 0px 0px;
-  padding: 0em 0 0 0;
-  background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -ms-background-size: cover;
-  -webkit-background-size: cover;
-  min-height:390px;
-}
+
 .bottom-top{
   text-align:center;
   padding-top:8em;
