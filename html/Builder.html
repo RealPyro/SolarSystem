@@ -35,7 +35,7 @@
 $(function() {
 	$('a[href*=#]').on('click', function(e) {
 		e.preventDefault();
-		$('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 1000, 'linear');
+		$('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 1400, 'linear');
 	});
 });
 </script>
@@ -64,9 +64,10 @@ $(function() {
 .mejs__controls, .mejs__overlay {
 	border-radius:0;
 }
-html, body {
+html {
 	overflow:hidden;
 }
+
 </style>
 </head>
 <body ondragstart="return false;" ondrop="return false;">
@@ -84,7 +85,7 @@ html, body {
 							<nav class="link-effect-4" id="primary_nav_wrap">
                               <ul style="list-style: none; ">
 								<li><a data-hover="หน้าแรก" href="Index.html">หน้าแรก</a></li>
-								<li><a data-hover="ดวงอาทิตย์" href="Sun.html"  class="active">ดวงอาทิตย์</a></li>
+								<li><a data-hover="ดวงอาทิตย์" href="Sun.html">ดวงอาทิตย์</a></li>
 								<li><a data-hover="ดาวเคราะห์" href="Planets.html">ดาวเคราะห์</a>
 								<ul class="dropdown fadeIn animated" data-wow-delay=".04s" style="visibility: visible; animation-delay: 0.04s; animation-name: fadeIn;">
 								<li><a href="Mercury.html">ดาวพุธ</a></li>
@@ -258,18 +259,7 @@ $('.close-modal').click(function (e) {
 
 </div>
 </div>
-<div class="footer2 wow fadeIn animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.75s; animation-name: fadeIn; position: relative; margin-top: -55px;">
-		<div class="footer-info">
-			<div class="container">
-				<div class="wow slideInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: slideInUp;">
-					<p><a data-hover="คณะผู้จัดทำ" href="Builder.html" class="scroll">คณะผู้จัดทำ</a></p>
-					<script>$(function () {
-					  $('[data-toggle="tooltip"]').tooltip()
-					})</script>
-				</div>
-			</div>
-		</div>
-	</div>
+
 </section>
 
 	<!--end-team-->
