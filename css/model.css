@@ -6,7 +6,7 @@
 	border-radius: 50%;
 	background-size: 775px;
 	background-position: center;
-	animation:sunglow 10s ease-in-out infinite alternate, rotatesun 90s infinite linear;
+	animation:sunglow 10s ease-in-out infinite alternate, rotatesun 28s infinite linear;
 	-ms-transform: translateY(-50%); /* IE 9 */
 	-webkit-transform: translateY(-50%); /* Chrome, Safari, Opera */
 	transform: translateY(-50%);
@@ -98,6 +98,28 @@
 	-ms-transform: translateY(-50%) rotate(-1.85deg); /* IE 9 */
 	-webkit-transform: translateY(-50%) rotate(-1.85deg); /* Chrome, Safari, Opera */
 	transform: translateY(-50%) rotate(-1.85deg);
+	z-index: -99;
+    margin: auto;
+	margin-top:15em;
+}
+
+#jupiter {
+	position: relative;
+    width: 270px;
+	height: 270px;
+	background: url("../images/Maps/Jupiter.jpg");
+	border-radius: 50%;
+	background-size: 600px;
+	background-position: center center;
+	box-shadow: inset -16px 0 50px 6px rgb(0, 0, 0),
+		inset 16px 0 50px 2px rgba(255, 253, 230, 0.45);
+	animation-name: rotatejupiter;
+	animation-duration: 75s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	-ms-transform: translateY(-50%) rotate(-1.3deg); /* IE 9 */
+	-webkit-transform: translateY(-50%) rotate(-1.3deg); /* Chrome, Safari, Opera */
+	transform: translateY(-50%) rotate(-1.3deg);
 	z-index: -99;
     margin: auto;
 	margin-top:15em;
@@ -237,6 +259,11 @@
 @keyframes rotatemars {
   from { background-position-x: 0px; }
   to { background-position-x: 260px; }
+}
+
+@keyframes rotatejupiter {
+  from { background-position-x: 0px; }
+  to { background-position-x: 600px; }
 }
 
 @keyframes rotatepluto {
