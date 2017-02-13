@@ -888,15 +888,6 @@ h2.titlenormal {
    color: #bfbfbf;
    text-shadow: -1px -1px black, -1px 1px black, 1px -1px black, 1px 1px black;
 }
-h4.titlewhite {
-	text-align: left;
-    font-size: 1.4em !important;
-	font-family: 'Helvetica LT Thai Bold', sans-serif !important;
-	color: black;
-	margin-bottom: 0.75em;
-	margin-top: 0;
-}
-
 
 h2.titlewhite{
 	margin-top:0;
@@ -904,6 +895,23 @@ h2.titlewhite{
  font-family: 'Helvetica LT Thai Bold', sans-serif;
    color: white;
    text-shadow: -1px -1px black, -1px 1px black, 1px -1px black, 1px 1px black;
+}
+
+h4.titlewhite {
+	text-align: left;
+    font-size: 1.4em !important;
+	font-family: 'Helvetica LT Thai Bold', sans-serif !important;
+	color: black;
+	margin-bottom: 0.8em;
+	margin-top: 1.3em;
+}
+h4.titlenormal {
+	text-align: left;
+    font-size: 1.4em !important;
+	font-family: 'Helvetica LT Thai Bold', sans-serif !important;
+	color: white;
+	margin-bottom: 0.8em;
+	margin-top: 1.3em;
 }
 p{
 	margin:0;
