@@ -48,8 +48,8 @@ html {
 .builder-info span {
 	position: absolute;
 	right: 0;
-	bottom: 8vh;
-	margin: 0 18.2vw 0 0;
+	top: 0;
+	margin: 27.65vw 18.2vw 0 0;
 }
 .builder-info {
 	-webkit-touch-callout: none;
