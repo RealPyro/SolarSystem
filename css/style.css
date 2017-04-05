@@ -198,18 +198,20 @@ ul.address-text b {
 	animation-delay: .3s;
 }
 
+
 .scrollbuttonup a.button {
 	position: relative;
 	top: 20px;
 	left: 50%;
 	z-index: 2;
 	display: inline-block;
+	text-shadow: none;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
 	color: #fff;
 	font-size: 1.3em;
 	line-height: 2em;
-	font-family: 'Helvetica LT Thai Regular';
+	font-family: 'CS ChatthaiUI';
 	letter-spacing: .1em;
 	text-decoration: none;
 }
@@ -230,7 +232,7 @@ ul.address-text b {
 	color: #fff;
 	font-size: 1.3em;
 	line-height: 2em;
-	font-family: 'Helvetica LT Thai Regular';
+	font-family: 'CS ChatthaiUI';
 	letter-spacing: .1em;
 	text-decoration: none;
 }
@@ -291,7 +293,7 @@ ul.address-text b {
 	border: none;
 }
 .phenomenatable th {
-	font-family: 'MN Paethai';
+	font-family: 'CS ChatThai';
 	text-align: center;
 	font-size: 2em;
 	height: 2em;
@@ -308,7 +310,7 @@ ul.address-text b {
 	border-radius: 0 30px 0 0 ;
 }
 .phenomenatable td {
-	font-family: 'MN Paethai';
+	font-family: 'CS ChatThai';
 	text-align: center;
 	font-size: 2em;
 	height: 2em;
@@ -329,7 +331,7 @@ ul.address-text b {
 	border: none;
 }
 .phenomenatablewhite th {
-	font-family: 'MN Paethai';
+	font-family: 'CS ChatThai';
 	text-align: center;
 	font-size: 1.8em;
 	height: 2em;
@@ -346,7 +348,7 @@ ul.address-text b {
 	border-radius: 0 30px 0 0 ;
 }
 .phenomenatablewhite td {
-	font-family: 'MN Paethai';
+	font-family: 'CS ChatThai';
 	text-align: center;
 	font-size: 1.8em;
 	height: 2em;
@@ -390,7 +392,7 @@ ul.address-text b {
 	color: #fff;
 	font-size: 1.3em;
 	line-height: 2em;
-	font-family: 'Helvetica LT Thai Regular';
+	font-family: 'CS ChatthaiUI';
 	letter-spacing: .1em;
 	text-decoration: none;
 }
@@ -715,7 +717,7 @@ img {
 {
 	line-height:100%;
 	padding:10px 15px;
-    margin-bottom:5px;
+    margin:2.5px 0;
 }
 
 #primary_nav_wrap ul ul ul
@@ -750,7 +752,7 @@ img {
 	text-justify: distribute;
 	text-indent: 30px;
 	width:100%;
-	font-family: MN Paethai !important;
+	font-family: CS ChatThai !important;
 	}
 .contentbodywhite p {
 	margin-top: 5px;
@@ -762,7 +764,7 @@ img {
 	text-justify: distribute;
 	text-indent: 30px;
 	width:100%;
-	font-family: MN Paethai !important;
+	font-family: CS ChatThai !important;
 	}
 
 h1 {
@@ -779,19 +781,19 @@ div #ChangeFixed {
 td .title {
 	background: rgba(232, 232, 232, 0.8);
 	height:2em;
-	font-family:'Helvetica LT Thai Bold', sans-serif !important;
+	font-family:'CS ChatthaiUI', sans-serif !important;
 	color: black;
 	font-size:100%;
-	padding-bottom: 5px;
+	font-weight: Bold;
 }
 
 td .title2 {
 	background: rgba(255, 255, 255, 0.8);
 	height:2em;
 	color: black;
-	font-family:'Helvetica LT Thai Bold', sans-serif !important;
+	font-family:'CS ChatthaiUI', sans-serif !important;
 	font-size:100%;
-	padding-bottom: 5px;
+	font-weight: Bold;
 }
 .topleft {
 	border-radius: 20px 0 0 0;
@@ -830,16 +832,14 @@ h1.pagetitle {
 	background: rgba(232, 232, 232, 0.25);
 	padding-left:12px;
 	font-size:95%;
-	font-family:'Helvetica LT Thai Regular', sans-serif;
-	padding-bottom: 5px;
+	font-family:'CS ChatthaiUI', sans-serif;
 	color:white;
 }
 .tablecontent2{
 	background: rgba(255, 255, 255, 0.25);
 	padding-left:12px;
 	font-size:95%;
-	font-family:'Helvetica LT Thai Regular', sans-serif;
-	padding-bottom: 5px;
+	font-family:'CS ChatthaiUI', sans-serif;
 	color:white;
 }
 td .starcontent {
@@ -929,7 +929,7 @@ td .starcontent {
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
 	text-align: center;
-	font-family: MN Paethai !important;
+	font-family: CS ChatThai !important;
 	z-index:2;
 }
 
@@ -989,7 +989,7 @@ td .starcontent {
     border-color: #a22c48;
 }
 td .starcontent p{
-	font-family: MN Paethai !important;
+	font-family: CS ChatThai !important;
 	margin-bottom:8px !important;
 }
 figure {
@@ -999,8 +999,16 @@ figure {
 	overflow: hidden;
 }
 
-figure img, .haumeatitle img{
+figure img, .haumeatitle img, .slide img{
 	cursor: url(cursor/Main.cur), pointer !important;
+}
+.swipebox-container {
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 .haumeatitle img{
     margin-top: -15px;
@@ -1023,8 +1031,8 @@ figure img, .haumeatitle img{
 	margin: 15px 15px 0;
 	padding: 0;
 }
-ul {
-	font-family:'Helvetica LT Thai Regular', sans-serif !important;
+.address-text {
+	font-family:'CS ChatthaiUI', sans-serif !important;
 }
 html,div.slide,img.img-responsive,div.item-owl{
 	cursor: url(cursor/Main.cur), default !important;
@@ -1303,7 +1311,7 @@ label{
 	font-size:1em;
 	height:50px;
 	line-height:50px;
-	bottom:5px;
+	font-family: CS ChatthaiUI;
 }
 .dropdown li a {
 	color:#e6e6e6;
@@ -1321,12 +1329,12 @@ label{
 }
 .top-menu li a.active{
   color: #abb5ee;
-  font-family:Helvetica LT Thai Bold;
+  font-family:CS ChatthaiUI;
   }
 
 .top-menu li ul li a.active{
   color: #abb5ee;
-  font-family:Helvetica LT Thai Bold;
+  font-family:CS ChatthaiUI;
   }
 
   .top-menu li ul li a.active:hover{
@@ -2130,7 +2138,7 @@ p.descriptionnoviewfull{
 	text-align: center;
 	line-height: 1.2em;
 	font-size:1.55em;
-	font-family: MN Paethai !important;
+	font-family: CS ChatThai !important;
 }
 .view-fifth img {
    -webkit-transition: all 0.3s ease-in-out;
@@ -2522,7 +2530,7 @@ h4.tittle{
 .info-gal-con p {
     font-size: 22px;
     line-height: 2.2em;
-	font-family: MN Paethai !important;
+	font-family: CS ChatThai !important;
 }
 /*--bottom-*/
 
@@ -2759,8 +2767,9 @@ h1.haumeatitle::selection {
     background-size: 4px;
     padding: 1.25em 0 1.25em 0;
 	overflow: hidden;
-	font-family:Helvetica LT Thai Regular;
+	font-family:CS ChatthaiUI;
 }
+
 .footer p{
     color:#fff;
 	font-size:1em;
