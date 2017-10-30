@@ -5,6 +5,11 @@ html {
 	padding: 0px;
 
 }
+
+.speaker:hover, .speaker:focus, .speaker:active {
+	  cursor: url(cursor/Select.cur), pointer !important;
+}
+
 .hover14 figure {
 	position: absolute;
 	right: 0;
