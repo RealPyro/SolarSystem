@@ -9,8 +9,13 @@
             window.location.href = "https://realpyro.github.io/Planets"
         </script>
     <title>ดาวเคราะห์ - Solar System</title>
+	<style>
+	body:not(.loaded) #slider img {
+		display:none;
+	}
+	</style>
 	</head>
-    <body>
+    <body onload="document.body.classList.add('loaded')">
         <!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
        หากคุณยังอยู่หน้านี้ <a href="https://realpyro.github.io/Planets">คลิกที่นี่</a>
     </body></html>
