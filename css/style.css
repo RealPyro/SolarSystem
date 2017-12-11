@@ -5,7 +5,9 @@ html {
 	padding: 0px;
 
 }
-
+#team {
+	padding-top: 8em !important;
+}
 .speaker:hover, .speaker:focus, .speaker:active {
 	  cursor: url(cursor/Select.cur), pointer !important;
 }
@@ -2626,20 +2628,41 @@ h2.sec-head {
 
 .contentwhite h2 {
     margin-bottom: 35px !important;
-		margin-top: 0;
+	margin-top: 0;
     text-align: left;
     font-size: 3em;
 }
-.contentwhite {
+
+.contentwhite::before {
+	width: 100% !important;
+    height: 50px !important;
+    background: linear-gradient(to left top, rgba(232, 232, 232, 1) 50.5%, transparent 0%) !important;
+	display:block !important;
+	top:-49.5px;
+	position:relative;
+	content: ""
+}
+.contentwhite::after {
+	width: 100% !important;
+    height: 50px !important;
+    background: linear-gradient(to right bottom, rgba(232, 232, 232, 1) 50.5%, transparent 0%) !important;
+	display:block !important;
+	bottom:-49.5px;
+	position:relative;
+	content: ""
+}
+div.contentwhite  {
 	width: 100%;
     min-height: 250px;
-    padding: 5em 0;
     background: rgba(232, 232, 232, 1);
+}
+.contentwhite .container{
+	padding: 1em 0;
 }
 .content {
 	width: 100%;
     min-height: 250px;
-    padding: 5em 0;
+    padding: 8em 0;
     background: rgba(0, 0, 0, 0);
 }
 .content h2 {
@@ -2662,7 +2685,7 @@ td:first-child, th:first-child {
 #contenttable {
 	text-align:center;
     padding: 0;
-	margin-bottom:0;
+	margin-bottom:2.5em;
     overflow: hidden;
 }
 .imgtitle {
