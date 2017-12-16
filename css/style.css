@@ -2638,17 +2638,17 @@ h2.sec-head {
 	border-width: 0 0 50px 100vw;
 	border-color: transparent transparent rgba(232, 232, 232, 1) transparent;
 	display:block !important;
-	top:-50px;
+	top:-49.25px;
 	position:relative;
 	content: ""
 }
 .contentwhite::after {
 	width: 100% !important;
 	border-style: solid;
-	border-width: 50px 100vw 0 0;
-	border-color: rgba(232, 232, 232, 1) transparent transparent transparent;
+	border-width: 0 100vw 50px 0;
+	border-color: transparent rgba(232, 232, 232, 1) transparent transparent;
 	display:block !important;
-	bottom:-50px;
+	bottom:-49.25px;
 	position:relative;
 	content: ""
 }
