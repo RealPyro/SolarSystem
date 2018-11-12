@@ -2638,7 +2638,7 @@ h2.sec-head {
 	border-width: 0 100vw 40px 0;
 	border-color: transparent transparent rgba(232, 232, 232, 1) transparent;
 	display:block !important;
-	top:-39.25px;
+	top:-40px;
 	position:relative;
 	content: ""
 }
@@ -2648,7 +2648,7 @@ h2.sec-head {
 	border-width: 0 100vw 40px 0;
 	border-color: transparent rgba(232, 232, 232, 1) transparent transparent;
 	display:block !important;
-	bottom:-39.25px;
+	bottom:-40px;
 	position:relative;
 	content: ""
 }
