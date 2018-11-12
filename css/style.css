@@ -2635,20 +2635,20 @@ h2.sec-head {
 .contentwhite::before {
 	width: 100% !important;
 	border-style: solid;
-	border-width: 0 0 50px 100vw;
+	border-width: 0 100vw 40px 0;
 	border-color: transparent transparent rgba(232, 232, 232, 1) transparent;
 	display:block !important;
-	top:-49.25px;
+	top:-39.25px;
 	position:relative;
 	content: ""
 }
 .contentwhite::after {
 	width: 100% !important;
 	border-style: solid;
-	border-width: 0 100vw 50px 0;
+	border-width: 0 100vw 40px 0;
 	border-color: transparent rgba(232, 232, 232, 1) transparent transparent;
 	display:block !important;
-	bottom:-49.25px;
+	bottom:-39.25px;
 	position:relative;
 	content: ""
 }
